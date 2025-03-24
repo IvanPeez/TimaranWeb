@@ -1,0 +1,28 @@
+/* Estilos de la barra */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 8px;
+  }
+  
+  /* Color de la pista (fondo) */
+  ::-webkit-scrollbar-track {
+    background: none;
+    border-radius: 10px;
+  }
+  
+  /* Color del "thumb" (la parte que se mueve) */
+  ::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: none;
+  }
+  
+  /* Cambia el color al pasar el mouse */
+
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: black #f0f0f0;
+  }
+  
+  ::-webkit-scrollbar-button {
+    display: none;
+  }

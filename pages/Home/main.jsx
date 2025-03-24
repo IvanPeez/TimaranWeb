@@ -1,21 +1,30 @@
 import React from "react";
 import Navbar from "../../components/Navbar/main";
 import Hero from "../../components/Hero/main";
-import Esencias from "../../components/Esencias/main";
-import CardsSection from "../../components/Card/main";
+import CardsSection from "../../components/ProductsSection/main";
 import AboutUsSection from "../../components/AboutSection/main";
-
+import AboutUs from "../../components/AboutUs/AboutUs";
+import ScrollingX from "../../components/ScrollingX/main";
+import KitsSection from "../../components/KitsSection/index";
 import Footer from "../../components/footer/main";
+import MobileCarousel from "../../components/MobileCarousel/main";
+import InformativeCorporate from "../../components/InformativeCorporate/InformativeCorporate";
+import MapSection from "../../components/MapSection/MapSection";
 
 const Home = () => {
     return (
         <div>
             <Navbar></Navbar>
             <Hero></Hero>
+            <InformativeCorporate></InformativeCorporate>
+            <AboutUs></AboutUs>
+            <MapSection></MapSection>
             <CardsSection></CardsSection>
-            <Esencias></Esencias>
-            <AboutUsSection></AboutUsSection>
-            <Footer></Footer>
+            <KitsSection></KitsSection>
+            <ScrollingX></ScrollingX>
+            <MobileCarousel></MobileCarousel>
+            <AboutUsSection id='aboutUs'></AboutUsSection>
+            <Footer id='contact'></Footer>
 
         </div>
     )
