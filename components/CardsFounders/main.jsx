@@ -1,8 +1,8 @@
 import React from 'react';
 import {motion} from "framer-motion"
-import Felipe from "../../resources/felipe.jpeg"
-import Owen from "../../resources/owen.jpeg"
-import Mauricio from "../../resources/Mauricio.jpeg"
+import Felipe from "../../resources/felipe.jpg"
+import Owen from "../../resources/owen.jpg"
+import Mauricio from "../../resources/Mauricio.jpg"
 
 const CardsFounders = () => {
     return(
@@ -12,10 +12,10 @@ const CardsFounders = () => {
             <img
             src={Mauricio}
             alt="Fundador 1"
-            className="w-full h-full  object-cover mb-4"
+            className="w-full h-screen  object-cover mb-4"
             />
-            <div className='opacity-0 hover:opacity-100 transition duration-300 bg-gradient-to-b from-transparent to-black absolute inset-0 '>
-                <div className='flex h-full justify-end flex-col pb-8 text-white'>
+            <div className='transition duration-300 bg-gradient-to-b from-transparent to-black absolute inset-0 '>
+                <div className='opacity-0 duration-500 hover:opacity-100 flex h-full justify-end flex-col px-12 pb-8 text-white'>
                     <h4 className="text-xl uppercase font-medium ">Mauricio Timaran</h4>
                     <p className="text-sm">CEO y Fundador</p>
                     <p className="mt-2 ">
@@ -30,11 +30,11 @@ const CardsFounders = () => {
             <img
             src={Felipe}
             alt="Fundador 2"
-            className="w-full h-full object-cover bg-no-repeat mb-4"
+            className="w-full h-screen object-cover bg-no-repeat mb-4"
             />
-            <div className='opacity-0 hover:opacity-100 transition duration-300 bg-gradient-to-b from-transparent to-black absolute inset-0 '>
-                <div className='flex h-full justify-end flex-col pb-8 text-white'>
-                    <h4 className="text-xl font-medium">Felipe Timaran</h4>
+            <div className='transition duration-300 bg-gradient-to-b from-transparent to-black absolute inset-0 '>
+                <div className='opacity-0 hover:opacity-100 duration-500 flex h-full justify-end flex-col px-12 pb-8 text-white'>
+                    <h4 className="text-xl uppercase font-medium">Felipe Timaran</h4>
                     <p className=" text-sm">Director Creativo</p>
                     <p className="mt-2 ">
                         Responsable de la innovación y creatividad, con un enfoque en las tendencias del mercado.
@@ -50,11 +50,11 @@ const CardsFounders = () => {
             <img
             src={Owen}
             alt="Fundador 3"
-            className="w-full h-full object-cover bg-no-repeat mb-4"
+            className="w-full h-screen object-cover bg-no-repeat mb-4"
             />
-            <div className='opacity-0 hover:opacity-100 transition duration-300 bg-gradient-to-b from-transparent to-black absolute inset-0 '>
-                <div className='flex h-full justify-end flex-col pb-8 text-white'>
-                    <h4 className="text-xl font-medium ">Owen Timaran</h4>
+            <div className='transition duration-1000 bg-gradient-to-b from-transparent to-black absolute inset-0 '>
+                <div className='opacity-0 duration-500 hover:opacity-100  flex h-full justify-end flex-col px-12 pb-8 text-white'>
+                    <h4 className="text-xl uppercase font-medium ">Owen Timaran</h4>
                     <p className="text-sm">Director de Operaciones</p>
                     <p className="mt-2 ">
                         Experto en gestión y logística, comprometido con el crecimiento sostenible de la empresa.
