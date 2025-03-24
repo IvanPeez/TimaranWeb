@@ -3,18 +3,28 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://ivanpeez.github.io/TimaranWeb/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@react-spring/web": "^9.7.5",
+    "gh-pages": "^6.2.0",
+    "gsap": "^3.12.7",
+    "lucide-react": "^0.474.0",
     "react": "^18.3.1",
     "react-countup": "^6.5.3",
     "react-dom": "^18.3.1",
     "react-icons": "^5.4.0",
-    "react-router-dom": "^7.0.2"
+    "react-router-dom": "^7.0.2",
+    "react-scroll": "^1.9.0",
+    "react-scroll-parallax": "^3.4.5",
+    "tailwind-scrollbar": "^3.0.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.15.0",

@@ -1,17 +1,17 @@
-import React from 'react'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from '../pages/Home/main';
-import './App.css'
+import React from "react";
+import {Routes, Route } from "react-router-dom";
+import Home from "../pages/Home/main";
+import CatalogoEsenciasView from "../pages/catalogoEsencias/CatalogoEsenciasView";
+
+import "./App.css";
 
 function App() {
   return (
-    <Router>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/catalogEsens" element={<CatalogoEsenciasView />} />
       </Routes>
-    </Router>
-    
   );
 }
 
-export default App
+export default App;

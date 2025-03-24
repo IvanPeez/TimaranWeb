@@ -1,10 +1,13 @@
 import React from "react";
-import { motion } from "framer-motion";
-import HeroVid from "../../resources/vid/heroVid.mp4"
+import { delay, motion } from "framer-motion";
+import HeroVid from "../../resources/vid/TimaranVid2.mov"
 
 const Hero = () => {
     return (
-      <div className="relative h-screen w-full">  
+      <div 
+      id="home"
+      className="relative h-screen w-full"
+      >  
         <video
         className="absolute inset-0 h-full w-full object-cover"
         src={HeroVid}
@@ -14,18 +17,26 @@ const Hero = () => {
         >
         </video>
 
-          <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black flex flex-col items-center justify-end">
+          <div className="absolute inset-0 px-8 bg-gradient-to-b from-transparent to-black flex flex-col items-center md:text-start md:items-start justify-end">
             {/* Título principal */}
-            <h1 className="text-3xl font-light md:text-3xl uppercase  text-white mb-4">
-              Bienvenido a <span className="text-white font-semibold">Distribuciones Timaran</span>
-            </h1>
+            <motion.h1
+            initial={{ opacity: 0}}
+            whileInView={{ opacity: 1}}
+            transition={{ duration: 1, ease: "easeOut" }}
+            className="text-5xl font-titleAlt tracking-tighter font-extralight md:text-9xl mx-3 text-white mb-4">
+              Bienvenido a <motion.span 
+              initial={{ filter: "blur(10px)" }}
+              whileInView={{ filter: "blur(0px)" }}
+              transition={{ duration: 1,delay: 1, ease: "easeOut"}}
+              className="block text-6xl md:text-9xl text-white italic">Distribuciones Timaran</motion.span>
+            </motion.h1>
   
             {/* Subtítulo */}
             <motion.p 
              initial={{ y: -50, opacity: 0 }}
              whileInView={{ y: 0, opacity: 1 }}
-             transition={{ duration: 1 }}
-            className=" font-light text-base md:text-base text-white max-w-2xl mb-12">
+             transition={{ duration: 1 ,delay: 1.5, ease: "easeOut"}}
+            className=" font-light text-base md:text-4xl text-white max-w-[50rem] mb-12 mx-3">
               Encuentra las mejores esencias e insumos para alta perfumería, diseñados para inspirar elegancia y sofisticación.
             </motion.p>
           </div>

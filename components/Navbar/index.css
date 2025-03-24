@@ -1,9 +1,0 @@
-:root{
-    --primary-color: #2f3148;
-    --secondary-color: #bd996c;
-    --font-size-base: 16px;
-}
-
-.TextPrimaryColor{
-    color: var(--primary-color)
-}
