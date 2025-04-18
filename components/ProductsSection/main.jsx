@@ -94,7 +94,7 @@ const CardsSection = () => {
         {/* Tarjeta 1 */}
         <div className="relative h-[30rem] md:h-[50rem] overflow-hidden group">
           <img
-            src="https://fraganciasrym.com/cdn/shop/files/Untitled_Project.jpg?v=1720818168&width=3840"
+            src="https://granvelada.com/modules/numericco_category_custom_fields/upload/275/img/275-1637844268.jpeg"
             alt="Fondo Tarjeta 1"
             className="object-cover w-full h-full transition-transform duration-500 transform group-hover:scale-105"
           />
@@ -106,12 +106,12 @@ const CardsSection = () => {
               <p className="text-gray-300 text-center mt-2 text-sm md:text-base">
                 Explora nuestra línea de envases e insumos para perfumería.
               </p>
-              <button
-                href="https://drive.google.com/file/d/1SsZd-IiX_m2OfbcBjsEiD8BM0_OE0Ton/view?usp=sharing"
+              <a
+                href="https://acortar.link/InsumosYEnvasesDT"
                 className="mt-6 px-8 md:px-16 py-2 border text-xs tracking-[0.2em] md:tracking-[0.8em] border-white text-white hover:bg-white hover:text-black transition"
               >
                 DESCUBRE MÁS
-              </button>
+              </a>
             </div>
           </div>
         </div>
