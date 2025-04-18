@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import { Search, ChevronDown, ChevronUp, X } from "lucide-react";
+import { Search, X, ListFilterIcon } from "lucide-react";
 import { label } from "motion/react-client";
+import { Dropdown } from "../../../components/Dropdown/Dropdown";
 
 export function Filters({
   searchQuery,
@@ -25,6 +26,9 @@ export function Filters({
     family: true,
   });
 
+  const [openDropdown, setOpenDropdown] = useState(null);
+  const [isMobileFiltersOpen, setIsMobileFiltersOpen] = useState(false);
+
   const toggleSection = (section) => {
     setSectionsOpen((prev) => ({
       ...prev,
@@ -35,7 +39,7 @@ export function Filters({
   const hasActiveFilters =
     selectedGender.length > 0 ||
     selectedCategory.length > 0 ||
-    selectedBrands.length > 0||
+    selectedBrands.length > 0 ||
     selectedFamily.length > 0;
 
   const clearAllFilters = () => {
@@ -45,204 +49,131 @@ export function Filters({
     setSelectedFamily([]);
     setSearchQuery("");
   };
-  console.log(selectedGender,selectedCategory,selectedBrands,selectedFamily);
-  
+
+  const FiltersContent = () => (
+    <>
+      <div className="relative w-full md:w-auto md:flex">
+        {/* Gender Filter */}
+        <Dropdown
+          label="Género"
+          options={opcionesGender}
+          selectedValues={selectedGender}
+          onChange={setSelectedGender}
+          isOpen={openDropdown === "gender"}
+          onToggle={() =>
+            setOpenDropdown(openDropdown === "gender" ? null : "gender")
+          }
+        />
+
+        {/* Category Filter */}
+        <Dropdown
+          label="Categoría"
+          options={[...opcionesCategory, "Novedades"]}
+          selectedValues={selectedCategory}
+          onChange={setSelectedCategory}
+          isOpen={openDropdown === "category"}
+          onToggle={() =>
+            setOpenDropdown(openDropdown === "category" ? null : "category")
+          }
+        />
+
+        {/* Family Filter */}
+        <Dropdown
+          label="Familia Olfativa"
+          options={opcionesFamily}
+          selectedValues={selectedFamily}
+          onChange={setSelectedFamily}
+          isOpen={openDropdown === "family"}
+          onToggle={() =>
+            setOpenDropdown(openDropdown === "family" ? null : "family")
+          }
+        />
+
+        {/* Brand Filter */}
+        <Dropdown
+          label="Marca"
+          options={opcionesBrand}
+          selectedValues={selectedBrands}
+          onChange={setSelectedBrands}
+          isOpen={openDropdown === "brand"}
+          onToggle={() =>
+            setOpenDropdown(openDropdown === "brand" ? null : "brand")
+          }
+        />
+      </div>
+
+      {hasActiveFilters && (
+        <button
+          onClick={clearAllFilters}
+          className="flex items-center gap-2 px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition-colors"
+        >
+          <X className="w-4 h-4" />
+          Borrar filtros
+        </button>
+      )}
+    </>
+  );
 
   return (
-    <div className="w-full py-2 px-6">
-      {/* Search Bar */}
-      <div className="mb-6 space-y-3">
+    <>
+      <div className="hidden md:flex items-center justify-start gap-4 flex-wrap">
+        {/* Search Bar */}
         <div className="relative">
           <input
             type="text"
             placeholder="Buscar perfume..."
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
-            className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-black focus:border-transparent"
+            className="w-full pl-10 pr-4 py-2 border bg-gray-500/20 border-gray-700 rounded-md focus:text-gray-400 focus:outline-none focus:ring-2 focus:ring-gray-700 focus:border-transparent"
           />
-          <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-4 h-4" />
+          <Search className="absolute left-3 top-1/2  transform -translate-y-1/2 text-gray-400 w-4 h-4" />
         </div>
+        <FiltersContent />
       </div>
+      {/* Mobile Filters Button */}
+      <button
+        onClick={() => setIsMobileFiltersOpen(true)}
+        className="md:hidden fixed bottom-6 right-6 z-50 bg-blue-500 text-white p-4 rounded-full shadow-lg"
+      >
+        <ListFilterIcon className="w-6 h-6" />
+      </button>
 
-      {/* Gender Filter */}
-      <div className="mb-6">
-        <button
-          onClick={() => toggleSection("gender")}
-          className="w-full flex items-center justify-between font-bold mb-2 hover:text-gray-600"
-        >
-          <span className="font-semibold">Género</span>
-          {sectionsOpen.gender ? (
-            <ChevronUp className="w-4 h-4" />
-          ) : (
-            <ChevronDown className="w-4 h-4" />
-          )}
-        </button>
-        {sectionsOpen.gender && (
-          <div className="flex flex-wrap capitalize gap-2">
-            {opcionesGender.map((gender) => (
-              <label
-                key={gender}
-                className="flex items-center gap-2 cursor-pointer"
+      {/* Mobile Filters Panel */}
+      {isMobileFiltersOpen && (
+        <div className="md:hidden fixed inset-0 z-50 bg-black/95">
+          <div className="h-full overflow-y-auto p-6">
+            <div className="flex justify-between items-center mb-6">
+              <h2 className="text-xl font-bold text-white">Filtros</h2>
+              <button
+                onClick={() => setIsMobileFiltersOpen(false)}
+                className="text-white"
               >
+                <X className="w-6 h-6" />
+              </button>
+            </div>
+            <div className="flex flex-col gap-4">
+              <div className="relative">
                 <input
-                  type="checkbox"
-                  checked={selectedGender.includes(gender)}
-                  className="w-4 h-4 rounded border-gray-300 text-black focus:ring-black"
-                  onChange={() => {
-                    setSelectedGender((prev) =>
-                      prev.includes(gender)
-                        ? prev.filter((g) => g !== gender)
-                        : [...prev, gender]
-                    );
-                    window.scrollTo(0, 0);
-                  }}
+                  type="text"
+                  placeholder="Buscar perfume..."
+                  value={searchQuery}
+                  onChange={(e) => setSearchQuery(e.target.value)}
+                  className="w-full pl-10 pr-4 py-2 border bg-gray-500/20 border-gray-700 rounded-md focus:text-gray-400 focus:outline-none focus:ring-2 focus:ring-gray-700 focus:border-transparent"
                 />
-                <span className="text-sm">{gender}</span>
-              </label>
-            ))}
+                <Search className="absolute left-3 top-1/2  transform -translate-y-1/2 text-gray-400 w-4 h-4" />
+              </div>
+              <FiltersContent />
+            </div>
           </div>
-        )}
-      </div>
-
-      {/* Category Filter */}
-      <div className="mb-6">
-        <button
-          onClick={() => toggleSection("category")}
-          className="w-full flex items-center justify-between font-bold mb-2 hover:text-gray-600"
-        >
-          <span className="font-semibold">Categoría</span>
-          {sectionsOpen.category ? (
-            <ChevronUp className="w-4 h-4" />
-          ) : (
-            <ChevronDown className="w-4 h-4" />
-          )}
-        </button>
-        {sectionsOpen.category && (
-          <div className="flex flex-wrap gap-2">
-            {[...opcionesCategory, "Novedades"].map((category) => (
-              <label
-                key={category}
-                className="flex items-center gap-2 cursor-pointer"
-              >
-                <input
-                  type="checkbox"
-                  checked={selectedCategory.includes(category)}
-                  className="w-4 h-4 rounded border-gray-300 text-black focus:ring-black"
-                  onClick={() => {
-                    setSelectedCategory((prev) =>
-                      prev.includes(category)
-                        ? prev.filter((c) => c !== category)
-                        : [...prev, category]
-                    );
-
-                    window.scrollTo(0, 0);
-                  }}
-                />
-                <span className="text-sm">{category}</span>
-              </label>
-            ))}
-          </div>
-        )}
-      </div>
-      {/* Family Filter */}
-      <div>
-        <button
-          onClick={() => toggleSection("family")}
-          className="w-full flex items-center justify-between font-bold mb-2 hover:text-gray-600"
-        >
-          <span className="font-semibold">Familia Olfativa</span>
-          {sectionsOpen.family ? (
-            <ChevronUp className="w-4 h-4" />
-          ) : (
-            <ChevronDown className="w-4 h-4" />
-          )}
-        </button>
-        {sectionsOpen.family && (
-          <div className="grid items-start justify-start grid-cols-1 gap-2">
-            {opcionesFamily.map((family) => (
-              <label
-                key={family}
-                className="flex items-center gap-2 cursor-pointer"
-              >
-                <input
-                  type="checkbox"
-                  checked={selectedFamily.includes(family)}
-                  className="w-4 h-4 rounded border-gray-300 text-black focus:ring-black"
-                  onClick={() => {
-                    setSelectedFamily((prev) =>
-                      prev.includes(family)
-                        ? prev.filter((f) => f !== family)
-                        : [...prev, family]
-                    );
-                    window.scrollTo(0, 0);
-                  }}
-                />
-                <span className="text-sm">
-                  {family}
-                </span>
-              </label>
-            ))}
-          </div>
-        )}
-      </div>
-
-      {/* Brand Filter */}
-      <div>
-        <button
-          onClick={() => toggleSection("brand")}
-          className="w-full flex items-center justify-between font-bold mb-2 hover:text-gray-600"
-        >
-          <span className="font-semibold">Marca</span>
-          {sectionsOpen.brand ? (
-            <ChevronUp className="w-4 h-4" />
-          ) : (
-            <ChevronDown className="w-4 h-4" />
-          )}
-        </button>
-        {sectionsOpen.brand && (
-          <div className="grid items-start justify-start grid-cols-1 gap-2">
-            {opcionesBrand.map((brand) => (
-              <label
-                key={brand}
-                className="flex items-center gap-2 cursor-pointer"
-              >
-                <input
-                  type="checkbox"
-                  checked={selectedBrands.includes(brand)}
-                  className="w-4 h-4 rounded border-gray-300 text-black focus:ring-black"
-                  onClick={() => {
-                    setSelectedBrands((prev) =>
-                      prev.includes(brand)
-                        ? prev.filter((b) => b !== brand)
-                        : [...prev, brand]
-                    );
-                    window.scrollTo(0, 0);
-                  }}
-                />
-                <span className="text-sm">
-                  {brand
-                    .toLowerCase()
-                    .replace(/\b\w/g, (char) => char.toUpperCase())}
-                </span>
-              </label>
-            ))}
-          </div>
-        )}
-      </div>
-
-      
-
-      {hasActiveFilters && (
-        <div className="sticky bottom-0 left-0 right-0 mt-auto p-4 bg-white border-t border-gray-200 shadow-lg">
-          <button
-            onClick={clearAllFilters}
-            className="w-full flex items-center justify-center gap-2 px-4 py-2 bg-black text-white hover:bg-gray-800 rounded-md text-sm font-medium transition-colors"
-          >
-            <X className="w-4 h-4" />
-            Borrar filtros
-          </button>
         </div>
       )}
-    </div>
+      {/* Click outside handler for dropdowns */}
+      {openDropdown && (
+        <div
+          className="fixed inset-0 z-0"
+          onClick={() => setOpenDropdown(null)}
+        />
+      )}
+    </>
   );
 }
