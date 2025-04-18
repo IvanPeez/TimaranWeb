@@ -1,109 +1,102 @@
-import React from "react";
-import { X } from "lucide-react";
+import {React, useEffect} from 'react';
+import { X } from 'lucide-react';
 
 export function PerfumeModal({ perfume, onClose }) {
+   
   if (!perfume) return null;
-  console.log(perfume);
+
   return (
-    <>
-      {/* Overlay */}
-      <div
-        className="fixed inset-0 bg-black bg-opacity-20  z-40"
-        onClick={onClose}
-      />
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
+      <div className="fixed inset-0  bg-black/20" onClick={onClose} />
+      
+      <div className="relative bg-[#1A1A1A]/65 backdrop-blur-lg rounded-3xl overflow-hidden w-full max-w-5xl max-h-[90vh] overflow-y-auto">
+        {/* Close button */}
+        <button 
+          onClick={onClose}
+          className="absolute top-4 right-4 z-10 text-white hover:opacity-80"
+        >
+          <X className="w-6 h-6" />
+        </button>
 
-      {/* Sliding Modal */}
-      <div
-        className={`fixed inset-y-0 right-0 w-full md:w-[600px] bg-white shadow-xl transform transition-transform duration-300 ease-in-out z-50 ${
-          perfume ? "translate-x-0" : "translate-x-full"
-        }`}
-      >
-        <div className="h-full overflow-y-auto">
-          <div className="sticky bg-white top-0 border-b-2 border-solid border-black text-black px-6 py-2 flex justify-between items-center">
-            <h2 className="md:text-5xl text-3xl font-titleAlt italic font-bold">
-              {perfume["NUEVO NOMBRE"]}
-            </h2>
-            <button
-              onClick={onClose}
-              className="p-1 text-black hover:text-gray-400"
-            >
-              <X className="w-6 h-6" />
-            </button>
-          </div>
-          <div className="p-6">
-            <div className="mb-6 text-start">
-              <p className="text-sm text-gray-500">{perfume.name}</p>
-              <div className="mt-2 flex gap-2">
-                <span className="px-2 py-1 bg-gray-100 text-sm rounded">
-                  {perfume.gender}
-                </span>
-                <span className="px-2 py-1 bg-gray-100 text-sm rounded">
-                  {perfume.category}
-                </span>
-                {perfume.isNew && (
-                  <span className="px-2 py-1 bg-gray-100 text-sm rounded">
-                    Novedad
-                  </span>
-                )}
-              </div>
-            </div>
-
-            {/* Mock Image */}
-            <div className=" flex justify-center mb-8 bg-cover w-full overflow-hidden rounded-lg bg-gray-100">
+        <div className="flex flex-col w-full md:flex-row">
+          {/* Left side - Image and notes */}
+          
+            <div className="p-12 w-[40rem] md:h-[40rem]">
               <img
                 src={perfume.picture}
                 alt={perfume["NUEVO NOMBRE"]}
-                className="max-w-[20rem] h-full object-cover"
+                className="inset-0 w-full h-full object-cover rounded-lg"
               />
             </div>
+          
 
-            {/* Compact Price Grid */}
-            <div>
-              <h3 className="font-bold text-start text-lg mb-4">
+          {/* Right side - Details */}
+          <div className="w-full flex flex-col justify-center text-start p-8">
+
+            {/* Title */}
+            <h2 className="text-5xl font-bold font-titleAlt text-white italic mb-2">
+              {perfume["NUEVO NOMBRE"]}
+            </h2>
+            
+            {/* Subtitle */}
+            <p className="text-gray-300 mb-6">
+              {perfume.name}
+            </p>
+
+            {/* Tags */}
+            <div className="flex gap-2 mb-8">
+              <span className="px-3 py-1 bg-[#333] text-white rounded-full text-sm">
+                {perfume.gender}
+              </span>
+              <span className="px-3 py-1 bg-[#333] text-white rounded-full text-sm">
+                {perfume.category}
+              </span>
+              <span className="px-3 py-1 bg-[#333] text-white rounded-full text-sm">
+              {perfume.family}
+              </span>
+            </div>
+
+            {/* Prices */}
+            <div className="space-y-6">
+              <h3 className="text-2xl font-bold text-white mb-4">
                 Precios X Gramo
               </h3>
-              <div className="grid grid-cols-2 gap-2 text-sm text-start">
-                <div className="bg-gray-50 p-3 rounded">
-                  <div className="text-gray-600 mb-1">10 KG EN ADELANTE</div>
-                  <div className="font-bold">
-                    ${perfume["10 KG EN ADELANTE"].toFixed(2)}
-                  </div>
+              
+              <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+                <div className="bg-[#222] p-4 rounded-lg">
+                  <div className="text-sm text-gray-400">10 KG EN ADELANTE:</div>
+                  <div className="text-white font-bold">{perfume["10 KG EN ADELANTE"].toFixed(3)}</div>
                 </div>
-                <div className="bg-gray-50 p-3 rounded">
-                  <div className="text-gray-600 mb-1">5 KG A 9,99 KG</div>
-                  <div className="font-bold">
-                    ${perfume["5 KG A 9,99 KG"].toFixed(2)}
-                  </div>
+                <div className="bg-[#222] p-4 rounded-lg">
+                  <div className="text-sm text-gray-400">5 KG A 9,99 KG:</div>
+                  <div className="text-white font-bold">{perfume["5 KG A 9,99 KG"].toFixed(3)}</div>
                 </div>
-                <div className="bg-gray-50 p-3 rounded">
-                  <div className="text-gray-600 mb-1">1 KG A 4,99 KG</div>
-                  <div className="font-bold">
-                    ${perfume["1 KG A 4,99 KG"].toFixed(2)}
-                  </div>
+                <div className="bg-[#222] p-4 rounded-lg">
+                  <div className="text-sm text-gray-400">1 KG A 4,99 KG:</div>
+                  <div className="text-white font-bold">{perfume["1 KG A 4,99 KG"].toFixed(3)}</div>
                 </div>
-                <div className="bg-gray-50 p-3 rounded">
-                  <div className="text-gray-600 mb-1">DE 500 A 999 GRS</div>
-                  <div className="font-bold">
-                    ${perfume["DE 500 A 999 GRS"].toFixed(2)}
-                  </div>
+                <div className="bg-[#222] p-4 rounded-lg">
+                  <div className="text-sm text-gray-400">DE 500 A 999 GR:</div>
+                  <div className="text-white font-bold">{perfume["DE 500 A 999 GRS"].toFixed(3)}</div>
                 </div>
-                <div className="bg-gray-50 p-3 rounded">
-                  <div className="text-gray-600 mb-1">DE 250 A 499 GRS</div>
-                  <div className="font-bold">
-                    ${perfume["DE 250 A 499 GRS"].toFixed(2)}
-                  </div>
+                <div className="bg-[#222] p-4 rounded-lg">
+                  <div className="text-sm text-gray-400">DE 250 A 499 GR:</div>
+                  <div className="text-white font-bold">{perfume["DE 250 A 499 GRS"].toFixed(3)}</div>
                 </div>
-                <div className="bg-gray-50 p-3 rounded">
-                  <div className="text-gray-600 mb-1">DE 120 A 249 GRS</div>
-                  <div className="font-bold">
-                    ${perfume["DE 120 A 249 GRS"].toFixed(2)}
-                  </div>
+                <div className="bg-[#222] p-4 rounded-lg">
+                  <div className="text-sm text-gray-400">DE 120 A 249 GR:</div>
+                  <div className="text-white font-bold">{perfume["DE 120 A 249 GRS"].toFixed(3)}</div>
                 </div>
               </div>
+
+              {/* Disclaimer */}
+              <p className="text-xs text-gray-300 mt-6">
+                Nuestras esencias son creaciones propias inspiradas en fragancias reconocidas. No son réplicas ni copias, ni guardan relación con las marcas mencionadas, cuyos nombres se usan sólo como referencia olfativa.
+              </p>
             </div>
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }

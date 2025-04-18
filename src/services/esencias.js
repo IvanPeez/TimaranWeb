@@ -2,10 +2,11 @@ export const perfumes = [
     {
         "id": 1,
         "brand": "ANIMALE",
-        "name": "ESC. INSP. EN ANIMALE ",
+        "name": "ESC. INSP. EN ANIMALE",
         "category": "Diseñador",
         "NUEVO NOMBRE": "DALILA",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 164.22,
         "5 KG A 9,99 KG": 173.88,
         "1 KG A 4,99 KG": 184.7475,
@@ -19,8 +20,9 @@ export const perfumes = [
         "brand": "ARIANA GRANDE",
         "name": "ESC. INSP. EN ARI BY ARIANA GRANDE",
         "category": "Diseñador",
-        "NUEVO NOMBRE": "PIUG ",
+        "NUEVO NOMBRE": "PIUG",
         "gender": "Mujer",
+        "family": "Floral Frutal Gourmand",
         "10 KG EN ADELANTE": 152.5183333333,
         "5 KG A 9,99 KG": 161.49,
         "1 KG A 4,99 KG": 171.583125,
@@ -36,6 +38,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "DREAM PARADISE",
         "gender": "Mujer",
+        "family": "Floral Frutal Gourmand",
         "10 KG EN ADELANTE": 195.8475555556,
         "5 KG A 9,99 KG": 207.368,
         "1 KG A 4,99 KG": 220.3285,
@@ -51,6 +54,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "UPLIFTING DREAM",
         "gender": "Mujer",
+        "family": "Floral Frutal Gourmand",
         "10 KG EN ADELANTE": 149.8738888889,
         "5 KG A 9,99 KG": 158.69,
         "1 KG A 4,99 KG": 168.608125,
@@ -66,6 +70,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "CLOE",
         "gender": "Mujer",
+        "family": "Oriental Vainilla",
         "10 KG EN ADELANTE": 156.842,
         "5 KG A 9,99 KG": 166.068,
         "1 KG A 4,99 KG": 176.44725,
@@ -81,13 +86,14 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "ELVATED EXPERIENCE",
         "gender": "Mujer",
+        "family": "Amaderado Floral Almizcle",
         "10 KG EN ADELANTE": 181.0651111111,
         "5 KG A 9,99 KG": 191.716,
         "1 KG A 4,99 KG": 203.69825,
         "DE 500 A 999 GRS": 217.2781333333,
         "DE 250 A 499 GRS": 232.798,
         "DE 120 A 249 GRS": 232.798,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/vT661jSp/MOD-VAINILLA-ARIANA-GRANDE2.png"
     },
     {
         "id": 7,
@@ -96,6 +102,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "CYRA  ",
         "gender": "Mujer",
+        "family": "Floral Frutal Gourmand",
         "10 KG EN ADELANTE": 163.2415555556,
         "5 KG A 9,99 KG": 172.844,
         "1 KG A 4,99 KG": 183.64675,
@@ -109,8 +116,9 @@ export const perfumes = [
         "brand": "ARIANA GRANDE",
         "name": "ESC. INSP. EN SWEET LIKE CANDY ARIANA GRANDE",
         "category": "Diseñador",
-        "NUEVO NOMBRE": "SWEET BURST ",
+        "NUEVO NOMBRE": "SWEET BURST",
         "gender": "Mujer",
+        "family": "Floral Frutal Gourmand",
         "10 KG EN ADELANTE": 281.911,
         "5 KG A 9,99 KG": 298.494,
         "1 KG A 4,99 KG": 317.149875,
@@ -126,6 +134,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "SUMMER HIT",
         "gender": "Mujer",
+        "family": "Floral Frutal Gourmand",
         "10 KG EN ADELANTE": 149.8738888889,
         "5 KG A 9,99 KG": 158.69,
         "1 KG A 4,99 KG": 168.608125,
@@ -134,13 +143,15 @@ export const perfumes = [
         "DE 120 A 249 GRS": 200.0,
         "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
     },
+
     {
         "id": 10,
         "brand": "ARMANI",
         "name": "ESC. INSP. EN ARMANI ACQUA DI GIOGIA",
         "category": "Diseñador",
-        "NUEVO NOMBRE": "GIORGIA ",
+        "NUEVO NOMBRE": "GIORGIA",
         "gender": "Mujer",
+        "family": "Floral Acuática",
         "10 KG EN ADELANTE": 157.437,
         "5 KG A 9,99 KG": 166.698,
         "1 KG A 4,99 KG": 177.116625,
@@ -156,6 +167,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "YUMANI",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 259.5918888889,
         "5 KG A 9,99 KG": 274.862,
         "1 KG A 4,99 KG": 292.040875,
@@ -171,6 +183,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "YES",
         "gender": "Mujer",
+        "family": "Chipre Floral",
         "10 KG EN ADELANTE": 205.156,
         "5 KG A 9,99 KG": 217.224,
         "1 KG A 4,99 KG": 230.8005,
@@ -182,10 +195,11 @@ export const perfumes = [
     {
         "id": 13,
         "brand": "ARMANI",
-        "name": "ESC. INSP. EN GIORGIO ARMANI SI  EAU DE PARFUM INTENSE",
+        "name": "ESC. INSP. EN GIORGIO ARMANI SI EAU DE PARFUM INTENSE",
         "category": "Diseñador",
-        "NUEVO NOMBRE": "BRAVE SPIRIT ",
+        "NUEVO NOMBRE": "BRAVE SPIRIT",
         "gender": "Mujer",
+        "family": "Chipre Oriental",
         "10 KG EN ADELANTE": 184.093,
         "5 KG A 9,99 KG": 194.922,
         "1 KG A 4,99 KG": 207.104625,
@@ -201,6 +215,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "FLORAL BLUE",
         "gender": "Mujer",
+        "family": "Floral Acuática",
         "10 KG EN ADELANTE": 141.5835555556,
         "5 KG A 9,99 KG": 149.912,
         "1 KG A 4,99 KG": 159.2815,
@@ -216,21 +231,23 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "SUGAR BODY",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 205.156,
         "5 KG A 9,99 KG": 217.224,
         "1 KG A 4,99 KG": 230.8005,
         "DE 500 A 999 GRS": 246.1872,
         "DE 250 A 499 GRS": 263.772,
         "DE 120 A 249 GRS": 263.772,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/0NQGktPq/VELVET-SUGAR-1.png"
     },
     {
         "id": 16,
         "brand": "BATH AND BODY WORKS",
-        "name": "ESC. INSP. EN BYB  PINK CHIFFON",
+        "name": "ESC. INSP. EN BYB PINK CHIFFON",
         "category": "Diseñador",
         "NUEVO NOMBRE": "PINK SILKY",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 111.741,
         "5 KG A 9,99 KG": 118.314,
         "1 KG A 4,99 KG": 125.708625,
@@ -244,8 +261,9 @@ export const perfumes = [
         "brand": "BATH AND BODY WORKS",
         "name": "ESC. INSP. EN LOQUITO POR TI",
         "category": "Diseñador",
-        "NUEVO NOMBRE": "MAUDIE ",
+        "NUEVO NOMBRE": "MAUDIE",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 157.437,
         "5 KG A 9,99 KG": 166.698,
         "1 KG A 4,99 KG": 177.116625,
@@ -261,6 +279,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "TROPICAL DAWN",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 129.6835555556,
         "5 KG A 9,99 KG": 137.312,
         "1 KG A 4,99 KG": 145.894,
@@ -274,8 +293,9 @@ export const perfumes = [
         "brand": "BEVERLY HILLS",
         "name": "ESC. INSP. EN BEVERLY HILLS 273",
         "category": "Diseñador",
-        "NUEVO NOMBRE": "DOSIETRES ",
+        "NUEVO NOMBRE": "DOSIETRES",
         "gender": "Mujer",
+        "family": "Floral Aldehídica",
         "10 KG EN ADELANTE": 149.8738888889,
         "5 KG A 9,99 KG": 158.69,
         "1 KG A 4,99 KG": 168.608125,
@@ -289,8 +309,9 @@ export const perfumes = [
         "brand": "BILLIE EILISH",
         "name": "ESC. INSP. EN BILLIE EILISH ELISH",
         "category": "Diseñador",
-        "NUEVO NOMBRE": "BILLY Y MANDY ",
+        "NUEVO NOMBRE": "BILLY Y MANDY",
         "gender": "Mujer",
+        "family": "Vainilla",
         "10 KG EN ADELANTE": 103.1994444444,
         "5 KG A 9,99 KG": 109.27,
         "1 KG A 4,99 KG": 116.099375,
@@ -304,8 +325,9 @@ export const perfumes = [
         "brand": "BRITNEY SPEARS",
         "name": "ESC. INSP. EN FANTASY",
         "category": "Diseñador",
-        "NUEVO NOMBRE": "FANTAZIA ",
+        "NUEVO NOMBRE": "FANTAZIA",
         "gender": "Mujer",
+        "family": "Floral Frutal Gourmand",
         "10 KG EN ADELANTE": 143.4743333333,
         "5 KG A 9,99 KG": 151.914,
         "1 KG A 4,99 KG": 161.408625,
@@ -321,6 +343,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "FANTASY MIDNIGHT",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 148.7103333333,
         "5 KG A 9,99 KG": 157.458,
         "1 KG A 4,99 KG": 167.299125,
@@ -336,21 +359,23 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "HILDE",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 163.03,
         "5 KG A 9,99 KG": 172.62,
         "1 KG A 4,99 KG": 183.40875,
         "DE 500 A 999 GRS": 195.636,
         "DE 250 A 499 GRS": 209.61,
         "DE 120 A 249 GRS": 209.61,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/cCKfR66k/HIDDEN-FANTASY-BRITNEY-SPEARS-1.png"
     },
     {
         "id": 24,
         "brand": "BURBERRY",
         "name": "ESC. INSP. EN BURBERRY",
         "category": "Diseñador",
-        "NUEVO NOMBRE": "BURBEKE ",
+        "NUEVO NOMBRE": "BURBEKE",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 161.5755555556,
         "5 KG A 9,99 KG": 171.08,
         "1 KG A 4,99 KG": 181.7725,
@@ -366,13 +391,14 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "LONDON DNA",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 189.3832111111,
         "5 KG A 9,99 KG": 200.5234,
         "1 KG A 4,99 KG": 213.0561125,
         "DE 500 A 999 GRS": 227.2598533333,
         "DE 250 A 499 GRS": 243.4927,
         "DE 120 A 249 GRS": 243.4927,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/MKNdFJSj/BURBERRY-HER.png"
     },
     {
         "id": 26,
@@ -381,21 +407,23 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "LONDON INFUSION",
         "gender": "Mujer",
+        "family": "Floral Frutal Gourmand",
         "10 KG EN ADELANTE": 181.7923333333,
         "5 KG A 9,99 KG": 192.486,
         "1 KG A 4,99 KG": 204.516375,
         "DE 500 A 999 GRS": 218.1508,
         "DE 250 A 499 GRS": 233.733,
         "DE 120 A 249 GRS": 233.733,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/Gp1zbP9L/BURBERRY-HER-ELIXIR.png"
     },
     {
         "id": 27,
         "brand": "BELLEZA EXPRESS",
-        "name": "ESC. INSP. EN ARRURRU Unisex ",
+        "name": "ESC. INSP. EN ARRURRU Unisex",
         "category": "Diseñador",
         "NUEVO NOMBRE": "ARUS",
         "gender": "Unisex",
+        "family": "Floral",
         "10 KG EN ADELANTE": 91.1011111111,
         "5 KG A 9,99 KG": 96.46,
         "1 KG A 4,99 KG": 102.48875,
@@ -407,25 +435,27 @@ export const perfumes = [
     {
         "id": 28,
         "brand": "BVLGARY",
-        "name": "ESC. INSP. EN BVLGARI BABY Unisex ",
+        "name": "ESC. INSP. EN BVLGARI BABY",
         "category": "Diseñador",
         "NUEVO NOMBRE": "POUPON",
         "gender": "Unisex",
+        "family": "Floral",
         "10 KG EN ADELANTE": 154.7793333333,
         "5 KG A 9,99 KG": 163.884,
         "1 KG A 4,99 KG": 174.12675,
         "DE 500 A 999 GRS": 185.7352,
         "DE 250 A 499 GRS": 199.002,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/tJg2LXJF/BABY-BVLGARI.png"
     },
     {
         "id": 29,
         "brand": "BVLGARY",
         "name": "ESC. INSP. EN BVLGARI OMNIA AMATHISTA",
         "category": "Diseñador",
-        "NUEVO NOMBRE": "AMATISTA ",
+        "NUEVO NOMBRE": "AMATISTA",
         "gender": "Mujer",
+        "family": "Floral Iris",
         "10 KG EN ADELANTE": 135.2765555556,
         "5 KG A 9,99 KG": 143.234,
         "1 KG A 4,99 KG": 152.186125,
@@ -439,8 +469,9 @@ export const perfumes = [
         "brand": "BVLGARY",
         "name": "ESC. INSP. EN BVLGARI OMNIA CORAL",
         "category": "Diseñador",
-        "NUEVO NOMBRE": "CORALINE ",
+        "NUEVO NOMBRE": "CORALINE",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 149.8738888889,
         "5 KG A 9,99 KG": 158.69,
         "1 KG A 4,99 KG": 168.608125,
@@ -454,8 +485,9 @@ export const perfumes = [
         "brand": "BVLGARY",
         "name": "ESC. INSP. EN BVLGARI OMNIA CRISTALLINE",
         "category": "Diseñador",
-        "NUEVO NOMBRE": "MURANO ",
+        "NUEVO NOMBRE": "MURANO",
         "gender": "Mujer",
+        "family": "Floral Acuática",
         "10 KG EN ADELANTE": 134.1658888889,
         "5 KG A 9,99 KG": 142.058,
         "1 KG A 4,99 KG": 150.936625,
@@ -471,6 +503,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "PARANAIBA",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 148.0624444444,
         "5 KG A 9,99 KG": 156.772,
         "1 KG A 4,99 KG": 166.57025,
@@ -486,6 +519,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "GIRLY SPIRIT",
         "gender": "Mujer",
+        "family": "Floral",
         "10 KG EN ADELANTE": 179.928,
         "5 KG A 9,99 KG": 190.512,
         "1 KG A 4,99 KG": 202.419,
@@ -501,21 +535,23 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "YELLOWISH GEMSTONE",
         "gender": "Mujer",
+        "family": "Floral",
         "10 KG EN ADELANTE": 149.3317777778,
         "5 KG A 9,99 KG": 158.116,
         "1 KG A 4,99 KG": 167.99825,
         "DE 500 A 999 GRS": 179.1981333333,
         "DE 250 A 499 GRS": 191.998,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/T2ZtkXG5/OMNIA-GOLDEN-CITRINE.png"
     },
     {
         "id": 35,
         "brand": "CACHAREL",
         "name": "ESC. INSP. EN CACHAREL AMOR AMOR",
         "category": "Diseñador",
-        "NUEVO NOMBRE": "CUPIDO ",
+        "NUEVO NOMBRE": "CUPIDO",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 172.5235555556,
         "5 KG A 9,99 KG": 182.672,
         "1 KG A 4,99 KG": 194.089,
@@ -531,6 +567,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "LIPSTICK ICON",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 162.554,
         "5 KG A 9,99 KG": 172.116,
         "1 KG A 4,99 KG": 182.87325,
@@ -542,10 +579,11 @@ export const perfumes = [
     {
         "id": 37,
         "brand": "CALVIN KLEIN",
-        "name": "ESC. INSP. EN CK ESCAPE ",
+        "name": "ESC. INSP. EN CK ESCAPE",
         "category": "Diseñador",
         "NUEVO NOMBRE": "EVASION",
         "gender": "Mujer",
+        "family": "Floral Acuática",
         "10 KG EN ADELANTE": 132.6717777778,
         "5 KG A 9,99 KG": 140.476,
         "1 KG A 4,99 KG": 149.25575,
@@ -557,10 +595,11 @@ export const perfumes = [
     {
         "id": 38,
         "brand": "CALVIN KLEIN",
-        "name": "ESC. INSP. EN CK ETERNITY ",
+        "name": "ESC. INSP. EN CK ETERNITY",
         "category": "Diseñador",
         "NUEVO NOMBRE": "STELLA E.",
         "gender": "Mujer",
+        "family": "Floral",
         "10 KG EN ADELANTE": 162.554,
         "5 KG A 9,99 KG": 172.116,
         "1 KG A 4,99 KG": 182.87325,
@@ -576,6 +615,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "EXULTANTE",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 149.94,
         "5 KG A 9,99 KG": 158.76,
         "1 KG A 4,99 KG": 168.6825,
@@ -591,6 +631,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "ONLINE",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 140.539,
         "5 KG A 9,99 KG": 148.806,
         "1 KG A 4,99 KG": 158.106375,
@@ -606,6 +647,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "ADRIANA ",
         "gender": "Mujer",
+        "family": "Floral",
         "10 KG EN ADELANTE": 149.226,
         "5 KG A 9,99 KG": 158.004,
         "1 KG A 4,99 KG": 167.87925,
@@ -621,6 +663,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "PURE  YOUTH",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 146.8724444444,
         "5 KG A 9,99 KG": 155.512,
         "1 KG A 4,99 KG": 165.2315,
@@ -636,6 +679,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "SEX SYMBOL",
         "gender": "Mujer",
+        "family": "Floral Oriental",
         "10 KG EN ADELANTE": 167.1817777778,
         "5 KG A 9,99 KG": 177.016,
         "1 KG A 4,99 KG": 188.0795,
@@ -651,6 +695,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "CAROLA CLUB",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 207.4566666667,
         "5 KG A 9,99 KG": 219.66,
         "1 KG A 4,99 KG": 233.38875,
@@ -666,6 +711,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "CAROLA ",
         "gender": "Mujer",
+        "family": "Floral",
         "10 KG EN ADELANTE": 156.7626666667,
         "5 KG A 9,99 KG": 165.984,
         "1 KG A 4,99 KG": 176.358,
@@ -681,6 +727,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "EPIC DUSK",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 176.7811111111,
         "5 KG A 9,99 KG": 187.18,
         "1 KG A 4,99 KG": 198.87875,
@@ -696,6 +743,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "CAROLA ROSE ",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 144.0561111111,
         "5 KG A 9,99 KG": 152.53,
         "1 KG A 4,99 KG": 162.063125,
@@ -711,6 +759,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "OZANA  ",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 151.4208888889,
         "5 KG A 9,99 KG": 160.328,
         "1 KG A 4,99 KG": 170.3485,
@@ -726,6 +775,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "URBAN CAROLA",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 348.5377777778,
         "5 KG A 9,99 KG": 369.04,
         "1 KG A 4,99 KG": 392.105,
@@ -741,6 +791,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "BOUYAND  CAROLA",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 201.2554444444,
         "5 KG A 9,99 KG": 213.094,
         "1 KG A 4,99 KG": 226.412375,
@@ -756,6 +807,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "WILDA",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 219.912,
         "5 KG A 9,99 KG": 232.848,
         "1 KG A 4,99 KG": 247.401,
@@ -771,6 +823,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "TOUCHDOWN GLORY",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 144.585,
         "5 KG A 9,99 KG": 153.09,
         "1 KG A 4,99 KG": 162.658125,
@@ -786,6 +839,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "AFFRIKA",
         "gender": "Mujer",
+        "family": "Floral",
         "10 KG EN ADELANTE": 169.1651111111,
         "5 KG A 9,99 KG": 179.116,
         "1 KG A 4,99 KG": 190.31075,
@@ -801,6 +855,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "ENCHANTED MEMORIES",
         "gender": "Mujer",
+        "family": "Floral",
         "10 KG EN ADELANTE": 158.7592222222,
         "5 KG A 9,99 KG": 168.098,
         "1 KG A 4,99 KG": 178.604125,
@@ -816,6 +871,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "OBELIA",
         "gender": "Mujer",
+        "family": "Floral",
         "10 KG EN ADELANTE": 156.842,
         "5 KG A 9,99 KG": 166.068,
         "1 KG A 4,99 KG": 176.44725,
@@ -831,6 +887,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "CAROL ",
         "gender": "Mujer",
+        "family": "Floral",
         "10 KG EN ADELANTE": 192.5684444444,
         "5 KG A 9,99 KG": 203.896,
         "1 KG A 4,99 KG": 216.6395,
@@ -846,6 +903,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "LADY PARK",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 142.205,
         "5 KG A 9,99 KG": 150.57,
         "1 KG A 4,99 KG": 159.980625,
@@ -861,6 +919,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "GODINA",
         "gender": "Mujer",
+        "family": "Floral Oriental",
         "10 KG EN ADELANTE": 141.6893333333,
         "5 KG A 9,99 KG": 150.024,
         "1 KG A 4,99 KG": 159.4005,
@@ -876,6 +935,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "AUDACIOUS HEROINE",
         "gender": "Mujer",
+        "family": "Floral Oriental",
         "10 KG EN ADELANTE": 178.7776666667,
         "5 KG A 9,99 KG": 189.294,
         "1 KG A 4,99 KG": 201.124875,
@@ -891,6 +951,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "REINVENTED GODINA",
         "gender": "Mujer",
+        "family": "Chipre Floral",
         "10 KG EN ADELANTE": 182.2551111111,
         "5 KG A 9,99 KG": 192.976,
         "1 KG A 4,99 KG": 205.037,
@@ -906,6 +967,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "ENIGMATIC GODINA",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 175.0542888889,
         "5 KG A 9,99 KG": 185.3516,
         "1 KG A 4,99 KG": 196.936075,
@@ -914,6 +976,7 @@ export const perfumes = [
         "DE 120 A 249 GRS": 225.0698,
         "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
     },
+
     {
         "id": 62,
         "brand": "CAROLINA HERRERA",
@@ -921,6 +984,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "MAGICAL GODINA ",
         "gender": "Mujer",
+        "family": "Floral Oriental",
         "10 KG EN ADELANTE": 186.6316666667,
         "5 KG A 9,99 KG": 197.61,
         "1 KG A 4,99 KG": 209.960625,
@@ -936,13 +1000,14 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "ULTIMATE GODINA",
         "gender": "Mujer",
+        "family": "Floral Oriental",
         "10 KG EN ADELANTE": 179.3594444444,
         "5 KG A 9,99 KG": 189.91,
         "1 KG A 4,99 KG": 201.779375,
         "DE 500 A 999 GRS": 215.2313333333,
         "DE 250 A 499 GRS": 230.605,
         "DE 120 A 249 GRS": 230.605,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/mk0C8RHL/GOOD-GIRL-SUPREME.png"
     },
     {
         "id": 64,
@@ -951,13 +1016,14 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "ULTRA-FEMNINE GODINA",
         "gender": "Mujer",
+        "family": "Floral",
         "10 KG EN ADELANTE": 208.7921111111,
         "5 KG A 9,99 KG": 221.074,
         "1 KG A 4,99 KG": 234.891125,
         "DE 500 A 999 GRS": 250.5505333333,
         "DE 250 A 499 GRS": 268.447,
         "DE 120 A 249 GRS": 268.447,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/h4wLS83k/GOOD-GIRL-BLUSH-ELIXIR.png"
     },
     {
         "id": 65,
@@ -966,6 +1032,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "PRIFEM",
         "gender": "Mujer",
+        "family": "Floral Oriental",
         "10 KG EN ADELANTE": 203.4635555556,
         "5 KG A 9,99 KG": 215.432,
         "1 KG A 4,99 KG": 228.8965,
@@ -981,6 +1048,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "CAROLINE",
         "gender": "Mujer",
+        "family": "Floral",
         "10 KG EN ADELANTE": 141.1075555556,
         "5 KG A 9,99 KG": 149.408,
         "1 KG A 4,99 KG": 158.746,
@@ -996,6 +1064,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "GLITTERING GODINA",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 161.3904444444,
         "5 KG A 9,99 KG": 170.884,
         "1 KG A 4,99 KG": 181.56425,
@@ -1011,6 +1080,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "CAROLINA",
         "gender": "Mujer",
+        "family": "Floral",
         "10 KG EN ADELANTE": 141.6893333333,
         "5 KG A 9,99 KG": 150.024,
         "1 KG A 4,99 KG": 159.4005,
@@ -1026,6 +1096,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "MAGICAL GAME",
         "gender": "Mujer",
+        "family": "Floral",
         "10 KG EN ADELANTE": 143.0512222222,
         "5 KG A 9,99 KG": 151.466,
         "1 KG A 4,99 KG": 160.932625,
@@ -1041,6 +1112,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "CANARA",
         "gender": "Mujer",
+        "family": "Oriental",
         "10 KG EN ADELANTE": 150.535,
         "5 KG A 9,99 KG": 159.39,
         "1 KG A 4,99 KG": 169.351875,
@@ -1056,6 +1128,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "FORTUNA",
         "gender": "Mujer",
+        "family": "Chipre Floral",
         "10 KG EN ADELANTE": 238.7272222222,
         "5 KG A 9,99 KG": 252.77,
         "1 KG A 4,99 KG": 268.568125,
@@ -1071,6 +1144,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "SUERTE",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 157.2915555556,
         "5 KG A 9,99 KG": 166.544,
         "1 KG A 4,99 KG": 176.953,
@@ -1086,13 +1160,14 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "FORTUNA LIGHT",
         "gender": "Mujer",
+        "family": "Chipre Floral",
         "10 KG EN ADELANTE": 169.7336666667,
         "5 KG A 9,99 KG": 179.718,
         "1 KG A 4,99 KG": 190.950375,
         "DE 500 A 999 GRS": 203.6804,
         "DE 250 A 499 GRS": 218.229,
         "DE 120 A 249 GRS": 218.229,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/XJsgKTLq/CHANCE-EAU-FREICH-CHANEL.png"
     },
     {
         "id": 74,
@@ -1101,6 +1176,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "YOUNG & CHIC",
         "gender": "Mujer",
+        "family": "Oriental Floral",
         "10 KG EN ADELANTE": 167.9618888889,
         "5 KG A 9,99 KG": 177.842,
         "1 KG A 4,99 KG": 188.957125,
@@ -1116,6 +1192,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "CHARMIA",
         "gender": "Mujer",
+        "family": "Floral Aldehídica",
         "10 KG EN ADELANTE": 163.9291111111,
         "5 KG A 9,99 KG": 173.572,
         "1 KG A 4,99 KG": 184.42025,
@@ -1131,13 +1208,14 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "AUBAZINE",
         "gender": "Mujer",
+        "family": "Floral",
         "10 KG EN ADELANTE": 149.3978888889,
         "5 KG A 9,99 KG": 158.186,
         "1 KG A 4,99 KG": 168.072625,
         "DE 500 A 999 GRS": 179.2774666667,
         "DE 250 A 499 GRS": 192.083,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/V6kqNKw8/GABRIELLE-CHANEL.png"
     },
     {
         "id": 77,
@@ -1146,6 +1224,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "DIORE ",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 167.3801111111,
         "5 KG A 9,99 KG": 177.226,
         "1 KG A 4,99 KG": 188.302625,
@@ -1161,6 +1240,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "DORIS BOUQUET",
         "gender": "Mujer",
+        "family": "Floral",
         "10 KG EN ADELANTE": 197.9895555556,
         "5 KG A 9,99 KG": 209.636,
         "1 KG A 4,99 KG": 222.73825,
@@ -1176,6 +1256,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "VIBRANT SMILE",
         "gender": "Mujer",
+        "family": "Floral",
         "10 KG EN ADELANTE": 142.4826666667,
         "5 KG A 9,99 KG": 150.864,
         "1 KG A 4,99 KG": 160.293,
@@ -1191,6 +1272,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "YOUTH DESIRE",
         "gender": "Mujer",
+        "family": "Chipre Floral",
         "10 KG EN ADELANTE": 204.3494444444,
         "5 KG A 9,99 KG": 216.37,
         "1 KG A 4,99 KG": 229.893125,
@@ -1206,6 +1288,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "BLESS",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 148.2343333333,
         "5 KG A 9,99 KG": 156.954,
         "1 KG A 4,99 KG": 166.763625,
@@ -1221,6 +1304,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "FRUTTA & COCO",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 134.8931111111,
         "5 KG A 9,99 KG": 142.828,
         "1 KG A 4,99 KG": 151.75475,
@@ -1229,6 +1313,7 @@ export const perfumes = [
         "DE 120 A 249 GRS": 200.0,
         "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
     },
+
     {
         "id": 83,
         "brand": "DIESEL",
@@ -1236,13 +1321,14 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "LOVER TATTO",
         "gender": "Mujer",
+        "family": "Floral Oriental",
         "10 KG EN ADELANTE": 165.1191111111,
         "5 KG A 9,99 KG": 174.832,
         "1 KG A 4,99 KG": 185.759,
         "DE 500 A 999 GRS": 198.1429333333,
         "DE 250 A 499 GRS": 212.296,
         "DE 120 A 249 GRS": 212.296,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/zDLdSfm1/LOVERDOSE-TATTOO2.png"
     },
     {
         "id": 84,
@@ -1251,13 +1337,14 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "VITAMA",
         "gender": "Mujer",
+        "family": "Gourmand Floral",
         "10 KG EN ADELANTE": 171.8492222222,
         "5 KG A 9,99 KG": 181.958,
         "1 KG A 4,99 KG": 193.330375,
         "DE 500 A 999 GRS": 206.2190666667,
         "DE 250 A 499 GRS": 220.949,
         "DE 120 A 249 GRS": 220.949,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/3N6CVmPH/DEVOTION-DYG.png"
     },
     {
         "id": 85,
@@ -1266,6 +1353,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "SISSI",
         "gender": "Mujer",
+        "family": "Floral Acuática",
         "10 KG EN ADELANTE": 171.3071111111,
         "5 KG A 9,99 KG": 181.384,
         "1 KG A 4,99 KG": 192.7205,
@@ -1281,6 +1369,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "TURQUESA ",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 141.8612222222,
         "5 KG A 9,99 KG": 150.206,
         "1 KG A 4,99 KG": 159.593875,
@@ -1296,6 +1385,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "TURQUOISE FEEL",
         "gender": "Mujer",
+        "family": "Amaderada Aromática",
         "10 KG EN ADELANTE": 168.1602222222,
         "5 KG A 9,99 KG": 178.052,
         "1 KG A 4,99 KG": 189.18025,
@@ -1311,6 +1401,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "EXOTIC LEGACY",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 149.3978888889,
         "5 KG A 9,99 KG": 158.186,
         "1 KG A 4,99 KG": 168.072625,
@@ -1326,6 +1417,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "REGAL EMBRACE",
         "gender": "Mujer",
+        "family": "Amaderada Aromática",
         "10 KG EN ADELANTE": 201.0174444444,
         "5 KG A 9,99 KG": 212.842,
         "1 KG A 4,99 KG": 226.144625,
@@ -1341,6 +1433,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "GISEL",
         "gender": "Mujer",
+        "family": "Oriental Floral",
         "10 KG EN ADELANTE": 155.1627777778,
         "5 KG A 9,99 KG": 164.29,
         "1 KG A 4,99 KG": 174.558125,
@@ -1356,6 +1449,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "DELICIA",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 182.8236666667,
         "5 KG A 9,99 KG": 193.578,
         "1 KG A 4,99 KG": 205.676625,
@@ -1371,6 +1465,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "MANHATAN",
         "gender": "Mujer",
+        "family": "Floral",
         "10 KG EN ADELANTE": 170.2757777778,
         "5 KG A 9,99 KG": 180.292,
         "1 KG A 4,99 KG": 191.56025,
@@ -1386,6 +1481,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "DIAMANTE",
         "gender": "Mujer",
+        "family": "Floral Aldehídica",
         "10 KG EN ADELANTE": 141.8612222222,
         "5 KG A 9,99 KG": 150.206,
         "1 KG A 4,99 KG": 159.593875,
@@ -1401,6 +1497,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "AQUASOL",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 185.9441111111,
         "5 KG A 9,99 KG": 196.882,
         "1 KG A 4,99 KG": 209.187125,
@@ -1416,6 +1513,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "CHERISE ",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 150.297,
         "5 KG A 9,99 KG": 159.138,
         "1 KG A 4,99 KG": 169.084125,
@@ -1431,13 +1529,14 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "CAPOEIRA",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 156.7031666667,
         "5 KG A 9,99 KG": 165.921,
         "1 KG A 4,99 KG": 176.2910625,
         "DE 500 A 999 GRS": 188.0438,
         "DE 250 A 499 GRS": 201.4755,
         "DE 120 A 249 GRS": 201.4755,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/Z56Fs9H1/FIESTA-CARIOCA.png"
     },
     {
         "id": 97,
@@ -1446,6 +1545,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "MAGDA",
         "gender": "Mujer",
+        "family": "Oriental Vainilla",
         "10 KG EN ADELANTE": 166.7983333333,
         "5 KG A 9,99 KG": 176.61,
         "1 KG A 4,99 KG": 187.648125,
@@ -1461,6 +1561,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "SWEET CARIBBEAN",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 141.8612222222,
         "5 KG A 9,99 KG": 150.206,
         "1 KG A 4,99 KG": 159.593875,
@@ -1476,6 +1577,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "CENTELLA",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 141.8612222222,
         "5 KG A 9,99 KG": 150.206,
         "1 KG A 4,99 KG": 159.593875,
@@ -1491,6 +1593,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "CRUCERO",
         "gender": "Mujer",
+        "family": "Floral Acuática",
         "10 KG EN ADELANTE": 144.8097777778,
         "5 KG A 9,99 KG": 153.328,
         "1 KG A 4,99 KG": 162.911,
@@ -1506,6 +1609,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "IPANEMA",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 198.7035555556,
         "5 KG A 9,99 KG": 210.392,
         "1 KG A 4,99 KG": 223.5415,
@@ -1521,6 +1625,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "HOLIDAY AFFAIR",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 190.5718888889,
         "5 KG A 9,99 KG": 201.782,
         "1 KG A 4,99 KG": 214.393375,
@@ -1536,6 +1641,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "ULTIMATE SWEETNESS",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 167.671,
         "5 KG A 9,99 KG": 177.534,
         "1 KG A 4,99 KG": 188.629875,
@@ -1551,6 +1657,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "TAJAMAR ",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 214.4512222222,
         "5 KG A 9,99 KG": 227.066,
         "1 KG A 4,99 KG": 241.257625,
@@ -1566,6 +1673,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "TOKE",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 184.926,
         "5 KG A 9,99 KG": 195.804,
         "1 KG A 4,99 KG": 208.04175,
@@ -1581,6 +1689,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "DILEMA",
         "gender": "Mujer",
+        "family": "Oriental Floral",
         "10 KG EN ADELANTE": 149.2788888889,
         "5 KG A 9,99 KG": 158.06,
         "1 KG A 4,99 KG": 167.93875,
@@ -1596,6 +1705,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "MAGNETIC RADIANCE ",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 240.4725555556,
         "5 KG A 9,99 KG": 254.618,
         "1 KG A 4,99 KG": 270.531625,
@@ -1611,6 +1721,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "OLGA",
         "gender": "Mujer",
+        "family": "Floral",
         "10 KG EN ADELANTE": 174.2821111111,
         "5 KG A 9,99 KG": 184.534,
         "1 KG A 4,99 KG": 196.067375,
@@ -1626,6 +1737,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "TYLER",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 157.8997777778,
         "5 KG A 9,99 KG": 167.188,
         "1 KG A 4,99 KG": 177.63725,
@@ -1641,6 +1753,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "RAISA ",
         "gender": "Mujer",
+        "family": "Chipre Frutal",
         "10 KG EN ADELANTE": 178.3148888889,
         "5 KG A 9,99 KG": 188.804,
         "1 KG A 4,99 KG": 200.60425,
@@ -1656,6 +1769,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "GUNILA",
         "gender": "Mujer",
+        "family": "Oriental Floral",
         "10 KG EN ADELANTE": 133.2138888889,
         "5 KG A 9,99 KG": 141.05,
         "1 KG A 4,99 KG": 149.865625,
@@ -1671,6 +1785,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "ADIVINA",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 184.926,
         "5 KG A 9,99 KG": 195.804,
         "1 KG A 4,99 KG": 208.04175,
@@ -1686,6 +1801,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "CASPER",
         "gender": "Mujer",
+        "family": "Floral",
         "10 KG EN ADELANTE": 142.8528888889,
         "5 KG A 9,99 KG": 151.256,
         "1 KG A 4,99 KG": 160.7095,
@@ -1701,6 +1817,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "PAOLA",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 201.8636666667,
         "5 KG A 9,99 KG": 213.738,
         "1 KG A 4,99 KG": 227.096625,
@@ -1716,6 +1833,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "SMELLA",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 204.6932222222,
         "5 KG A 9,99 KG": 216.734,
         "1 KG A 4,99 KG": 230.279875,
@@ -1731,6 +1849,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "XENIA",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 185.3623333333,
         "5 KG A 9,99 KG": 196.266,
         "1 KG A 4,99 KG": 208.532625,
@@ -1746,6 +1865,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "READY",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 131.6404444444,
         "5 KG A 9,99 KG": 139.384,
         "1 KG A 4,99 KG": 148.0955,
@@ -1761,6 +1881,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "YOKO",
         "gender": "Mujer",
+        "family": "Floral Acuática",
         "10 KG EN ADELANTE": 150.4556666667,
         "5 KG A 9,99 KG": 159.306,
         "1 KG A 4,99 KG": 169.262625,
@@ -1776,6 +1897,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "CATHERINE",
         "gender": "Mujer",
+        "family": "Floral",
         "10 KG EN ADELANTE": 201.229,
         "5 KG A 9,99 KG": 213.066,
         "1 KG A 4,99 KG": 226.382625,
@@ -1791,6 +1913,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "FUN MINISTRY",
         "gender": "Mujer",
+        "family": "Chipre Floral",
         "10 KG EN ADELANTE": 218.2195555556,
         "5 KG A 9,99 KG": 231.056,
         "1 KG A 4,99 KG": 245.497,
@@ -1806,6 +1929,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "INHERENT MAJESTY",
         "gender": "Mujer",
+        "family": "Floral Marina",
         "10 KG EN ADELANTE": 183.022,
         "5 KG A 9,99 KG": 193.788,
         "1 KG A 4,99 KG": 205.89975,
@@ -1821,6 +1945,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "LUMINOUS SECRET ",
         "gender": "Mujer",
+        "family": "Floral Vainilla",
         "10 KG EN ADELANTE": 165.8727777778,
         "5 KG A 9,99 KG": 175.63,
         "1 KG A 4,99 KG": 186.606875,
@@ -1836,6 +1961,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "LUMINOUS FANTASY ",
         "gender": "Mujer",
+        "family": "Oriental Vainilla",
         "10 KG EN ADELANTE": 166.0975555556,
         "5 KG A 9,99 KG": 175.868,
         "1 KG A 4,99 KG": 186.85975,
@@ -1851,6 +1977,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "VIVALA",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 230.5426666667,
         "5 KG A 9,99 KG": 244.104,
         "1 KG A 4,99 KG": 259.3605,
@@ -1866,6 +1993,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "NEXT GIRL",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 211.463,
         "5 KG A 9,99 KG": 223.902,
         "1 KG A 4,99 KG": 237.895875,
@@ -1881,6 +2009,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "CHOUPETTE ",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 156.2734444444,
         "5 KG A 9,99 KG": 165.466,
         "1 KG A 4,99 KG": 175.807625,
@@ -1896,6 +2025,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "FLORENCIA",
         "gender": "Mujer",
+        "family": "Floral",
         "10 KG EN ADELANTE": 150.297,
         "5 KG A 9,99 KG": 159.138,
         "1 KG A 4,99 KG": 169.084125,
@@ -1911,6 +2041,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "ASTONISHING PLANET",
         "gender": "Mujer",
+        "family": "Amaderada Floral Almizclada",
         "10 KG EN ADELANTE": 147.5732222222,
         "5 KG A 9,99 KG": 156.254,
         "1 KG A 4,99 KG": 166.019875,
@@ -1926,6 +2057,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "AMIGAS POR SIEMPRE ",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 114.3854444444,
         "5 KG A 9,99 KG": 121.114,
         "1 KG A 4,99 KG": 128.683625,
@@ -1941,6 +2073,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "MAGNETICA",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 248.591,
         "5 KG A 9,99 KG": 263.214,
         "1 KG A 4,99 KG": 279.664875,
@@ -1956,6 +2089,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "COSTA NATUR",
         "gender": "Mujer",
+        "family": "Floral Acuática",
         "10 KG EN ADELANTE": 192.8196666667,
         "5 KG A 9,99 KG": 204.162,
         "1 KG A 4,99 KG": 216.922125,
@@ -1971,13 +2105,14 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "ENERGETIC PINK",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 171.5318888889,
         "5 KG A 9,99 KG": 181.622,
         "1 KG A 4,99 KG": 192.973375,
         "DE 500 A 999 GRS": 205.8382666667,
         "DE 250 A 499 GRS": 220.541,
         "DE 120 A 249 GRS": 220.541,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/Bn5HcrQ3/LACOSTE-L12-ROSE-EAU-INTENSE.png"
     },
     {
         "id": 133,
@@ -1986,6 +2121,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "SENSUELLE",
         "gender": "Mujer",
+        "family": "Oriental Vainilla",
         "10 KG EN ADELANTE": 163.7175555556,
         "5 KG A 9,99 KG": 173.348,
         "1 KG A 4,99 KG": 184.18225,
@@ -2001,6 +2137,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "COSTA BRILLANTE",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 156.9345555556,
         "5 KG A 9,99 KG": 166.166,
         "1 KG A 4,99 KG": 176.551375,
@@ -2016,6 +2153,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "PINKY ",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 191.1668888889,
         "5 KG A 9,99 KG": 202.412,
         "1 KG A 4,99 KG": 215.06275,
@@ -2031,6 +2169,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "LANOTTE",
         "gender": "Mujer",
+        "family": "Gourmand",
         "10 KG EN ADELANTE": 195.8078888889,
         "5 KG A 9,99 KG": 207.326,
         "1 KG A 4,99 KG": 220.283875,
@@ -2046,6 +2185,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "BELLE EPOQUE ",
         "gender": "Mujer",
+        "family": "Floral Frutal Gourmand",
         "10 KG EN ADELANTE": 144.7568888889,
         "5 KG A 9,99 KG": 153.272,
         "1 KG A 4,99 KG": 162.8515,
@@ -2061,6 +2201,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "LOLITA",
         "gender": "Mujer",
+        "family": "Floral Frutal Vainilla",
         "10 KG EN ADELANTE": 140.6976666667,
         "5 KG A 9,99 KG": 148.974,
         "1 KG A 4,99 KG": 158.284875,
@@ -2076,6 +2217,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "DELPHY LOVE",
         "gender": "Mujer",
+        "family": "Amaderada Aromática",
         "10 KG EN ADELANTE": 161.5623333333,
         "5 KG A 9,99 KG": 171.066,
         "1 KG A 4,99 KG": 181.757625,
@@ -2091,6 +2233,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "GREEN  WISDOM",
         "gender": "Mujer",
+        "family": "Amaderada Aromática",
         "10 KG EN ADELANTE": 142.5223333333,
         "5 KG A 9,99 KG": 150.906,
         "1 KG A 4,99 KG": 160.337625,
@@ -2106,6 +2249,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "FANY ",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 149.345,
         "5 KG A 9,99 KG": 158.13,
         "1 KG A 4,99 KG": 168.013125,
@@ -2121,6 +2265,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "GILDED POP",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 170.2757777778,
         "5 KG A 9,99 KG": 180.292,
         "1 KG A 4,99 KG": 191.56025,
@@ -2136,6 +2281,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "CHELSEA LOVE",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 150.059,
         "5 KG A 9,99 KG": 158.886,
         "1 KG A 4,99 KG": 168.816375,
@@ -2151,6 +2297,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "PINK YOGUI",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 144.7568888889,
         "5 KG A 9,99 KG": 153.272,
         "1 KG A 4,99 KG": 162.8515,
@@ -2166,6 +2313,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "ICONIC YOGUI ",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 156.9345555556,
         "5 KG A 9,99 KG": 166.166,
         "1 KG A 4,99 KG": 176.551375,
@@ -2181,13 +2329,14 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "MASKA",
         "gender": "Unisex",
+        "family": "Floral Acuática",
         "10 KG EN ADELANTE": 150.9581111111,
         "5 KG A 9,99 KG": 159.838,
         "1 KG A 4,99 KG": 169.827875,
         "DE 500 A 999 GRS": 181.1497333333,
         "DE 250 A 499 GRS": 194.089,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/d3djMLvk/TOY2-PEARL.png"
     },
     {
         "id": 147,
@@ -2196,6 +2345,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "EMBLEMA ",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 172.3913333333,
         "5 KG A 9,99 KG": 182.532,
         "1 KG A 4,99 KG": 193.94025,
@@ -2211,6 +2361,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "ENCOURAGING INDIVIDUALITY ",
         "gender": "Mujer",
+        "family": "Oriental Floral",
         "10 KG EN ADELANTE": 147.56,
         "5 KG A 9,99 KG": 156.24,
         "1 KG A 4,99 KG": 166.005,
@@ -2226,6 +2377,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "SENSUAL CONFIDENCE",
         "gender": "Mujer",
+        "family": "Amaderada Floral Almizclada",
         "10 KG EN ADELANTE": 153.4042222222,
         "5 KG A 9,99 KG": 162.428,
         "1 KG A 4,99 KG": 172.57975,
@@ -2241,6 +2393,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "DIRECT",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 162.8713333333,
         "5 KG A 9,99 KG": 172.452,
         "1 KG A 4,99 KG": 183.23025,
@@ -2256,6 +2409,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "BLAXIS LA ",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 147.5732222222,
         "5 KG A 9,99 KG": 156.254,
         "1 KG A 4,99 KG": 166.019875,
@@ -2271,6 +2425,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "WILD MAGNET",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 188.258,
         "5 KG A 9,99 KG": 199.332,
         "1 KG A 4,99 KG": 211.79025,
@@ -2286,6 +2441,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "BLAXIS",
         "gender": "Mujer",
+        "family": "Floral Amaderada Almizclada",
         "10 KG EN ADELANTE": 128.1762222222,
         "5 KG A 9,99 KG": 135.716,
         "1 KG A 4,99 KG": 144.19825,
@@ -2301,6 +2457,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "NEW ERA",
         "gender": "Mujer",
+        "family": "Chipre Frutal",
         "10 KG EN ADELANTE": 155.5991111111,
         "5 KG A 9,99 KG": 164.752,
         "1 KG A 4,99 KG": 175.049,
@@ -2316,6 +2473,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "FLOWERY ERA ",
         "gender": "Mujer",
+        "family": "Chipre Frutal",
         "10 KG EN ADELANTE": 311.9651111111,
         "5 KG A 9,99 KG": 330.316,
         "1 KG A 4,99 KG": 350.96075,
@@ -2331,6 +2489,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "GOLD  ",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 149.226,
         "5 KG A 9,99 KG": 158.004,
         "1 KG A 4,99 KG": 167.87925,
@@ -2346,6 +2505,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "FEARLESS GAME",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 157.913,
         "5 KG A 9,99 KG": 167.202,
         "1 KG A 4,99 KG": 177.652125,
@@ -2361,6 +2521,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "GOLD WOMAN PRIVE",
         "gender": "Mujer",
+        "family": "Oriental Floral Frutal",
         "10 KG EN ADELANTE": 158.4683333333,
         "5 KG A 9,99 KG": 167.79,
         "1 KG A 4,99 KG": 178.276875,
@@ -2376,6 +2537,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "NOBLE GOLD ",
         "gender": "Mujer",
+        "family": "Chipre Floral Frutal",
         "10 KG EN ADELANTE": 186.8828888889,
         "5 KG A 9,99 KG": 197.876,
         "1 KG A 4,99 KG": 210.24325,
@@ -2391,6 +2553,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "GLORIOUS GOLD ",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 180.2453333333,
         "5 KG A 9,99 KG": 190.848,
         "1 KG A 4,99 KG": 202.776,
@@ -2406,6 +2569,7 @@ export const perfumes = [
         "category": "Diseñador",
         "NUEVO NOMBRE": "OLIMPIANA AQUA",
         "gender": "Mujer",
+        "family": "Floral Acuática",
         "10 KG EN ADELANTE": 169.5485555556,
         "5 KG A 9,99 KG": 179.522,
         "1 KG A 4,99 KG": 190.742125,
@@ -2427,7 +2591,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 227.7342666667,
         "DE 250 A 499 GRS": 244.001,
         "DE 120 A 249 GRS": 244.001,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Ámbar Floral"
     },
     {
         "id": 163,
@@ -2442,7 +2607,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 178.5317333333,
         "DE 250 A 499 GRS": 191.284,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral Frutal"
     },
     {
         "id": 164,
@@ -2457,7 +2623,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 186.4650666667,
         "DE 250 A 499 GRS": 199.784,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral Frutal"
     },
     {
         "id": 165,
@@ -2472,7 +2639,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 200.1738666667,
         "DE 250 A 499 GRS": 214.472,
         "DE 120 A 249 GRS": 214.472,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral Frutal"
     },
     {
         "id": 166,
@@ -2487,7 +2655,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 221.4828,
         "DE 250 A 499 GRS": 237.303,
         "DE 120 A 249 GRS": 237.303,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral Frutal"
     },
     {
         "id": 167,
@@ -2502,7 +2671,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 161.6813333333,
         "DE 250 A 499 GRS": 173.23,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral Frutal"
     },
     {
         "id": 168,
@@ -2517,7 +2687,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 170.0272,
         "DE 250 A 499 GRS": 182.172,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral Frutal"
     },
     {
         "id": 169,
@@ -2532,7 +2703,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 161.6813333333,
         "DE 250 A 499 GRS": 173.23,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral Frutal"
     },
     {
         "id": 170,
@@ -2547,7 +2719,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 161.6813333333,
         "DE 250 A 499 GRS": 173.23,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral Frutal"
     },
     {
         "id": 171,
@@ -2562,7 +2735,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 172.2168,
         "DE 250 A 499 GRS": 184.518,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral"
     },
     {
         "id": 172,
@@ -2577,7 +2751,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 169.0117333333,
         "DE 250 A 499 GRS": 181.084,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral Frutal"
     },
     {
         "id": 173,
@@ -2592,7 +2767,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 246.5204,
         "DE 250 A 499 GRS": 264.129,
         "DE 120 A 249 GRS": 264.129,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral Frutal Acuática"
     },
     {
         "id": 174,
@@ -2607,7 +2783,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 199.2377333333,
         "DE 250 A 499 GRS": 213.469,
         "DE 120 A 249 GRS": 213.469,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral Frutal"
     },
     {
         "id": 175,
@@ -2622,7 +2799,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 138.7381333333,
         "DE 250 A 499 GRS": 148.648,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Oriental Vainilla"
     },
     {
         "id": 176,
@@ -2637,7 +2815,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 235.0488,
         "DE 250 A 499 GRS": 251.838,
         "DE 120 A 249 GRS": 251.838,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral Frutal"
     },
     {
         "id": 177,
@@ -2652,7 +2831,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 202.0144,
         "DE 250 A 499 GRS": 216.444,
         "DE 120 A 249 GRS": 216.444,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral"
     },
     {
         "id": 178,
@@ -2667,7 +2847,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 240.2530666667,
         "DE 250 A 499 GRS": 257.414,
         "DE 120 A 249 GRS": 257.414,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral Frutal"
     },
     {
         "id": 179,
@@ -2682,7 +2863,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 280.6813333333,
         "DE 250 A 499 GRS": 300.73,
         "DE 120 A 249 GRS": 300.73,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Oriental Floral"
     },
     {
         "id": 180,
@@ -2697,7 +2879,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 314.6836,
         "DE 250 A 499 GRS": 337.161,
         "DE 120 A 249 GRS": 337.161,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral Aldehídica"
     },
     {
         "id": 181,
@@ -2712,7 +2895,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 361.76,
         "DE 250 A 499 GRS": 387.6,
         "DE 120 A 249 GRS": 387.6,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral Frutal Gourmand"
     },
     {
         "id": 182,
@@ -2727,7 +2911,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 208.2658666667,
         "DE 250 A 499 GRS": 223.142,
         "DE 120 A 249 GRS": 223.142,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral Frutal"
     },
     {
         "id": 183,
@@ -2742,7 +2927,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 205.4892,
         "DE 250 A 499 GRS": 220.167,
         "DE 120 A 249 GRS": 220.167,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Ámbar Floral"
     },
     {
         "id": 184,
@@ -2757,7 +2943,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 173.7241333333,
         "DE 250 A 499 GRS": 186.133,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral Frutal"
     },
     {
         "id": 185,
@@ -2772,7 +2959,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 177.6749333333,
         "DE 250 A 499 GRS": 190.366,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral Frutal Ambarada"
     },
     {
         "id": 186,
@@ -2787,7 +2975,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 225.1638666667,
         "DE 250 A 499 GRS": 241.247,
         "DE 120 A 249 GRS": 241.247,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral Oriental"
     },
     {
         "id": 187,
@@ -2802,7 +2991,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 258.1824,
         "DE 250 A 499 GRS": 276.624,
         "DE 120 A 249 GRS": 276.624,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/TYpt0YZ6/CHEIROSA-68-SOL-DE-JANEIRO-1.png",
+        "family": "Floral Frutal Gourmand"
     },
     {
         "id": 188,
@@ -2817,7 +3007,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 182.6253333333,
         "DE 250 A 499 GRS": 195.67,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/66HHCGbc/CHEIROSA-59.png",
+        "family": "Amaderada Floral Almizclada"
     },
     {
         "id": 189,
@@ -2832,7 +3023,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 261.1494666667,
         "DE 250 A 499 GRS": 279.803,
         "DE 120 A 249 GRS": 279.803,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/bJZRTmBR/RIO-RADIANCE-SOL-DE-JANEIRO.png",
+        "family": "Floral Solar"
     },
     {
         "id": 190,
@@ -2847,7 +3039,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 236.3498666667,
         "DE 250 A 499 GRS": 253.232,
         "DE 120 A 249 GRS": 253.232,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Oriental Vainilla"
     },
     {
         "id": 191,
@@ -2862,7 +3055,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 170.0272,
         "DE 250 A 499 GRS": 182.172,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral Frutal"
     },
     {
         "id": 192,
@@ -2877,7 +3071,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 211.7565333333,
         "DE 250 A 499 GRS": 226.882,
         "DE 120 A 249 GRS": 226.882,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral Frutal"
     },
     {
         "id": 193,
@@ -2892,7 +3087,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 156.3025333333,
         "DE 250 A 499 GRS": 167.467,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://i.postimg.cc/RFj28wK4/ESENCIAS-IMAGEN-ACT-02.jpg"
+        "picture": "https://i.postimg.cc/RFj28wK4/ESENCIAS-IMAGEN-ACT-02.jpg",
+        "family": "Floral Ambarino"
     },
     {
         "id": 194,
@@ -2907,7 +3103,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 222.1492,
         "DE 250 A 499 GRS": 238.017,
         "DE 120 A 249 GRS": 238.017,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/Yq5zxN66/DONNA-BORN-IN-ROMA-CORAL-FANTASY-1.png",
+        "family": "Floral Frutal"
     },
     {
         "id": 195,
@@ -2922,7 +3119,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 141.1816,
         "DE 250 A 499 GRS": 151.266,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral Frutal Almizclada"
     },
     {
         "id": 196,
@@ -2937,7 +3135,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 215.9136,
         "DE 250 A 499 GRS": 231.336,
         "DE 120 A 249 GRS": 231.336,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral Frutal Almizclada"
     },
     {
         "id": 197,
@@ -2952,7 +3151,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 289.7570666667,
         "DE 250 A 499 GRS": 310.454,
         "DE 120 A 249 GRS": 310.454,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Cítrico Floral Almizclado"
     },
     {
         "id": 198,
@@ -2967,7 +3167,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 205.4892,
         "DE 250 A 499 GRS": 220.167,
         "DE 120 A 249 GRS": 220.167,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral Amaderada Almizclada"
     },
     {
         "id": 199,
@@ -2982,7 +3183,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 178.9284,
         "DE 250 A 499 GRS": 191.709,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral Frutal"
     },
     {
         "id": 200,
@@ -2997,7 +3199,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 248.9638666667,
         "DE 250 A 499 GRS": 266.747,
         "DE 120 A 249 GRS": 266.747,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral Frutal Gourmand"
     },
     {
         "id": 201,
@@ -3012,7 +3215,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 134.0892,
         "DE 250 A 499 GRS": 143.667,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Ámbar Vainilla"
     },
     {
         "id": 202,
@@ -3027,7 +3231,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 105.6561333333,
         "DE 250 A 499 GRS": 113.203,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral Acuática"
     },
     {
         "id": 203,
@@ -3042,7 +3247,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 154.0336,
         "DE 250 A 499 GRS": 165.036,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral Frutal"
     },
     {
         "id": 204,
@@ -3057,7 +3263,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 120.666,
         "DE 250 A 499 GRS": 129.285,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Gourmand"
     },
     {
         "id": 205,
@@ -3072,7 +3279,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 131.6933333333,
         "DE 250 A 499 GRS": 141.1,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://i.postimg.cc/RFtGH9zS/V-S-COOL-Y-BRIGHT.jpg"
+        "picture": "https://i.postimg.cc/RFtGH9zS/V-S-COOL-Y-BRIGHT.jpg",
+        "family": "Floral Frutal"
     },
     {
         "id": 206,
@@ -3087,7 +3295,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 140.1661333333,
         "DE 250 A 499 GRS": 150.178,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/qRJL3k8W/CHOCOLATE-V-S.png",
+        "family": "Gourmand"
     },
     {
         "id": 207,
@@ -3102,7 +3311,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 189.1624,
         "DE 250 A 499 GRS": 202.674,
         "DE 120 A 249 GRS": 202.674,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/d1N8ZGQT/GIVE-ME-LOVE-VICTORIA-SECRET.png",
+        "family": "Floral Frutal"
     },
     {
         "id": 208,
@@ -3117,7 +3327,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 219.8802666667,
         "DE 250 A 499 GRS": 235.586,
         "DE 120 A 249 GRS": 235.586,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/N048YWWD/EAU-SO-SEXY.png",
+        "family": "Floral Frutal Gourmand"
     },
     {
         "id": 209,
@@ -3132,7 +3343,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 130.0908,
         "DE 250 A 499 GRS": 139.383,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://i.postimg.cc/dVx64w8K/ENCHANCED-NIGHT-VICTORIA-SECRET-FEM.png"
+        "picture": "https://i.postimg.cc/dVx64w8K/ENCHANCED-NIGHT-VICTORIA-SECRET-FEM.png",
+        "family": "Floral"
     },
     {
         "id": 210,
@@ -3147,7 +3359,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 131.7885333333,
         "DE 250 A 499 GRS": 141.202,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral Frutal"
     },
     {
         "id": 211,
@@ -3162,7 +3375,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 119.4601333333,
         "DE 250 A 499 GRS": 127.993,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://i.postimg.cc/brjg0MzQ/V-S-FRESH-AND-CLEAN.jpg"
+        "picture": "https://i.postimg.cc/brjg0MzQ/V-S-FRESH-AND-CLEAN.jpg",
+        "family": "Frutal"
     },
     {
         "id": 212,
@@ -3177,7 +3391,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 187.4488,
         "DE 250 A 499 GRS": 200.838,
         "DE 120 A 249 GRS": 200.838,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral Frutal"
     },
     {
         "id": 213,
@@ -3192,7 +3407,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 135.3109333333,
         "DE 250 A 499 GRS": 144.976,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral Frutal"
     },
     {
         "id": 214,
@@ -3207,7 +3423,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 124.9976,
         "DE 250 A 499 GRS": 133.926,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Gourmand Frutal"
     },
     {
         "id": 215,
@@ -3222,7 +3439,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 106.0686666667,
         "DE 250 A 499 GRS": 113.645,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral Frutal"
     },
     {
         "id": 216,
@@ -3237,7 +3455,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 126.9333333333,
         "DE 250 A 499 GRS": 136.0,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral Frutal"
     },
     {
         "id": 217,
@@ -3252,7 +3471,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 131.2966666667,
         "DE 250 A 499 GRS": 140.675,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral"
     },
     {
         "id": 218,
@@ -3267,7 +3487,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 102.5462666667,
         "DE 250 A 499 GRS": 109.871,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral Frutal"
     },
     {
         "id": 219,
@@ -3282,7 +3503,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 64.6249333333,
         "DE 250 A 499 GRS": 69.241,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://i.postimg.cc/PrRzXbKj/ODISSEY-MANDARIN-SKY.png"
+        "picture": "https://i.postimg.cc/PrRzXbKj/ODISSEY-MANDARIN-SKY.png",
+        "family": "Cítrica"
     },
     {
         "id": 220,
@@ -3297,7 +3519,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 90.7732,
         "DE 250 A 499 GRS": 97.257,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral Frutal"
     },
     {
         "id": 221,
@@ -3312,7 +3535,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 65.0533333333,
         "DE 250 A 499 GRS": 69.7,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Frutal"
     },
     {
         "id": 222,
@@ -3327,7 +3551,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 114.24,
         "DE 250 A 499 GRS": 122.4,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Amaderada Frutal"
     },
     {
         "id": 223,
@@ -3342,7 +3567,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 137.326,
         "DE 250 A 499 GRS": 147.135,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral"
     },
     {
         "id": 224,
@@ -3357,7 +3583,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 160.7134666667,
         "DE 250 A 499 GRS": 172.193,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Oriental Floral"
     },
     {
         "id": 225,
@@ -3372,7 +3599,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 163.4266666667,
         "DE 250 A 499 GRS": 175.1,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral Frutal"
     },
     {
         "id": 226,
@@ -3387,7 +3615,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 120.0313333333,
         "DE 250 A 499 GRS": 128.605,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Frutal"
     },
     {
         "id": 227,
@@ -3402,7 +3631,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 111.0666666667,
         "DE 250 A 499 GRS": 119.0,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Frutal"
     },
     {
         "id": 228,
@@ -3417,7 +3647,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 115.5886666667,
         "DE 250 A 499 GRS": 123.845,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Frutal"
     },
     {
         "id": 229,
@@ -3432,7 +3663,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 151.8916,
         "DE 250 A 499 GRS": 162.741,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral"
     },
     {
         "id": 230,
@@ -3447,7 +3679,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 171.6614666667,
         "DE 250 A 499 GRS": 183.923,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral Frutal"
     },
     {
         "id": 231,
@@ -3462,7 +3695,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 145.6084,
         "DE 250 A 499 GRS": 156.009,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral"
     },
     {
         "id": 232,
@@ -3477,7 +3711,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 137.326,
         "DE 250 A 499 GRS": 147.135,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral"
     },
     {
         "id": 233,
@@ -3492,7 +3727,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 141.5306666667,
         "DE 250 A 499 GRS": 151.64,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Frutal Floral"
     },
     {
         "id": 234,
@@ -3507,7 +3743,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 133.0102666667,
         "DE 250 A 499 GRS": 142.511,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral"
     },
     {
         "id": 235,
@@ -3522,7 +3759,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 65.0533333333,
         "DE 250 A 499 GRS": 69.7,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Frutal Floral"
     },
     {
         "id": 236,
@@ -3537,7 +3775,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 124.0773333333,
         "DE 250 A 499 GRS": 132.94,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral"
     },
     {
         "id": 237,
@@ -3552,7 +3791,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 139.944,
         "DE 250 A 499 GRS": 149.94,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral Frutal"
     },
     {
         "id": 238,
@@ -3567,7 +3807,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 131.3442666667,
         "DE 250 A 499 GRS": 140.726,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral"
     },
     {
         "id": 239,
@@ -3582,7 +3823,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 95.0096,
         "DE 250 A 499 GRS": 101.796,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Frutal"
     },
     {
         "id": 240,
@@ -3597,7 +3839,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 135.5806666667,
         "DE 250 A 499 GRS": 145.265,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Cítrica Floral"
     },
     {
         "id": 241,
@@ -3612,7 +3855,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 95.6442666667,
         "DE 250 A 499 GRS": 102.476,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral Frutal"
     },
     {
         "id": 242,
@@ -3627,7 +3871,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 256.8972,
         "DE 250 A 499 GRS": 275.247,
         "DE 120 A 249 GRS": 275.247,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral Frutal"
     },
     {
         "id": 243,
@@ -3642,7 +3887,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 126.7270666667,
         "DE 250 A 499 GRS": 135.779,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral"
     },
     {
         "id": 244,
@@ -3657,12 +3903,13 @@ export const perfumes = [
         "DE 500 A 999 GRS": 106.0686666667,
         "DE 250 A 499 GRS": 113.645,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Gourmand"
     },
     {
         "id": 245,
         "brand": "VICTORIAS SECRET",
-        "name": "ESC. INSP. EN V.S VELVET PETALSr",
+        "name": "ESC. INSP. EN V.S VELVET PETALS",
         "category": "Diseñador",
         "NUEVO NOMBRE": "WILDLY ENCHANTING",
         "gender": "Mujer",
@@ -3672,7 +3919,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 165.7114666667,
         "DE 250 A 499 GRS": 177.548,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral"
     },
     {
         "id": 246,
@@ -3687,7 +3935,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 153.9225333333,
         "DE 250 A 499 GRS": 164.917,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/m2fSYNNQ/WARM-AND-COZY.png",
+        "family": "Almizclado"
     },
     {
         "id": 247,
@@ -3702,7 +3951,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 114.24,
         "DE 250 A 499 GRS": 122.4,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral Frutal"
     },
     {
         "id": 248,
@@ -3717,8 +3967,10 @@ export const perfumes = [
         "DE 500 A 999 GRS": 138.7381333333,
         "DE 250 A 499 GRS": 148.648,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Gourmand"
     },
+
     {
         "id": 249,
         "brand": "VICTORINOX",
@@ -3732,7 +3984,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 206.8854666667,
         "DE 250 A 499 GRS": 221.663,
         "DE 120 A 249 GRS": 221.663,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral Frutal"
     },
     {
         "id": 250,
@@ -3747,7 +4000,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 217.3098666667,
         "DE 250 A 499 GRS": 232.832,
         "DE 120 A 249 GRS": 232.832,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/zGh0m2z2/ADRENALINA-YANBAL.png",
+        "family": "Floral Frutal"
     },
     {
         "id": 251,
@@ -3762,7 +4016,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 194.7316,
         "DE 250 A 499 GRS": 208.641,
         "DE 120 A 249 GRS": 208.641,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/8CB4cFrh/CCORI-PARFUM.png",
+        "family": "Floral"
     },
     {
         "id": 252,
@@ -3777,7 +4032,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 195.8898666667,
         "DE 250 A 499 GRS": 209.882,
         "DE 120 A 249 GRS": 209.882,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral Frutal"
     },
     {
         "id": 253,
@@ -3792,7 +4048,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 258.6266666667,
         "DE 250 A 499 GRS": 277.1,
         "DE 120 A 249 GRS": 277.1,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral"
     },
     {
         "id": 254,
@@ -3807,7 +4064,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 170.2334666667,
         "DE 250 A 499 GRS": 182.393,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral Frutal"
     },
     {
         "id": 255,
@@ -3822,7 +4080,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 188.3214666667,
         "DE 250 A 499 GRS": 201.773,
         "DE 120 A 249 GRS": 201.773,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral"
     },
     {
         "id": 256,
@@ -3837,7 +4096,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 195.2869333333,
         "DE 250 A 499 GRS": 209.236,
         "DE 120 A 249 GRS": 209.236,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral Frutal"
     },
     {
         "id": 257,
@@ -3852,7 +4112,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 188.3214666667,
         "DE 250 A 499 GRS": 201.773,
         "DE 120 A 249 GRS": 201.773,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral"
     },
     {
         "id": 258,
@@ -3867,7 +4128,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 179.2774666667,
         "DE 250 A 499 GRS": 192.083,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral Frutal"
     },
     {
         "id": 259,
@@ -3882,7 +4144,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 460.0381333333,
         "DE 250 A 499 GRS": 492.898,
         "DE 120 A 249 GRS": 492.898,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Oriental Vainilla"
     },
     {
         "id": 260,
@@ -3897,7 +4160,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 165.172,
         "DE 250 A 499 GRS": 176.97,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral"
     },
     {
         "id": 261,
@@ -3912,12 +4176,15 @@ export const perfumes = [
         "DE 500 A 999 GRS": 221.7525333333,
         "DE 250 A 499 GRS": 237.592,
         "DE 120 A 249 GRS": 237.592,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Oriental Amaderada"
     },
+
+    //Perfumes de Hombres
     {
         "id": 262,
         "brand": "ABERCROMBIE AND FITCH",
-        "name": "ESC. INSP. EN AUTHENTIC A8F MEN ",
+        "name": "ESC. INSP. EN AUTHENTIC A8F",
         "category": "Diseñador",
         "NUEVO NOMBRE": "FAITHFUL FELLOW",
         "gender": "Hombre",
@@ -3932,7 +4199,7 @@ export const perfumes = [
     {
         "id": 263,
         "brand": "ANIMALE",
-        "name": "ESC. INSP. EN ANIMALE MEN ",
+        "name": "ESC. INSP. EN ANIMALE",
         "category": "Diseñador",
         "NUEVO NOMBRE": "SANSON",
         "gender": "Hombre",
@@ -3947,7 +4214,7 @@ export const perfumes = [
     {
         "id": 264,
         "brand": "ANTONIO BANDERAS",
-        "name": "ESC. INSP. EN ANTONIO BANDERAS BLUE SEDUCTION MEN ",
+        "name": "ESC. INSP. EN ANTONIO BANDERAS BLUE SEDUCTION",
         "category": "Diseñador",
         "NUEVO NOMBRE": "SENDOA",
         "gender": "Hombre",
@@ -3962,7 +4229,7 @@ export const perfumes = [
     {
         "id": 265,
         "brand": "ANTONIO BANDERAS",
-        "name": "ESC. INSP. EN ANTONIO BANDE KING OF SEDUCTION MEN ",
+        "name": "ESC. INSP. EN ANTONIO BANDE KING OF SEDUCTION",
         "category": "Diseñador",
         "NUEVO NOMBRE": "REY DE SEDUCCION ",
         "gender": "Hombre",
@@ -3992,7 +4259,7 @@ export const perfumes = [
     {
         "id": 267,
         "brand": "ARMANI",
-        "name": "ESC. INSP. EN ARMANI ACQUA DI GIO MEN ",
+        "name": "ESC. INSP. EN ARMANI ACQUA DI GIO",
         "category": "Diseñador",
         "NUEVO NOMBRE": "ACQUA FRESCA ",
         "gender": "Hombre",
@@ -4007,7 +4274,7 @@ export const perfumes = [
     {
         "id": 268,
         "brand": "ARMANI",
-        "name": "ESC. INSP. EN ARMANI ACQUA DI GIO PARFUM MEN ",
+        "name": "ESC. INSP. EN ARMANI ACQUA DI GIO PARFUM",
         "category": "Diseñador",
         "NUEVO NOMBRE": "POWERFUL GIOVANNI",
         "gender": "Hombre",
@@ -4022,7 +4289,7 @@ export const perfumes = [
     {
         "id": 269,
         "brand": "ARMANI",
-        "name": "ESC. INSP. EN ARMANI ACQUA DI GIO PROFUMO MEN ",
+        "name": "ESC. INSP. EN ARMANI ACQUA DI GIO PROFUMO",
         "category": "Diseñador",
         "NUEVO NOMBRE": "GIOVANNI PRO",
         "gender": "Hombre",
@@ -4037,7 +4304,7 @@ export const perfumes = [
     {
         "id": 270,
         "brand": "ARMANI",
-        "name": "ESC. INSP. EN ARMANI ACQUA DI GIO PROFONDO MEN ",
+        "name": "ESC. INSP. EN ARMANI ACQUA DI GIO PROFONDO",
         "category": "Diseñador",
         "NUEVO NOMBRE": "INVIGORATING GIOVANNI",
         "gender": "Hombre",
@@ -4052,7 +4319,7 @@ export const perfumes = [
     {
         "id": 271,
         "brand": "ARMANI",
-        "name": "ESC. INSP. EN ARMANI CODE MEN ",
+        "name": "ESC. INSP. EN ARMANI CODE",
         "category": "Diseñador",
         "NUEVO NOMBRE": "CODIGO",
         "gender": "Hombre",
@@ -4067,7 +4334,7 @@ export const perfumes = [
     {
         "id": 272,
         "brand": "ARMANI",
-        "name": "ESC. INSP. EN ARMANI STRONGER WITH YOU MEN ",
+        "name": "ESC. INSP. EN ARMANI STRONGER WITH YOU",
         "category": "Diseñador",
         "NUEVO NOMBRE": "YOUNGER",
         "gender": "Hombre",
@@ -4082,7 +4349,7 @@ export const perfumes = [
     {
         "id": 273,
         "brand": "ARMANI",
-        "name": "ESC. INSP. EN ARMANI OUD STRONGER WITH YOU MEN ",
+        "name": "ESC. INSP. EN ARMANI OUD STRONGER WITH YOU",
         "category": "Diseñador",
         "NUEVO NOMBRE": "ALLURING DUET",
         "gender": "Hombre",
@@ -4097,7 +4364,7 @@ export const perfumes = [
     {
         "id": 274,
         "brand": "AZZARO",
-        "name": "ESC. INSP. EN AZZARO POUR HOMME MEN ",
+        "name": "ESC. INSP. EN AZZARO POUR HOMME",
         "category": "Diseñador",
         "NUEVO NOMBRE": "AZORIN",
         "gender": "Hombre",
@@ -4112,7 +4379,7 @@ export const perfumes = [
     {
         "id": 275,
         "brand": "BURBERRY",
-        "name": "ESC. INSP. EN BURBERRY HERO EAU DE PARFUM MEN ",
+        "name": "ESC. INSP. EN BURBERRY HERO EAU DE PARFUM",
         "category": "Diseñador",
         "NUEVO NOMBRE": "INTENSE MYTH ",
         "gender": "Hombre",
@@ -4127,7 +4394,7 @@ export const perfumes = [
     {
         "id": 276,
         "brand": "BVLGARY",
-        "name": "ESC. INSP. EN BVLGARI AQUA DE BVLGARY  MEN ",
+        "name": "ESC. INSP. EN BVLGARI AQUA DE BVLGARY ",
         "category": "Diseñador",
         "NUEVO NOMBRE": "AQVARIUM ",
         "gender": "Hombre",
@@ -4142,7 +4409,7 @@ export const perfumes = [
     {
         "id": 277,
         "brand": "BVLGARY",
-        "name": "ESC. INSP. EN BVLGARI AQUA MARINE  MEN ",
+        "name": "ESC. INSP. EN BVLGARI AQUA MARINE ",
         "category": "Diseñador",
         "NUEVO NOMBRE": "AGUAMARINA",
         "gender": "Hombre",
@@ -4157,7 +4424,7 @@ export const perfumes = [
     {
         "id": 278,
         "brand": "BVLGARY",
-        "name": "ESC. INSP. EN BVLGARI BLV MEN ",
+        "name": "ESC. INSP. EN BVLGARI BLV",
         "category": "Diseñador",
         "NUEVO NOMBRE": "BLUME",
         "gender": "Hombre",
@@ -4172,7 +4439,7 @@ export const perfumes = [
     {
         "id": 279,
         "brand": "BVLGARY",
-        "name": "ESC. INSP. EN BVLGARY MAN MEN ",
+        "name": "ESC. INSP. EN BVLGARY MAN",
         "category": "Diseñador",
         "NUEVO NOMBRE": "BULLMAN",
         "gender": "Hombre",
@@ -4187,7 +4454,7 @@ export const perfumes = [
     {
         "id": 280,
         "brand": "BVLGARY",
-        "name": "ESC. INSP. EN BVLGARI MAN IN BLACK MEN ",
+        "name": "ESC. INSP. EN BVLGARI MAN IN BLACK",
         "category": "Diseñador",
         "NUEVO NOMBRE": "BLACKMAN",
         "gender": "Hombre",
@@ -4202,7 +4469,7 @@ export const perfumes = [
     {
         "id": 281,
         "brand": "BVLGARY",
-        "name": "ESC. INSP. EN BVLGARY MAN RAIN ESSENCE MEN ",
+        "name": "ESC. INSP. EN BVLGARY MAN RAIN ESSENCE",
         "category": "Diseñador",
         "NUEVO NOMBRE": "REGENERATIVE DRIZZLE",
         "gender": "Hombre",
@@ -4232,7 +4499,7 @@ export const perfumes = [
     {
         "id": 283,
         "brand": "BVLGARY",
-        "name": "ESC. INSP. EN BVLGARI POUR HOMME SOIR MEN ",
+        "name": "ESC. INSP. EN BVLGARI POUR HOMME SOIR",
         "category": "Diseñador",
         "NUEVO NOMBRE": "NOTE",
         "gender": "Hombre",
@@ -4247,7 +4514,7 @@ export const perfumes = [
     {
         "id": 284,
         "brand": "BVLGARY",
-        "name": "ESC. INSP. EN BVLGARI WOOD MEN ",
+        "name": "ESC. INSP. EN BVLGARI WOOD",
         "category": "Diseñador",
         "NUEVO NOMBRE": "NATURE CONNECTION",
         "gender": "Hombre",
@@ -4262,7 +4529,7 @@ export const perfumes = [
     {
         "id": 285,
         "brand": "CALVIN KLEIN",
-        "name": "ESC. INSP. EN CK BE MEN ",
+        "name": "ESC. INSP. EN CK BE",
         "category": "Diseñador",
         "NUEVO NOMBRE": "TIBER",
         "gender": "Hombre",
@@ -4277,7 +4544,7 @@ export const perfumes = [
     {
         "id": 286,
         "brand": "CALVIN KLEIN",
-        "name": "ESC. INSP. EN CK ESCAPE MEN ",
+        "name": "ESC. INSP. EN CK ESCAPE",
         "category": "Diseñador",
         "NUEVO NOMBRE": "EXODO",
         "gender": "Hombre",
@@ -4292,7 +4559,7 @@ export const perfumes = [
     {
         "id": 287,
         "brand": "CALVIN KLEIN",
-        "name": "ESC. INSP. EN CK ETERNITY MEN ",
+        "name": "ESC. INSP. EN CK ETERNITY",
         "category": "Diseñador",
         "NUEVO NOMBRE": "FOREVER ",
         "gender": "Hombre",
@@ -4322,7 +4589,7 @@ export const perfumes = [
     {
         "id": 289,
         "brand": "CALVIN KLEIN",
-        "name": "ESC. INSP. EN CK IN 2U MEN ",
+        "name": "ESC. INSP. EN CK IN 2U",
         "category": "Diseñador",
         "NUEVO NOMBRE": "OFFLINE",
         "gender": "Hombre",
@@ -4352,7 +4619,7 @@ export const perfumes = [
     {
         "id": 291,
         "brand": "CALVIN KLEIN",
-        "name": "ESC. INSP. EN CK ONE REFLECTIONS Unisex ",
+        "name": "ESC. INSP. EN CK ONE REFLECTIONS",
         "category": "Diseñador",
         "NUEVO NOMBRE": "SPONTANEOUS LIDER",
         "gender": "Unisex",
@@ -4362,12 +4629,12 @@ export const perfumes = [
         "DE 500 A 999 GRS": 211.7565333333,
         "DE 250 A 499 GRS": 226.882,
         "DE 120 A 249 GRS": 226.882,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/Qx9q5YTN/CK-ONE-REFLECTIONS.png"
     },
     {
         "id": 292,
         "brand": "CALVIN KLEIN",
-        "name": "ESC. INSP. EN CK ONE SHOCK MEN ",
+        "name": "ESC. INSP. EN CK ONE SHOCK",
         "category": "Diseñador",
         "NUEVO NOMBRE": "SHOCKIM",
         "gender": "Hombre",
@@ -4377,12 +4644,12 @@ export const perfumes = [
         "DE 500 A 999 GRS": 198.5396,
         "DE 250 A 499 GRS": 212.721,
         "DE 120 A 249 GRS": 212.721,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/ZYDcWz0D/CK-ONE-SHOCK.png"
     },
     {
         "id": 293,
         "brand": "CAROLINA HERRERA",
-        "name": "ESC. INSP. EN CH 212 VIP BLACK I LOVE NY MEN ",
+        "name": "ESC. INSP. EN CH 212 VIP BLACK I LOVE NY",
         "category": "Diseñador",
         "NUEVO NOMBRE": "URBAN KING",
         "gender": "Hombre",
@@ -4397,7 +4664,7 @@ export const perfumes = [
     {
         "id": 294,
         "brand": "CAROLINA HERRERA",
-        "name": "ESC. INSP. EN CH 212 HEROES FOREVER YOUNG MEN ",
+        "name": "ESC. INSP. EN CH 212 HEROES FOREVER YOUNG",
         "category": "Diseñador",
         "NUEVO NOMBRE": "PURE FREEDOM",
         "gender": "Hombre",
@@ -4412,7 +4679,7 @@ export const perfumes = [
     {
         "id": 295,
         "brand": "CAROLINA HERRERA",
-        "name": "ESC. INSP. EN CH 212 NYC AQUA MEN ",
+        "name": "ESC. INSP. EN CH 212 NYC AQUA",
         "category": "Diseñador",
         "NUEVO NOMBRE": "AQUAMEN",
         "gender": "Hombre",
@@ -4427,7 +4694,7 @@ export const perfumes = [
     {
         "id": 296,
         "brand": "CAROLINA HERRERA",
-        "name": "ESC. INSP. EN CH 212 NYC MEN ",
+        "name": "ESC. INSP. EN CH 212 NYC",
         "category": "Diseñador",
         "NUEVO NOMBRE": "ADRIAN",
         "gender": "Hombre",
@@ -4457,7 +4724,7 @@ export const perfumes = [
     {
         "id": 298,
         "brand": "CAROLINA HERRERA",
-        "name": "ESC. INSP. EN CH 212 VIP BLACK  RED MEN ",
+        "name": "ESC. INSP. EN CH 212 VIP BLACK  RED",
         "category": "Diseñador",
         "NUEVO NOMBRE": "BUOYANT KING",
         "gender": "Hombre",
@@ -4472,7 +4739,7 @@ export const perfumes = [
     {
         "id": 299,
         "brand": "CAROLINA HERRERA",
-        "name": "ESC. INSP. EN CH 212 VIP BLACK ",
+        "name": "ESC. INSP. EN CH 212 VIP BLACK",
         "category": "Diseñador",
         "NUEVO NOMBRE": "KING OF PARTIES",
         "gender": "Hombre",
@@ -4482,12 +4749,12 @@ export const perfumes = [
         "DE 500 A 999 GRS": 266.9725333333,
         "DE 250 A 499 GRS": 286.042,
         "DE 120 A 249 GRS": 286.042,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/D0YBht4H/212-VIP-BLACK.png"
     },
     {
         "id": 300,
         "brand": "CAROLINA HERRERA",
-        "name": "ESC. INSP. EN CH 212 VIP BLACK EXTRA MEN ",
+        "name": "ESC. INSP. EN CH 212 VIP BLACK EXTRA",
         "category": "Diseñador",
         "NUEVO NOMBRE": "PERRINE",
         "gender": "Hombre",
@@ -4502,7 +4769,7 @@ export const perfumes = [
     {
         "id": 301,
         "brand": "CAROLINA HERRERA",
-        "name": "ESC. INSP. EN CH 212 VIP CLUB MEN ",
+        "name": "ESC. INSP. EN CH 212 VIP CLUB",
         "category": "Diseñador",
         "NUEVO NOMBRE": "CHICO MAN ",
         "gender": "Hombre",
@@ -4517,7 +4784,7 @@ export const perfumes = [
     {
         "id": 302,
         "brand": "CAROLINA HERRERA",
-        "name": "ESC. INSP. EN CH 212 VIP FEVER MEN ",
+        "name": "ESC. INSP. EN CH 212 VIP FEVER",
         "category": "Diseñador",
         "NUEVO NOMBRE": "VIVID NIGHT ",
         "gender": "Hombre",
@@ -4532,7 +4799,7 @@ export const perfumes = [
     {
         "id": 303,
         "brand": "CAROLINA HERRERA",
-        "name": "ESC. INSP. EN CH 212 VIP MEN ",
+        "name": "ESC. INSP. EN CH 212 VIP",
         "category": "Diseñador",
         "NUEVO NOMBRE": "VICARO",
         "gender": "Hombre",
@@ -4547,7 +4814,7 @@ export const perfumes = [
     {
         "id": 304,
         "brand": "CAROLINA HERRERA",
-        "name": "ESC. INSP. EN CH 212 VIP WILD PARTY MEN ",
+        "name": "ESC. INSP. EN CH 212 VIP WILD PARTY",
         "category": "Diseñador",
         "NUEVO NOMBRE": "WILDO",
         "gender": "Hombre",
@@ -4562,7 +4829,7 @@ export const perfumes = [
     {
         "id": 305,
         "brand": "CAROLINA HERRERA",
-        "name": "ESC. INSP. EN CH 212 VIP WINS MEN ",
+        "name": "ESC. INSP. EN CH 212 VIP WINS",
         "category": "Diseñador",
         "NUEVO NOMBRE": "EPIC TOUCH DOWN",
         "gender": "Hombre",
@@ -4577,7 +4844,7 @@ export const perfumes = [
     {
         "id": 306,
         "brand": "CAROLINA HERRERA",
-        "name": "ESC. INSP. EN CH AFRICA MEN ",
+        "name": "ESC. INSP. EN CH AFRICA",
         "category": "Diseñador",
         "NUEVO NOMBRE": "AFRIKANO",
         "gender": "Hombre",
@@ -4592,7 +4859,7 @@ export const perfumes = [
     {
         "id": 307,
         "brand": "CAROLINA HERRERA",
-        "name": "ESC. INSP. EN CH BAD BOY MEN ",
+        "name": "ESC. INSP. EN CH BAD BOY",
         "category": "Diseñador",
         "NUEVO NOMBRE": "BOLD FLASH ",
         "gender": "Hombre",
@@ -4622,7 +4889,7 @@ export const perfumes = [
     {
         "id": 309,
         "brand": "CAROLINA HERRERA",
-        "name": "ESC. INSP. EN CH BEASTS MEN ",
+        "name": "ESC. INSP. EN CH BEASTS",
         "category": "Diseñador",
         "NUEVO NOMBRE": "SAVAGE MEMORIES",
         "gender": "Hombre",
@@ -4667,7 +4934,7 @@ export const perfumes = [
     {
         "id": 312,
         "brand": "CAROLINA HERRERA",
-        "name": "ESC. INSP. EN CH CENTRAL PARK MEN ",
+        "name": "ESC. INSP. EN CH CENTRAL PARK",
         "category": "Diseñador",
         "NUEVO NOMBRE": "MAN PARK",
         "gender": "Hombre",
@@ -4682,7 +4949,7 @@ export const perfumes = [
     {
         "id": 313,
         "brand": "CAROLINA HERRERA",
-        "name": "ESC. INSP. EN CH MEN ",
+        "name": "ESC. INSP. EN CH",
         "category": "Diseñador",
         "NUEVO NOMBRE": "CARLOMAN ",
         "gender": "Hombre",
@@ -4697,7 +4964,7 @@ export const perfumes = [
     {
         "id": 314,
         "brand": "CAROLINA HERRERA",
-        "name": "ESC. INSP. EN CH PRIVE MEN ",
+        "name": "ESC. INSP. EN CH PRIVE",
         "category": "Diseñador",
         "NUEVO NOMBRE": "PRIMEN",
         "gender": "Hombre",
@@ -4742,7 +5009,7 @@ export const perfumes = [
     {
         "id": 317,
         "brand": "CARTIER",
-        "name": "ESC. INSP. EN CARTIER EAU DE CARTIER MEN ",
+        "name": "ESC. INSP. EN CARTIER EAU DE CARTIER",
         "category": "Diseñador",
         "NUEVO NOMBRE": "EAU EPICE ART",
         "gender": "Hombre",
@@ -4757,7 +5024,7 @@ export const perfumes = [
     {
         "id": 318,
         "brand": "CARTIER",
-        "name": "ESC. INSP. EN CARTIER SANTOS MEN ",
+        "name": "ESC. INSP. EN CARTIER SANTOS",
         "category": "Diseñador",
         "NUEVO NOMBRE": "SANTOS ",
         "gender": "Hombre",
@@ -4772,7 +5039,7 @@ export const perfumes = [
     {
         "id": 319,
         "brand": "CHANNEL",
-        "name": "ESC. INSP. EN CHANNEL ALLURE MEN ",
+        "name": "ESC. INSP. EN CHANNEL ALLURE",
         "category": "Diseñador",
         "NUEVO NOMBRE": "ALLEGRO",
         "gender": "Hombre",
@@ -4787,7 +5054,7 @@ export const perfumes = [
     {
         "id": 320,
         "brand": "CHANNEL",
-        "name": "ESC. INSP. EN CHANNEL ALLURE SPORT MEN ",
+        "name": "ESC. INSP. EN CHANNEL ALLURE SPORT",
         "category": "Diseñador",
         "NUEVO NOMBRE": "ALONSO ",
         "gender": "Hombre",
@@ -4802,7 +5069,7 @@ export const perfumes = [
     {
         "id": 321,
         "brand": "CHANNEL",
-        "name": "ESC. INSP. EN CHANNEL BLEU DE CHANEL MEN ",
+        "name": "ESC. INSP. EN CHANNEL BLEU DE CHANEL",
         "category": "Diseñador",
         "NUEVO NOMBRE": "BLUNEL ",
         "gender": "Hombre",
@@ -4832,7 +5099,7 @@ export const perfumes = [
     {
         "id": 323,
         "brand": "CHRISTIAN DIOR",
-        "name": "ESC. INSP. EN CRISTIAN DIOR FAHRENHEIT MEN ",
+        "name": "ESC. INSP. EN CRISTIAN DIOR FAHRENHEIT",
         "category": "Diseñador",
         "NUEVO NOMBRE": "KELVIN ",
         "gender": "Hombre",
@@ -4847,7 +5114,7 @@ export const perfumes = [
     {
         "id": 324,
         "brand": "CHRISTIAN DIOR",
-        "name": "ESC. INSP. EN CRISTIAN DIOR SAUVAGE ELIXIR MEN ",
+        "name": "ESC. INSP. EN CRISTIAN DIOR SAUVAGE ELIXIR",
         "category": "Diseñador",
         "NUEVO NOMBRE": "WILD INFUSION",
         "gender": "Hombre",
@@ -4862,7 +5129,7 @@ export const perfumes = [
     {
         "id": 325,
         "brand": "CHRISTIAN DIOR",
-        "name": "ESC. INSP. EN CRISTIAN DIOR SAUVAGE MEN ",
+        "name": "ESC. INSP. EN CRISTIAN DIOR SAUVAGE",
         "category": "Diseñador",
         "NUEVO NOMBRE": "WILD DEEP ",
         "gender": "Hombre",
@@ -4877,7 +5144,7 @@ export const perfumes = [
     {
         "id": 326,
         "brand": "CLINIQUE",
-        "name": "ESC. INSP. EN CLINIQUE HAPPY MEN ",
+        "name": "ESC. INSP. EN CLINIQUE HAPPY",
         "category": "Diseñador",
         "NUEVO NOMBRE": "FELICE",
         "gender": "Hombre",
@@ -4892,7 +5159,7 @@ export const perfumes = [
     {
         "id": 327,
         "brand": "CRISTIANO",
-        "name": "ESC. INSP. EN CRISTIANO MEN ",
+        "name": "ESC. INSP. EN CRISTIANO",
         "category": "Diseñador",
         "NUEVO NOMBRE": "LEGOMAN ",
         "gender": "Hombre",
@@ -4907,7 +5174,7 @@ export const perfumes = [
     {
         "id": 328,
         "brand": "DAVID BECKHAM",
-        "name": "ESC. INSP. EN URBAN HOMME DAVID BECKHAM MEN ",
+        "name": "ESC. INSP. EN URBAN HOMME DAVID BECKHAM",
         "category": "Diseñador",
         "NUEVO NOMBRE": "URBANO",
         "gender": "Hombre",
@@ -4922,7 +5189,7 @@ export const perfumes = [
     {
         "id": 329,
         "brand": "DIESEL",
-        "name": "ESC. INSP. EN DIESEL BAD MEN ",
+        "name": "ESC. INSP. EN DIESEL BAD",
         "category": "Diseñador",
         "NUEVO NOMBRE": "BAMujerAN ",
         "gender": "Hombre",
@@ -4937,7 +5204,7 @@ export const perfumes = [
     {
         "id": 330,
         "brand": "DIESEL",
-        "name": "ESC. INSP. EN DIESEL FUEL FOR LIFE MEN ",
+        "name": "ESC. INSP. EN DIESEL FUEL FOR LIFE",
         "category": "Diseñador",
         "NUEVO NOMBRE": "GASOL",
         "gender": "Hombre",
@@ -4952,7 +5219,7 @@ export const perfumes = [
     {
         "id": 331,
         "brand": "DIESEL",
-        "name": "ESC. INSP. EN DIESEL ONLY THE BRAVE MEN ",
+        "name": "ESC. INSP. EN DIESEL ONLY THE BRAVE",
         "category": "Diseñador",
         "NUEVO NOMBRE": "BRAVO ",
         "gender": "Hombre",
@@ -4982,7 +5249,7 @@ export const perfumes = [
     {
         "id": 333,
         "brand": "DIESEL",
-        "name": "ESC. INSP. EN DIESEL SPIRIT THE BRAVE MEN ",
+        "name": "ESC. INSP. EN DIESEL SPIRIT THE BRAVE",
         "category": "Diseñador",
         "NUEVO NOMBRE": "GOLDEN BRAVO",
         "gender": "Hombre",
@@ -4997,7 +5264,7 @@ export const perfumes = [
     {
         "id": 334,
         "brand": "DOLCE GABBANA",
-        "name": "ESC. INSP. EN DOLCE GABBANA INTENSO MEN ",
+        "name": "ESC. INSP. EN DOLCE GABBANA INTENSO",
         "category": "Diseñador",
         "NUEVO NOMBRE": "DOGE INTENSO",
         "gender": "Hombre",
@@ -5012,7 +5279,7 @@ export const perfumes = [
     {
         "id": 335,
         "brand": "DOLCE GABBANA",
-        "name": "ESC. INSP. EN DOLCE GABBANA K BY DYG MEN ",
+        "name": "ESC. INSP. EN DOLCE GABBANA K BY DYG",
         "category": "Diseñador",
         "NUEVO NOMBRE": "EFFORTLESS CHARM",
         "gender": "Hombre",
@@ -5027,7 +5294,7 @@ export const perfumes = [
     {
         "id": 336,
         "brand": "DOLCE GABBANA",
-        "name": "ESC. INSP. EN DOLCE GABBANA LIGHT BLUE MEN ",
+        "name": "ESC. INSP. EN DOLCE GABBANA LIGHT BLUE",
         "category": "Diseñador",
         "NUEVO NOMBRE": "BLUEMAN",
         "gender": "Hombre",
@@ -5057,7 +5324,7 @@ export const perfumes = [
     {
         "id": 338,
         "brand": "DOLCE GABBANA",
-        "name": "ESC. INSP. EN DOLCE GABBANA POUR HOMME MEN ",
+        "name": "ESC. INSP. EN DOLCE GABBANA POUR HOMME",
         "category": "Diseñador",
         "NUEVO NOMBRE": "DOGE ",
         "gender": "Hombre",
@@ -5072,7 +5339,7 @@ export const perfumes = [
     {
         "id": 339,
         "brand": "DOLCE GABBANA",
-        "name": "ESC. INSP. EN DOLCE GABBANA THE ONE  MEN ",
+        "name": "ESC. INSP. EN DOLCE GABBANA THE ONE ",
         "category": "Diseñador",
         "NUEVO NOMBRE": "MATTHEW ",
         "gender": "Hombre",
@@ -5087,7 +5354,7 @@ export const perfumes = [
     {
         "id": 340,
         "brand": "DOLCE GABBANA",
-        "name": "ESC. INSP. EN DOLCE GABBANA THE ONE SPORT MEN ",
+        "name": "ESC. INSP. EN DOLCE GABBANA THE ONE SPORT",
         "category": "Diseñador",
         "NUEVO NOMBRE": "SPORT ONE",
         "gender": "Hombre",
@@ -5102,7 +5369,7 @@ export const perfumes = [
     {
         "id": 341,
         "brand": "DOLCE GABBANA",
-        "name": "ESC. INSP. EN DOLCE GABBANA THE ONE LUMINOUS NIGHT MEN ",
+        "name": "ESC. INSP. EN DOLCE GABBANA THE ONE LUMINOUS NIGHT",
         "category": "Diseñador",
         "NUEVO NOMBRE": "SOUL CONTRAST",
         "gender": "Hombre",
@@ -5117,7 +5384,7 @@ export const perfumes = [
     {
         "id": 342,
         "brand": "ENRIQUE IGLESIAS",
-        "name": "ESC. INSP. EN ENRIQUE IGLESIAS ADRENALINA MEN .",
+        "name": "ESC. INSP. EN ENRIQUE IGLESIAS ADRENALINA.",
         "category": "Diseñador",
         "NUEVO NOMBRE": "ADREA",
         "gender": "Hombre",
@@ -5162,7 +5429,7 @@ export const perfumes = [
     {
         "id": 345,
         "brand": "FERRARI",
-        "name": "ESC. INSP. EN ESCUDERIA FERRARI MEN ",
+        "name": "ESC. INSP. EN ESCUDERIA FERRARI",
         "category": "Diseñador",
         "NUEVO NOMBRE": "ENZO",
         "gender": "Hombre",
@@ -5177,7 +5444,7 @@ export const perfumes = [
     {
         "id": 346,
         "brand": "FACONABLE",
-        "name": "ESC. INSP. EN FACONABLE  MEN ",
+        "name": "ESC. INSP. EN FACONABLE ",
         "category": "Diseñador",
         "NUEVO NOMBRE": "FACONABLE",
         "gender": "Hombre",
@@ -5192,7 +5459,7 @@ export const perfumes = [
     {
         "id": 347,
         "brand": "GILLES CANTUEL",
-        "name": "ESC. INSP. EN ARSENAL MEN .",
+        "name": "ESC. INSP. EN ARSENAL.",
         "category": "Diseñador",
         "NUEVO NOMBRE": "BLUE GRENADE ",
         "gender": "Hombre",
@@ -5207,7 +5474,7 @@ export const perfumes = [
     {
         "id": 348,
         "brand": "GIVENCHY",
-        "name": "ESC. INSP. EN GIVENCHY BLUE MEN ",
+        "name": "ESC. INSP. EN GIVENCHY BLUE",
         "category": "Diseñador",
         "NUEVO NOMBRE": "BLUEBEL",
         "gender": "Hombre",
@@ -5222,7 +5489,7 @@ export const perfumes = [
     {
         "id": 349,
         "brand": "GIVENCHY",
-        "name": "ESC. INSP. EN GIVENCHY PI  MEN ",
+        "name": "ESC. INSP. EN GIVENCHY PI ",
         "category": "Diseñador",
         "NUEVO NOMBRE": "EPSILON",
         "gender": "Hombre",
@@ -5237,7 +5504,7 @@ export const perfumes = [
     {
         "id": 350,
         "brand": "GIVENCHY",
-        "name": "ESC. INSP. EN GIVENCHY PLAY INTENSE MEN ",
+        "name": "ESC. INSP. EN GIVENCHY PLAY INTENSE",
         "category": "Diseñador",
         "NUEVO NOMBRE": "JUSTIN INTENSO ",
         "gender": "Hombre",
@@ -5252,7 +5519,7 @@ export const perfumes = [
     {
         "id": 351,
         "brand": "GIVENCHY",
-        "name": "ESC. INSP. EN GIVENCHY PLAY MEN ",
+        "name": "ESC. INSP. EN GIVENCHY PLAY",
         "category": "Diseñador",
         "NUEVO NOMBRE": "JUSTIN",
         "gender": "Hombre",
@@ -5267,7 +5534,7 @@ export const perfumes = [
     {
         "id": 352,
         "brand": "GIVENCHY",
-        "name": "ESC. INSP. EN GIVENCHY GENTLEMAN RESERVE PRIVEE MEN ",
+        "name": "ESC. INSP. EN GIVENCHY GENTLEMAN RESERVE PRIVEE",
         "category": "Diseñador",
         "NUEVO NOMBRE": "INTOXICATING DUALITY",
         "gender": "Hombre",
@@ -5282,7 +5549,7 @@ export const perfumes = [
     {
         "id": 353,
         "brand": "GUCCI",
-        "name": "ESC. INSP. EN GUCCI POUR HOMME MEN ",
+        "name": "ESC. INSP. EN GUCCI POUR HOMME",
         "category": "Diseñador",
         "NUEVO NOMBRE": "VASCO",
         "gender": "Hombre",
@@ -5297,7 +5564,7 @@ export const perfumes = [
     {
         "id": 354,
         "brand": "GUCCI",
-        "name": "ESC. INSP. EN GUCCI POUR HOMME II MEN ",
+        "name": "ESC. INSP. EN GUCCI POUR HOMME II",
         "category": "Diseñador",
         "NUEVO NOMBRE": "GUCCIO BLUE",
         "gender": "Hombre",
@@ -5342,7 +5609,7 @@ export const perfumes = [
     {
         "id": 357,
         "brand": "HUGO BOSS",
-        "name": "ESC. INSP. EN HUGO BOSS BOTTLE NIGTH MEN ",
+        "name": "ESC. INSP. EN HUGO BOSS BOTTLE NIGTH",
         "category": "Diseñador",
         "NUEVO NOMBRE": "BOSAZUL ",
         "gender": "Hombre",
@@ -5357,7 +5624,7 @@ export const perfumes = [
     {
         "id": 358,
         "brand": "HUGO BOSS",
-        "name": "ESC. INSP. EN HUGO BOSS BOTTLE PARFUM MEN ",
+        "name": "ESC. INSP. EN HUGO BOSS BOTTLE PARFUM",
         "category": "Diseñador",
         "NUEVO NOMBRE": "POWERFUL BOSE ",
         "gender": "Hombre",
@@ -5372,7 +5639,7 @@ export const perfumes = [
     {
         "id": 359,
         "brand": "HUGO BOSS",
-        "name": "ESC. INSP. EN HUGO BOSS BOTTLE UNITED MEN ",
+        "name": "ESC. INSP. EN HUGO BOSS BOTTLE UNITED",
         "category": "Diseñador",
         "NUEVO NOMBRE": "URBAN VIBES ",
         "gender": "Hombre",
@@ -5402,7 +5669,7 @@ export const perfumes = [
     {
         "id": 361,
         "brand": "HUGO BOSS",
-        "name": "ESC. INSP. EN HUGO BOSS DARK BLUE MEN ",
+        "name": "ESC. INSP. EN HUGO BOSS DARK BLUE",
         "category": "Diseñador",
         "NUEVO NOMBRE": "DARKUS ",
         "gender": "Hombre",
@@ -5417,7 +5684,7 @@ export const perfumes = [
     {
         "id": 362,
         "brand": "HUGO BOSS",
-        "name": "ESC. INSP. EN HUGO BOSS ELEMENT MEN ",
+        "name": "ESC. INSP. EN HUGO BOSS ELEMENT",
         "category": "Diseñador",
         "NUEVO NOMBRE": "ELEMENTAL",
         "gender": "Hombre",
@@ -5432,7 +5699,7 @@ export const perfumes = [
     {
         "id": 363,
         "brand": "HUGO BOSS",
-        "name": "ESC. INSP. EN HUGO BOSS ENERGISE MEN ",
+        "name": "ESC. INSP. EN HUGO BOSS ENERGISE",
         "category": "Diseñador",
         "NUEVO NOMBRE": "ENERGICO ",
         "gender": "Hombre",
@@ -5447,7 +5714,7 @@ export const perfumes = [
     {
         "id": 364,
         "brand": "HUGO BOSS",
-        "name": "ESC. INSP. EN HUGO BOSS GRIS MEN ",
+        "name": "ESC. INSP. EN HUGO BOSS GRIS",
         "category": "Diseñador",
         "NUEVO NOMBRE": "BOSÉ ",
         "gender": "Hombre",
@@ -5457,12 +5724,12 @@ export const perfumes = [
         "DE 500 A 999 GRS": 226.5284,
         "DE 250 A 499 GRS": 242.709,
         "DE 120 A 249 GRS": 242.709,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/c4nQ6Kpr/HUGO-BOSS-GRIS.png"
     },
     {
         "id": 365,
         "brand": "HUGO BOSS",
-        "name": "ESC. INSP. EN HUGO BOSS ICED MEN ",
+        "name": "ESC. INSP. EN HUGO BOSS ICED",
         "category": "Diseñador",
         "NUEVO NOMBRE": "BOSMAN ICED",
         "gender": "Hombre",
@@ -5477,7 +5744,7 @@ export const perfumes = [
     {
         "id": 366,
         "brand": "HUGO BOSS",
-        "name": "ESC. INSP. EN HUGO BOSS IN MOTION MEN ",
+        "name": "ESC. INSP. EN HUGO BOSS IN MOTION",
         "category": "Diseñador",
         "NUEVO NOMBRE": "BOSIS",
         "gender": "Hombre",
@@ -5492,7 +5759,7 @@ export const perfumes = [
     {
         "id": 367,
         "brand": "HUGO BOSS",
-        "name": "ESC. INSP. EN HUGO BOSS JUST DIFERENT MEN ",
+        "name": "ESC. INSP. EN HUGO BOSS JUST DIFERENT",
         "category": "Diseñador",
         "NUEVO NOMBRE": "HUGHES ",
         "gender": "Hombre",
@@ -5522,7 +5789,7 @@ export const perfumes = [
     {
         "id": 369,
         "brand": "HUGO BOSS",
-        "name": "ESC. INSP. EN HUGO BOSS ORANGE MEN ",
+        "name": "ESC. INSP. EN HUGO BOSS ORANGE",
         "category": "Diseñador",
         "NUEVO NOMBRE": "BORAMA ",
         "gender": "Hombre",
@@ -5537,7 +5804,7 @@ export const perfumes = [
     {
         "id": 370,
         "brand": "HUGO BOSS",
-        "name": "ESC. INSP. EN HUGO BOSS RED MEN ",
+        "name": "ESC. INSP. EN HUGO BOSS RED",
         "category": "Diseñador",
         "NUEVO NOMBRE": "BOSMAN RED ",
         "gender": "Hombre",
@@ -5552,7 +5819,7 @@ export const perfumes = [
     {
         "id": 371,
         "brand": "HUGO BOSS",
-        "name": "ESC. INSP. EN HUGO BOSS REVERSE MEN ",
+        "name": "ESC. INSP. EN HUGO BOSS REVERSE",
         "category": "Diseñador",
         "NUEVO NOMBRE": "UNEXPECTED DIRECTION",
         "gender": "Hombre",
@@ -5567,7 +5834,7 @@ export const perfumes = [
     {
         "id": 372,
         "brand": "HUGO BOSS",
-        "name": "ESC. INSP. EN HUGO BOSS THE SCENT MEN ",
+        "name": "ESC. INSP. EN HUGO BOSS THE SCENT",
         "category": "Diseñador",
         "NUEVO NOMBRE": "SMELL",
         "gender": "Hombre",
@@ -5582,7 +5849,7 @@ export const perfumes = [
     {
         "id": 373,
         "brand": "HUGO BOSS",
-        "name": "ESC. INSP. EN HUGO BOSS TONIC MEN ",
+        "name": "ESC. INSP. EN HUGO BOSS TONIC",
         "category": "Diseñador",
         "NUEVO NOMBRE": "BOSE TONIC",
         "gender": "Hombre",
@@ -5597,7 +5864,7 @@ export const perfumes = [
     {
         "id": 374,
         "brand": "HUGO BOSS",
-        "name": "ESC. INSP. EN HUGO BOSS UNLIMITED MEN ",
+        "name": "ESC. INSP. EN HUGO BOSS UNLIMITED",
         "category": "Diseñador",
         "NUEVO NOMBRE": "BOSE WHITE",
         "gender": "Hombre",
@@ -5612,7 +5879,7 @@ export const perfumes = [
     {
         "id": 375,
         "brand": "HUGO BOSS",
-        "name": "ESC. INSP. EN HUGO BOSS VERDE MEN ",
+        "name": "ESC. INSP. EN HUGO BOSS VERDE",
         "category": "Diseñador",
         "NUEVO NOMBRE": "BOSMAN",
         "gender": "Hombre",
@@ -5627,7 +5894,7 @@ export const perfumes = [
     {
         "id": 376,
         "brand": "IBRAHIMOVIC",
-        "name": "ESC. INSP. EN ZLATAN MEN ",
+        "name": "ESC. INSP. EN ZLATAN",
         "category": "Diseñador",
         "NUEVO NOMBRE": "EBRAHIM",
         "gender": "Hombre",
@@ -5642,7 +5909,7 @@ export const perfumes = [
     {
         "id": 377,
         "brand": "ISSEY MIYAKE",
-        "name": "ESC. INSP. EN ISSEYMIYAKE LEAUDISSEYPOURHOMME MEN ",
+        "name": "ESC. INSP. EN ISSEY MIYAKE LEAU D ISSEY POURHOMME",
         "category": "Diseñador",
         "NUEVO NOMBRE": "BOISEY ",
         "gender": "Hombre",
@@ -5657,7 +5924,7 @@ export const perfumes = [
     {
         "id": 378,
         "brand": "ISSEY MIYAKE",
-        "name": "ESC. INSP. EN ISSEY MIYAKE MEN ",
+        "name": "ESC. INSP. EN ISSEY MIYAKE",
         "category": "Diseñador",
         "NUEVO NOMBRE": "SAPPORO",
         "gender": "Hombre",
@@ -5672,7 +5939,7 @@ export const perfumes = [
     {
         "id": 379,
         "brand": "ISSEY MIYAKE",
-        "name": "ESC. INSP. EN ISSEY MIYAKE NUIT MEN ",
+        "name": "ESC. INSP. EN ISSEY MIYAKE NUIT",
         "category": "Diseñador",
         "NUEVO NOMBRE": "NUISEY",
         "gender": "Hombre",
@@ -5687,7 +5954,7 @@ export const perfumes = [
     {
         "id": 380,
         "brand": "JEAN PASCAL",
-        "name": "ESC. INSP. EN JEAN PASCAL MEN .",
+        "name": "ESC. INSP. EN JEAN PASCAL.",
         "category": "Diseñador",
         "NUEVO NOMBRE": "PASCAL",
         "gender": "Hombre",
@@ -5702,7 +5969,7 @@ export const perfumes = [
     {
         "id": 381,
         "brand": "JEAN PAUL GAULTIER",
-        "name": "ESC. INSP. EN JEAN PAUL GAUTIER  MEN ",
+        "name": "ESC. INSP. EN JEAN PAUL GAUTIER",
         "category": "Diseñador",
         "NUEVO NOMBRE": "BELMONDO",
         "gender": "Hombre",
@@ -5732,7 +5999,7 @@ export const perfumes = [
     {
         "id": 383,
         "brand": "JEAN PAUL GAULTIER",
-        "name": "ESC. INSP. EN JEAN PAUL LE MALE LE PARFUM Hombre",
+        "name": "ESC. INSP. EN JEAN PAUL LE MALE LE PARFUM",
         "category": "Diseñador",
         "NUEVO NOMBRE": "STYLISH TRAIL",
         "gender": "Hombre",
@@ -5742,7 +6009,7 @@ export const perfumes = [
         "DE 500 A 999 GRS": 208.4562666667,
         "DE 250 A 499 GRS": 223.346,
         "DE 120 A 249 GRS": 223.346,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/0QjSvrG5/LE-MALE-LE-PARFUM.png"
     },
     {
         "id": 384,
@@ -5762,7 +6029,7 @@ export const perfumes = [
     {
         "id": 385,
         "brand": "JEAN PAUL GAULTIER",
-        "name": "ESC. INSP. EN JEAN PAUL ULTRA MALE MEN ",
+        "name": "ESC. INSP. EN JEAN PAUL ULTRA MALE",
         "category": "Diseñador",
         "NUEVO NOMBRE": "ULTRAMAN",
         "gender": "Hombre",
@@ -5777,7 +6044,7 @@ export const perfumes = [
     {
         "id": 386,
         "brand": "JEAN PAUL GAULTIER",
-        "name": "ESC. INSP. EN JEAN PAUL GAULTIER LE BEAU Hombre",
+        "name": "ESC. INSP. EN JEAN PAUL GAULTIER LE BEAU",
         "category": "Diseñador",
         "NUEVO NOMBRE": "TEMPTING DAPPER",
         "gender": "Hombre",
@@ -5787,7 +6054,7 @@ export const perfumes = [
         "DE 500 A 999 GRS": 219.8009333333,
         "DE 250 A 499 GRS": 235.501,
         "DE 120 A 249 GRS": 235.501,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/MTLQpxt7/LE-BEAU-LE-PARFUM.png"
     },
     {
         "id": 387,
@@ -5822,7 +6089,7 @@ export const perfumes = [
     {
         "id": 389,
         "brand": "JOOP",
-        "name": "ESC. INSP. EN JOOP HOMME MEN ",
+        "name": "ESC. INSP. EN JOOP HOMME",
         "category": "Diseñador",
         "NUEVO NOMBRE": "YUMEN",
         "gender": "Hombre",
@@ -5867,7 +6134,7 @@ export const perfumes = [
     {
         "id": 392,
         "brand": "LACOSTE",
-        "name": "ESC. INSP. EN LACOSTE ENERGISE MEN ",
+        "name": "ESC. INSP. EN LACOSTE ENERGISE",
         "category": "Diseñador",
         "NUEVO NOMBRE": "LENERGIE",
         "gender": "Hombre",
@@ -5882,7 +6149,7 @@ export const perfumes = [
     {
         "id": 393,
         "brand": "LACOSTE",
-        "name": "ESC. INSP. EN LACOSTE ESSENCIAL MEN ",
+        "name": "ESC. INSP. EN LACOSTE ESSENCIAL",
         "category": "Diseñador",
         "NUEVO NOMBRE": "COLATE ",
         "gender": "Hombre",
@@ -5897,7 +6164,7 @@ export const perfumes = [
     {
         "id": 394,
         "brand": "LACOSTE",
-        "name": "ESC. INSP. EN LACOSTE FREICHE MEN ",
+        "name": "ESC. INSP. EN LACOSTE FREICHE",
         "category": "Diseñador",
         "NUEVO NOMBRE": "GRASSY HARMONY",
         "gender": "Hombre",
@@ -5912,7 +6179,7 @@ export const perfumes = [
     {
         "id": 395,
         "brand": "LACOSTE",
-        "name": "ESC. INSP. EN LACOSTE L12 BLEU MEN ",
+        "name": "ESC. INSP. EN LACOSTE L12 BLEU",
         "category": "Diseñador",
         "NUEVO NOMBRE": "LEBLEU",
         "gender": "Hombre",
@@ -5927,7 +6194,7 @@ export const perfumes = [
     {
         "id": 396,
         "brand": "LACOSTE",
-        "name": "ESC. INSP. EN LACOSTE L12 JAUNE AMARILLA MEN ",
+        "name": "ESC. INSP. EN LACOSTE L12 JAUNE AMARILLA",
         "category": "Diseñador",
         "NUEVO NOMBRE": "YELLOW POWER",
         "gender": "Hombre",
@@ -5942,7 +6209,7 @@ export const perfumes = [
     {
         "id": 397,
         "brand": "LACOSTE",
-        "name": "ESC. INSP. EN LACOSTE L12 ROUGE MEN ",
+        "name": "ESC. INSP. EN LACOSTE L12 ROUGE",
         "category": "Diseñador",
         "NUEVO NOMBRE": "LEROUGE",
         "gender": "Hombre",
@@ -5957,7 +6224,7 @@ export const perfumes = [
     {
         "id": 398,
         "brand": "LACOSTE",
-        "name": "ESC. INSP. EN LACOSTE MAGNETIC MEN ",
+        "name": "ESC. INSP. EN LACOSTE MAGNETIC",
         "category": "Diseñador",
         "NUEVO NOMBRE": "MAGNETICO",
         "gender": "Hombre",
@@ -5972,7 +6239,7 @@ export const perfumes = [
     {
         "id": 399,
         "brand": "LACOSTE",
-        "name": "ESC. INSP. EN LACOSTE NOIR NEGRA MEN ",
+        "name": "ESC. INSP. EN LACOSTE NOIR NEGRA",
         "category": "Diseñador",
         "NUEVO NOMBRE": "LENOIR ",
         "gender": "Hombre",
@@ -5987,7 +6254,7 @@ export const perfumes = [
     {
         "id": 400,
         "brand": "LACOSTE",
-        "name": "ESC. INSP. EN LACOSTE RED MEN ",
+        "name": "ESC. INSP. EN LACOSTE RED",
         "category": "Diseñador",
         "NUEVO NOMBRE": "COSTELO",
         "gender": "Hombre",
@@ -6002,7 +6269,7 @@ export const perfumes = [
     {
         "id": 401,
         "brand": "LIZ CLAIBOME",
-        "name": "ESC. INSP. EN LIZ CLAIBOME CURVE MEN ",
+        "name": "ESC. INSP. EN LIZ CLAIBOME CURVE",
         "category": "Diseñador",
         "NUEVO NOMBRE": "ARCO",
         "gender": "Hombre",
@@ -6017,7 +6284,7 @@ export const perfumes = [
     {
         "id": 402,
         "brand": "LOEWE",
-        "name": "ESC. INSP. EN LOEWE 7 LOEWE MEN ",
+        "name": "ESC. INSP. EN LOEWE 7 LOEWE",
         "category": "Diseñador",
         "NUEVO NOMBRE": "SIETE",
         "gender": "Hombre",
@@ -6032,7 +6299,7 @@ export const perfumes = [
     {
         "id": 403,
         "brand": "LOEWE",
-        "name": "ESC. INSP. EN LOEWE SOLO LOEWE MEN ",
+        "name": "ESC. INSP. EN LOEWE SOLO LOEWE",
         "category": "Diseñador",
         "NUEVO NOMBRE": "SEUL ",
         "gender": "Hombre",
@@ -6047,7 +6314,7 @@ export const perfumes = [
     {
         "id": 404,
         "brand": "MALUMA",
-        "name": "ESC. INSP. EN MALUMA GARNET MEN ",
+        "name": "ESC. INSP. EN MALUMA GARNET",
         "category": "Diseñador",
         "NUEVO NOMBRE": "BOLD VIBRATION",
         "gender": "Hombre",
@@ -6057,12 +6324,12 @@ export const perfumes = [
         "DE 500 A 999 GRS": 172.9625333333,
         "DE 250 A 499 GRS": 185.317,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/W4jmB2ft/GARNET-MALUMA.png"
     },
     {
         "id": 405,
         "brand": "MALUMA",
-        "name": "ESC. INSP. EN MALUMA ONYX MEN ",
+        "name": "ESC. INSP. EN MALUMA ONYX",
         "category": "Diseñador",
         "NUEVO NOMBRE": "GLORIOUS WARMTH",
         "gender": "Hombre",
@@ -6072,12 +6339,12 @@ export const perfumes = [
         "DE 500 A 999 GRS": 179.2774666667,
         "DE 250 A 499 GRS": 192.083,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/6Q5c7WVg/ONIX-MALUMA.png"
     },
     {
         "id": 406,
         "brand": "MONT BLANC",
-        "name": "ESC. INSP. EN MONT BLANC EMBLEM MEN ",
+        "name": "ESC. INSP. EN MONT BLANC EMBLEM",
         "category": "Diseñador",
         "NUEVO NOMBRE": "EMBLE",
         "gender": "Hombre",
@@ -6092,7 +6359,7 @@ export const perfumes = [
     {
         "id": 407,
         "brand": "MONT BLANC",
-        "name": "ESC. INSP. EN MONT BLANC EXPLORER MEN ",
+        "name": "ESC. INSP. EN MONT BLANC EXPLORER",
         "category": "Diseñador",
         "NUEVO NOMBRE": "IRRESISTIBLE CALL",
         "gender": "Hombre",
@@ -6107,7 +6374,7 @@ export const perfumes = [
     {
         "id": 408,
         "brand": "MONT BLANC",
-        "name": "ESC. INSP. EN MONT BLANC EXPLORER PLATINUM MEN ",
+        "name": "ESC. INSP. EN MONT BLANC EXPLORER PLATINUM",
         "category": "Diseñador",
         "NUEVO NOMBRE": "MOUNTAIN CALL",
         "gender": "Hombre",
@@ -6122,7 +6389,7 @@ export const perfumes = [
     {
         "id": 409,
         "brand": "MONT BLANC",
-        "name": "ESC. INSP. EN MONT BLANC LEGEND MEN ",
+        "name": "ESC. INSP. EN MONT BLANC LEGEND",
         "category": "Diseñador",
         "NUEVO NOMBRE": "LEGADO ",
         "gender": "Hombre",
@@ -6137,7 +6404,7 @@ export const perfumes = [
     {
         "id": 410,
         "brand": "MONT BLANC",
-        "name": "ESC. INSP. EN MONT BLANC LEGEND SPIRIT MEN ",
+        "name": "ESC. INSP. EN MONT BLANC LEGEND SPIRIT",
         "category": "Diseñador",
         "NUEVO NOMBRE": "SPIRITO",
         "gender": "Hombre",
@@ -6152,7 +6419,7 @@ export const perfumes = [
     {
         "id": 411,
         "brand": "MONT BLANC",
-        "name": "ESC. INSP. EN MONT BLANC STARWALKER MEN ",
+        "name": "ESC. INSP. EN MONT BLANC STARWALKER",
         "category": "Diseñador",
         "NUEVO NOMBRE": "SKY WALKER",
         "gender": "Hombre",
@@ -6167,7 +6434,7 @@ export const perfumes = [
     {
         "id": 412,
         "brand": "MONT BLANC",
-        "name": "ESC. INSP. EN MONT BLANC LEGEND NIGHT MEN ",
+        "name": "ESC. INSP. EN MONT BLANC LEGEND NIGHT",
         "category": "Diseñador",
         "NUEVO NOMBRE": "ETERNAL MEMORIES",
         "gender": "Hombre",
@@ -6182,7 +6449,7 @@ export const perfumes = [
     {
         "id": 413,
         "brand": "MOSCHINO",
-        "name": "ESC. INSP. EN MOSCHINO TOY BOY MEN ",
+        "name": "ESC. INSP. EN MOSCHINO TOY BOY",
         "category": "Diseñador",
         "NUEVO NOMBRE": "IRONIC GAME",
         "gender": "Hombre",
@@ -6207,12 +6474,12 @@ export const perfumes = [
         "DE 500 A 999 GRS": 206.2032,
         "DE 250 A 499 GRS": 220.932,
         "DE 120 A 249 GRS": 220.932,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/vm3nC5VS/KAIAK-MEN.png"
     },
     {
         "id": 415,
         "brand": "NAUTICA",
-        "name": "ESC. INSP. EN NAUTICA VOYAGE MEN ",
+        "name": "ESC. INSP. EN NAUTICA VOYAGE",
         "category": "Diseñador",
         "NUEVO NOMBRE": "NAUTILUS ",
         "gender": "Hombre",
@@ -6227,7 +6494,7 @@ export const perfumes = [
     {
         "id": 416,
         "brand": "NAUTICA",
-        "name": "ESC. INSP. EN NAUTICA BLUE SAIL MEN ",
+        "name": "ESC. INSP. EN NAUTICA BLUE SAIL",
         "category": "Diseñador",
         "NUEVO NOMBRE": "ADVENTUROUS SKIPPER",
         "gender": "Hombre",
@@ -6287,7 +6554,7 @@ export const perfumes = [
     {
         "id": 420,
         "brand": "PACO RABANNE",
-        "name": "ESC. INSP. EN PACO RABANNE BLACK XS LEXCES MEN ",
+        "name": "ESC. INSP. EN PACO RABANNE BLACK XS LEXCES",
         "category": "Diseñador",
         "NUEVO NOMBRE": "BLAXMEN ",
         "gender": "Hombre",
@@ -6317,7 +6584,7 @@ export const perfumes = [
     {
         "id": 422,
         "brand": "PACO RABANNE",
-        "name": "ESC. INSP. EN PACO RABANNE BLACK XS PURE MEN ",
+        "name": "ESC. INSP. EN PACO RABANNE BLACK XS PURE",
         "category": "Diseñador",
         "NUEVO NOMBRE": "DESIRE MAGNET",
         "gender": "Hombre",
@@ -6332,7 +6599,7 @@ export const perfumes = [
     {
         "id": 423,
         "brand": "PACO RABANNE",
-        "name": "ESC. INSP. EN PACO RABANNE BLACK XS TRADICI MEN ",
+        "name": "ESC. INSP. EN PACO RABANNE BLACK XS TRADICI",
         "category": "Diseñador",
         "NUEVO NOMBRE": "ALL BLACK",
         "gender": "Hombre",
@@ -6347,7 +6614,7 @@ export const perfumes = [
     {
         "id": 424,
         "brand": "PACO RABANNE",
-        "name": "ESC. INSP. EN PACO RABANNE INVICTUS AQUA  MEN ",
+        "name": "ESC. INSP. EN PACO RABANNE INVICTUS AQUA ",
         "category": "Diseñador",
         "NUEVO NOMBRE": "AQUATICUS",
         "gender": "Hombre",
@@ -6362,7 +6629,7 @@ export const perfumes = [
     {
         "id": 425,
         "brand": "PACO RABANNE",
-        "name": "ESC. INSP. EN PACO RABANNE INVICTUS INTENSE MEN ",
+        "name": "ESC. INSP. EN PACO RABANNE INVICTUS INTENSE",
         "category": "Diseñador",
         "NUEVO NOMBRE": "INVICTO INTENSO ",
         "gender": "Hombre",
@@ -6377,7 +6644,7 @@ export const perfumes = [
     {
         "id": 426,
         "brand": "PACO RABANNE",
-        "name": "ESC. INSP. EN PACO RABANNE INVICTUS LEGEND MEN ",
+        "name": "ESC. INSP. EN PACO RABANNE INVICTUS LEGEND",
         "category": "Diseñador",
         "NUEVO NOMBRE": "INVICTO MYTH",
         "gender": "Hombre",
@@ -6392,7 +6659,7 @@ export const perfumes = [
     {
         "id": 427,
         "brand": "PACO RABANNE",
-        "name": "ESC. INSP. EN PACO RABANNE INVICTUS MEN ",
+        "name": "ESC. INSP. EN PACO RABANNE INVICTUS",
         "category": "Diseñador",
         "NUEVO NOMBRE": "INVICTO II ",
         "gender": "Hombre",
@@ -6407,7 +6674,7 @@ export const perfumes = [
     {
         "id": 428,
         "brand": "PACO RABANNE",
-        "name": "ESC. INSP. EN PACO RABANNE INVICTUS ONIX MEN ",
+        "name": "ESC. INSP. EN PACO RABANNE INVICTUS ONIX",
         "category": "Diseñador",
         "NUEVO NOMBRE": "INVICTO GEMSTONE",
         "gender": "Hombre",
@@ -6422,7 +6689,7 @@ export const perfumes = [
     {
         "id": 429,
         "brand": "PACO RABANNE",
-        "name": "ESC. INSP. EN PACO RABANNE INVICTUS VICTORY MEN .",
+        "name": "ESC. INSP. EN PACO RABANNE INVICTUS VICTORY.",
         "category": "Diseñador",
         "NUEVO NOMBRE": "INVICTO TRIUMPH",
         "gender": "Hombre",
@@ -6462,7 +6729,7 @@ export const perfumes = [
         "DE 500 A 999 GRS": 242.2522666667,
         "DE 250 A 499 GRS": 259.556,
         "DE 120 A 249 GRS": 259.556,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/tgXPrBYx/INVICTUS-PARFUM-1.png"
     },
     {
         "id": 432,
@@ -6477,7 +6744,7 @@ export const perfumes = [
         "DE 500 A 999 GRS": 199.5392,
         "DE 250 A 499 GRS": 213.792,
         "DE 120 A 249 GRS": 213.792,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/T3vnbdxQ/INVICTUS-PLATINIUM-1.png"
     },
     {
         "id": 433,
@@ -6507,12 +6774,12 @@ export const perfumes = [
         "DE 500 A 999 GRS": 161.6813333333,
         "DE 250 A 499 GRS": 173.23,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/Jz8PLcs1/ONE-MILLION.png"
     },
     {
         "id": 435,
         "brand": "PACO RABANNE",
-        "name": "ESC. INSP. EN PACO RABANNE ONE MILLION ELIXIR MEN ",
+        "name": "ESC. INSP. EN PACO RABANNE ONE MILLION ELIXIR",
         "category": "Diseñador",
         "NUEVO NOMBRE": "SUPREME  MILXMIL",
         "gender": "Hombre",
@@ -6527,7 +6794,7 @@ export const perfumes = [
     {
         "id": 436,
         "brand": "PACO RABANNE",
-        "name": "ESC. INSP. EN PACO RABANNE ONE MILLION LUCKY MEN ",
+        "name": "ESC. INSP. EN PACO RABANNE ONE MILLION LUCKY",
         "category": "Diseñador",
         "NUEVO NOMBRE": "ADDICTIVE VIBE ",
         "gender": "Hombre",
@@ -6542,7 +6809,7 @@ export const perfumes = [
     {
         "id": 437,
         "brand": "PACO RABANNE",
-        "name": "ESC. INSP. EN PACO RABANNE ONE MILLION PRIVE MEN ",
+        "name": "ESC. INSP. EN PACO RABANNE ONE MILLION PRIVE",
         "category": "Diseñador",
         "NUEVO NOMBRE": "PRILLION",
         "gender": "Hombre",
@@ -6572,7 +6839,7 @@ export const perfumes = [
     {
         "id": 439,
         "brand": "PACO RABANNE",
-        "name": "ESC. INSP. EN PACO RABANNE PHANTOM  MEN ",
+        "name": "ESC. INSP. EN PACO RABANNE PHANTOM ",
         "category": "Diseñador",
         "NUEVO NOMBRE": "FUTURISTIC",
         "gender": "Hombre",
@@ -6587,7 +6854,7 @@ export const perfumes = [
     {
         "id": 440,
         "brand": "PACO RABANNE",
-        "name": "ESC. INSP. EN PACO RABANNE PHANTOM LEGION MEN ",
+        "name": "ESC. INSP. EN PACO RABANNE PHANTOM LEGION",
         "category": "Diseñador",
         "NUEVO NOMBRE": "FUTURISTIC CAMOUFLAGE",
         "gender": "Hombre",
@@ -6612,7 +6879,7 @@ export const perfumes = [
         "DE 500 A 999 GRS": 204.8228,
         "DE 250 A 499 GRS": 219.453,
         "DE 120 A 249 GRS": 219.453,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/HxF9PQG1/PHANTOM-INTENSE-1.png"
     },
     {
         "id": 442,
@@ -6627,7 +6894,7 @@ export const perfumes = [
         "DE 500 A 999 GRS": 189.6701333333,
         "DE 250 A 499 GRS": 203.218,
         "DE 120 A 249 GRS": 203.218,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/g0SD8CNJ/PHANTOM-PARFUM.png"
     },
     {
         "id": 443,
@@ -6642,12 +6909,12 @@ export const perfumes = [
         "DE 500 A 999 GRS": 175.0886666667,
         "DE 250 A 499 GRS": 187.595,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/Bt9P2grt/Mesa-de-trabajo-59.png"
     },
     {
         "id": 444,
         "brand": "PARIS HILTON",
-        "name": "ESC. INSP. EN PARIS HILTON GOLD RUSH MEN ",
+        "name": "ESC. INSP. EN PARIS HILTON GOLD RUSH",
         "category": "Diseñador",
         "NUEVO NOMBRE": "GOLDFIELD",
         "gender": "Hombre",
@@ -6662,7 +6929,7 @@ export const perfumes = [
     {
         "id": 445,
         "brand": "PARIS HILTON",
-        "name": "ESC. INSP. EN PARIS HILTON MEN ",
+        "name": "ESC. INSP. EN PARIS HILTON",
         "category": "Diseñador",
         "NUEVO NOMBRE": "NICKO",
         "gender": "Hombre",
@@ -6677,7 +6944,7 @@ export const perfumes = [
     {
         "id": 446,
         "brand": "PENHALIGONS",
-        "name": "ESC. INSP. EN PENHALIGONS LORD GEORGE MEN ",
+        "name": "ESC. INSP. EN PENHALIGONS LORD GEORGE",
         "category": "Diseñador",
         "NUEVO NOMBRE": "ARISTOCRACY SECRETS",
         "gender": "Hombre",
@@ -6692,7 +6959,7 @@ export const perfumes = [
     {
         "id": 447,
         "brand": "PERRY ELLIS",
-        "name": "ESC. INSP. EN PERRY ELLIS 360 RED MEN ",
+        "name": "ESC. INSP. EN PERRY ELLIS 360 RED",
         "category": "Diseñador",
         "NUEVO NOMBRE": "PEREDA ",
         "gender": "Hombre",
@@ -6707,7 +6974,7 @@ export const perfumes = [
     {
         "id": 448,
         "brand": "PERRY ELLIS",
-        "name": "ESC. INSP. EN PERRY ELLIS 360 TRADICIONAL MEN ",
+        "name": "ESC. INSP. EN PERRY ELLIS 360 TRADICIONAL",
         "category": "Diseñador",
         "NUEVO NOMBRE": "TERRY",
         "gender": "Hombre",
@@ -6722,7 +6989,7 @@ export const perfumes = [
     {
         "id": 449,
         "brand": "PHILIPP PLEIN",
-        "name": "ESC. INSP. EN PHILIPP PLEIN NO LIMITS MEN ",
+        "name": "ESC. INSP. EN PHILIPP PLEIN NO LIMITS",
         "category": "Diseñador",
         "NUEVO NOMBRE": "HIGH VOLTAGE",
         "gender": "Hombre",
@@ -6737,7 +7004,7 @@ export const perfumes = [
     {
         "id": 450,
         "brand": "PRADA",
-        "name": "ESC. INSP. EN PRADA LUNA ROSSA OCEAN MEN ",
+        "name": "ESC. INSP. EN PRADA LUNA ROSSA OCEAN",
         "category": "Diseñador",
         "NUEVO NOMBRE": "DISCONCERTING TOUCH",
         "gender": "Hombre",
@@ -6752,7 +7019,7 @@ export const perfumes = [
     {
         "id": 451,
         "brand": "PRADA",
-        "name": "ESC. INSP. EN PRADA LUNA ROSSA CARBON MEN ",
+        "name": "ESC. INSP. EN PRADA LUNA ROSSA CARBON",
         "category": "Diseñador",
         "NUEVO NOMBRE": "CARBON ROSADO ",
         "gender": "Hombre",
@@ -6767,7 +7034,7 @@ export const perfumes = [
     {
         "id": 452,
         "brand": "RALPH LAUREN",
-        "name": "ESC. INSP. EN POLO BLUE MEN ",
+        "name": "ESC. INSP. EN POLO BLUE",
         "category": "Diseñador",
         "NUEVO NOMBRE": "POLO SUR ",
         "gender": "Hombre",
@@ -6782,7 +7049,7 @@ export const perfumes = [
     {
         "id": 453,
         "brand": "RALPH LAUREN",
-        "name": "ESC. INSP. EN POLO RED MEN ",
+        "name": "ESC. INSP. EN POLO RED",
         "category": "Diseñador",
         "NUEVO NOMBRE": "POLARE ",
         "gender": "Hombre",
@@ -6797,7 +7064,7 @@ export const perfumes = [
     {
         "id": 454,
         "brand": "RALPH LAUREN",
-        "name": "ESC. INSP. EN POLO ULTRA BLUE MEN ",
+        "name": "ESC. INSP. EN POLO ULTRA BLUE",
         "category": "Diseñador",
         "NUEVO NOMBRE": "DEEP IMMERSION",
         "gender": "Hombre",
@@ -6827,7 +7094,7 @@ export const perfumes = [
     {
         "id": 456,
         "brand": "REYANE",
-        "name": "ESC. INSP. EN INSURRECTION MEN ",
+        "name": "ESC. INSP. EN INSURRECTION",
         "category": "Diseñador",
         "NUEVO NOMBRE": "REBELDE ",
         "gender": "Hombre",
@@ -6842,7 +7109,7 @@ export const perfumes = [
     {
         "id": 457,
         "brand": "ROLEX",
-        "name": "ESC. INSP. EN ROLEX MEN ",
+        "name": "ESC. INSP. EN ROLEX",
         "category": "Diseñador",
         "NUEVO NOMBRE": "RELOJ",
         "gender": "Hombre",
@@ -6857,7 +7124,7 @@ export const perfumes = [
     {
         "id": 458,
         "brand": "TED LAPIDUS",
-        "name": "ESC. INSP. EN LAPIDUSS MEN ",
+        "name": "ESC. INSP. EN LAPIDUSS",
         "category": "Diseñador",
         "NUEVO NOMBRE": "TEDY",
         "gender": "Hombre",
@@ -6872,7 +7139,7 @@ export const perfumes = [
     {
         "id": 459,
         "brand": "THIERRY MUGLER",
-        "name": "ESC. INSP. EN THIERRY MUGLER ANGEL MEN ",
+        "name": "ESC. INSP. EN THIERRY MUGLER ANGEL",
         "category": "Diseñador",
         "NUEVO NOMBRE": "ENGEL",
         "gender": "Hombre",
@@ -6887,7 +7154,7 @@ export const perfumes = [
     {
         "id": 460,
         "brand": "TOMMY HILFIGER",
-        "name": "ESC. INSP. EN TOMMY MEN ",
+        "name": "ESC. INSP. EN TOMMY",
         "category": "Diseñador",
         "NUEVO NOMBRE": "TOM",
         "gender": "Hombre",
@@ -6902,7 +7169,7 @@ export const perfumes = [
     {
         "id": 461,
         "brand": "VALENTINO",
-        "name": "ESC. INSP. EN VALENTINO BORN IN ROMA MEN ",
+        "name": "ESC. INSP. EN VALENTINO BORN IN ROMA",
         "category": "Diseñador",
         "NUEVO NOMBRE": "ROME LEGEND",
         "gender": "Hombre",
@@ -6917,7 +7184,7 @@ export const perfumes = [
     {
         "id": 462,
         "brand": "VALENTINO",
-        "name": "ESC. INSP. EN VALENTINO UOMO MEN ",
+        "name": "ESC. INSP. EN VALENTINO UOMO",
         "category": "Diseñador",
         "NUEVO NOMBRE": "VALENTIN",
         "gender": "Hombre",
@@ -6932,7 +7199,7 @@ export const perfumes = [
     {
         "id": 463,
         "brand": "VERSACE",
-        "name": "ESC. INSP. EN VERSACE BLUE JEANS MEN ",
+        "name": "ESC. INSP. EN VERSACE BLUE JEANS",
         "category": "Diseñador",
         "NUEVO NOMBRE": "TEXAS",
         "gender": "Hombre",
@@ -6947,7 +7214,7 @@ export const perfumes = [
     {
         "id": 464,
         "brand": "VERSACE",
-        "name": "ESC. INSP. EN VERSACE DYLAN BLUE MEN ",
+        "name": "ESC. INSP. EN VERSACE DYLAN BLUE",
         "category": "Diseñador",
         "NUEVO NOMBRE": "DIBLUE",
         "gender": "Hombre",
@@ -6962,7 +7229,7 @@ export const perfumes = [
     {
         "id": 465,
         "brand": "VERSACE",
-        "name": "ESC. INSP. EN VERSACE EROS MEN ",
+        "name": "ESC. INSP. EN VERSACE EROS",
         "category": "Diseñador",
         "NUEVO NOMBRE": "VEROS ",
         "gender": "Hombre",
@@ -6977,7 +7244,7 @@ export const perfumes = [
     {
         "id": 466,
         "brand": "VERSACE",
-        "name": "ESC. INSP. EN VERSACE EROS FLAME MEN ",
+        "name": "ESC. INSP. EN VERSACE EROS FLAME",
         "category": "Diseñador",
         "NUEVO NOMBRE": "PASSIONATE VEROS",
         "gender": "Hombre",
@@ -6992,7 +7259,7 @@ export const perfumes = [
     {
         "id": 467,
         "brand": "VERSACE",
-        "name": "ESC. INSP. EN VERSACE FREICHE MEN ",
+        "name": "ESC. INSP. EN VERSACE FREICHE",
         "category": "Diseñador",
         "NUEVO NOMBRE": "VERMAN ",
         "gender": "Hombre",
@@ -7007,7 +7274,7 @@ export const perfumes = [
     {
         "id": 468,
         "brand": "VERSACE",
-        "name": "ESC. INSP. EN VERSACE POUR HOMME MEN ",
+        "name": "ESC. INSP. EN VERSACE POUR HOMME",
         "category": "Diseñador",
         "NUEVO NOMBRE": "GIANNI",
         "gender": "Hombre",
@@ -7022,7 +7289,7 @@ export const perfumes = [
     {
         "id": 469,
         "brand": "VICTOR ROLF",
-        "name": "ESC. INSP. EN VICTOR ROLF SPICEBOMB MEN ",
+        "name": "ESC. INSP. EN VICTOR ROLF SPICEBOMB",
         "category": "Diseñador",
         "NUEVO NOMBRE": "BOMBERO",
         "gender": "Hombre",
@@ -7037,7 +7304,7 @@ export const perfumes = [
     {
         "id": 470,
         "brand": "VICTORINOX",
-        "name": "ESC. INSP. EN SWISS ARMY MEN ",
+        "name": "ESC. INSP. EN SWISS ARMY",
         "category": "Diseñador",
         "NUEVO NOMBRE": "ARMY ",
         "gender": "Hombre",
@@ -7052,7 +7319,7 @@ export const perfumes = [
     {
         "id": 471,
         "brand": "VIDAL",
-        "name": "ESC. INSP. EN PINO SILVESTRE BY VIDAL MEN ",
+        "name": "ESC. INSP. EN PINO SILVESTRE BY VIDAL",
         "category": "Diseñador",
         "NUEVO NOMBRE": "PINO SIL",
         "gender": "Hombre",
@@ -7067,7 +7334,7 @@ export const perfumes = [
     {
         "id": 472,
         "brand": "YANBAL",
-        "name": "ESC. INSP. EN YANBAL 43 N PARALEL MEN ",
+        "name": "ESC. INSP. EN YANBAL 43 N PARALEL",
         "category": "Diseñador",
         "NUEVO NOMBRE": "MARVIL",
         "gender": "Hombre",
@@ -7082,7 +7349,7 @@ export const perfumes = [
     {
         "id": 473,
         "brand": "YANBAL",
-        "name": "ESC. INSP. EN YANBAL ADRENALINE MEN ",
+        "name": "ESC. INSP. EN YANBAL ADRENALINE",
         "category": "Diseñador",
         "NUEVO NOMBRE": "UNLIMITED ROAD",
         "gender": "Hombre",
@@ -7097,7 +7364,7 @@ export const perfumes = [
     {
         "id": 474,
         "brand": "YANBAL",
-        "name": "ESC. INSP. EN YANBAL AROM POUR HOMME MEN ",
+        "name": "ESC. INSP. EN YANBAL AROM POUR HOMME",
         "category": "Diseñador",
         "NUEVO NOMBRE": "NEVER-ENDING REFINEMENT",
         "gender": "Hombre",
@@ -7112,7 +7379,7 @@ export const perfumes = [
     {
         "id": 475,
         "brand": "YANBAL",
-        "name": "ESC. INSP. EN YANBAL OHombre MEN ",
+        "name": "ESC. INSP. EN YANBAL OHombre",
         "category": "Diseñador",
         "NUEVO NOMBRE": "TRUE ESSENCE",
         "gender": "Hombre",
@@ -7127,7 +7394,7 @@ export const perfumes = [
     {
         "id": 476,
         "brand": "YANBAL",
-        "name": "ESC. INSP. EN YANBAL OHombre SOUL MEN ",
+        "name": "ESC. INSP. EN YANBAL OHombre SOUL",
         "category": "Diseñador",
         "NUEVO NOMBRE": "JADDA MAN ",
         "gender": "Hombre",
@@ -7137,12 +7404,12 @@ export const perfumes = [
         "DE 500 A 999 GRS": 195.8898666667,
         "DE 250 A 499 GRS": 209.882,
         "DE 120 A 249 GRS": 209.882,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/sD7wq0D6/OHM-SOUL.png"
     },
     {
         "id": 477,
         "brand": "YANBAL",
-        "name": "ESC. INSP. EN YANBAL OSADIA MEN  ",
+        "name": "ESC. INSP. EN YANBAL OSADIA ",
         "category": "Diseñador",
         "NUEVO NOMBRE": "INNATE CHARM",
         "gender": "Hombre",
@@ -7157,7 +7424,7 @@ export const perfumes = [
     {
         "id": 478,
         "brand": "YANBAL",
-        "name": "ESC. INSP. EN YANBAL SOLO MEN ",
+        "name": "ESC. INSP. EN YANBAL SOLO",
         "category": "Diseñador",
         "NUEVO NOMBRE": "TRIUMPHAL DESTINY",
         "gender": "Hombre",
@@ -7172,7 +7439,7 @@ export const perfumes = [
     {
         "id": 479,
         "brand": "YANBAL",
-        "name": "ESC. INSP. EN YANBAL TEMPTATION MEN ",
+        "name": "ESC. INSP. EN YANBAL TEMPTATION",
         "category": "Diseñador",
         "NUEVO NOMBRE": "IRRESISTIBLE CONQUEROR",
         "gender": "Hombre",
@@ -7187,7 +7454,7 @@ export const perfumes = [
     {
         "id": 480,
         "brand": "YVES SAINT LAURENT",
-        "name": "ESC. INSP. EN YVES SAINT LORANT M7 MEN ",
+        "name": "ESC. INSP. EN YVES SAINT LORANT M7",
         "category": "Diseñador",
         "NUEVO NOMBRE": "SEVEN",
         "gender": "Hombre",
@@ -7202,7 +7469,7 @@ export const perfumes = [
     {
         "id": 481,
         "brand": "YVES SAINT LAURENT",
-        "name": "ESC. INSP. EN YVES YVES SAINT L. MEN ",
+        "name": "ESC. INSP. EN YVES YVES SAINT L.",
         "category": "Diseñador",
         "NUEVO NOMBRE": "MILLENNIALS",
         "gender": "Hombre",
@@ -7227,7 +7494,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 237.5398666667,
         "DE 250 A 499 GRS": 254.507,
         "DE 120 A 249 GRS": 254.507,
-        "picture": "https://i.postimg.cc/x8sGbL2L/9-AM-DIVE-alabastro.png"
+        "picture": "https://i.postimg.cc/x8sGbL2L/9-AM-DIVE-alabastro.png",
+        "family": "Aromático Acuático"
     },
     {
         "id": 483,
@@ -7242,7 +7510,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 264.6084,
         "DE 250 A 499 GRS": 283.509,
         "DE 120 A 249 GRS": 283.509,
-        "picture": "https://i.postimg.cc/4yrdM3vr/9-PM.png"
+        "picture": "https://i.postimg.cc/4yrdM3vr/9-PM.png",
+        "family": "Ámbar Vainilla"
     },
     {
         "id": 484,
@@ -7257,7 +7526,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 302.2441333333,
         "DE 250 A 499 GRS": 323.833,
         "DE 120 A 249 GRS": 323.833,
-        "picture": "https://i.postimg.cc/0QXrYnz5/9-pm-pour-femme.png"
+        "picture": "https://i.postimg.cc/0QXrYnz5/9-pm-pour-femme.png",
+        "family": "Oriental Floral"
     },
     {
         "id": 485,
@@ -7272,12 +7542,13 @@ export const perfumes = [
         "DE 500 A 999 GRS": 241.3002666667,
         "DE 250 A 499 GRS": 258.536,
         "DE 120 A 249 GRS": 258.536,
-        "picture": "https://i.postimg.cc/NfpC1r4J/9-AM-POUR-FEMME.jpg"
+        "picture": "https://i.postimg.cc/NfpC1r4J/9-AM-POUR-FEMME.jpg",
+        "family": "Floral Frutal"
     },
     {
         "id": 486,
-        "brand": "AHLI ",
-        "name": "ESC. INSP. EN AHLI AURIGA Unisex",
+        "brand": "AHLI",
+        "name": "ESC. INSP. EN AHLI AURIGA",
         "category": "Nicho",
         "NUEVO NOMBRE": "URIGAOS ",
         "gender": "Unisex",
@@ -7287,12 +7558,13 @@ export const perfumes = [
         "DE 500 A 999 GRS": 189.5749333333,
         "DE 250 A 499 GRS": 203.116,
         "DE 120 A 249 GRS": 203.116,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Chipre Frutal"
     },
     {
         "id": 487,
-        "brand": "AHLI ",
-        "name": "ESC. INSP. EN AHLI CANES Unisex ",
+        "brand": "AHLI",
+        "name": "ESC. INSP. EN AHLI CANES",
         "category": "Nicho",
         "NUEVO NOMBRE": "CANESTLE",
         "gender": "Unisex",
@@ -7302,12 +7574,13 @@ export const perfumes = [
         "DE 500 A 999 GRS": 196.3658666667,
         "DE 250 A 499 GRS": 210.392,
         "DE 120 A 249 GRS": 210.392,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Amaderado Dulce"
     },
     {
         "id": 488,
-        "brand": "AHLI ",
-        "name": "ESC. INSP. EN AHLI CORVUS Mujer ESENCIA",
+        "brand": "AHLI",
+        "name": "ESC. INSP. EN AHLI CORVUS",
         "category": "Nicho",
         "NUEVO NOMBRE": "CURVIA",
         "gender": "Mujer",
@@ -7317,7 +7590,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 230.4331866667,
         "DE 250 A 499 GRS": 246.8927,
         "DE 120 A 249 GRS": 246.8927,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Frutal Floral"
     },
     {
         "id": 489,
@@ -7332,12 +7606,13 @@ export const perfumes = [
         "DE 500 A 999 GRS": 237.5398666667,
         "DE 250 A 499 GRS": 254.507,
         "DE 120 A 249 GRS": 254.507,
-        "picture": "https://i.postimg.cc/Y910VFqY/AHLI-KARPOS.png"
+        "picture": "https://i.postimg.cc/Y910VFqY/AHLI-KARPOS.png",
+        "family": "Cítrico Aromático"
     },
     {
         "id": 490,
-        "brand": "AHLI ",
-        "name": "ESC. INSP. EN AHLI OCTANS Unisex",
+        "brand": "AHLI",
+        "name": "ESC. INSP. EN AHLI OCTANS",
         "category": "Nicho",
         "NUEVO NOMBRE": "OCTANGULO",
         "gender": "Unisex",
@@ -7347,12 +7622,13 @@ export const perfumes = [
         "DE 500 A 999 GRS": 221.5938666667,
         "DE 250 A 499 GRS": 237.422,
         "DE 120 A 249 GRS": 237.422,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Amaderado Especiado"
     },
     {
         "id": 491,
-        "brand": "AHLI ",
-        "name": "ESC. INSP. EN AHLI OVERDOSE Unisex",
+        "brand": "AHLI",
+        "name": "ESC. INSP. EN AHLI OVERDOSE",
         "category": "Nicho",
         "NUEVO NOMBRE": "DOSEVER",
         "gender": "Unisex",
@@ -7362,12 +7638,13 @@ export const perfumes = [
         "DE 500 A 999 GRS": 207.8533333333,
         "DE 250 A 499 GRS": 222.7,
         "DE 120 A 249 GRS": 222.7,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Ámbar Amaderado"
     },
     {
         "id": 492,
         "brand": "AHLI",
-        "name": "ESC. INSP. EN AHLI VEGA Unisex ",
+        "name": "ESC. INSP. EN AHLI VEGA",
         "category": "Nicho",
         "NUEVO NOMBRE": "VEGASCOOL",
         "gender": "Unisex",
@@ -7377,7 +7654,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 373.9773333333,
         "DE 250 A 499 GRS": 400.69,
         "DE 120 A 249 GRS": 400.69,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Frutal Floral"
     },
     {
         "id": 493,
@@ -7392,7 +7670,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 175.9454666667,
         "DE 250 A 499 GRS": 188.513,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Amaderado Floral Almizcle"
     },
     {
         "id": 494,
@@ -7407,12 +7686,13 @@ export const perfumes = [
         "DE 500 A 999 GRS": 163.982,
         "DE 250 A 499 GRS": 175.695,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral"
     },
     {
         "id": 495,
         "brand": "AMOUAGE",
-        "name": "ESC. INSP. EN AMOUAGE INTERLUDE MEN ",
+        "name": "ESC. INSP. EN AMOUAGE INTERLUDE",
         "category": "Nicho",
         "NUEVO NOMBRE": "INTERLUDIO",
         "gender": "Hombre",
@@ -7422,12 +7702,13 @@ export const perfumes = [
         "DE 500 A 999 GRS": 221.0544,
         "DE 250 A 499 GRS": 236.844,
         "DE 120 A 249 GRS": 236.844,
-        "picture": "https://i.postimg.cc/BQrL7mMX/INTERLUDE-AMOUAGE.png"
+        "picture": "https://i.postimg.cc/BQrL7mMX/INTERLUDE-AMOUAGE.png",
+        "family": "Amaderado Especiado"
     },
     {
         "id": 496,
         "brand": "AMOUAGE",
-        "name": "ESC. INSP. EN AMOUAGE SUNSHINE Mujer ",
+        "name": "ESC. INSP. EN AMOUAGE SUNSHINE",
         "category": "Nicho",
         "NUEVO NOMBRE": "SUNAGE ",
         "gender": "Mujer",
@@ -7437,14 +7718,15 @@ export const perfumes = [
         "DE 500 A 999 GRS": 251.0741333333,
         "DE 250 A 499 GRS": 269.008,
         "DE 120 A 249 GRS": 269.008,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral Ambar"
     },
     {
         "id": 497,
         "brand": "ARMAF",
-        "name": "ESC. INSP. EN ARMAF CLUB DE NUIT Mujer ",
+        "name": "ESC. INSP. EN ARMAF CLUB DE NUIT",
         "category": "Nicho",
-        "NUEVO NOMBRE": "CLUB DE NUEZ ",
+        "NUEVO NOMBRE": "CLUB DE NUEZ",
         "gender": "Mujer",
         "10 KG EN ADELANTE": 170.6063333333,
         "5 KG A 9,99 KG": 180.642,
@@ -7452,14 +7734,15 @@ export const perfumes = [
         "DE 500 A 999 GRS": 204.7276,
         "DE 250 A 499 GRS": 219.351,
         "DE 120 A 249 GRS": 219.351,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Cítrico Floral"
     },
     {
         "id": 498,
         "brand": "ARMAF",
-        "name": "ESC. INSP. EN ARMAF CLUB DE NUIT INTENSE MEN ",
+        "name": "ESC. INSP. EN ARMAF CLUB DE NUIT INTENSE MEN",
         "category": "Nicho",
-        "NUEVO NOMBRE": "CLUB DE NUEZ INTENSA ",
+        "NUEVO NOMBRE": "CLUB DE NUEZ INTENSA",
         "gender": "Hombre",
         "10 KG EN ADELANTE": 147.4013333333,
         "5 KG A 9,99 KG": 156.072,
@@ -7467,7 +7750,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 176.8816,
         "DE 250 A 499 GRS": 189.516,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Amaderado Especiado"
     },
     {
         "id": 499,
@@ -7482,7 +7766,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 201.2369333333,
         "DE 250 A 499 GRS": 215.611,
         "DE 120 A 249 GRS": 215.611,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Cítrico Amaderado"
     },
     {
         "id": 500,
@@ -7497,7 +7782,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 258.7853333333,
         "DE 250 A 499 GRS": 277.27,
         "DE 120 A 249 GRS": 277.27,
-        "picture": "https://i.postimg.cc/XNCR5D6J/NUEVAS-ESENCIAS-24-ENERO-2025-14.jpg"
+        "picture": "https://i.postimg.cc/XNCR5D6J/NUEVAS-ESENCIAS-24-ENERO-2025-14.jpg",
+        "family": "Oriental Floral"
     },
     {
         "id": 501,
@@ -7512,7 +7798,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 249.6937333333,
         "DE 250 A 499 GRS": 267.529,
         "DE 120 A 249 GRS": 267.529,
-        "picture": "https://i.postimg.cc/g2YQfzXX/THE-LIONS-CLUB-MONARQUE-ARMAF.png"
+        "picture": "https://i.postimg.cc/g2YQfzXX/THE-LIONS-CLUB-MONARQUE-ARMAF.png",
+        "family": "Oriental Vainilla"
     },
     {
         "id": 502,
@@ -7527,7 +7814,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 350.6057333333,
         "DE 250 A 499 GRS": 375.649,
         "DE 120 A 249 GRS": 375.649,
-        "picture": "https://i.postimg.cc/7Y1jsG6r/NUEVAS-ESENCIAS-24-ENERO-2025-16.jpg"
+        "picture": "https://i.postimg.cc/7Y1jsG6r/NUEVAS-ESENCIAS-24-ENERO-2025-16.jpg",
+        "family": "Oriental Vainilla"
     },
     {
         "id": 503,
@@ -7542,12 +7830,13 @@ export const perfumes = [
         "DE 500 A 999 GRS": 228.3530666667,
         "DE 250 A 499 GRS": 244.664,
         "DE 120 A 249 GRS": 244.664,
-        "picture": "https://i.postimg.cc/90ZsjzYT/NUEVAS-ESENCIAS-24-ENERO-2025-15.jpg"
+        "picture": "https://i.postimg.cc/90ZsjzYT/NUEVAS-ESENCIAS-24-ENERO-2025-15.jpg",
+        "family": "Oriental Fougère"
     },
     {
         "id": 504,
         "brand": "ARMAF",
-        "name": "ESC. INSP. EN ODYSSEY MANDARIN SKY MEN  ",
+        "name": "ESC. INSP. EN ODYSSEY MANDARIN SKY ",
         "category": "Nicho",
         "NUEVO NOMBRE": "KING ORANGE ",
         "gender": "Hombre",
@@ -7557,7 +7846,42 @@ export const perfumes = [
         "DE 500 A 999 GRS": 197.0005333333,
         "DE 250 A 499 GRS": 211.072,
         "DE 120 A 249 GRS": 211.072,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Cítrico Aromático"
+    },
+    {
+        "id": 737,
+        "brand": "ARMAF",
+        "name": "ESC. INSP EN ODYSSEY HOMME WHITE EDITION",
+        "category": "Nicho",
+        "isNew": true,
+        "NUEVO NOMBRE": "LUMINOUS AURA",
+        "gender": "Hombre",
+        "10 KG EN ADELANTE": 150,
+        "5 KG A 9,99 KG": 158,
+        "1 KG A 4,99 KG": 168,
+        "DE 500 A 999 GRS": 180,
+        "DE 250 A 499 GRS": 192,
+        "DE 120 A 249 GRS": 200,
+        "picture": "https://i.postimg.cc/FzSXsTNY/odyssey-homme-white-edit-01-02.jpg",
+        "family": "Aromático Acuático"
+    },
+    {
+        "id": 734,
+        "brand": "ARMAF",
+        "name": "ESC. INSP EN ODYSSEY AQUA",
+        "category": "Nicho",
+        "isNew": true,
+        "NUEVO NOMBRE": "GREEN SEA",
+        "gender": "Hombre",
+        "10 KG EN ADELANTE": 160,
+        "5 KG A 9,99 KG": 169,
+        "1 KG A 4,99 KG": 180,
+        "DE 500 A 999 GRS": 192,
+        "DE 250 A 499 GRS": 205,
+        "DE 120 A 249 GRS": 205,
+        "picture": "https://i.postimg.cc/Bn4f45yv/ESENCIAS-NUEVAS-1-MARZO.png",
+        "family": "Aromático Acuático"
     },
     {
         "id": 505,
@@ -7572,7 +7896,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 396.8729333333,
         "DE 250 A 499 GRS": 425.221,
         "DE 120 A 249 GRS": 425.221,
-        "picture": "https://i.postimg.cc/rw7JJGtJ/ODDYSEY-AOUD.png"
+        "picture": "https://i.postimg.cc/rw7JJGtJ/ODDYSEY-AOUD.png",
+        "family": "Amaderada Especiada"
     },
     {
         "id": 506,
@@ -7587,7 +7912,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 241.3002666667,
         "DE 250 A 499 GRS": 258.536,
         "DE 120 A 249 GRS": 258.536,
-        "picture": "https://i.postimg.cc/vBF0Q7YB/hayaati-lataffa-post-07.jpg"
+        "picture": "https://i.postimg.cc/vBF0Q7YB/hayaati-lataffa-post-07.jpg",
+        "family": "Aromático Acuático"
     },
     {
         "id": 507,
@@ -7600,10 +7926,11 @@ export const perfumes = [
         "10 KG EN ADELANTE": 159.9888888889,
         "5 KG A 9,99 KG": 169.4,
         "1 KG A 4,99 KG": 179.9875,
-        "DE 500 A 999 GRS": 191.9866666667,
+        "DE 500 A 999 GRS": 191.98666666666666,
         "DE 250 A 499 GRS": 205.7,
         "DE 120 A 249 GRS": 205.7,
-        "picture": "https://i.postimg.cc/nhcS33gq/NUEVAS-ESENCIAS-24-ENERO-2025-06.jpg"
+        "picture": "https://i.postimg.cc/nhcS33gq/NUEVAS-ESENCIAS-24-ENERO-2025-06.jpg",
+        "family": "Floral Frutal"
     },
     {
         "id": 508,
@@ -7616,10 +7943,11 @@ export const perfumes = [
         "10 KG EN ADELANTE": 159.9888888889,
         "5 KG A 9,99 KG": 169.4,
         "1 KG A 4,99 KG": 179.9875,
-        "DE 500 A 999 GRS": 191.9866666667,
+        "DE 500 A 999 GRS": 191.98666666666666,
         "DE 250 A 499 GRS": 205.7,
         "DE 120 A 249 GRS": 205.7,
-        "picture": "https://i.postimg.cc/RZssycxy/NUEVAS-ESENCIAS-24-ENERO-2025-07.jpg"
+        "picture": "https://i.postimg.cc/RZssycxy/NUEVAS-ESENCIAS-24-ENERO-2025-07.jpg",
+        "family": "Frutal Gourmand"
     },
     {
         "id": 509,
@@ -7634,7 +7962,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 215.9136,
         "DE 250 A 499 GRS": 231.336,
         "DE 120 A 249 GRS": 231.336,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Amaderado"
     },
     {
         "id": 510,
@@ -7649,7 +7978,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 265.0526666667,
         "DE 250 A 499 GRS": 283.985,
         "DE 120 A 249 GRS": 283.985,
-        "picture": "https://i.postimg.cc/5y9q0nZx/VANILLE-ROUGE--ATELIER-VERSACE.png"
+        "picture": "https://i.postimg.cc/5y9q0nZx/VANILLE-ROUGE--ATELIER-VERSACE.png",
+        "family": "Vainilla"
     },
     {
         "id": 511,
@@ -7665,7 +7995,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 252.1213333333,
         "DE 250 A 499 GRS": 270.13,
         "DE 120 A 249 GRS": 270.13,
-        "picture": "https://i.postimg.cc/Zqng5wLJ/NUEVAS-ESENCIAS-24-ENERO-2025.png"
+        "picture": "https://i.postimg.cc/Zqng5wLJ/NUEVAS-ESENCIAS-24-ENERO-2025.png",
+        "family": "Aromática Especiada"
     },
     {
         "id": 512,
@@ -7680,14 +8011,15 @@ export const perfumes = [
         "DE 500 A 999 GRS": 191.4630666667,
         "DE 250 A 499 GRS": 205.139,
         "DE 120 A 249 GRS": 205.139,
-        "picture": "https://i.postimg.cc/L5hYw7cZ/BHARARA-NICHE-FEMME.png"
+        "picture": "https://i.postimg.cc/L5hYw7cZ/BHARARA-NICHE-FEMME.png",
+        "family": "Floral"
     },
     {
         "id": 513,
         "brand": "BHARARA",
         "name": "ESC. INSP. EN BHARARA NICHE",
         "category": "Nicho",
-        "NUEVO NOMBRE": "BARBARA ",
+        "NUEVO NOMBRE": "BARBARA",
         "gender": "Unisex",
         "10 KG EN ADELANTE": 179.3726666667,
         "5 KG A 9,99 KG": 189.924,
@@ -7695,14 +8027,15 @@ export const perfumes = [
         "DE 500 A 999 GRS": 215.2472,
         "DE 250 A 499 GRS": 230.622,
         "DE 120 A 249 GRS": 230.622,
-        "picture": "https://i.postimg.cc/kGZ6msCY/BHARARA-NICHE.png"
+        "picture": "https://i.postimg.cc/kGZ6msCY/BHARARA-NICHE.png",
+        "family": "Amaderado Aromático"
     },
     {
         "id": 514,
         "brand": "BHARARA",
         "name": "ESC. INSP. EN BHARARA KING",
         "category": "Nicho",
-        "NUEVO NOMBRE": "REY DEL MAMBO ",
+        "NUEVO NOMBRE": "REY DEL MAMBO",
         "gender": "Hombre",
         "10 KG EN ADELANTE": 162.6333333333,
         "5 KG A 9,99 KG": 172.2,
@@ -7710,7 +8043,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 195.16,
         "DE 250 A 499 GRS": 209.1,
         "DE 120 A 249 GRS": 209.1,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Cítrico Aromático"
     },
     {
         "id": 515,
@@ -7726,7 +8060,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 224.5133333333,
         "DE 250 A 499 GRS": 240.55,
         "DE 120 A 249 GRS": 240.55,
-        "picture": "https://i.postimg.cc/fRBpsGmH/NUEVAS-ESENCIAS-24-ENERO-2025-11.jpg"
+        "picture": "https://i.postimg.cc/fRBpsGmH/NUEVAS-ESENCIAS-24-ENERO-2025-11.jpg",
+        "family": "Amaderado Aromático"
     },
     {
         "id": 516,
@@ -7741,8 +8076,10 @@ export const perfumes = [
         "DE 500 A 999 GRS": 232.7957333333,
         "DE 250 A 499 GRS": 249.424,
         "DE 120 A 249 GRS": 249.424,
-        "picture": "https://i.postimg.cc/TP8VmRZN/BHARARA-ROSE.png"
+        "picture": "https://i.postimg.cc/TP8VmRZN/BHARARA-ROSE.png",
+        "family": "Floral"
     },
+
     {
         "id": 517,
         "brand": "BHARARA MAST PERFUME ",
@@ -7756,14 +8093,15 @@ export const perfumes = [
         "DE 500 A 999 GRS": 347.4324,
         "DE 250 A 499 GRS": 372.249,
         "DE 120 A 249 GRS": 372.249,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Oriental Frutal"
     },
     {
         "id": 518,
         "brand": "BHARARA",
         "name": "ESC. INSP. EN BHARARA VIKING KASHMIR ",
         "category": "Nicho",
-        "NUEVO NOMBRE": "VIKINGO SHIMUR  ",
+        "NUEVO NOMBRE": "VIKINGO SHIMUR",
         "gender": "Unisex",
         "10 KG EN ADELANTE": 154.6867777778,
         "5 KG A 9,99 KG": 163.786,
@@ -7771,7 +8109,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 185.6241333333,
         "DE 250 A 499 GRS": 198.883,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Amaderado Especiado"
     },
     {
         "id": 519,
@@ -7786,14 +8125,15 @@ export const perfumes = [
         "DE 500 A 999 GRS": 260.17208,
         "DE 250 A 499 GRS": 278.7558,
         "DE 120 A 249 GRS": 278.7558,
-        "picture": "https://i.postimg.cc/L5sLRh15/BLEECKER-BOND-9.png"
+        "picture": "https://i.postimg.cc/L5sLRh15/BLEECKER-BOND-9.png",
+        "family": "Amaderado Aromático"
     },
     {
         "id": 520,
         "brand": "BOND N 9",
         "name": "ESC. INSP. EN BOND N 9.COM",
         "category": "Nicho",
-        "NUEVO NOMBRE": "WEB NET ",
+        "NUEVO NOMBRE": "WEB NET",
         "gender": "Unisex",
         "10 KG EN ADELANTE": 155.3346666667,
         "5 KG A 9,99 KG": 164.472,
@@ -7801,7 +8141,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 186.4016,
         "DE 250 A 499 GRS": 199.716,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Amaderado Aromático"
     },
     {
         "id": 521,
@@ -7816,7 +8157,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 208.9005333333,
         "DE 250 A 499 GRS": 223.822,
         "DE 120 A 249 GRS": 223.822,
-        "picture": "https://i.postimg.cc/GpJyyvP9/BOND-9-DUBAI-RUBY.png"
+        "picture": "https://i.postimg.cc/GpJyyvP9/BOND-9-DUBAI-RUBY.png",
+        "family": "Oriental Floral"
     },
     {
         "id": 522,
@@ -7831,12 +8173,13 @@ export const perfumes = [
         "DE 500 A 999 GRS": 207.5836,
         "DE 250 A 499 GRS": 222.411,
         "DE 120 A 249 GRS": 222.411,
-        "picture": "https://i.postimg.cc/2Sd6cr1K/hamptons-bond9.jpg"
+        "picture": "https://i.postimg.cc/2Sd6cr1K/hamptons-bond9.jpg",
+        "family": "Cítrico Floral"
     },
     {
         "id": 523,
         "brand": "BOND N 9",
-        "name": "ESC. INSP. EN BOND N 9 LAFAYETTE STREET Unisex  ",
+        "name": "ESC. INSP. EN BOND N 9 LAFAYETTE STREET",
         "category": "Nicho",
         "NUEVO NOMBRE": "STREET",
         "gender": "Unisex",
@@ -7846,12 +8189,13 @@ export const perfumes = [
         "DE 500 A 999 GRS": 238.8250666667,
         "DE 250 A 499 GRS": 255.884,
         "DE 120 A 249 GRS": 255.884,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Ambar Fougère"
     },
     {
         "id": 524,
         "brand": "BOND N 9",
-        "name": "ESC. INSP. EN BOND N 9 NOLITA Mujer",
+        "name": "ESC. INSP. EN BOND N 9 NOLITA",
         "category": "Nicho",
         "NUEVO NOMBRE": "HOT SPOT",
         "gender": "Mujer",
@@ -7861,12 +8205,13 @@ export const perfumes = [
         "DE 500 A 999 GRS": 212.0,
         "DE 250 A 499 GRS": 227.1428571429,
         "DE 120 A 249 GRS": 227.1428571429,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral Frutal"
     },
     {
         "id": 525,
         "brand": "BOND N 9",
-        "name": "ESC. INSP. EN BOND N 9 SIGNATURE Mujer ",
+        "name": "ESC. INSP. EN BOND N 9 SIGNATURE",
         "category": "Nicho",
         "NUEVO NOMBRE": "BONSAI",
         "gender": "Mujer",
@@ -7876,12 +8221,13 @@ export const perfumes = [
         "DE 500 A 999 GRS": 177.8812,
         "DE 250 A 499 GRS": 190.587,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Oriental Floral"
     },
     {
         "id": 526,
         "brand": "BOND N 9",
-        "name": "ESC. INSP. EN BOND N 9 THE SCENT OF PEACE MEN ",
+        "name": "ESC. INSP. EN BOND N 9 THE SCENT OF PEACE",
         "category": "Nicho",
         "NUEVO NOMBRE": "FREE MAN",
         "gender": "Hombre",
@@ -7891,7 +8237,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 180.0708,
         "DE 250 A 499 GRS": 192.933,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Cítrico Aromático"
     },
     {
         "id": 527,
@@ -7906,7 +8253,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 223.7517333333,
         "DE 250 A 499 GRS": 239.734,
         "DE 120 A 249 GRS": 239.734,
-        "picture": "https://i.postimg.cc/YqhYsG7y/TRIBECA-BOND-9ok.png"
+        "picture": "https://i.postimg.cc/YqhYsG7y/TRIBECA-BOND-9ok.png",
+        "family": "Oriental Vainilla"
     },
     {
         "id": 528,
@@ -7921,7 +8269,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 268.2101333333,
         "DE 250 A 499 GRS": 287.368,
         "DE 120 A 249 GRS": 287.368,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral Frutal"
     },
     {
         "id": 529,
@@ -7936,7 +8285,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 235.7469333333,
         "DE 250 A 499 GRS": 252.586,
         "DE 120 A 249 GRS": 252.586,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Chipre Frutal"
     },
     {
         "id": 530,
@@ -7951,7 +8301,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 227.8612,
         "DE 250 A 499 GRS": 244.137,
         "DE 120 A 249 GRS": 244.137,
-        "picture": "https://i.postimg.cc/0NWX9n4C/Centaurus.jpg"
+        "picture": "https://i.postimg.cc/0NWX9n4C/Centaurus.jpg",
+        "family": "Amaderado Aromático"
     },
     {
         "id": 531,
@@ -7966,7 +8317,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 386.3057333333,
         "DE 250 A 499 GRS": 413.899,
         "DE 120 A 249 GRS": 413.899,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Oriental Floral"
     },
     {
         "id": 532,
@@ -7981,7 +8333,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 173.7082666667,
         "DE 250 A 499 GRS": 186.116,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Chipre Frutal"
     },
     {
         "id": 533,
@@ -7996,8 +8349,10 @@ export const perfumes = [
         "DE 500 A 999 GRS": 216.2150666667,
         "DE 250 A 499 GRS": 231.659,
         "DE 120 A 249 GRS": 231.659,
-        "picture": "https://i.postimg.cc/cHx8M6Th/CREED-CARMINA.png"
+        "picture": "https://i.postimg.cc/cHx8M6Th/CREED-CARMINA.png",
+        "family": "Floral Amaderada"
     },
+
     {
         "id": 534,
         "brand": "CREED",
@@ -8011,7 +8366,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 183.9422666667,
         "DE 250 A 499 GRS": 197.081,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://i.postimg.cc/JznyntPC/CREED-SPRING-FLOWER.png"
+        "picture": "https://i.postimg.cc/JznyntPC/CREED-SPRING-FLOWER.png",
+        "family": "Floral Frutal"
     },
     {
         "id": 535,
@@ -8026,12 +8382,13 @@ export const perfumes = [
         "DE 500 A 999 GRS": 149.464,
         "DE 250 A 499 GRS": 160.14,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://i.postimg.cc/05D4jM7K/AGOTADAS-QUE-LLEGARON-31-ENERO-Mesa-de-trabajo-1-copia-4.jpg"
+        "picture": "https://i.postimg.cc/05D4jM7K/AGOTADAS-QUE-LLEGARON-31-ENERO-Mesa-de-trabajo-1-copia-4.jpg",
+        "family": "Amaderado Aromático"
     },
     {
         "id": 536,
         "brand": "CREED",
-        "name": "ESC. INSP. EN CREED MILESIME",
+        "name": "ESC. INSP. EN CREED MILLÉSIME IMPÉRIAL",
         "category": "Nicho",
         "NUEVO NOMBRE": "MILERIAL",
         "gender": "Hombre",
@@ -8041,7 +8398,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 207.06,
         "DE 250 A 499 GRS": 221.85,
         "DE 120 A 249 GRS": 221.85,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Cítrico Aromático"
     },
     {
         "id": 537,
@@ -8056,12 +8414,13 @@ export const perfumes = [
         "DE 500 A 999 GRS": 191.7169333333,
         "DE 250 A 499 GRS": 205.411,
         "DE 120 A 249 GRS": 205.411,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Amaderado"
     },
     {
         "id": 538,
         "brand": "CREED",
-        "name": "ESC. INSP. EN CREED SILVER MEN ",
+        "name": "ESC. INSP. EN CREED SILVER MEN",
         "category": "Nicho",
         "NUEVO NOMBRE": "SILVER Y&C. ",
         "gender": "Hombre",
@@ -8071,12 +8430,13 @@ export const perfumes = [
         "DE 500 A 999 GRS": 198.0636,
         "DE 250 A 499 GRS": 212.211,
         "DE 120 A 249 GRS": 212.211,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Cítrico Aromático"
     },
     {
         "id": 539,
         "brand": "CREED",
-        "name": "ESC. INSP. EN CREED VIKING COLOGNE MEN ",
+        "name": "ESC. INSP. EN CREED VIKING COLOGNE MEN",
         "category": "Nicho",
         "NUEVO NOMBRE": "FEARLESS SPIRIT",
         "gender": "Hombre",
@@ -8086,12 +8446,13 @@ export const perfumes = [
         "DE 500 A 999 GRS": 234.8584,
         "DE 250 A 499 GRS": 251.634,
         "DE 120 A 249 GRS": 251.634,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Aromática Fougère"
     },
     {
         "id": 540,
         "brand": "EL GANSO",
-        "name": "ESC. INSP. EN EL GANSO BRAVO MONSIER Unisex",
+        "name": "ESC. INSP. EN EL GANSO BRAVO MONSIER",
         "category": "Nicho",
         "NUEVO NOMBRE": "GANZO ",
         "gender": "Unisex",
@@ -8101,12 +8462,13 @@ export const perfumes = [
         "DE 500 A 999 GRS": 195.1441333333,
         "DE 250 A 499 GRS": 209.083,
         "DE 120 A 249 GRS": 209.083,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Amaderado Especiado"
     },
     {
         "id": 541,
         "brand": "EMIRATO",
-        "name": "ESC. INSP. EN EMIRATO 1 ABU DABI Unisex",
+        "name": "ESC. INSP. EN EMIRATO 1 ABU DABI",
         "category": "Nicho",
         "NUEVO NOMBRE": "EMIRATO 1 ",
         "gender": "Unisex",
@@ -8116,12 +8478,13 @@ export const perfumes = [
         "DE 500 A 999 GRS": 254.6666666667,
         "DE 250 A 499 GRS": 272.8571428571,
         "DE 120 A 249 GRS": 272.8571428571,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/tJhWSwtF/1-ABU-DABI-emiratos-arabes.png",
+        "family": "Amaderado"
     },
     {
         "id": 542,
         "brand": "EMIRATO",
-        "name": "ESC. INSP. EN EMIRATO 2 DUBAI Unisex",
+        "name": "ESC. INSP. EN EMIRATO 2 DUBAI",
         "category": "Nicho",
         "NUEVO NOMBRE": "EMIRATO 2 ",
         "gender": "Unisex",
@@ -8131,12 +8494,13 @@ export const perfumes = [
         "DE 500 A 999 GRS": 252.0,
         "DE 250 A 499 GRS": 270.0,
         "DE 120 A 249 GRS": 270.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/DyP1qVzT/2-DUBAI-emiratos-arabes.png",
+        "family": "Amaderado"
     },
     {
         "id": 543,
         "brand": "EMIRATO",
-        "name": "ESC. INSP. EN EMIRATO 3 SARJA Unisex",
+        "name": "ESC. INSP. EN EMIRATO 3 SARJA",
         "category": "Nicho",
         "NUEVO NOMBRE": "EMIRATO 3 ",
         "gender": "Unisex",
@@ -8146,12 +8510,13 @@ export const perfumes = [
         "DE 500 A 999 GRS": 204.0,
         "DE 250 A 499 GRS": 218.5714285714,
         "DE 120 A 249 GRS": 218.5714285714,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/1R6G3Vh4/3-SARJA-emiratos-arabes.png",
+        "family": "Amaderado"
     },
     {
         "id": 544,
         "brand": "EMIRATO",
-        "name": "ESC. INSP. EN EMIRATO 4 AJMAN Unisex",
+        "name": "ESC. INSP. EN EMIRATO 4 AJMAN",
         "category": "Nicho",
         "NUEVO NOMBRE": "EMIRATO 4 ",
         "gender": "Unisex",
@@ -8161,12 +8526,13 @@ export const perfumes = [
         "DE 500 A 999 GRS": 200.0,
         "DE 250 A 499 GRS": 214.2857142857,
         "DE 120 A 249 GRS": 214.2857142857,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/T32g0kyW/4-AJMAN-emiratos-arabes.png",
+        "family": "Amaderado"
     },
     {
         "id": 545,
         "brand": "EMIRATO",
-        "name": "ESC. INSP. EN EMIRATO 5 QAYWAYN Unisex",
+        "name": "ESC. INSP. EN EMIRATO 5 QAYWAYN",
         "category": "Nicho",
         "NUEVO NOMBRE": "EMIRATO 5 ",
         "gender": "Unisex",
@@ -8176,12 +8542,13 @@ export const perfumes = [
         "DE 500 A 999 GRS": 249.3333333333,
         "DE 250 A 499 GRS": 267.1428571429,
         "DE 120 A 249 GRS": 267.1428571429,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/3wdp5dF8/5-QAYWAYN-emiratos-arabes.png",
+        "family": "Amaderado"
     },
     {
         "id": 546,
         "brand": "EMIRATO",
-        "name": "ESC. INSP. EN EMIRATO 6 JAIMA Unisex",
+        "name": "ESC. INSP. EN EMIRATO 6 JAIMA",
         "category": "Nicho",
         "NUEVO NOMBRE": "EMIRATO 6 ",
         "gender": "Unisex",
@@ -8191,12 +8558,13 @@ export const perfumes = [
         "DE 500 A 999 GRS": 210.6666666667,
         "DE 250 A 499 GRS": 225.7142857143,
         "DE 120 A 249 GRS": 225.7142857143,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/4x8tSzt2/6-JAIMA-emiratos-arabes.png",
+        "family": "Amaderado"
     },
     {
         "id": 547,
         "brand": "EMIRATO",
-        "name": "ESC. INSP. EN EMIRATO 7 FUYAIRA Unisex",
+        "name": "ESC. INSP. EN EMIRATO 7 FUYAIRA",
         "category": "Nicho",
         "NUEVO NOMBRE": "EMIRATO 7 ",
         "gender": "Unisex",
@@ -8206,7 +8574,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 202.6666666667,
         "DE 250 A 499 GRS": 217.1428571429,
         "DE 120 A 249 GRS": 217.1428571429,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/8PShJkN4/7-FUYAIRA-emiratos-arabes.png",
+        "family": "Amaderado"
     },
     {
         "id": 548,
@@ -8221,12 +8590,13 @@ export const perfumes = [
         "DE 500 A 999 GRS": 201.4908,
         "DE 250 A 499 GRS": 215.883,
         "DE 120 A 249 GRS": 215.883,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Frutal Floral"
     },
     {
         "id": 549,
         "brand": "EMPER",
-        "name": "ESC.INSP.EN EMPER STALLION 53 Unisex",
+        "name": "ESC.INSP.EN EMPER STALLION 53",
         "category": "Nicho",
         "NUEVO NOMBRE": "STALLON SILVER",
         "gender": "Unisex",
@@ -8236,7 +8606,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 198.3174666667,
         "DE 250 A 499 GRS": 212.483,
         "DE 120 A 249 GRS": 212.483,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/ZK8xVBVX/STALLION53-2.png",
+        "family": "Amaderada"
     },
     {
         "id": 550,
@@ -8251,7 +8622,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 173.502,
         "DE 250 A 499 GRS": 185.895,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Amaderado Floral"
     },
     {
         "id": 551,
@@ -8266,7 +8638,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 227.8612,
         "DE 250 A 499 GRS": 244.137,
         "DE 120 A 249 GRS": 244.137,
-        "picture": "https://i.postimg.cc/JnSTknMD/Sugar-Daddy.jpg"
+        "picture": "https://i.postimg.cc/JnSTknMD/Sugar-Daddy.jpg",
+        "family": "Ámbar Especiada"
     },
     {
         "id": 552,
@@ -8281,7 +8654,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 237.5398666667,
         "DE 250 A 499 GRS": 254.507,
         "DE 120 A 249 GRS": 254.507,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Gourmand"
     },
     {
         "id": 553,
@@ -8296,7 +8670,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 344.8937333333,
         "DE 250 A 499 GRS": 369.529,
         "DE 120 A 249 GRS": 369.529,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Amaderado Floral"
     },
     {
         "id": 554,
@@ -8311,7 +8686,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 224.2277333333,
         "DE 250 A 499 GRS": 240.244,
         "DE 120 A 249 GRS": 240.244,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Amaderado"
     },
     {
         "id": 555,
@@ -8326,7 +8702,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 188.8133333333,
         "DE 250 A 499 GRS": 202.3,
         "DE 120 A 249 GRS": 202.3,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Amaderado Vainilla"
     },
     {
         "id": 556,
@@ -8341,7 +8718,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 252.4386666667,
         "DE 250 A 499 GRS": 270.47,
         "DE 120 A 249 GRS": 270.47,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Amaderado Aromático"
     },
     {
         "id": 557,
@@ -8356,7 +8734,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 485.3296,
         "DE 250 A 499 GRS": 519.996,
         "DE 120 A 249 GRS": 519.996,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Almizclado"
     },
     {
         "id": 558,
@@ -8371,12 +8750,13 @@ export const perfumes = [
         "DE 500 A 999 GRS": 212.0738666667,
         "DE 250 A 499 GRS": 227.222,
         "DE 120 A 249 GRS": 227.222,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Amaderado"
     },
     {
         "id": 559,
         "brand": "HARAMAIN",
-        "name": "ESC. INSP. EN ALHARAMAIN L AVENTURE MEN ",
+        "name": "ESC. INSP. EN ALHARAMAIN L AVENTURE",
         "category": "Nicho",
         "NUEVO NOMBRE": "BLACK ADVENTURE ",
         "gender": "Hombre",
@@ -8386,12 +8766,13 @@ export const perfumes = [
         "DE 500 A 999 GRS": 223.1329333333,
         "DE 250 A 499 GRS": 239.071,
         "DE 120 A 249 GRS": 239.071,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Chipre Frutal"
     },
     {
         "id": 560,
         "brand": "HARAMAIN",
-        "name": "ESC. INSP. EN ALHARAMAIN L AVENTURE BLANCHE MEN ",
+        "name": "ESC. INSP. EN ALHARAMAIN L AVENTURE BLANCHE",
         "category": "Nicho",
         "NUEVO NOMBRE": "CHESCOVIO ",
         "gender": "Hombre",
@@ -8401,12 +8782,13 @@ export const perfumes = [
         "DE 500 A 999 GRS": 204.4102666667,
         "DE 250 A 499 GRS": 219.011,
         "DE 120 A 249 GRS": 219.011,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Cítrico Aromático"
     },
     {
         "id": 561,
         "brand": "HARAMAIN",
-        "name": "ESC. INSP. EN ALHARAMAIN L AVENTURE KNIGHT MEN ",
+        "name": "ESC. INSP. EN ALHARAMAIN L AVENTURE KNIGHT",
         "category": "Nicho",
         "NUEVO NOMBRE": "ARKHAM NIGHT",
         "gender": "Hombre",
@@ -8416,7 +8798,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 152.6373333333,
         "DE 250 A 499 GRS": 163.54,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Amaderado Aromático"
     },
     {
         "id": 562,
@@ -8431,12 +8814,13 @@ export const perfumes = [
         "DE 500 A 999 GRS": 219.3408,
         "DE 250 A 499 GRS": 235.008,
         "DE 120 A 249 GRS": 235.008,
-        "picture": "https://i.postimg.cc/kGTJ3vr6/LAVENTURE-FEMME.png"
+        "picture": "https://i.postimg.cc/kGTJ3vr6/LAVENTURE-FEMME.png",
+        "family": "Floral Frutal"
     },
     {
         "id": 563,
         "brand": "HARAMAIN",
-        "name": "ESC. INSP. EN ALHARAMAIN MANEGE BLANCHE Unisex ",
+        "name": "ESC. INSP. EN ALHARAMAIN MANEGE BLANCHE",
         "category": "Nicho",
         "NUEVO NOMBRE": "CHESCOVIO SPORT ",
         "gender": "Unisex",
@@ -8446,14 +8830,15 @@ export const perfumes = [
         "DE 500 A 999 GRS": 229.0829333333,
         "DE 250 A 499 GRS": 245.446,
         "DE 120 A 249 GRS": 245.446,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Cítrico Aromático"
     },
     {
         "id": 564,
         "brand": "HARAMAIN",
-        "name": "ESC. INSP. EN ALHARAMAIN MANEGE ROUGE Unisex ",
+        "name": "ESC. INSP. EN ALHARAMAIN MANEGE ROUGE",
         "category": "Nicho",
-        "NUEVO NOMBRE": "RUGE EMPODERO ",
+        "NUEVO NOMBRE": "RUGE EMPODERO",
         "gender": "Unisex",
         "10 KG EN ADELANTE": 182.0171111111,
         "5 KG A 9,99 KG": 192.724,
@@ -8461,12 +8846,13 @@ export const perfumes = [
         "DE 500 A 999 GRS": 218.4205333333,
         "DE 250 A 499 GRS": 234.022,
         "DE 120 A 249 GRS": 234.022,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Amaderado"
     },
     {
         "id": 565,
         "brand": "HARAMAIN",
-        "name": "ESC. INSP. EN ALHARAMAIN NARJIS Mujer",
+        "name": "ESC. INSP. EN ALHARAMAIN NARJIS",
         "category": "Nicho",
         "NUEVO NOMBRE": "NARIZ",
         "gender": "Mujer",
@@ -8476,7 +8862,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 183.5297333333,
         "DE 250 A 499 GRS": 196.639,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral"
     },
     {
         "id": 566,
@@ -8491,7 +8878,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 176.6753333333,
         "DE 250 A 499 GRS": 189.295,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Oriental"
     },
     {
         "id": 567,
@@ -8506,7 +8894,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 241.3002666667,
         "DE 250 A 499 GRS": 258.536,
         "DE 120 A 249 GRS": 258.536,
-        "picture": "https://i.postimg.cc/MHqH8Gv4/AMBER-OUD-BLUE-EDITION.png"
+        "picture": "https://i.postimg.cc/MHqH8Gv4/AMBER-OUD-BLUE-EDITION.png",
+        "family": "Oriental Amaderada"
     },
     {
         "id": 568,
@@ -8521,7 +8910,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 219.2773333333,
         "DE 250 A 499 GRS": 234.94,
         "DE 120 A 249 GRS": 234.94,
-        "picture": "https://i.postimg.cc/TYL5czjz/ATOMIC-ROSE.png"
+        "picture": "https://i.postimg.cc/TYL5czjz/ATOMIC-ROSE.png",
+        "family": "Ámbar Floral"
     },
     {
         "id": 569,
@@ -8536,7 +8926,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 211.3916,
         "DE 250 A 499 GRS": 226.491,
         "DE 120 A 249 GRS": 226.491,
-        "picture": "https://i.postimg.cc/VvwZFqpT/NARCOTIC-DELIGHT.jpg"
+        "picture": "https://i.postimg.cc/VvwZFqpT/NARCOTIC-DELIGHT.jpg",
+        "family": "Oriental Vainilla"
     },
     {
         "id": 570,
@@ -8551,7 +8942,25 @@ export const perfumes = [
         "DE 500 A 999 GRS": 387.3529333333,
         "DE 250 A 499 GRS": 415.021,
         "DE 120 A 249 GRS": 415.021,
-        "picture": "https://i.postimg.cc/v87NZK6d/INITIO-OUD-FOR-GREATNESS.png"
+        "picture": "https://i.postimg.cc/v87NZK6d/INITIO-OUD-FOR-GREATNESS.png",
+        "family": "Amaderado"
+    },
+    {
+        "id": 735,
+        "brand": "INITIO",
+        "name": "ESC. INSP EN OUD FOR GREATNESS NEO",
+        "category": "Nicho",
+        "isNew": true,
+        "NUEVO NOMBRE": "SYNERGISTIC ENERGY",
+        "gender": "Unisex",
+        "10 KG EN ADELANTE": 156,
+        "5 KG A 9,99 KG": 166,
+        "1 KG A 4,99 KG": 176,
+        "DE 500 A 999 GRS": 188,
+        "DE 250 A 499 GRS": 201,
+        "DE 120 A 249 GRS": 201,
+        "picture": "https://i.postimg.cc/dVYwDc7w/Oud-For-Greatnes-Neo.jpg",
+        "family": "Amaderada Especiada"
     },
     {
         "id": 571,
@@ -8566,12 +8975,13 @@ export const perfumes = [
         "DE 500 A 999 GRS": 212.0897333333,
         "DE 250 A 499 GRS": 227.239,
         "DE 120 A 249 GRS": 227.239,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Amaderado Aromático"
     },
     {
         "id": 572,
         "brand": "INITIO",
-        "name": "ESC. INSP. EN INITIO SIDE EFFECT Unisex ",
+        "name": "ESC. INSP. EN INITIO SIDE EFFECT",
         "category": "Nicho",
         "NUEVO NOMBRE": "BELLIN",
         "gender": "Unisex",
@@ -8581,7 +8991,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 191.2568,
         "DE 250 A 499 GRS": 204.918,
         "DE 120 A 249 GRS": 204.918,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/3R0gpdkS/SIDE-EFFECTS.png",
+        "family": "Oriental"
     },
     {
         "id": 573,
@@ -8596,7 +9007,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 204.68,
         "DE 250 A 499 GRS": 219.3,
         "DE 120 A 249 GRS": 219.3,
-        "picture": "https://i.postimg.cc/SRhDCdc2/IL-PEACE-ILMIN-UNISEX-Mesa-de-trabajo-1-copia-5.jpg"
+        "picture": "https://i.postimg.cc/SRhDCdc2/IL-PEACE-ILMIN-UNISEX-Mesa-de-trabajo-1-copia-5.jpg",
+        "family": "Gourmand"
     },
     {
         "id": 574,
@@ -8611,7 +9023,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 182.4508,
         "DE 250 A 499 GRS": 195.483,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://i.postimg.cc/SKHZNksG/IL-PEACE-ILMIN-UNISEX-Mesa-de-trabajo-1-copia-3.jpg"
+        "picture": "https://i.postimg.cc/SKHZNksG/IL-PEACE-ILMIN-UNISEX-Mesa-de-trabajo-1-copia-3.jpg",
+        "family": "Amaderado Aromático"
     },
     {
         "id": 575,
@@ -8626,7 +9039,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 212.0738666667,
         "DE 250 A 499 GRS": 227.222,
         "DE 120 A 249 GRS": 227.222,
-        "picture": "https://i.postimg.cc/Xqkx85g2/IL-PEACE-ILMIN-UNISEX-Mesa-de-trabajo-1-copia-6.jpg"
+        "picture": "https://i.postimg.cc/Xqkx85g2/IL-PEACE-ILMIN-UNISEX-Mesa-de-trabajo-1-copia-6.jpg",
+        "family": "Oriental Floral"
     },
     {
         "id": 576,
@@ -8641,7 +9055,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 220.4990666667,
         "DE 250 A 499 GRS": 236.249,
         "DE 120 A 249 GRS": 236.249,
-        "picture": "https://i.postimg.cc/TwmtKF5v/IL-PEACE-ILMIN-UNISEX-Mesa-de-trabajo-1-copia-4.jpg"
+        "picture": "https://i.postimg.cc/TwmtKF5v/IL-PEACE-ILMIN-UNISEX-Mesa-de-trabajo-1-copia-4.jpg",
+        "family": "Floral Frutal"
     },
     {
         "id": 577,
@@ -8656,7 +9071,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 221.9112,
         "DE 250 A 499 GRS": 237.762,
         "DE 120 A 249 GRS": 237.762,
-        "picture": "https://i.postimg.cc/YSvnHhp9/IL-PEACE-ILMIN-UNISEX-Mesa-de-trabajo-1-copia-2.jpg"
+        "picture": "https://i.postimg.cc/YSvnHhp9/IL-PEACE-ILMIN-UNISEX-Mesa-de-trabajo-1-copia-2.jpg",
+        "family": "Amaderado Especiado"
     },
     {
         "id": 578,
@@ -8671,12 +9087,13 @@ export const perfumes = [
         "DE 500 A 999 GRS": 221.5621333333,
         "DE 250 A 499 GRS": 237.388,
         "DE 120 A 249 GRS": 237.388,
-        "picture": "https://i.postimg.cc/15yvzW9b/IL-PEACE-ILMIN-UNISEX-Mesa-de-trabajo-1-copia-8.jpg"
+        "picture": "https://i.postimg.cc/15yvzW9b/IL-PEACE-ILMIN-UNISEX-Mesa-de-trabajo-1-copia-8.jpg",
+        "family": "Floral Oriental"
     },
     {
         "id": 579,
         "brand": "ILMIN",
-        "name": "ESC. INSP. EN ILMIN IL PEACE Unisex",
+        "name": "ESC. INSP. EN ILMIN IL PEACE",
         "category": "Nicho",
         "NUEVO NOMBRE": "PAZ ",
         "gender": "Unisex",
@@ -8686,7 +9103,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 222.7362666667,
         "DE 250 A 499 GRS": 238.646,
         "DE 120 A 249 GRS": 238.646,
-        "picture": "https://i.postimg.cc/FK66d0P3/IL-PEACE-ILMIN-UNISEX.png"
+        "picture": "https://i.postimg.cc/FK66d0P3/IL-PEACE-ILMIN-UNISEX.png",
+        "family": "Cítrico Aromático"
     },
     {
         "id": 580,
@@ -8701,12 +9119,13 @@ export const perfumes = [
         "DE 500 A 999 GRS": 185.1164,
         "DE 250 A 499 GRS": 198.339,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://i.postimg.cc/G3FMd01k/IL-PEACE-ILMIN-UNISEX-Mesa-de-trabajo-1-copia-7.jpg"
+        "picture": "https://i.postimg.cc/G3FMd01k/IL-PEACE-ILMIN-UNISEX-Mesa-de-trabajo-1-copia-7.jpg",
+        "family": "Floral"
     },
     {
         "id": 581,
         "brand": "ILMIN",
-        "name": "ESC. INSP. EN ILMIN IL SEXUEL Unisex ",
+        "name": "ESC. INSP. EN ILMIN IL SEXUEL",
         "category": "Nicho",
         "NUEVO NOMBRE": "SEXUALIDAD ",
         "gender": "Unisex",
@@ -8716,7 +9135,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 393.6996,
         "DE 250 A 499 GRS": 421.821,
         "DE 120 A 249 GRS": 421.821,
-        "picture": "https://i.postimg.cc/Bn6NTXPg/IL-PEACE-ILMIN-UNISEX-Mesa-de-trabajo-1-copia-10.jpg"
+        "picture": "https://i.postimg.cc/Bn6NTXPg/IL-PEACE-ILMIN-UNISEX-Mesa-de-trabajo-1-copia-10.jpg",
+        "family": "Amaderado Especiado"
     },
     {
         "id": 582,
@@ -8731,14 +9151,15 @@ export const perfumes = [
         "DE 500 A 999 GRS": 210.63,
         "DE 250 A 499 GRS": 225.675,
         "DE 120 A 249 GRS": 225.675,
-        "picture": "https://i.postimg.cc/TYQC5r11/IL-PEACE-ILMIN-UNISEX-Mesa-de-trabajo-1-copia-9.jpg"
+        "picture": "https://i.postimg.cc/TYQC5r11/IL-PEACE-ILMIN-UNISEX-Mesa-de-trabajo-1-copia-9.jpg",
+        "family": "Frutal Amaderada"
     },
     {
         "id": 583,
         "brand": "JOMILANO",
         "name": "ESC. INSP. EN JOMILANO GAME OF SPADES BID",
         "category": "Nicho",
-        "NUEVO NOMBRE": "GUERRA DE ESPADAS ",
+        "NUEVO NOMBRE": "GUERRA DE ESPADAS",
         "gender": "Unisex",
         "10 KG EN ADELANTE": 159.9756666667,
         "5 KG A 9,99 KG": 169.386,
@@ -8746,14 +9167,15 @@ export const perfumes = [
         "DE 500 A 999 GRS": 191.9708,
         "DE 250 A 499 GRS": 205.683,
         "DE 120 A 249 GRS": 205.683,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Amaderado Especiado"
     },
     {
         "id": 584,
         "brand": "JOMILANO",
         "name": "ESC. INSP. EN JOMILANO GAME OF SPADES ROYALE",
         "category": "Nicho",
-        "NUEVO NOMBRE": "JUEGO DE ESEPADAS ",
+        "NUEVO NOMBRE": "JUEGO DE ESPADAS",
         "gender": "Unisex",
         "10 KG EN ADELANTE": 189.1042222222,
         "5 KG A 9,99 KG": 200.228,
@@ -8761,7 +9183,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 226.9250666667,
         "DE 250 A 499 GRS": 243.134,
         "DE 120 A 249 GRS": 243.134,
-        "picture": "https://i.postimg.cc/02ZMP7GC/GAME-OF-SPADES-ROYALE.png"
+        "picture": "https://i.postimg.cc/02ZMP7GC/GAME-OF-SPADES-ROYALE.png",
+        "family": "Amaderado Aromático"
     },
     {
         "id": 585,
@@ -8776,7 +9199,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 219.5629333333,
         "DE 250 A 499 GRS": 235.246,
         "DE 120 A 249 GRS": 235.246,
-        "picture": "https://i.postimg.cc/Wzfr4jGn/DAHAR-KAJAL.png"
+        "picture": "https://i.postimg.cc/Wzfr4jGn/DAHAR-KAJAL.png",
+        "family": "Floral Frutal"
     },
     {
         "id": 586,
@@ -8791,7 +9215,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 226.3062666667,
         "DE 250 A 499 GRS": 242.471,
         "DE 120 A 249 GRS": 242.471,
-        "picture": "https://i.postimg.cc/nczGfS42/LAMAR-KAJAL.png"
+        "picture": "https://i.postimg.cc/nczGfS42/LAMAR-KAJAL.png",
+        "family": "Floral Frutal"
     },
     {
         "id": 587,
@@ -8806,7 +9231,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 210.6934666667,
         "DE 250 A 499 GRS": 225.743,
         "DE 120 A 249 GRS": 225.743,
-        "picture": "https://i.postimg.cc/Bv8zZQ2h/ALMAZ-KAJAL.jpg"
+        "picture": "https://i.postimg.cc/Bv8zZQ2h/ALMAZ-KAJAL.jpg",
+        "family": "Floral Aldehídica"
     },
     {
         "id": 588,
@@ -8821,7 +9247,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 241.2970933333,
         "DE 250 A 499 GRS": 258.5326,
         "DE 120 A 249 GRS": 258.5326,
-        "picture": "https://i.postimg.cc/WbbXb1vM/OUDGASM_TOBACCO.jpg"
+        "picture": "https://i.postimg.cc/WbbXb1vM/OUDGASM_TOBACCO.jpg",
+        "family": "Amaderado Especiado"
     },
     {
         "id": 589,
@@ -8836,7 +9263,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 222.4506666667,
         "DE 250 A 499 GRS": 238.34,
         "DE 120 A 249 GRS": 238.34,
-        "picture": "https://i.postimg.cc/KcQDVhM4/KAYALI-EDEN-JUICE-APPLE.png"
+        "picture": "https://i.postimg.cc/KcQDVhM4/KAYALI-EDEN-JUICE-APPLE.png",
+        "family": "Floral Frutal"
     },
     {
         "id": 590,
@@ -8851,7 +9279,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 241.3002666667,
         "DE 250 A 499 GRS": 258.536,
         "DE 120 A 249 GRS": 258.536,
-        "picture": "https://i.postimg.cc/sx3KWVZC/LOVEFEST-BURNING-CHERRY-KAYALI.jpg"
+        "picture": "https://i.postimg.cc/sx3KWVZC/LOVEFEST-BURNING-CHERRY-KAYALI.jpg",
+        "family": "Gourmand"
     },
     {
         "id": 591,
@@ -8866,7 +9295,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 241.3002666667,
         "DE 250 A 499 GRS": 258.536,
         "DE 120 A 249 GRS": 258.536,
-        "picture": "https://i.postimg.cc/P5J3KrVt/EDEN-SPARKLING-LYCHE.jpg"
+        "picture": "https://i.postimg.cc/P5J3KrVt/EDEN-SPARKLING-LYCHE.jpg",
+        "family": "Floral Frutal"
     },
     {
         "id": 592,
@@ -8881,7 +9311,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 263.2597333333,
         "DE 250 A 499 GRS": 282.064,
         "DE 120 A 249 GRS": 282.064,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Gourmand"
     },
     {
         "id": 593,
@@ -8896,7 +9327,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 237.524,
         "DE 250 A 499 GRS": 254.49,
         "DE 120 A 249 GRS": 254.49,
-        "picture": "https://i.postimg.cc/d15ZWvxY/BLACK-PHANTOM-by-killian.png"
+        "picture": "https://i.postimg.cc/d15ZWvxY/BLACK-PHANTOM-by-killian.png",
+        "family": "Gourmand"
     },
     {
         "id": 594,
@@ -8911,7 +9343,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 219.2773333333,
         "DE 250 A 499 GRS": 234.94,
         "DE 120 A 249 GRS": 234.94,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral Frutal"
     },
     {
         "id": 595,
@@ -8926,12 +9359,13 @@ export const perfumes = [
         "DE 500 A 999 GRS": 229.6224,
         "DE 250 A 499 GRS": 246.024,
         "DE 120 A 249 GRS": 246.024,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/BbW2C4Dq/SMOKING-HOT-KILLIAN.png",
+        "family": "Amaderado Especiado"
     },
     {
         "id": 596,
         "brand": "KILIAN",
-        "name": "ESC. INSP. EN KILIAN STRAIGHT TO HEAVEN Unisex ",
+        "name": "ESC. INSP. EN KILIAN STRAIGHT TO HEAVEN",
         "category": "Nicho",
         "NUEVO NOMBRE": "SINE ",
         "gender": "Unisex",
@@ -8941,12 +9375,13 @@ export const perfumes = [
         "DE 500 A 999 GRS": 222.4348,
         "DE 250 A 499 GRS": 238.323,
         "DE 120 A 249 GRS": 238.323,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/P5dzcX7J/STRAIGHT-TO-HEAVEN.png",
+        "family": "Amaderado Especiado"
     },
     {
         "id": 597,
         "brand": "LATTAFA",
-        "name": "ESC. INSP. EN LATTAFA ATLAS Unisex",
+        "name": "ESC. INSP. EN LATTAFA ATLAS",
         "category": "Nicho",
         "NUEVO NOMBRE": "MAPS",
         "gender": "Unisex",
@@ -8956,12 +9391,30 @@ export const perfumes = [
         "DE 500 A 999 GRS": 200.0628,
         "DE 250 A 499 GRS": 214.353,
         "DE 120 A 249 GRS": 214.353,
-        "picture": "https://i.postimg.cc/SKwvnFrm/ATLAS-LATTAFA.jpg"
+        "picture": "https://i.postimg.cc/SKwvnFrm/ATLAS-LATTAFA.jpg",
+        "family": "Amaderado Aromático"
+    },
+    {
+        "id": 731,
+        "brand": "LATTAFA",
+        "name": "ESC. INSP EN HER CONFESSION",
+        "category": "Nicho",
+        "isNew": true,
+        "NUEVO NOMBRE": "SOUL REVELATION",
+        "gender": "Mujer",
+        "10 KG EN ADELANTE": 139,
+        "5 KG A 9,99 KG": 147,
+        "1 KG A 4,99 KG": 156,
+        "DE 500 A 999 GRS": 167,
+        "DE 250 A 499 GRS": 179,
+        "DE 120 A 249 GRS": 200.0,
+        "picture": "https://i.postimg.cc/dV6P1kPj/ESENCIAS-NUEVAS-1-MAR-02.jpg",
+        "family": "Floral Almizclado"
     },
     {
         "id": 598,
         "brand": "LATTAFA",
-        "name": "ESC. INSP. EN LATTAFA AJWAD  Unisex",
+        "name": "ESC. INSP. EN LATTAFA AJWAD",
         "category": "Nicho",
         "NUEVO NOMBRE": "MALLIE ",
         "gender": "Unisex",
@@ -8971,7 +9424,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 219.2773333333,
         "DE 250 A 499 GRS": 234.94,
         "DE 120 A 249 GRS": 234.94,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Amaderado Almizclado"
     },
     {
         "id": 599,
@@ -8986,12 +9440,13 @@ export const perfumes = [
         "DE 500 A 999 GRS": 220.4990666667,
         "DE 250 A 499 GRS": 236.249,
         "DE 120 A 249 GRS": 236.249,
-        "picture": "https://i.postimg.cc/hPdhm9cg/LATTAFA-PINK-TO-PINK3.png"
+        "picture": "https://i.postimg.cc/hPdhm9cg/LATTAFA-PINK-TO-PINK3.png",
+        "family": "Floral Frutal"
     },
     {
         "id": 600,
         "brand": "LATTAFA",
-        "name": "ESC. INSP. EN LATTAFA AMETHYSTE Unisex ",
+        "name": "ESC. INSP. EN LATTAFA AMETHYSTE",
         "category": "Nicho",
         "NUEVO NOMBRE": "SUMPTUOUS QUARTZ",
         "gender": "Unisex",
@@ -9001,7 +9456,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 216.1674666667,
         "DE 250 A 499 GRS": 231.608,
         "DE 120 A 249 GRS": 231.608,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral Amaderado Almizclado"
     },
     {
         "id": 601,
@@ -9016,7 +9472,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 407.2814666667,
         "DE 250 A 499 GRS": 436.373,
         "DE 120 A 249 GRS": 436.373,
-        "picture": "https://i.postimg.cc/wjDtCDGF/LATTAFA-ASAD.png"
+        "picture": "https://i.postimg.cc/wjDtCDGF/LATTAFA-ASAD.png",
+        "family": "Amaderado Especiado"
     },
     {
         "id": 602,
@@ -9031,7 +9488,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 240.6021333333,
         "DE 250 A 499 GRS": 257.788,
         "DE 120 A 249 GRS": 257.788,
-        "picture": "https://i.postimg.cc/mg13tc6F/ZANZIBAR-lattafa.png"
+        "picture": "https://i.postimg.cc/mg13tc6F/ZANZIBAR-lattafa.png",
+        "family": "Aromático Acuático"
     },
     {
         "id": 603,
@@ -9046,7 +9504,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 195.8898666667,
         "DE 250 A 499 GRS": 209.882,
         "DE 120 A 249 GRS": 209.882,
-        "picture": "https://i.postimg.cc/d1MD46vJ/AMEERAT-AL-ARAB.png"
+        "picture": "https://i.postimg.cc/d1MD46vJ/AMEERAT-AL-ARAB.png",
+        "family": "Floral Frutal"
     },
     {
         "id": 604,
@@ -9061,7 +9520,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 219.2773333333,
         "DE 250 A 499 GRS": 234.94,
         "DE 120 A 249 GRS": 234.94,
-        "picture": "https://i.postimg.cc/xC1cNhTF/LATTAFA-SUBLIME-MEJORADA.png"
+        "picture": "https://i.postimg.cc/FKBy7jHk/lataffa-SUBLIME-POST.png",
+        "family": "Floral Frutal"
     },
     {
         "id": 605,
@@ -9076,14 +9536,15 @@ export const perfumes = [
         "DE 500 A 999 GRS": 237.5398666667,
         "DE 250 A 499 GRS": 254.507,
         "DE 120 A 249 GRS": 254.507,
-        "picture": "https://i.postimg.cc/9QnDqVnR/LATTAFA-HONOR-Y-GLORY.png"
+        "picture": "https://i.postimg.cc/9QnDqVnR/LATTAFA-HONOR-Y-GLORY.png",
+        "family": "Gourmand"
     },
     {
         "id": 606,
         "brand": "LATTAFA",
         "name": "ESC. INSP. EN LATTAFA ECLAIRE",
         "category": "Nicho",
-        "NUEVO NOMBRE": "AMEERAH  ",
+        "NUEVO NOMBRE": "AMEERAH",
         "gender": "Mujer",
         "10 KG EN ADELANTE": 200.9777777778,
         "5 KG A 9,99 KG": 212.8,
@@ -9091,7 +9552,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 241.1733333333,
         "DE 250 A 499 GRS": 258.4,
         "DE 120 A 249 GRS": 258.4,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral Frutal"
     },
     {
         "id": 607,
@@ -9106,7 +9568,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 211.0425333333,
         "DE 250 A 499 GRS": 226.117,
         "DE 120 A 249 GRS": 226.117,
-        "picture": "https://i.postimg.cc/9QgSjqwR/LATTAFA-EMEER.jpg"
+        "picture": "https://i.postimg.cc/9QgSjqwR/LATTAFA-EMEER.jpg",
+        "family": "Amaderado Especiado"
     },
     {
         "id": 608,
@@ -9121,14 +9584,15 @@ export const perfumes = [
         "DE 500 A 999 GRS": 237.5398666667,
         "DE 250 A 499 GRS": 254.507,
         "DE 120 A 249 GRS": 254.507,
-        "picture": "https://i.postimg.cc/SskcTgQW/FAKHAR-LATTAFA.png"
+        "picture": "https://i.postimg.cc/SskcTgQW/FAKHAR-LATTAFA.png",
+        "family": "Aromática Fougère"
     },
     {
         "id": 609,
         "brand": "LATTAFA",
         "name": "ESC. INSP. EN LATTAFA HAYA",
         "category": "Nicho",
-        "NUEVO NOMBRE": "PINK OPULENCE ",
+        "NUEVO NOMBRE": "PINK OPULENCE",
         "gender": "Mujer",
         "10 KG EN ADELANTE": 184.7805555556,
         "5 KG A 9,99 KG": 195.65,
@@ -9136,7 +9600,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 221.7366666667,
         "DE 250 A 499 GRS": 237.575,
         "DE 120 A 249 GRS": 237.575,
-        "picture": "https://i.postimg.cc/tg5sTpyx/HAYA-LATTAFA.png"
+        "picture": "https://i.postimg.cc/tg5sTpyx/HAYA-LATTAFA.png",
+        "family": "Floral Frutal"
     },
     {
         "id": 610,
@@ -9151,7 +9616,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 227.6073333333,
         "DE 250 A 499 GRS": 243.865,
         "DE 120 A 249 GRS": 243.865,
-        "picture": "https://i.postimg.cc/wBJkbtXd/JASOOR-LATTAFA.png"
+        "picture": "https://i.postimg.cc/wBJkbtXd/JASOOR-LATTAFA.png",
+        "family": "Amaderado Especiado"
     },
     {
         "id": 611,
@@ -9166,7 +9632,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 266.4330666667,
         "DE 250 A 499 GRS": 285.464,
         "DE 120 A 249 GRS": 285.464,
-        "picture": "https://i.postimg.cc/kgS870BQ/KAMRAH-LATTAFA.png"
+        "picture": "https://i.postimg.cc/kgS870BQ/KAMRAH-LATTAFA.png",
+        "family": "Gourmand"
     },
     {
         "id": 612,
@@ -9181,7 +9648,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 237.5398666667,
         "DE 250 A 499 GRS": 254.507,
         "DE 120 A 249 GRS": 254.507,
-        "picture": "https://i.postimg.cc/YSk4Mhc7/LATTAFA-MAYAR-POST.png"
+        "picture": "https://i.postimg.cc/YSk4Mhc7/LATTAFA-MAYAR-POST.png",
+        "family": "Floral Frutal"
     },
     {
         "id": 613,
@@ -9196,12 +9664,13 @@ export const perfumes = [
         "DE 500 A 999 GRS": 229.6224,
         "DE 250 A 499 GRS": 246.024,
         "DE 120 A 249 GRS": 246.024,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral Frutal"
     },
     {
         "id": 614,
         "brand": "LATTAFA",
-        "name": "ESC. INSP. EN LATTAFA OUD FOR GLORY Unisex ",
+        "name": "ESC. INSP. EN LATTAFA OUD FOR GLORY",
         "category": "Nicho",
         "NUEVO NOMBRE": "GLORIA POR SIEMPRE ",
         "gender": "Unisex",
@@ -9211,12 +9680,13 @@ export const perfumes = [
         "DE 500 A 999 GRS": 390.5262666667,
         "DE 250 A 499 GRS": 418.421,
         "DE 120 A 249 GRS": 418.421,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Amaderado Especiado"
     },
     {
         "id": 615,
         "brand": "LATTAFA",
-        "name": "ESC. INSP. EN LATTAFA PRIDE AL QIAM GOLD Unisex ",
+        "name": "ESC. INSP. EN LATTAFA PRIDE AL QIAM GOLD",
         "category": "Nicho",
         "NUEVO NOMBRE": "ORO ALQUILADO ",
         "gender": "Unisex",
@@ -9226,12 +9696,14 @@ export const perfumes = [
         "DE 500 A 999 GRS": 478.9829333333,
         "DE 250 A 499 GRS": 513.196,
         "DE 120 A 249 GRS": 513.196,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Amaderado Especiado"
     },
+
     {
         "id": 616,
-        "brand": "LARRAFA",
-        "name": "ESC. INSP. EN LATTAFA PRIDE NEBRAS Unisex ",
+        "brand": "LATTAFA",
+        "name": "ESC. INSP. EN LATTAFA PRIDE NEBRAS",
         "category": "Nicho",
         "NUEVO NOMBRE": "ODETTE ",
         "gender": "Unisex",
@@ -9241,12 +9713,13 @@ export const perfumes = [
         "DE 500 A 999 GRS": 237.5398666667,
         "DE 250 A 499 GRS": 254.507,
         "DE 120 A 249 GRS": 254.507,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Ámbar Vainilla"
     },
     {
         "id": 617,
         "brand": "LATTAFA",
-        "name": "ESC. INSP. EN LATTAFA PRIDE SHAHEEN GOLD MEN ",
+        "name": "ESC. INSP. EN LATTAFA PRIDE SHAHEEN GOLD",
         "category": "Nicho",
         "NUEVO NOMBRE": "ORO PRIVADO ",
         "gender": "Hombre",
@@ -9256,7 +9729,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 182.2445333333,
         "DE 250 A 499 GRS": 195.262,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Oriental"
     },
     {
         "id": 618,
@@ -9271,7 +9745,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 219.7216,
         "DE 250 A 499 GRS": 235.416,
         "DE 120 A 249 GRS": 235.416,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Gourmand"
     },
     {
         "id": 619,
@@ -9286,7 +9761,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 340.8001333333,
         "DE 250 A 499 GRS": 365.143,
         "DE 120 A 249 GRS": 365.143,
-        "picture": "https://i.postimg.cc/fTpmnzTW/LATTAFA-YARA.png"
+        "picture": "https://i.postimg.cc/fTpmnzTW/LATTAFA-YARA.png",
+        "family": "Floral Frutal"
     },
     {
         "id": 620,
@@ -9301,7 +9777,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 189.5273333333,
         "DE 250 A 499 GRS": 203.065,
         "DE 120 A 249 GRS": 203.065,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Frutal Gourmand"
     },
     {
         "id": 621,
@@ -9316,12 +9793,13 @@ export const perfumes = [
         "DE 500 A 999 GRS": 219.2773333333,
         "DE 250 A 499 GRS": 234.94,
         "DE 120 A 249 GRS": 234.94,
-        "picture": "https://i.postimg.cc/VvSvDttq/YARA_MOI.png"
+        "picture": "https://i.postimg.cc/VvSvDttq/YARA_MOI.png",
+        "family": "Floral Frutal"
     },
     {
         "id": 622,
         "brand": "LATTAFA",
-        "name": "ESC. INSP. EN LATTAFA YARA TOUS Mujer ",
+        "name": "ESC. INSP. EN LATTAFA YARA TOUS",
         "category": "Nicho",
         "NUEVO NOMBRE": "ENCHANTING BLEND",
         "gender": "Mujer",
@@ -9331,7 +9809,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 222.8790666667,
         "DE 250 A 499 GRS": 238.799,
         "DE 120 A 249 GRS": 238.799,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral Ambar"
     },
     {
         "id": 623,
@@ -9346,7 +9825,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 267.9086666667,
         "DE 250 A 499 GRS": 287.045,
         "DE 120 A 249 GRS": 287.045,
-        "picture": "https://i.postimg.cc/X7HxZ6jt/NOBLE-BLUSH-LATTAFA.png"
+        "picture": "https://i.postimg.cc/X7HxZ6jt/NOBLE-BLUSH-LATTAFA.png",
+        "family": "Floral Frutal"
     },
     {
         "id": 624,
@@ -9361,7 +9841,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 241.3002666667,
         "DE 250 A 499 GRS": 258.536,
         "DE 120 A 249 GRS": 258.536,
-        "picture": "https://i.postimg.cc/HkNSNDFb/FAKHAR-ROSE.jpg"
+        "picture": "https://i.postimg.cc/HkNSNDFb/FAKHAR-ROSE.jpg",
+        "family": "Floral Frutal"
     },
     {
         "id": 625,
@@ -9376,7 +9857,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 222.4824,
         "DE 250 A 499 GRS": 238.374,
         "DE 120 A 249 GRS": 238.374,
-        "picture": "https://i.postimg.cc/44FhVfcv/BERGAMOTA22-LE-LABO.png"
+        "picture": "https://i.postimg.cc/44FhVfcv/BERGAMOTA22-LE-LABO.png",
+        "family": "Cítrico Aromático"
     },
     {
         "id": 626,
@@ -9391,12 +9873,13 @@ export const perfumes = [
         "DE 500 A 999 GRS": 179.2774666667,
         "DE 250 A 499 GRS": 192.083,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Amaderado Aromático"
     },
     {
         "id": 627,
         "brand": "LOUIS VUITTON",
-        "name": "ESC. INSP. EN LOUIS VUITTON IMMENSITE MEN ",
+        "name": "ESC. INSP. EN LOUIS VUITTON IMMENSITE",
         "category": "Nicho",
         "NUEVO NOMBRE": "LIMITLESS  HORIZON",
         "gender": "Hombre",
@@ -9406,7 +9889,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 184.5452,
         "DE 250 A 499 GRS": 197.727,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Cítrico Aromático"
     },
     {
         "id": 628,
@@ -9421,7 +9905,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 475.8096,
         "DE 250 A 499 GRS": 509.796,
         "DE 120 A 249 GRS": 509.796,
-        "picture": "https://i.postimg.cc/BnfbBXnF/OMBRE-NOMADE.png"
+        "picture": "https://i.postimg.cc/BnfbBXnF/OMBRE-NOMADE.png",
+        "family": "Amaderado Especiado"
     },
     {
         "id": 629,
@@ -9436,7 +9921,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 342.1964,
         "DE 250 A 499 GRS": 366.639,
         "DE 120 A 249 GRS": 366.639,
-        "picture": "https://i.postimg.cc/bJgkK1d4/PACIFIC-CHILL-LOUIS-VUITON.png"
+        "picture": "https://i.postimg.cc/bJgkK1d4/PACIFIC-CHILL-LOUIS-VUITON.png",
+        "family": "Cítrico Aromático"
     },
     {
         "id": 630,
@@ -9451,12 +9937,13 @@ export const perfumes = [
         "DE 500 A 999 GRS": 255.612,
         "DE 250 A 499 GRS": 273.87,
         "DE 120 A 249 GRS": 273.87,
-        "picture": "https://i.postimg.cc/mDC6MXXC/SYMPHONI---LOUIS-VUITTON.png"
+        "picture": "https://i.postimg.cc/mDC6MXXC/SYMPHONI---LOUIS-VUITTON.png",
+        "family": "Cítrico"
     },
     {
         "id": 631,
         "brand": "LORENZO PAZZAGLIA",
-        "name": "ESC. INSP. EN SUMMER HAMMER Unisex  ",
+        "name": "ESC. INSP. EN SUMMER HAMMER",
         "category": "Nicho",
         "NUEVO NOMBRE": "GAEA",
         "gender": "Unisex",
@@ -9466,7 +9953,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 241.332,
         "DE 250 A 499 GRS": 258.57,
         "DE 120 A 249 GRS": 258.57,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Frutal Amaderada"
     },
     {
         "id": 632,
@@ -9481,7 +9969,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 208.3293333333,
         "DE 250 A 499 GRS": 223.21,
         "DE 120 A 249 GRS": 223.21,
-        "picture": "https://i.postimg.cc/gjKStwP0/PAX---LORENZO-PAZZAGLIA-UNISEX.png"
+        "picture": "https://i.postimg.cc/gjKStwP0/PAX---LORENZO-PAZZAGLIA-UNISEX.png",
+        "family": "Amaderado Especiado"
     },
     {
         "id": 633,
@@ -9496,12 +9985,13 @@ export const perfumes = [
         "DE 500 A 999 GRS": 205.7272,
         "DE 250 A 499 GRS": 220.422,
         "DE 120 A 249 GRS": 220.422,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Amaderado Floral Almizclado"
     },
     {
         "id": 634,
         "brand": "MAISON FRANCES",
-        "name": "ESC. INSP. EN OUD SATIN MOOD MAISON FRANCES ",
+        "name": "ESC. INSP. EN OUD SATIN MOOD MAISON FRANCES",
         "category": "Nicho",
         "NUEVO NOMBRE": "SHIMMERING FACET",
         "gender": "Unisex",
@@ -9511,12 +10001,13 @@ export const perfumes = [
         "DE 500 A 999 GRS": 332.9461333333,
         "DE 250 A 499 GRS": 356.728,
         "DE 120 A 249 GRS": 356.728,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Amaderado Oriental"
     },
     {
         "id": 635,
         "brand": "MAISON FRANCES",
-        "name": "ESC. INSP. EN MAISON OUD SILK MOOD Unisex ",
+        "name": "ESC. INSP. EN MAISON OUD SILK MOOD",
         "category": "Nicho",
         "NUEVO NOMBRE": "WILD SILK",
         "gender": "Unisex",
@@ -9526,7 +10017,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 451.01,
         "DE 250 A 499 GRS": 483.225,
         "DE 120 A 249 GRS": 483.225,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral Amaderado Almizclado"
     },
     {
         "id": 636,
@@ -9541,7 +10033,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 188.2897333333,
         "DE 250 A 499 GRS": 201.739,
         "DE 120 A 249 GRS": 201.739,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral Frutal"
     },
     {
         "id": 637,
@@ -9556,7 +10049,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 482.1562666667,
         "DE 250 A 499 GRS": 516.596,
         "DE 120 A 249 GRS": 516.596,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Oriental Amaderada"
     },
     {
         "id": 638,
@@ -9571,7 +10065,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 225.9096,
         "DE 250 A 499 GRS": 242.046,
         "DE 120 A 249 GRS": 242.046,
-        "picture": "https://i.postimg.cc/KzDDxdpq/SCEPTRE-MALACHITE-dt.png"
+        "picture": "https://i.postimg.cc/KzDDxdpq/SCEPTRE-MALACHITE-dt.png",
+        "family": "Oriental Amaderada"
     },
     {
         "id": 639,
@@ -9586,7 +10081,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 228.4006666667,
         "DE 250 A 499 GRS": 244.715,
         "DE 120 A 249 GRS": 244.715,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Amaderado Vainilla"
     },
     {
         "id": 640,
@@ -9601,7 +10097,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 241.3002666667,
         "DE 250 A 499 GRS": 258.536,
         "DE 120 A 249 GRS": 258.536,
-        "picture": "https://i.postimg.cc/xCvtqk8P/JAZZ-CLUB-REPLICA-MAISON-MARGIELA.jpg"
+        "picture": "https://i.postimg.cc/xCvtqk8P/JAZZ-CLUB-REPLICA-MAISON-MARGIELA.jpg",
+        "family": "Amaderado Especiado"
     },
     {
         "id": 641,
@@ -9616,7 +10113,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 195.2869333333,
         "DE 250 A 499 GRS": 209.236,
         "DE 120 A 249 GRS": 209.236,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Cítrico Aromático"
     },
     {
         "id": 642,
@@ -9631,12 +10129,13 @@ export const perfumes = [
         "DE 500 A 999 GRS": 173.4702666667,
         "DE 250 A 499 GRS": 185.861,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Gourmand"
     },
     {
         "id": 643,
         "brand": "MANCERA",
-        "name": "ESC. INSP. EN MANCERA BLACK GOLD MEN ",
+        "name": "ESC. INSP. EN MANCERA BLACK GOLD",
         "category": "Nicho",
         "NUEVO NOMBRE": "STYLISH STRENGTH",
         "gender": "Hombre",
@@ -9646,12 +10145,13 @@ export const perfumes = [
         "DE 500 A 999 GRS": 158.4286666667,
         "DE 250 A 499 GRS": 169.745,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Amaderado Aromático"
     },
     {
         "id": 644,
         "brand": "MANCERA",
-        "name": "ESC. INSP. EN MANCERA CEDRAT BOISE MEN ",
+        "name": "ESC. INSP. EN MANCERA CEDRAT BOISE",
         "category": "Nicho",
         "NUEVO NOMBRE": "VIBRANT SILLAGE",
         "gender": "Hombre",
@@ -9661,12 +10161,13 @@ export const perfumes = [
         "DE 500 A 999 GRS": 168.7261333333,
         "DE 250 A 499 GRS": 180.778,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Cítrico Amaderado"
     },
     {
         "id": 645,
         "brand": "MANCERA",
-        "name": "ESC. INSP. EN MANCERA RED TOBACCO MEN ",
+        "name": "ESC. INSP. EN MANCERA RED TOBACCO",
         "category": "Nicho",
         "NUEVO NOMBRE": "SHADOWY RED",
         "gender": "Hombre",
@@ -9676,7 +10177,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 178.9284,
         "DE 250 A 499 GRS": 191.709,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Amaderado Especiado"
     },
     {
         "id": 646,
@@ -9691,7 +10193,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 200.158,
         "DE 250 A 499 GRS": 214.455,
         "DE 120 A 249 GRS": 214.455,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Oriental Floral"
     },
     {
         "id": 647,
@@ -9706,7 +10209,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 270.4632,
         "DE 250 A 499 GRS": 289.782,
         "DE 120 A 249 GRS": 289.782,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Vainilla"
     },
     {
         "id": 648,
@@ -9721,7 +10225,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 241.3002666667,
         "DE 250 A 499 GRS": 258.536,
         "DE 120 A 249 GRS": 258.536,
-        "picture": "https://i.postimg.cc/mkVjN0Qz/PARISIAN_MUSC.jpg"
+        "picture": "https://i.postimg.cc/mkVjN0Qz/PARISIAN_MUSC.jpg",
+        "family": "Almizcle Floral"
     },
     {
         "id": 649,
@@ -9736,7 +10241,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 241.3002666667,
         "DE 250 A 499 GRS": 258.536,
         "DE 120 A 249 GRS": 258.536,
-        "picture": "https://i.postimg.cc/xdbsDpSh/FALCON-LEATHER.jpg"
+        "picture": "https://i.postimg.cc/xdbsDpSh/FALCON-LEATHER.jpg",
+        "family": "Cuero"
     },
     {
         "id": 650,
@@ -9751,7 +10257,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 223.7517333333,
         "DE 250 A 499 GRS": 239.734,
         "DE 120 A 249 GRS": 239.734,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Amaderado Almizclado"
     },
     {
         "id": 651,
@@ -9766,7 +10273,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 223.7517333333,
         "DE 250 A 499 GRS": 239.734,
         "DE 120 A 249 GRS": 239.734,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Amaderado Aromático"
     },
     {
         "id": 652,
@@ -9781,7 +10289,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 293.454,
         "DE 250 A 499 GRS": 314.415,
         "DE 120 A 249 GRS": 314.415,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Oriental"
     },
     {
         "id": 653,
@@ -9796,7 +10305,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 208.5038666667,
         "DE 250 A 499 GRS": 223.397,
         "DE 120 A 249 GRS": 223.397,
-        "picture": "https://i.postimg.cc/mDsSxbj1/ARABIANS-TONKA2.png"
+        "picture": "https://i.postimg.cc/mDsSxbj1/ARABIANS-TONKA2.png",
+        "family": "Oriental Vainilla"
     },
     {
         "id": 654,
@@ -9811,7 +10321,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 136.9928,
         "DE 250 A 499 GRS": 146.778,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Gourmand"
     },
     {
         "id": 655,
@@ -9826,7 +10337,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 188.4166666667,
         "DE 250 A 499 GRS": 201.875,
         "DE 120 A 249 GRS": 201.875,
-        "picture": "https://i.postimg.cc/63qppZYk/CRAZY-IN-LOVE.png"
+        "picture": "https://i.postimg.cc/63qppZYk/CRAZY-IN-LOVE.png",
+        "family": "Floral Frutal"
     },
     {
         "id": 656,
@@ -9841,7 +10353,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 169.8526666667,
         "DE 250 A 499 GRS": 181.985,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral Frutal"
     },
     {
         "id": 657,
@@ -9856,7 +10369,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 170.3286666667,
         "DE 250 A 499 GRS": 182.495,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Oriental Vainilla"
     },
     {
         "id": 658,
@@ -9871,7 +10385,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 287.2818666667,
         "DE 250 A 499 GRS": 307.802,
         "DE 120 A 249 GRS": 307.802,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Almizclado"
     },
     {
         "id": 659,
@@ -9886,12 +10401,13 @@ export const perfumes = [
         "DE 500 A 999 GRS": 216.1674666667,
         "DE 250 A 499 GRS": 231.608,
         "DE 120 A 249 GRS": 231.608,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral Almizclado"
     },
     {
         "id": 660,
         "brand": "MONTALE",
-        "name": "ESC. INSP. EN MONTALE RENDEZ VOUS A MILAN      ",
+        "name": "ESC. INSP. EN MONTALE RENDEZ VOUS A MILAN",
         "category": "Nicho",
         "NUEVO NOMBRE": "IBRINGLY  ",
         "gender": "Unisex",
@@ -9901,7 +10417,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 216.9608,
         "DE 250 A 499 GRS": 232.458,
         "DE 120 A 249 GRS": 232.458,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Gourmand"
     },
     {
         "id": 661,
@@ -9916,7 +10433,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 205.7272,
         "DE 250 A 499 GRS": 220.422,
         "DE 120 A 249 GRS": 220.422,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Oriental Frutal"
     },
     {
         "id": 662,
@@ -9931,7 +10449,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 219.2773333333,
         "DE 250 A 499 GRS": 234.94,
         "DE 120 A 249 GRS": 234.94,
-        "picture": "https://i.postimg.cc/7LmL49M1/SENSUAL_INSTINCT.png"
+        "picture": "https://i.postimg.cc/7LmL49M1/SENSUAL_INSTINCT.png",
+        "family": "Floral Amaderado Almizclado"
     },
     {
         "id": 663,
@@ -9946,7 +10465,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 139.5949333333,
         "DE 250 A 499 GRS": 149.566,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Vainilla"
     },
     {
         "id": 664,
@@ -9961,7 +10481,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 242.4426666667,
         "DE 250 A 499 GRS": 259.76,
         "DE 120 A 249 GRS": 259.76,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Amaderado Especiado"
     },
     {
         "id": 665,
@@ -9976,12 +10497,13 @@ export const perfumes = [
         "DE 500 A 999 GRS": 171.6614666667,
         "DE 250 A 499 GRS": 183.923,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral"
     },
     {
         "id": 666,
         "brand": "MONTANA",
-        "name": "ESC. INSP. EN MONTANA POUR HOMME MEN ",
+        "name": "ESC. INSP. EN MONTANA POUR HOMME",
         "category": "Nicho",
         "NUEVO NOMBRE": "TEIDE",
         "gender": "Hombre",
@@ -9991,7 +10513,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 170.9950666667,
         "DE 250 A 499 GRS": 183.209,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Cuero"
     },
     {
         "id": 667,
@@ -10006,7 +10529,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 180.0549333333,
         "DE 250 A 499 GRS": 192.916,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Chipre"
     },
     {
         "id": 668,
@@ -10021,7 +10545,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 271.3834666667,
         "DE 250 A 499 GRS": 290.768,
         "DE 120 A 249 GRS": 290.768,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Floral Amaderado Almizclado"
     },
     {
         "id": 669,
@@ -10036,7 +10561,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 280.5544,
         "DE 250 A 499 GRS": 300.594,
         "DE 120 A 249 GRS": 300.594,
-        "picture": "https://i.postimg.cc/SKyKH38N/TERO-NISAHNE-POST2.png"
+        "picture": "https://i.postimg.cc/SKyKH38N/TERO-NISAHNE-POST2.png",
+        "family": "Amaderado Especiado"
     },
     {
         "id": 670,
@@ -10051,7 +10577,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 201.5066666667,
         "DE 250 A 499 GRS": 215.9,
         "DE 120 A 249 GRS": 215.9,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Oriental Floral"
     },
     {
         "id": 671,
@@ -10066,7 +10593,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 183.2282666667,
         "DE 250 A 499 GRS": 196.316,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Amaderado Especiado"
     },
     {
         "id": 672,
@@ -10081,7 +10609,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 244.7576133333,
         "DE 250 A 499 GRS": 262.2403,
         "DE 120 A 249 GRS": 262.2403,
-        "picture": "https://i.postimg.cc/MKWrMYyf/COCKTAIL-MARACUJA.png"
+        "picture": "https://i.postimg.cc/MKWrMYyf/COCKTAIL-MARACUJA.png",
+        "family": "Frutal"
     },
     {
         "id": 673,
@@ -10096,7 +10625,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 188.7974666667,
         "DE 250 A 499 GRS": 202.283,
         "DE 120 A 249 GRS": 202.283,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Ámbar"
     },
     {
         "id": 674,
@@ -10111,7 +10641,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 208.9005333333,
         "DE 250 A 499 GRS": 223.822,
         "DE 120 A 249 GRS": 223.822,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Ámbar"
     },
     {
         "id": 675,
@@ -10126,12 +10657,13 @@ export const perfumes = [
         "DE 500 A 999 GRS": 226.9409333333,
         "DE 250 A 499 GRS": 243.151,
         "DE 120 A 249 GRS": 243.151,
-        "picture": "https://i.postimg.cc/g0PhjgZf/AZZURE-FANTASU-ORIENTICA.png"
+        "picture": "https://i.postimg.cc/g0PhjgZf/AZZURE-FANTASU-ORIENTICA.png",
+        "family": "Aromático Acuático"
     },
     {
         "id": 676,
         "brand": "ORIENTICA",
-        "name": "ESC. INSP. EN ORIENTICA IMPERIAL GOLD MEN ",
+        "name": "ESC. INSP. EN ORIENTICA IMPERIAL GOLD",
         "category": "Nicho",
         "NUEVO NOMBRE": "ORIENTE ORO ",
         "gender": "Hombre",
@@ -10141,7 +10673,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 210.2333333333,
         "DE 250 A 499 GRS": 225.25,
         "DE 120 A 249 GRS": 225.25,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Amaderado Especiado"
     },
     {
         "id": 677,
@@ -10156,7 +10689,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 225.9096,
         "DE 250 A 499 GRS": 242.046,
         "DE 120 A 249 GRS": 242.046,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Amaderado Especiado"
     },
     {
         "id": 678,
@@ -10171,7 +10705,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 191.9866666667,
         "DE 250 A 499 GRS": 205.7,
         "DE 120 A 249 GRS": 205.7,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "family": "Ámbar"
     },
     {
         "id": 679,
@@ -10180,6 +10715,7 @@ export const perfumes = [
         "category": "Nicho",
         "NUEVO NOMBRE": "ORIENTE AZUL ",
         "gender": "Unisex",
+        "family": "Amaderado Aromático",
         "10 KG EN ADELANTE": 207.7211111111,
         "5 KG A 9,99 KG": 219.94,
         "1 KG A 4,99 KG": 233.68625,
@@ -10195,6 +10731,7 @@ export const perfumes = [
         "category": "Nicho",
         "NUEVO NOMBRE": "BIRJIS ",
         "gender": "Unisex",
+        "family": "Amaderada Dulce",
         "10 KG EN ADELANTE": 182.7311111111,
         "5 KG A 9,99 KG": 193.48,
         "1 KG A 4,99 KG": 205.5725,
@@ -10210,6 +10747,7 @@ export const perfumes = [
         "category": "Nicho",
         "NUEVO NOMBRE": "MEGAKAYA",
         "gender": "Unisex",
+        "family": "Aromático Acuático",
         "10 KG EN ADELANTE": 160.9937777778,
         "5 KG A 9,99 KG": 170.464,
         "1 KG A 4,99 KG": 181.118,
@@ -10225,6 +10763,7 @@ export const perfumes = [
         "category": "Nicho",
         "NUEVO NOMBRE": "VIAN  ",
         "gender": "Unisex",
+        "family": "Amaderada Especiada",
         "10 KG EN ADELANTE": 186.4597777778,
         "5 KG A 9,99 KG": 197.428,
         "1 KG A 4,99 KG": 209.76725,
@@ -10240,21 +10779,23 @@ export const perfumes = [
         "category": "Nicho",
         "NUEVO NOMBRE": "MAJESTIC MILXMIL ",
         "gender": "Unisex",
+        "family": "Amaderada Especiada",
         "10 KG EN ADELANTE": 183.0748888889,
         "5 KG A 9,99 KG": 193.844,
         "1 KG A 4,99 KG": 205.95925,
         "DE 500 A 999 GRS": 219.6898666667,
         "DE 250 A 499 GRS": 235.382,
         "DE 120 A 249 GRS": 235.382,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/qvGQMhK2/ONE-MILLION-GOLDEN-OUD.png"
     },
     {
         "id": 684,
         "brand": "PARFUMS DE MARLY",
-        "name": "ESC. INSP. EN PARFUMS DE MARLY ALTHAIR MEN ",
+        "name": "ESC. INSP. EN PARFUMS DE MARLY ALTHAIR",
         "category": "Nicho",
         "NUEVO NOMBRE": "MAJESTIC FEEL",
         "gender": "Hombre",
+        "family": "Vainilla Amaderada",
         "10 KG EN ADELANTE": 205.4336666667,
         "5 KG A 9,99 KG": 217.518,
         "1 KG A 4,99 KG": 231.112875,
@@ -10270,6 +10811,7 @@ export const perfumes = [
         "category": "Nicho",
         "NUEVO NOMBRE": "ADELINE",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 151.6192222222,
         "5 KG A 9,99 KG": 160.538,
         "1 KG A 4,99 KG": 170.571625,
@@ -10285,6 +10827,7 @@ export const perfumes = [
         "category": "Nicho",
         "NUEVO NOMBRE": "VIOLLETTE  ",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 198.0424444444,
         "5 KG A 9,99 KG": 209.692,
         "1 KG A 4,99 KG": 222.79775,
@@ -10296,10 +10839,11 @@ export const perfumes = [
     {
         "id": 687,
         "brand": "PARFUMS DE MARLY",
-        "name": "ESC. INSP. EN PARFUMS DE MARLY HEROD MEN ",
+        "name": "ESC. INSP. EN PARFUMS DE MARLY HEROD",
         "category": "Nicho",
         "NUEVO NOMBRE": "HERODES",
         "gender": "Hombre",
+        "family": "Tabaco Vainilla",
         "10 KG EN ADELANTE": 133.9807777778,
         "5 KG A 9,99 KG": 141.862,
         "1 KG A 4,99 KG": 150.728375,
@@ -10315,6 +10859,7 @@ export const perfumes = [
         "category": "Nicho",
         "NUEVO NOMBRE": "GYLIA  ",
         "gender": "Unisex",
+        "family": "Amaderada Especiada",
         "10 KG EN ADELANTE": 158.0452222222,
         "5 KG A 9,99 KG": 167.342,
         "1 KG A 4,99 KG": 177.800875,
@@ -10330,6 +10875,7 @@ export const perfumes = [
         "category": "Nicho",
         "NUEVO NOMBRE": "PEGASO",
         "gender": "Hombre",
+        "family": "Oriental Fougère",
         "10 KG EN ADELANTE": 314.9401111111,
         "5 KG A 9,99 KG": 333.466,
         "1 KG A 4,99 KG": 354.307625,
@@ -10345,6 +10891,7 @@ export const perfumes = [
         "category": "Nicho",
         "NUEVO NOMBRE": "HERSHEL",
         "gender": "Unisex",
+        "family": "Amaderada Vainilla",
         "10 KG EN ADELANTE": 205.0766666667,
         "5 KG A 9,99 KG": 217.14,
         "1 KG A 4,99 KG": 230.71125,
@@ -10360,6 +10907,7 @@ export const perfumes = [
         "category": "Nicho",
         "NUEVO NOMBRE": "TARANTOS",
         "gender": "Unisex",
+        "family": "Floral Aldehídica",
         "10 KG EN ADELANTE": 331.6662222222,
         "5 KG A 9,99 KG": 351.176,
         "1 KG A 4,99 KG": 373.1245,
@@ -10375,6 +10923,7 @@ export const perfumes = [
         "category": "Nicho",
         "NUEVO NOMBRE": "TODO POR EL ",
         "gender": "Hombre",
+        "family": "Aromático Acuático",
         "10 KG EN ADELANTE": 165.3703333333,
         "5 KG A 9,99 KG": 175.098,
         "1 KG A 4,99 KG": 186.041625,
@@ -10390,6 +10939,7 @@ export const perfumes = [
         "category": "Nicho",
         "NUEVO NOMBRE": "NOWOM",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 310.4577777778,
         "5 KG A 9,99 KG": 328.72,
         "1 KG A 4,99 KG": 349.265,
@@ -10405,6 +10955,7 @@ export const perfumes = [
         "category": "Nicho",
         "NUEVO NOMBRE": "LINI MAN ",
         "gender": "Hombre",
+        "family": "Cuero",
         "10 KG EN ADELANTE": 182.7311111111,
         "5 KG A 9,99 KG": 193.48,
         "1 KG A 4,99 KG": 205.5725,
@@ -10420,6 +10971,7 @@ export const perfumes = [
         "category": "Nicho",
         "NUEVO NOMBRE": "HADAS DEL REY ",
         "gender": "Unisex",
+        "family": "Oriental Amaderada",
         "10 KG EN ADELANTE": 185.4284444444,
         "5 KG A 9,99 KG": 196.336,
         "1 KG A 4,99 KG": 208.607,
@@ -10435,6 +10987,7 @@ export const perfumes = [
         "category": "Nicho",
         "NUEVO NOMBRE": "MACAIRE",
         "gender": "Unisex",
+        "family": "Cítrico Aromático",
         "10 KG EN ADELANTE": 182.9691111111,
         "5 KG A 9,99 KG": 193.732,
         "1 KG A 4,99 KG": 205.84025,
@@ -10450,6 +11003,7 @@ export const perfumes = [
         "category": "Nicho",
         "NUEVO NOMBRE": "CORDIE",
         "gender": "Unisex",
+        "family": "Floral Amaderada",
         "10 KG EN ADELANTE": 198.4364666667,
         "5 KG A 9,99 KG": 210.1092,
         "1 KG A 4,99 KG": 223.241025,
@@ -10465,6 +11019,7 @@ export const perfumes = [
         "category": "Nicho",
         "NUEVO NOMBRE": "CONTRA",
         "gender": "Unisex",
+        "family": "Amaderada",
         "10 KG EN ADELANTE": 188.7472222222,
         "5 KG A 9,99 KG": 199.85,
         "1 KG A 4,99 KG": 212.340625,
@@ -10480,6 +11035,7 @@ export const perfumes = [
         "category": "Nicho",
         "NUEVO NOMBRE": "FASCINATING STAR",
         "gender": "Unisex",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 202.5247777778,
         "5 KG A 9,99 KG": 214.438,
         "1 KG A 4,99 KG": 227.840375,
@@ -10495,6 +11051,7 @@ export const perfumes = [
         "category": "Nicho",
         "NUEVO NOMBRE": "UNREAL JOURNEY",
         "gender": "Unisex",
+        "family": "Chipre Frutal",
         "10 KG EN ADELANTE": 266.6525555556,
         "5 KG A 9,99 KG": 282.338,
         "1 KG A 4,99 KG": 299.984125,
@@ -10510,6 +11067,7 @@ export const perfumes = [
         "category": "Nicho",
         "NUEVO NOMBRE": "ENCHANTING GODDESS",
         "gender": "Unisex",
+        "family": "Chipre Frutal",
         "10 KG EN ADELANTE": 188.496,
         "5 KG A 9,99 KG": 199.584,
         "1 KG A 4,99 KG": 212.058,
@@ -10525,6 +11083,7 @@ export const perfumes = [
         "category": "Nicho",
         "NUEVO NOMBRE": "SAILORS DREAM",
         "gender": "Unisex",
+        "family": "Aromático Acuático",
         "10 KG EN ADELANTE": 167.4197777778,
         "5 KG A 9,99 KG": 177.268,
         "1 KG A 4,99 KG": 188.34725,
@@ -10540,6 +11099,7 @@ export const perfumes = [
         "category": "Nicho",
         "NUEVO NOMBRE": "DEEP OCEAN",
         "gender": "Unisex",
+        "family": "Aromático Acuático",
         "10 KG EN ADELANTE": 139.9704444444,
         "5 KG A 9,99 KG": 148.204,
         "1 KG A 4,99 KG": 157.46675,
@@ -10551,10 +11111,11 @@ export const perfumes = [
     {
         "id": 704,
         "brand": "TOM FORD",
-        "name": "ESC. INSP. EN TOM FORD NOIR EXTREME MEN ",
+        "name": "ESC. INSP. EN TOM FORD NOIR EXTREME",
         "category": "Nicho",
         "NUEVO NOMBRE": "TONISSIMO",
         "gender": "Hombre",
+        "family": "Oriental Amaderada",
         "10 KG EN ADELANTE": 182.3741111111,
         "5 KG A 9,99 KG": 193.102,
         "1 KG A 4,99 KG": 205.170875,
@@ -10570,6 +11131,7 @@ export const perfumes = [
         "category": "Nicho",
         "NUEVO NOMBRE": "LEATHERY",
         "gender": "Unisex",
+        "family": "Cuero",
         "10 KG EN ADELANTE": 156.7626666667,
         "5 KG A 9,99 KG": 165.984,
         "1 KG A 4,99 KG": 176.358,
@@ -10585,6 +11147,7 @@ export const perfumes = [
         "category": "Nicho",
         "NUEVO NOMBRE": "ARYA  ",
         "gender": "Unisex",
+        "family": "Floral Amaderada",
         "10 KG EN ADELANTE": 197.9498888889,
         "5 KG A 9,99 KG": 209.594,
         "1 KG A 4,99 KG": 222.693625,
@@ -10600,6 +11163,7 @@ export const perfumes = [
         "category": "Nicho",
         "NUEVO NOMBRE": "TABACO & VAINILLA",
         "gender": "Unisex",
+        "family": "Oriental Vainilla",
         "10 KG EN ADELANTE": 346.1445555556,
         "5 KG A 9,99 KG": 366.506,
         "1 KG A 4,99 KG": 389.412625,
@@ -10615,6 +11179,7 @@ export const perfumes = [
         "category": "Nicho",
         "NUEVO NOMBRE": "MEDITERRANEAN WONDER",
         "gender": "Unisex",
+        "family": "Amaderada Floral Almizclada",
         "10 KG EN ADELANTE": 156.7626666667,
         "5 KG A 9,99 KG": 165.984,
         "1 KG A 4,99 KG": 176.358,
@@ -10624,12 +11189,30 @@ export const perfumes = [
         "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
     },
     {
+        "id": 732,
+        "brand": "XERJOFF",
+        "name": "ESC. INSP EN LEVAR DE SOLE",
+        "category": "Nicho",
+        "isNew": true,
+        "NUEVO NOMBRE": "ETERNAL PHOENIX",
+        "gender": "Unisex",
+        "family": "Amaderado Aromático",
+        "10 KG EN ADELANTE": 150,
+        "5 KG A 9,99 KG": 159,
+        "1 KG A 4,99 KG": 169,
+        "DE 500 A 999 GRS": 180,
+        "DE 250 A 499 GRS": 193,
+        "DE 120 A 249 GRS": 200.0,
+        "picture": "https://i.postimg.cc/259sQs5q/ESENCIAS-NUEVAS-1-MAR-03.jpg"
+    },
+    {
         "id": 709,
         "brand": "XERJOFF",
         "name": "ESC. INSP. EN BOUQUET IDEALE XERJOFF Mujer ",
         "category": "Nicho",
         "NUEVO NOMBRE": "BANQUETE ",
         "gender": "Mujer",
+        "family": "Oriental Vainilla",
         "10 KG EN ADELANTE": 182.5724444444,
         "5 KG A 9,99 KG": 193.312,
         "1 KG A 4,99 KG": 205.394,
@@ -10645,6 +11228,7 @@ export const perfumes = [
         "category": "Nicho",
         "NUEVO NOMBRE": "PURA HIERBA ",
         "gender": "Unisex",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 165.2777777778,
         "5 KG A 9,99 KG": 175.0,
         "1 KG A 4,99 KG": 185.9375,
@@ -10660,6 +11244,7 @@ export const perfumes = [
         "category": "Nicho",
         "NUEVO NOMBRE": "SICILIAN HERITAGE",
         "gender": "Unisex",
+        "family": "Aromática Especiada",
         "10 KG EN ADELANTE": 407.6411111111,
         "5 KG A 9,99 KG": 431.62,
         "1 KG A 4,99 KG": 458.59625,
@@ -10675,6 +11260,7 @@ export const perfumes = [
         "category": "Nicho",
         "NUEVO NOMBRE": "PENSANDO EN TI ",
         "gender": "Mujer",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 220.864,
         "5 KG A 9,99 KG": 233.856,
         "1 KG A 4,99 KG": 248.472,
@@ -10690,6 +11276,7 @@ export const perfumes = [
         "category": "Nicho",
         "NUEVO NOMBRE": "RUBY EXORVITANTE ",
         "gender": "Mujer",
+        "family": "Oriental Floral",
         "10 KG EN ADELANTE": 286.8296666667,
         "5 KG A 9,99 KG": 303.702,
         "1 KG A 4,99 KG": 322.683375,
@@ -10892,7 +11479,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 148,
         "DE 250 A 499 GRS": 158,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://i.postimg.cc/d0WYW75V/AFFECTION.jpg"
+        "picture": "https://i.postimg.cc/d0WYW75V/AFFECTION.jpg",
+        "family": "Oriental Amaderada"
     },
     {
         "id": 727,
@@ -10908,7 +11496,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 166,
         "DE 250 A 499 GRS": 178,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://i.postimg.cc/52S1CKvv/Amer-Al-Oud-Intese-Oud.jpg"
+        "picture": "https://i.postimg.cc/52S1CKvv/Amer-Al-Oud-Intese-Oud.jpg",
+        "family": "Oriental Amaderada"
     },
     {
         "id": 728,
@@ -10959,38 +11548,6 @@ export const perfumes = [
         "picture": "https://i.postimg.cc/8CC8rpTQ/ESENCIAS-NUEVAS-1-MAR-01.jpg"
     },
     {
-        "id": 731,
-        "brand": "LATTAFA",
-        "name": "ESC. INSP EN HER CONFESSION",
-        "category": "Nicho",
-        "isNew": true,
-        "NUEVO NOMBRE": "SOUL REVELATION",
-        "gender": "Mujer",
-        "10 KG EN ADELANTE": 139,
-        "5 KG A 9,99 KG": 147,
-        "1 KG A 4,99 KG": 156,
-        "DE 500 A 999 GRS": 167,
-        "DE 250 A 499 GRS": 179,
-        "DE 120 A 249 GRS": 200.0,
-        "picture": "https://i.postimg.cc/dV6P1kPj/ESENCIAS-NUEVAS-1-MAR-02.jpg"
-    },
-    {
-        "id": 732,
-        "brand": "XERJOFF",
-        "name": "ESC. INSP EN LEVAR DE SOLE",
-        "category": "Nicho",
-        "isNew": true,
-        "NUEVO NOMBRE": "ETERNAL PHOENIX",
-        "gender": "Unisex",
-        "10 KG EN ADELANTE": 150,
-        "5 KG A 9,99 KG": 159,
-        "1 KG A 4,99 KG": 169,
-        "DE 500 A 999 GRS": 180,
-        "DE 250 A 499 GRS": 193,
-        "DE 120 A 249 GRS": 200.0,
-        "picture": "https://i.postimg.cc/259sQs5q/ESENCIAS-NUEVAS-1-MAR-03.jpg"
-    },
-    {
         "id": 733,
         "brand": "BURBERRY",
         "name": "ESC. INSP EN GODDESS INTENSE",
@@ -11007,38 +11564,6 @@ export const perfumes = [
         "picture": "https://i.postimg.cc/Yq1B5DdV/ESENCIAS-NUEVAS-1-FEB.png"
     },
     {
-        "id": 734,
-        "brand": "ARMAF",
-        "name": "ESC. INSP EN ODYSSEY AQUA",
-        "category": "Nicho",
-        "isNew": true,
-        "NUEVO NOMBRE": "GREEN SEA",
-        "gender": "Hombre",
-        "10 KG EN ADELANTE": 160,
-        "5 KG A 9,99 KG": 169,
-        "1 KG A 4,99 KG": 180,
-        "DE 500 A 999 GRS": 192,
-        "DE 250 A 499 GRS": 205,
-        "DE 120 A 249 GRS": 205,
-        "picture": "https://i.postimg.cc/Bn4f45yv/ESENCIAS-NUEVAS-1-MARZO.png"
-    },
-    {
-        "id": 735,
-        "brand": "INITIO",
-        "name": "ESC. INSP EN OUD FOR GREATNESS NEO",
-        "category": "Nicho",
-        "isNew": true,
-        "NUEVO NOMBRE": "SYNERGISTIC ENERGY",
-        "gender": "Unisex",
-        "10 KG EN ADELANTE": 156,
-        "5 KG A 9,99 KG": 166,
-        "1 KG A 4,99 KG": 176,
-        "DE 500 A 999 GRS": 188,
-        "DE 250 A 499 GRS": 201,
-        "DE 120 A 249 GRS": 201,
-        "picture": "https://i.postimg.cc/dVYwDc7w/Oud-For-Greatnes-Neo.jpg"
-    },
-    {
         "id": 736,
         "brand": "JEAN PAUL GAULTIER",
         "name": "ESC. INSP EN LE MALE LOVER",
@@ -11053,22 +11578,6 @@ export const perfumes = [
         "DE 250 A 499 GRS": 201,
         "DE 120 A 249 GRS": 201,
         "picture": "https://i.postimg.cc/859VS2Q8/le-Male-Lover.jpg"
-    },
-    {
-        "id": 737,
-        "brand": "ARMAF",
-        "name": "ESC. INSP EN ODYSSEY HOMME WHITE EDITION",
-        "category": "Nicho",
-        "isNew": true,
-        "NUEVO NOMBRE": "LUMINOUS AURA",
-        "gender": "Hombre",
-        "10 KG EN ADELANTE": 150,
-        "5 KG A 9,99 KG": 158,
-        "1 KG A 4,99 KG": 168,
-        "DE 500 A 999 GRS": 180,
-        "DE 250 A 499 GRS": 192,
-        "DE 120 A 249 GRS": 200,
-        "picture": "https://i.postimg.cc/FzSXsTNY/odyssey-homme-white-edit-01-02.jpg"
     },
     {
         "id": 738,

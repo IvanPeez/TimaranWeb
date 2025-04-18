@@ -17,13 +17,13 @@ const Home = () => {
             <Navbar></Navbar>
             <Hero></Hero>
             <InformativeCorporate></InformativeCorporate>
-            <AboutUs></AboutUs>
+            <AboutUs id='aboutUs'></AboutUs>
             <MapSection></MapSection>
             <CardsSection></CardsSection>
             <KitsSection></KitsSection>
             <ScrollingX></ScrollingX>
             <MobileCarousel></MobileCarousel>
-            <AboutUsSection id='aboutUs'></AboutUsSection>
+            <AboutUsSection></AboutUsSection>
             <Footer id='contact'></Footer>
 
         </div>
