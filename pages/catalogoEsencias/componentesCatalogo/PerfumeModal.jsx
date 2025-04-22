@@ -19,7 +19,8 @@ export function PerfumeModal({ perfume, onClose }) {
         </button>
 
         <div className="flex flex-col w-full md:flex-row">
-          {/* Left side - Image and notes */}
+          {/* Left side - Image a
+          nd notes */}
           
             <div className="p-12 w-[40rem] md:h-[40rem]">
               <img
