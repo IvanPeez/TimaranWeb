@@ -10101,7 +10101,7 @@ export const perfumes = [
         "brand": "LOUIS VUITTON",
         "name": "ESC. INSP. EN LOUIS VUITTON IMMENSITE",
         "category": "Nicho",
-        "NUEVO NOMBRE": "LIMITLESS  HORIZON",
+        "NUEVO NOMBRE": "LIMITLESS HORIZON",
         "gender": "Hombre",
         "10 KG EN ADELANTE": 153.7876666667,
         "5 KG A 9,99 KG": 162.834,
@@ -10109,7 +10109,7 @@ export const perfumes = [
         "DE 500 A 999 GRS": 184.5452,
         "DE 250 A 499 GRS": 197.727,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "picture": "https://i.postimg.cc/NfR8FXMP/limmensite.png",
         "family": "Cítrico Aromático"
     },
     {
