@@ -18,14 +18,14 @@ export function PerfumeModal({ perfume, onClose }) {
           <X className="w-6 h-6" />
         </button>
 
-        <div className="flex flex-col w-full md:flex-row">
+        <div className="flex flex-col items-center w-full md:flex-row">
           {/* Left side - Image a
           nd notes */}
           
-            <div className="p-12 w-[40rem] md:h-[40rem]">
+            <div className="p-12 w-[25rem] md:w-[40rem] md:h-[40rem]">
               <img
                 src={perfume.picture}
-                alt={perfume["NUEVO NOMBRE"]}
+                alt={perfume["newName"]}
                 className="inset-0 w-full h-full object-cover rounded-lg"
               />
             </div>
@@ -36,7 +36,7 @@ export function PerfumeModal({ perfume, onClose }) {
 
             {/* Title */}
             <h2 className="text-5xl font-bold font-titleAlt text-white italic mb-2">
-              {perfume["NUEVO NOMBRE"]}
+              {perfume["newName"]}
             </h2>
             
             {/* Subtitle */}
