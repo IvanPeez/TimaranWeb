@@ -2,6 +2,7 @@ import React from "react";
 import {Routes, Route } from "react-router-dom";
 import Home from "../pages/Home/main";
 import CatalogoEsenciasView from "../pages/catalogoEsencias/CatalogoEsenciasView";
+import CatalogoEnvasesView from "../pages/catalogoEnvases/CatalogoEnvasesView";
 
 import "./App.css";
 
@@ -10,6 +11,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/catalogEsens" element={<CatalogoEsenciasView />} />
+        <Route path="/catalogEnvases" element={<CatalogoEnvasesView />} />
       </Routes>
   );
 }

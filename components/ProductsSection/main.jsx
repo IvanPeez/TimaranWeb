@@ -106,12 +106,12 @@ const CardsSection = () => {
               <p className="text-gray-300 text-center mt-2 text-sm md:text-base">
                 Explora nuestra línea de envases e insumos para perfumería.
               </p>
-              <a
-                href="https://acortar.link/InsumosYEnvasesDT"
+              <Link
+               to="/catalogEnvases"
                 className="mt-6 px-8 md:px-16 py-2 border text-xs tracking-[0.2em] md:tracking-[0.8em] border-white text-white hover:bg-white hover:text-black transition"
               >
                 DESCUBRE MÁS
-              </a>
+              </Link>
             </div>
           </div>
         </div>

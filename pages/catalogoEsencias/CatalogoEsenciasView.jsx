@@ -40,7 +40,7 @@ function CatalogoEsenciasView() {
         .join("");
 
       const regex = searchQuery ? new RegExp(searchPattern, "i") : /.*/;
-      const searchMatch = regex.test(perfume.name) || regex.test(perfume.brand);
+      const searchMatch = regex.test(perfume.newName) || regex.test(perfume.brand) || regex.test(perfume.name);
 
       const genderMatch =
         selectedGender.length === 0 || selectedGender.includes(perfume.gender);
@@ -162,6 +162,9 @@ function CatalogoEsenciasView() {
                   <div className=" flex flex-col h-full items-center justify-end gap-2">
                     <span className="font-bold text-ellipsis text-white text-sm">
                       {perfume.name}
+                    </span>
+                    <span className="font-normal text-ellipsis text-white text-sm">
+                      {perfume.newName}
                     </span>
                   </div>
                 </div>

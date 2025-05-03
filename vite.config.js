@@ -8,4 +8,9 @@ export default defineConfig({
   server: {
     historyApiFallback: true, // Permite manejar rutas en recargas
   },
+  optimizeDeps: {
+    include: ['pdfjs-dist/build/pdf.worker.js'],
+  },
 })
+
+
