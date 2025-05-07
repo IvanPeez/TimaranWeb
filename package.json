@@ -13,12 +13,12 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@react-pdf-viewer/core": "^3.12.0",
     "@react-spring/web": "^9.7.5",
     "gh-pages": "^6.2.0",
     "gsap": "^3.12.7",
     "lucide-react": "^0.474.0",
     "motion": "^12.7.4",
-    "pdfjs-dist": "^3.11.174",
     "react": "^18.3.1",
     "react-countup": "^6.5.3",
     "react-dom": "^18.3.1",
