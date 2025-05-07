@@ -28,9 +28,10 @@ const Footer = () => {
                         <Link to="/about">
                             <a className="hover:text-secondary">Sobre Nosotros</a>
                         </Link>
-                        <li>
-                            <a href="#services" className="hover:text-secondary">Servicios</a>
-                        </li>
+                        <Link 
+                        to="/CatalogoEsenciasPdf" className="hover:text-secondary">
+                            Catalogo Esencias
+                        </Link>
                         <li>
                             <a href="#contact" className="hover:text-secondary">Contacto</a>
                         </li>
