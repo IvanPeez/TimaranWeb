@@ -101,22 +101,12 @@ export function Filters({
           }
         />
       </div>
-
-      {hasActiveFilters && (
-        <button
-          onClick={clearAllFilters}
-          className="flex items-center gap-2 px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition-colors"
-        >
-          <X className="w-4 h-4" />
-          Borrar filtros
-        </button>
-      )}
     </>
   );
 
   return (
     <>
-      <div className="hidden md:flex items-center justify-start gap-4 flex-wrap">
+      <div className="flex flex-col md:flex-row items-center justify-start gap-4 flex-wrap">
         {/* Search Bar */}
         <div className="relative">
           <input
@@ -128,8 +118,20 @@ export function Filters({
           />
           <Search className="absolute left-3 top-1/2  transform -translate-y-1/2 text-gray-400 w-4 h-4" />
         </div>
-        <FiltersContent />
+        <div className="hidden md:block">
+          <FiltersContent />
+        </div>
+        {hasActiveFilters && (
+          <button
+            onClick={clearAllFilters}
+            className="flex items-center gap-2 px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition-colors"
+          >
+            <X className="w-4 h-4" />
+            Borrar filtros
+          </button>
+        )}
       </div>
+
       {/* Mobile Filters Button */}
       <button
         onClick={() => setIsMobileFiltersOpen(true)}
@@ -152,16 +154,6 @@ export function Filters({
               </button>
             </div>
             <div className="flex flex-col gap-4">
-              <div className="relative">
-                <input
-                  type="text"
-                  placeholder="Buscar perfume..."
-                  value={searchQuery}
-                  onChange={(e) => setSearchQuery(e.target.value)}
-                  className="w-full pl-10 pr-4 py-2 border bg-gray-500/20 border-gray-700 rounded-md focus:text-gray-400 focus:outline-none focus:ring-2 focus:ring-gray-700 focus:border-transparent"
-                />
-                <Search className="absolute left-3 top-1/2  transform -translate-y-1/2 text-gray-400 w-4 h-4" />
-              </div>
               <FiltersContent />
             </div>
           </div>

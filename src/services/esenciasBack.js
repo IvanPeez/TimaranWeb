@@ -270,7 +270,7 @@ export const perfumes = [
         "DE 500 A 999 GRS": 188.9244,
         "DE 250 A 499 GRS": 202.419,
         "DE 120 A 249 GRS": 202.419,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/tgXHDHvC/LOQUITO-POR-TI.png"
     },
     {
         "id": 18,
@@ -926,7 +926,7 @@ export const perfumes = [
         "DE 500 A 999 GRS": 170.0272,
         "DE 250 A 499 GRS": 182.172,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/MZhH5v76/GOOD-GIRL.png"
     },
     {
         "id": 59,
@@ -1621,7 +1621,7 @@ export const perfumes = [
     {
         "id": 102,
         "brand": "ESCADA",
-        "name": "ESC. INSP. EN ESCADA SORBETO ROSO",
+        "name": "ESC. INSP. EN ESCADA SORBETTO ROSSO",
         "category": "Diseñador",
         "newName": "HOLIDAY AFFAIR",
         "gender": "Mujer",
@@ -1632,7 +1632,7 @@ export const perfumes = [
         "DE 500 A 999 GRS": 228.6862666667,
         "DE 250 A 499 GRS": 245.021,
         "DE 120 A 249 GRS": 245.021,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/wvr86Rq7/SORBETTO-ROSSO.png"
     },
     {
         "id": 103,
@@ -2064,7 +2064,7 @@ export const perfumes = [
         "DE 500 A 999 GRS": 137.2625333333,
         "DE 250 A 499 GRS": 147.067,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/7bvFzvT4/BFF-KIM-KARDASHIAN.png"
     },
     {
         "id": 130,
@@ -2192,7 +2192,7 @@ export const perfumes = [
         "DE 500 A 999 GRS": 173.7082666667,
         "DE 250 A 499 GRS": 186.116,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/28ZmSGBm/LA-VIDA-ES-BELLA.png"
     },
     {
         "id": 138,
@@ -4354,8 +4354,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 192.5578666667,
         "DE 250 A 499 GRS": 206.312,
         "DE 120 A 249 GRS": 206.312,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
-        "family": "Ámbar Amaderada"
+        "picture": "https://i.postimg.cc/pTcxp1ZV/STRONGER-WITH-YOU.png",
+        "family": "Aromática Fougère"
     },
     {
         "id": 273,
@@ -5202,7 +5202,7 @@ export const perfumes = [
         "DE 500 A 999 GRS": 200.158,
         "DE 250 A 499 GRS": 214.455,
         "DE 120 A 249 GRS": 214.455,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "picture": "https://i.postimg.cc/XNZX9wy1/SAUVAGE-DIOR.png",
         "family": "Aromática Fougère"
     },
     {
@@ -5314,8 +5314,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 235.6517333333,
         "DE 250 A 499 GRS": 252.484,
         "DE 120 A 249 GRS": 252.484,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
-        "family": "Fougère"
+        "picture": "https://i.postimg.cc/fbBQrg17/PLUS-BLANCA.png",
+        "family": "Oriental Amaderada"
     },
     {
         "id": 333,
@@ -5506,7 +5506,7 @@ export const perfumes = [
         "DE 500 A 999 GRS": 239.428,
         "DE 250 A 499 GRS": 256.53,
         "DE 120 A 249 GRS": 256.53,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "picture": "https://i.postimg.cc/WzJRtpzS/WINNER-SPORT.png",
         "family": "Aromática Acuática"
     },
     {
@@ -6146,8 +6146,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 200.1738666667,
         "DE 250 A 499 GRS": 214.472,
         "DE 120 A 249 GRS": 214.472,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
-        "family": "Ámbar Amaderada"
+        "picture": "https://i.postimg.cc/vBTwFtdJ/SCANDAL-JPG.png",
+        "family": "Oriental Amaderada"
     },
     {
         "id": 385,
@@ -6258,7 +6258,7 @@ export const perfumes = [
         "DE 500 A 999 GRS": 154.8904,
         "DE 250 A 499 GRS": 165.954,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "picture": "https://i.postimg.cc/0y1vMSpS/LACOSTE-BLANCA.png",
         "family": "Amaderado Aromático"
     },
     {
@@ -6402,7 +6402,7 @@ export const perfumes = [
         "DE 500 A 999 GRS": 154.9062666667,
         "DE 250 A 499 GRS": 165.971,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "picture": "https://i.postimg.cc/DwQTqzgM/LACOSTE-RED.png",
         "family": "Amaderada Especiada"
     },
     {
@@ -6578,7 +6578,7 @@ export const perfumes = [
         "DE 500 A 999 GRS": 161.8717333333,
         "DE 250 A 499 GRS": 173.434,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "picture": "https://i.postimg.cc/x8W2PJhW/STARWALKER.png",
         "family": "Amaderada Especiada"
     },
     {
@@ -6610,7 +6610,7 @@ export const perfumes = [
         "DE 500 A 999 GRS": 179.2774666667,
         "DE 250 A 499 GRS": 192.083,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "picture": "https://i.postimg.cc/2jJrYMy2/TOY-BOY.png",
         "family": "Amaderada Especiada"
     },
     {
@@ -6754,8 +6754,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 180.6737333333,
         "DE 250 A 499 GRS": 193.579,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
-        "family": "Cítrica Aromática"
+        "picture": "https://i.postimg.cc/rpcqb4sT/PURE-XS-RABANNE.png",
+        "family": "Aromática Especiada"
     },
     {
         "id": 423,
@@ -7874,7 +7874,7 @@ export const perfumes = [
         "DE 500 A 999 GRS": 373.9773333333,
         "DE 250 A 499 GRS": 400.69,
         "DE 120 A 249 GRS": 400.69,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "picture": "https://i.postimg.cc/y80VvjVn/AHLI-VEGA.png",
         "family": "Frutal Floral"
     },
     {
@@ -8922,7 +8922,7 @@ export const perfumes = [
         "DE 500 A 999 GRS": 188.8133333333,
         "DE 250 A 499 GRS": 202.3,
         "DE 120 A 249 GRS": 202.3,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "picture": "https://i.postimg.cc/QtdhNrcn/AMBER-OUD-GOLD-EDIT.png",
         "family": "Amaderado Vainilla"
     },
     {
@@ -8970,8 +8970,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 212.0738666667,
         "DE 250 A 499 GRS": 227.222,
         "DE 120 A 249 GRS": 227.222,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
-        "family": "Amaderado"
+        "picture": "https://i.postimg.cc/TP9TXP5D/AMBER-ROUGE.png",
+        "family": "Amaderada Especiada"
     },
     {
         "id": 559,
@@ -9427,7 +9427,7 @@ export const perfumes = [
         "brand": "KAJAL",
         "name": "ESC. INSP. EN LAMAR KAJAL",
         "category": "Nicho",
-        "newName": "TIERNAN ",
+        "newName": "GOLD SHIMMER",
         "gender": "Unisex",
         "10 KG EN ADELANTE": 188.5885555556,
         "5 KG A 9,99 KG": 199.682,
@@ -9925,7 +9925,7 @@ export const perfumes = [
         "brand": "LATTAFA",
         "name": "ESC. INSP. EN LATTAFA PRIDE NEBRAS",
         "category": "Nicho",
-        "newName": "ODETTE ",
+        "newName": "DARK MYSTIQUE",
         "gender": "Unisex",
         "10 KG EN ADELANTE": 197.9498888889,
         "5 KG A 9,99 KG": 209.594,
@@ -9957,7 +9957,7 @@ export const perfumes = [
         "brand": "LATTAFA",
         "name": "ESC. INSP. EN LATTAFA TERIAQ",
         "category": "Nicho",
-        "newName": "SHEVA  ",
+        "newName": " HOPEFUL ANTIDOTE",
         "gender": "Unisex",
         "10 KG EN ADELANTE": 183.1013333333,
         "5 KG A 9,99 KG": 193.872,
@@ -10101,7 +10101,7 @@ export const perfumes = [
         "brand": "LOUIS VUITTON",
         "name": "ESC. INSP. EN LOUIS VUITTON IMMENSITE",
         "category": "Nicho",
-        "NUEVO NOMBRE": "LIMITLESS HORIZON",
+        "newName": "LIMITLESS HORIZON",
         "gender": "Hombre",
         "10 KG EN ADELANTE": 153.7876666667,
         "5 KG A 9,99 KG": 162.834,
@@ -10653,8 +10653,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 205.7272,
         "DE 250 A 499 GRS": 220.422,
         "DE 120 A 249 GRS": 220.422,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
-        "family": "Oriental Frutal"
+        "picture": "https://i.postimg.cc/9042Tt8d/STARRY-NIGHTS-MONTALE.png",
+        "family": "Oriental Floral"
     },
     {
         "id": 662,
@@ -12160,6 +12160,23 @@ export const perfumes = [
         "DE 120 A 249 GRS": 205,
         "picture": "https://i.postimg.cc/7hsm7KKG/9pm-rebel.png",
         "family": "Aromática Frutal"
+    },
+     {
+        "id": 759,
+        "brand": "ZAKAT",
+        "name": "ESC. INSP. EN ZAKAT Z-25",
+        "category": "Nicho",
+        "isNew": true,
+        "newName": "EMERALD STREET",
+        "gender": "Unisex",
+        "10 KG EN ADELANTE": 160,
+        "5 KG A 9,99 KG": 169,
+        "1 KG A 4,99 KG": 180,
+        "DE 500 A 999 GRS": 192,
+        "DE 250 A 499 GRS": 205,
+        "DE 120 A 249 GRS": 205,
+        "picture": "https://i.postimg.cc/dQX69mNh/Z-25-ZAKAT.png",
+        "family": "Oriental Amaderada"
     },
 ]
 
