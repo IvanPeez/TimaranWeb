@@ -22,11 +22,11 @@ export function PerfumeModal({ perfume, onClose }) {
           {/* Left side - Image a
           nd notes */}
           
-            <div className="p-12 w-[25rem] md:w-[40rem] md:h-[40rem]">
+            <div className="px-12 pt-24 w-[25rem] md:w-[40rem] md:h-[40rem]">
               <img
                 src={perfume.picture}
                 alt={perfume["newName"]}
-                className="inset-0 w-full h-full object-cover rounded-lg"
+                className="object-cover object-bottom h-[450px] w-full rounded-lg"
               />
             </div>
           

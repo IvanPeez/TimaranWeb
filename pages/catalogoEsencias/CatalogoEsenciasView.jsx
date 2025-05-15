@@ -87,7 +87,7 @@ function CatalogoEsenciasView() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-[#141416]">
+    <div className="min-h-screen px-4 bg-[#141416]">
       {/* Header */}
       <header className=" text-white p-4">
         <div className=" container mx-auto flex flex-col md:flex-row justify-between items-start md:items-center gap-2 text-center md:text-left">
