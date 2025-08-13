@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { Search, X, ListFilterIcon, FunnelX } from "lucide-react";
+import { Search, X, ListFilterIcon } from "lucide-react";
+import { FunnelX } from 'lucide-react';
 import { label } from "motion/react-client";
 import { Dropdown } from "../../../components/Dropdown/Dropdown";
 
