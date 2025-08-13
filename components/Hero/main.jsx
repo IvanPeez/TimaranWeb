@@ -1,6 +1,6 @@
 import React from "react";
 import { delay, motion } from "framer-motion";
-import HeroVid from "../../resources/vid/TimaranVid2.mov"
+//import HeroVid from "../../resources/vid/TimaranVid2.mov"
 
 const Hero = () => {
     return (
@@ -10,7 +10,7 @@ const Hero = () => {
       >  
         <video
         className="absolute inset-0 h-full w-full object-cover"
-        src={HeroVid}
+        //src={HeroVid}
         autoPlay
         loop
         muted
