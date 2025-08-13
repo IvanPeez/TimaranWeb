@@ -1,6 +1,5 @@
 import React from "react";
 import { delay, motion } from "framer-motion";
-//import HeroVid from "../../resources/vid/TimaranVid2.mov"
 
 const Hero = () => {
     return (
