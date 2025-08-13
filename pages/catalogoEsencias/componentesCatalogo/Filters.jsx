@@ -107,7 +107,7 @@ export function Filters({
 
   return (
     <>
-      <div style={{minWidth: "500px"}} className={`${
+      <div style={{minWidth: "1000px"}} className={`${
         isScrolled 
           ? 'fixed top-4 left-1/2 transform -translate-x-1/2 bg-black/80 backdrop-blur-lg rounded-2xl shadow-2xl border border-gray-700' 
           : 'relative bg-transparent'
