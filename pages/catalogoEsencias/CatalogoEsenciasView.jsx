@@ -19,6 +19,7 @@ function CatalogoEsenciasView() {
   const [selectedFamily, setSelectedFamily] = useState([]);
   const [selectedBrands, setSelectedBrands] = useState([]);
   const [selectedPerfume, setSelectedPerfume] = useState(null);
+  const [isScrolled, setIsScrolled] = useState(false);
   const opcionesCategory = getOpciones("category");
   const opcionesBrand = getOpciones("brand").sort();
   const opcionesGender = getOpciones("gender");
@@ -29,6 +30,15 @@ function CatalogoEsenciasView() {
     window.scrollTo(0, 0);
   }, []);
 
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      setIsScrolled(scrollTop > 100);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
   // Filter perfumes based on selected filters and search query
   const filteredPerfumes = useMemo(() => {
     return perfumes.filter((perfume) => {
@@ -105,7 +115,7 @@ function CatalogoEsenciasView() {
       <div className="container mx-auto py-6">
         {/* <div className="flex flex-col lg:flex-row gap-6 md:h-[calc(100vh-8rem)]"> */}
         {/* Filters Component - Full width on mobile, sidebar on desktop */}
-        <div className="pt-24 pb-6">
+        <div className={`${isScrolled ? 'pt-24' : 'pt-6'} pb-6 transition-all duration-300`}>
           <Filters
             opcionesCategory={opcionesCategory}
             opcionesBrand={opcionesBrand}
@@ -121,6 +131,7 @@ function CatalogoEsenciasView() {
             setSelectedFamily={setSelectedFamily}
             selectedBrands={selectedBrands}
             setSelectedBrands={setSelectedBrands}
+            isScrolled={isScrolled}
           />
         </div>
 

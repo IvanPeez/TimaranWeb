@@ -18,6 +18,7 @@ export function Filters({
   opcionesBrand,
   opcionesGender,
   opcionesFamily,
+  isScrolled,
 }) {
   const [sectionsOpen, setSectionsOpen] = useState({
     gender: true,
@@ -106,7 +107,11 @@ export function Filters({
 
   return (
     <>
-      <div className="fixed top-4 left-1/2 transform -translate-x-1/2 bg-black/80 backdrop-blur-lg rounded-2xl px-6 py-4 z-50 shadow-2xl border border-gray-700">
+      <div className={`${
+        isScrolled 
+          ? 'fixed top-4 left-1/2 transform -translate-x-1/2 bg-black/80 backdrop-blur-lg rounded-2xl shadow-2xl border border-gray-700' 
+          : 'relative bg-transparent'
+      } px-6 py-4 z-50 transition-all duration-300 ease-in-out`}>
         <div className="flex flex-col md:flex-row items-center justify-center gap-4 flex-wrap">
         {/* Search Bar */}
           <div className="relative">
@@ -115,7 +120,11 @@ export function Filters({
             placeholder="Buscar perfume..."
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
-              className="w-full pl-10 pr-4 py-2 border bg-gray-500/20 border-gray-700 rounded-md focus:text-gray-400 focus:outline-none focus:ring-2 focus:ring-gray-700 focus:border-transparent"
+              className={`w-full pl-10 pr-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-gray-700 focus:border-transparent ${
+                isScrolled 
+                  ? 'bg-gray-500/20 border-gray-700 focus:text-gray-400' 
+                  : 'bg-white border-gray-300 text-black focus:text-black'
+              }`}
           />
           <Search className="absolute left-3 top-1/2  transform -translate-y-1/2 text-gray-400 w-4 h-4" />
           </div>
