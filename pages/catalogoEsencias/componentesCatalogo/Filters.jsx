@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Search, X, ListFilterIcon } from "lucide-react";
+import { Delete } from 'lucide-react';
 import { label } from "motion/react-client";
 import { Dropdown } from "../../../components/Dropdown/Dropdown";
 
@@ -18,6 +19,7 @@ export function Filters({
   opcionesBrand,
   opcionesGender,
   opcionesFamily,
+  isScrolled,
 }) {
   const [sectionsOpen, setSectionsOpen] = useState({
     gender: true,
@@ -104,32 +106,48 @@ export function Filters({
     </>
   );
 
-  return (
-    <>
-      <div className="flex flex-col md:flex-row items-center justify-start gap-4 flex-wrap z-40">
-        {/* Search Bar */}
-        <div className="relative">
-          <input
-            type="text"
-            placeholder="Buscar perfume..."
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-            className="w-full pl-10 pr-4 py-2 border bg-gray-500/20 border-gray-700 rounded-md focus:text-gray-400 focus:outline-none focus:ring-2 focus:ring-gray-700 focus:border-transparent"
-          />
-          <Search className="absolute left-3 top-1/2  transform -translate-y-1/2 text-gray-400 w-4 h-4" />
-        </div>
-        <div className="hidden md:block">
-          <FiltersContent />
-        </div>
-        {hasActiveFilters && (
-          <button
+  const DeleteButton = ({isScrolled}) => (<button
             onClick={clearAllFilters}
             className="flex items-center gap-2 px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition-colors"
           >
-            <X className="w-4 h-4" />
-            Borrar filtros
-          </button>
-        )}
+    {!isScrolled &&<X className="w-4 h-4" />}
+    {!isScrolled ? "Borrar filtros" : <Delete/>}
+          </button>)
+
+  return (
+    <>
+      <div style={isScrolled ? {minWidth: "600px"} : {}} className={`${
+        isScrolled 
+          ? 'fixed top-4 left-1/2 transform -translate-x-1/2 bg-black/80 backdrop-blur-lg rounded-2xl shadow-2xl border border-gray-700' 
+          : 'relative bg-transparent'
+      } px-6 py-4 z-50 transition-all duration-300 ease-in-out`}>
+        <div className="flex flex-col md:flex-row items-center justify-center gap-4 flex-wrap">
+          <div className="flex items-center gap-4">
+            {/* Search Bar */}
+            <div className="relative">
+              <input
+                type="text"
+                placeholder="Buscar perfume..."
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                  className={`w-full pl-10 pr-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-gray-700 focus:border-transparent ${
+                    isScrolled 
+                      ? 'bg-gray-500/20 border-gray-700 focus:text-gray-400' 
+                      : 'bg-white border-gray-300 text-black focus:text-black'
+                  }`}
+              />
+              <Search className="absolute left-3 top-1/2  transform -translate-y-1/2 text-gray-400 w-4 h-4" />
+            </div>
+            {hasActiveFilters && isScrolled && <DeleteButton isScrolled/>}
+          </div>
+          
+          <div className="hidden md:block">
+            <FiltersContent />
+          </div>
+          {hasActiveFilters && !isScrolled && (
+          <DeleteButton/>
+          )}
+        </div>
       </div>
 
       {/* Mobile Filters Button */}
