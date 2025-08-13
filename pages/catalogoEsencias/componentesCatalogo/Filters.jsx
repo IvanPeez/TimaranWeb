@@ -143,7 +143,7 @@ export function Filters({
           <div className="hidden md:block">
             <FiltersContent />
           </div>
-          {hasActiveFilters && (
+          {hasActiveFilters && !isScrolled (
           <DeleteButton/>
           )}
         </div>
