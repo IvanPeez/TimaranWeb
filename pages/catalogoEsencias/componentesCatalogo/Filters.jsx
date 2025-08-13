@@ -114,7 +114,7 @@ export function Filters({
       } px-6 py-4 z-50 transition-all duration-300 ease-in-out`}>
         <div className="flex flex-col md:flex-row items-center justify-center gap-4 flex-wrap">
         {/* Search Bar */}
-          <div className="relative">
+          <div className="relative w-full">
           <input
             type="text"
             placeholder="Buscar perfume..."
