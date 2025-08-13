@@ -105,6 +105,14 @@ export function Filters({
     </>
   );
 
+  const DeleteButton = () => (<button
+            onClick={clearAllFilters}
+            className="flex items-center gap-2 px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition-colors"
+          >
+            <X className="w-4 h-4" />
+            Borrar filtros
+          </button>)
+
   return (
     <>
       <div style={isScrolled ? {minWidth: "700px"} : {}} className={`${
@@ -113,32 +121,30 @@ export function Filters({
           : 'relative bg-transparent'
       } px-6 py-4 z-50 transition-all duration-300 ease-in-out`}>
         <div className="flex flex-col md:flex-row items-center justify-center gap-4 flex-wrap">
-        {/* Search Bar */}
-          <div className="relative">
-          <input
-            type="text"
-            placeholder="Buscar perfume..."
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-              className={`w-full pl-10 pr-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-gray-700 focus:border-transparent ${
-                isScrolled 
-                  ? 'bg-gray-500/20 border-gray-700 focus:text-gray-400' 
-                  : 'bg-white border-gray-300 text-black focus:text-black'
-              }`}
-          />
-          <Search className="absolute left-3 top-1/2  transform -translate-y-1/2 text-gray-400 w-4 h-4" />
+          <div className="flex gap-4">
+            {/* Search Bar */}
+            <div className="relative">
+              <input
+                type="text"
+                placeholder="Buscar perfume..."
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                  className={`w-full pl-10 pr-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-gray-700 focus:border-transparent ${
+                    isScrolled 
+                      ? 'bg-gray-500/20 border-gray-700 focus:text-gray-400' 
+                      : 'bg-white border-gray-300 text-black focus:text-black'
+                  }`}
+              />
+              <Search className="absolute left-3 top-1/2  transform -translate-y-1/2 text-gray-400 w-4 h-4" />
+            </div>
+            {isScrolled && <DeleteButton/>}
           </div>
+          
           <div className="hidden md:block">
-          <FiltersContent />
+            <FiltersContent />
           </div>
           {hasActiveFilters && (
-          <button
-            onClick={clearAllFilters}
-            className="flex items-center gap-2 px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition-colors"
-          >
-            <X className="w-4 h-4" />
-            Borrar filtros
-          </button>
+          <DeleteButton/>
           )}
         </div>
       </div>
