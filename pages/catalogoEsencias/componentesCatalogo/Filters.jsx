@@ -111,7 +111,7 @@ export function Filters({
             className="flex items-center gap-2 px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition-colors"
           >
     {!isScrolled &&<X className="w-4 h-4" />}
-    {!isScrolled ? "Borrar filtros" : <Delete/>}
+    {!isScrolled ? <Delete/> : <Delete/>}
           </button>)
 
   return (
