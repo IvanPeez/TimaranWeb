@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Search, X, ListFilterIcon } from "lucide-react";
-import { FunnelX } from 'lucide-react';
+import { Delete } from 'lucide-react';
 import { label } from "motion/react-client";
 import { Dropdown } from "../../../components/Dropdown/Dropdown";
 
@@ -111,7 +111,7 @@ export function Filters({
             className="flex items-center gap-2 px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition-colors"
           >
     {!isScrolled &&<X className="w-4 h-4" />}
-    {!isScrolled ? "Borrar filtros" : <FunnelX/>}
+    {!isScrolled ? "Borrar filtros" : <Delete/>}
           </button>)
 
   return (
