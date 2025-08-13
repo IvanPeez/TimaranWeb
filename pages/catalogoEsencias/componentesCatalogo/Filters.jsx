@@ -121,7 +121,7 @@ export function Filters({
           : 'relative bg-transparent'
       } px-6 py-4 z-50 transition-all duration-300 ease-in-out`}>
         <div className="flex flex-col md:flex-row items-center justify-center gap-4 flex-wrap">
-          <div className="flex gap-4">
+          <div className="flex items-center gap-4">
             {/* Search Bar */}
             <div className="relative">
               <input
