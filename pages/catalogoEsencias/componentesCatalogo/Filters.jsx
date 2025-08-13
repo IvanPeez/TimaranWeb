@@ -111,7 +111,7 @@ export function Filters({
             className="flex items-center gap-2 px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition-colors"
           >
     {!isScrolled &&<X className="w-4 h-4" />}
-    {!isScrolled ? <Delete/> : <Delete/>}
+    {!isScrolled ? "Borrar filtros" : <Delete/>}
           </button>)
 
   return (
@@ -138,7 +138,7 @@ export function Filters({
               />
               <Search className="absolute left-3 top-1/2  transform -translate-y-1/2 text-gray-400 w-4 h-4" />
             </div>
-            {isScrolled && <DeleteButton/>}
+            {isScrolled && <DeleteButton isScrolled/>}
           </div>
           
           <div className="hidden md:block">
