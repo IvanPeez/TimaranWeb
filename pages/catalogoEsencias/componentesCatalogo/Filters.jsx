@@ -109,7 +109,7 @@ export function Filters({
     <>
       <div className={`${
         isScrolled 
-          ? 'fixed top-4 left-1/2 transform -translate-x-1/2 bg-black/80 backdrop-blur-lg rounded-2xl shadow-2xl border border-gray-700 w-80' 
+          ? 'fixed top-4 left-1/2 transform -translate-x-1/2 bg-black/80 backdrop-blur-lg rounded-2xl shadow-2xl border border-gray-700 w-100' 
           : 'relative bg-transparent'
       } px-6 py-4 z-50 transition-all duration-300 ease-in-out`}>
         <div className="flex flex-col md:flex-row items-center justify-center gap-4 flex-wrap">
