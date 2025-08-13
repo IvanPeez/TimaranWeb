@@ -122,7 +122,7 @@ export function Filters({
           : 'relative bg-transparent'
       } px-6 py-4 z-50 transition-all duration-300 ease-in-out`}>
         <div className="flex flex-col md:flex-row items-center justify-center gap-4 flex-wrap">
-          <div className="flex md:flex-col items-center gap-4">
+          <div className="flex items-center gap-4">
             {/* Search Bar */}
             <div className="relative">
               <input
@@ -138,7 +138,7 @@ export function Filters({
               />
               <Search className="absolute left-3 top-1/2  transform -translate-y-1/2 text-gray-400 w-4 h-4" />
             </div>
-            {isScrolled && <DeleteButton isScrolled/>}
+            {hasActiveFilters && isScrolled && <DeleteButton isScrolled/>}
           </div>
           
           <div className="hidden md:block">
