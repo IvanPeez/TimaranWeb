@@ -105,7 +105,7 @@ function CatalogoEsenciasView() {
       <div className="container mx-auto py-6">
         {/* <div className="flex flex-col lg:flex-row gap-6 md:h-[calc(100vh-8rem)]"> */}
         {/* Filters Component - Full width on mobile, sidebar on desktop */}
-        <div className="py-6">
+        <div className="pt-24 pb-6">
           <Filters
             opcionesCategory={opcionesCategory}
             opcionesBrand={opcionesBrand}

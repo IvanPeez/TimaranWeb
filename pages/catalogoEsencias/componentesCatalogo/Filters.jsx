@@ -106,22 +106,23 @@ export function Filters({
 
   return (
     <>
-      <div className="flex flex-col md:flex-row items-center justify-start gap-4 flex-wrap z-40">
+      <div className="fixed top-4 left-1/2 transform -translate-x-1/2 bg-black/80 backdrop-blur-lg rounded-2xl px-6 py-4 z-50 shadow-2xl border border-gray-700">
+        <div className="flex flex-col md:flex-row items-center justify-center gap-4 flex-wrap">
         {/* Search Bar */}
-        <div className="relative">
+          <div className="relative">
           <input
             type="text"
             placeholder="Buscar perfume..."
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
-            className="w-full pl-10 pr-4 py-2 border bg-gray-500/20 border-gray-700 rounded-md focus:text-gray-400 focus:outline-none focus:ring-2 focus:ring-gray-700 focus:border-transparent"
+              className="w-full pl-10 pr-4 py-2 border bg-gray-500/20 border-gray-700 rounded-md focus:text-gray-400 focus:outline-none focus:ring-2 focus:ring-gray-700 focus:border-transparent"
           />
           <Search className="absolute left-3 top-1/2  transform -translate-y-1/2 text-gray-400 w-4 h-4" />
-        </div>
-        <div className="hidden md:block">
+          </div>
+          <div className="hidden md:block">
           <FiltersContent />
-        </div>
-        {hasActiveFilters && (
+          </div>
+          {hasActiveFilters && (
           <button
             onClick={clearAllFilters}
             className="flex items-center gap-2 px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition-colors"
@@ -129,7 +130,8 @@ export function Filters({
             <X className="w-4 h-4" />
             Borrar filtros
           </button>
-        )}
+          )}
+        </div>
       </div>
 
       {/* Mobile Filters Button */}
