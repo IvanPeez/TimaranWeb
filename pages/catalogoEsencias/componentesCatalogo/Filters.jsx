@@ -106,7 +106,7 @@ export function Filters({
 
   return (
     <>
-      <div className="flex flex-col md:flex-row items-center justify-start gap-4 flex-wrap">
+      <div className="flex flex-col md:flex-row items-center justify-start gap-4 flex-wrap z-40">
         {/* Search Bar */}
         <div className="relative">
           <input
