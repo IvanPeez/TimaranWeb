@@ -510,7 +510,7 @@ export const perfumes = [
         "DE 500 A 999 GRS": 177.6749333333,
         "DE 250 A 499 GRS": 190.366,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/6pzszHmD/OMNIA-PARAIBA.png"
     },
     {
         "id": 33,
@@ -526,7 +526,7 @@ export const perfumes = [
         "DE 500 A 999 GRS": 215.9136,
         "DE 250 A 499 GRS": 231.336,
         "DE 120 A 249 GRS": 231.336,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/66GXwf8v/OMNIA-PINK-SAPHIRE.png"
     },
     {
         "id": 34,
@@ -814,7 +814,7 @@ export const perfumes = [
         "DE 500 A 999 GRS": 263.8944,
         "DE 250 A 499 GRS": 282.744,
         "DE 120 A 249 GRS": 282.744,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/PxFCGvRY/212_VIP_WILD_PARTY.png"
     },
     {
         "id": 52,
@@ -1032,14 +1032,14 @@ export const perfumes = [
         "category": "Diseñador",
         "newName": "PRIFEM",
         "gender": "Mujer",
-        "family": "Floral Oriental",
+        "family": "Olfativa Cuero",
         "10 KG EN ADELANTE": 203.4635555556,
         "5 KG A 9,99 KG": 215.432,
         "1 KG A 4,99 KG": 228.8965,
         "DE 500 A 999 GRS": 244.1562666667,
         "DE 250 A 499 GRS": 261.596,
         "DE 120 A 249 GRS": 261.596,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/Fs3NbVm4/CH-PRIVEE.png"
     },
     {
         "id": 66,
@@ -1055,7 +1055,7 @@ export const perfumes = [
         "DE 500 A 999 GRS": 169.3290666667,
         "DE 250 A 499 GRS": 181.424,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/Vs3zbHxg/CH-SUBLIME.png"
     },
     {
         "id": 67,
@@ -1119,7 +1119,7 @@ export const perfumes = [
         "DE 500 A 999 GRS": 180.642,
         "DE 250 A 499 GRS": 193.545,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/zBy1ynp4/MUST-DE-CARTIER-DAMA.png"
     },
     {
         "id": 71,
@@ -1311,7 +1311,7 @@ export const perfumes = [
         "DE 500 A 999 GRS": 161.8717333333,
         "DE 250 A 499 GRS": 173.434,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/QdqDwNHY/DIESEL-ZERO.png"
     },
 
     {
@@ -1541,7 +1541,7 @@ export const perfumes = [
     {
         "id": 97,
         "brand": "ESCADA",
-        "name": "ESC. INSP. EN ESCADA MAGNETISMO",
+        "name": "ESC. INSP. EN ESCADA MAGNETISM",
         "category": "Diseñador",
         "newName": "MAGDA",
         "gender": "Mujer",
@@ -1552,7 +1552,7 @@ export const perfumes = [
         "DE 500 A 999 GRS": 200.158,
         "DE 250 A 499 GRS": 214.455,
         "DE 120 A 249 GRS": 214.455,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/pyNXd88j/ESCADA-MAGNETISM.png"
     },
     {
         "id": 98,
@@ -1589,18 +1589,18 @@ export const perfumes = [
     {
         "id": 100,
         "brand": "ESCADA",
-        "name": "ESC. INSP. EN ESCADA OCEAN LOUGE",
+        "name": "ESC. INSP. EN ESCADA OCEAN LOUNGE",
         "category": "Diseñador",
         "newName": "CRUCERO",
         "gender": "Mujer",
-        "family": "Floral Acuática",
+        "family": "Floral Frutal",
         "10 KG EN ADELANTE": 144.8097777778,
         "5 KG A 9,99 KG": 153.328,
         "1 KG A 4,99 KG": 162.911,
         "DE 500 A 999 GRS": 173.7717333333,
         "DE 250 A 499 GRS": 186.184,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/xTRHTmTB/ESCADA-OCEAN-LOUNGE.jpg"
     },
     {
         "id": 101,
@@ -2048,7 +2048,7 @@ export const perfumes = [
         "DE 500 A 999 GRS": 177.0878666667,
         "DE 250 A 499 GRS": 189.737,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/HknJYPN7/WORLD-FANTASY-KENZO.png"
     },
     {
         "id": 129,
@@ -2121,14 +2121,14 @@ export const perfumes = [
         "category": "Diseñador",
         "newName": "SENSUELLE",
         "gender": "Mujer",
-        "family": "Oriental Vainilla",
+        "family": "Floral",
         "10 KG EN ADELANTE": 163.7175555556,
         "5 KG A 9,99 KG": 173.348,
         "1 KG A 4,99 KG": 184.18225,
         "DE 500 A 999 GRS": 196.4610666667,
         "DE 250 A 499 GRS": 210.494,
         "DE 120 A 249 GRS": 210.494,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/bvChY60Q/LACOSTE-SENSUELLE.png"
     },
     {
         "id": 134,
@@ -2272,7 +2272,7 @@ export const perfumes = [
         "DE 500 A 999 GRS": 204.3309333333,
         "DE 250 A 499 GRS": 218.926,
         "DE 120 A 249 GRS": 218.926,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/httmJGXv/MOSCHINO-GOLD-FRESH.jpg"
     },
     {
         "id": 143,
@@ -2521,14 +2521,14 @@ export const perfumes = [
         "category": "Diseñador",
         "newName": "GOLD WOMAN PRIVE",
         "gender": "Mujer",
-        "family": "Oriental Floral Frutal",
+        "family": "Oriental Floral",
         "10 KG EN ADELANTE": 158.4683333333,
         "5 KG A 9,99 KG": 167.79,
         "1 KG A 4,99 KG": 178.276875,
         "DE 500 A 999 GRS": 190.162,
         "DE 250 A 499 GRS": 203.745,
         "DE 120 A 249 GRS": 203.745,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/xCBVMc48/LADY-MILLION-PRIV.png"
     },
     {
         "id": 159,
@@ -2576,7 +2576,7 @@ export const perfumes = [
         "DE 500 A 999 GRS": 203.4582666667,
         "DE 250 A 499 GRS": 217.991,
         "DE 120 A 249 GRS": 217.991,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/W1sLGRXG/OLYMPEA-AQUA.png"
     },
     {
         "id": 162,
@@ -2751,7 +2751,7 @@ export const perfumes = [
         "DE 500 A 999 GRS": 169.0117333333,
         "DE 250 A 499 GRS": 181.084,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "picture": "https://i.postimg.cc/d00bf2MD/WITH-LOVE.png",
         "family": "Floral Frutal"
     },
     {
@@ -2863,7 +2863,7 @@ export const perfumes = [
         "DE 500 A 999 GRS": 280.6813333333,
         "DE 250 A 499 GRS": 300.73,
         "DE 120 A 249 GRS": 300.73,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "picture": "https://i.postimg.cc/c43rjHMt/DEEP_DESIRE.png",
         "family": "Oriental Floral"
     },
     {
@@ -4408,7 +4408,7 @@ export const perfumes = [
     {
         "id": 276,
         "brand": "BVLGARY",
-        "name": "ESC. INSP. EN BVLGARI AQUA DE BVLGARY  MEN ",
+        "name": "ESC. INSP. EN BVLGARI AQUA DE BVLGARY MEN ",
         "category": "Diseñador",
         "newName": "AQVARIUM ",
         "gender": "Hombre",
@@ -4424,7 +4424,7 @@ export const perfumes = [
     {
         "id": 277,
         "brand": "BVLGARY",
-        "name": "ESC. INSP. EN BVLGARI AQUA MARINE  MEN ",
+        "name": "ESC. INSP. EN BVLGARI AQUA MARINE MEN ",
         "category": "Diseñador",
         "newName": "AGUAMARINA",
         "gender": "Hombre",
@@ -4514,7 +4514,7 @@ export const perfumes = [
         "DE 500 A 999 GRS": 170.0430666667,
         "DE 250 A 499 GRS": 182.189,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "picture": "https://i.postimg.cc/Nfqw02XP/BVLGARI-POUR-HOMME.png",
         "family": "Amaderada Floral Almizclada"
     },
     {
@@ -4546,7 +4546,7 @@ export const perfumes = [
         "DE 500 A 999 GRS": 182.0224,
         "DE 250 A 499 GRS": 195.024,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "picture": "https://i.postimg.cc/6pLTWmP9/MAN_WOOD_ESSENCE.png",
         "family": "Amaderado Aromático"
     },
     {
@@ -4946,8 +4946,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 181.8637333333,
         "DE 250 A 499 GRS": 194.854,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
-        "family": "Desconocido"
+        "picture": "https://i.postimg.cc/MHR2DqCD/CH-BEASTS.png",
+        "family": "Oriental Especiada"
     },
     {
         "id": 310,
@@ -5026,8 +5026,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 180.4674666667,
         "DE 250 A 499 GRS": 193.358,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
-        "family": "Amaderada Oriental"
+        "picture": "https://i.postimg.cc/htng2QP7/CH-PRIV-MEN.png",
+        "family": "Cuero"
     },
     {
         "id": 315,
@@ -5154,8 +5154,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 218.4681333333,
         "DE 250 A 499 GRS": 234.073,
         "DE 120 A 249 GRS": 234.073,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
-        "family": "Amaderado Aromático"
+        "picture": "https://i.postimg.cc/mkztTZvq/DIOR_HOMME_SPORT.png",
+        "family": "Amaderada Especiada"
     },
     {
         "id": 323,
@@ -5650,7 +5650,7 @@ export const perfumes = [
         "DE 500 A 999 GRS": 201.6177333333,
         "DE 250 A 499 GRS": 216.019,
         "DE 120 A 249 GRS": 216.019,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "picture": "https://i.postimg.cc/Dzt4YdB4/GUCCI-POUR-HOMME-II.jpg",
         "family": "Chipre Amaderada"
     },
     {
@@ -5842,7 +5842,7 @@ export const perfumes = [
         "DE 500 A 999 GRS": 171.9946666667,
         "DE 250 A 499 GRS": 184.28,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://i.postimg.cc/763yqfmq/HUGO-BOSS-ICED.png",
+        "picture": "https://i.postimg.cc/Xv7WbM5j/HB-ICED.png",
         "family": "Desconocido"
     },
     {
@@ -7138,7 +7138,7 @@ export const perfumes = [
         "DE 500 A 999 GRS": 191.4789333333,
         "DE 250 A 499 GRS": 205.156,
         "DE 120 A 249 GRS": 205.156,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "picture": "https://i.postimg.cc/Qx09rrf3/THE-TRAGEDY-OF-LORD-GORGE-PENHALIGONS.jpg",
         "family": "Amaderado Aromático"
     },
     {
@@ -7186,7 +7186,7 @@ export const perfumes = [
         "DE 500 A 999 GRS": 221.2130666667,
         "DE 250 A 499 GRS": 237.014,
         "DE 120 A 249 GRS": 237.014,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "picture": "https://i.postimg.cc/rsCcHcRY/NO-LIMITS-PHILIP-PLEIN.png",
         "family": "Ámbar Amaderada"
     },
     {
@@ -7202,7 +7202,7 @@ export const perfumes = [
         "DE 500 A 999 GRS": 183.8629333333,
         "DE 250 A 499 GRS": 196.996,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "picture": "https://i.postimg.cc/NFhfVpJL/PRADA-LUNA-ROSSA-OCEAN.jpg",
         "family": "Aromática Acuática"
     },
     {
@@ -7938,8 +7938,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 251.0741333333,
         "DE 250 A 499 GRS": 269.008,
         "DE 120 A 249 GRS": 269.008,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
-        "family": "Floral Ambar"
+        "picture": "https://i.postimg.cc/zfzvVkmT/SUNSHINE_WOMAN.png",
+        "family": "Oriental Floral"
     },
     {
         "id": 497,
@@ -8441,8 +8441,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 177.8812,
         "DE 250 A 499 GRS": 190.587,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
-        "family": "Oriental Floral"
+        "picture": "https://i.postimg.cc/3Rm0M4cS/BOND-N9-SIGNATURE.jpg",
+        "family": "Oriental Amaderada"
     },
     {
         "id": 526,
@@ -8537,7 +8537,7 @@ export const perfumes = [
         "DE 500 A 999 GRS": 386.3057333333,
         "DE 250 A 499 GRS": 413.899,
         "DE 120 A 249 GRS": 413.899,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "picture": "https://i.postimg.cc/50tXkSnf/LOVE_IN_WHITE.png",
         "family": "Oriental Floral"
     },
     {
@@ -8634,7 +8634,7 @@ export const perfumes = [
         "DE 500 A 999 GRS": 191.7169333333,
         "DE 250 A 499 GRS": 205.411,
         "DE 120 A 249 GRS": 205.411,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "picture": "https://i.postimg.cc/1zgNHYcZ/CREED-SANTAL.jpg",
         "family": "Amaderado"
     },
     {
@@ -8666,7 +8666,7 @@ export const perfumes = [
         "DE 500 A 999 GRS": 234.8584,
         "DE 250 A 499 GRS": 251.634,
         "DE 120 A 249 GRS": 251.634,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "picture": "https://i.postimg.cc/Z5sd6hNc/CREED-VIKING-COLOGNE.jpg",
         "family": "Aromática Fougère"
     },
     {
@@ -10125,7 +10125,7 @@ export const perfumes = [
         "DE 500 A 999 GRS": 475.8096,
         "DE 250 A 499 GRS": 509.796,
         "DE 120 A 249 GRS": 509.796,
-        "picture": "https://i.postimg.cc/BnfbBXnF/OMBRE-NOMADE.png",
+        "picture": "https://i.postimg.cc/FKnMXYmp/OMBRE-NOMADE.png",
         "family": "Amaderado Especiado"
     },
     {
@@ -10365,8 +10365,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 158.4286666667,
         "DE 250 A 499 GRS": 169.745,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
-        "family": "Amaderado Aromático"
+        "picture": "https://i.postimg.cc/JzWGWLP6/BLACK_GOLD.png",
+        "family": "Cuero"
     },
     {
         "id": 644,
@@ -10477,7 +10477,7 @@ export const perfumes = [
         "DE 500 A 999 GRS": 223.7517333333,
         "DE 250 A 499 GRS": 239.734,
         "DE 120 A 249 GRS": 239.734,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "picture": "https://i.postimg.cc/y6DmkHc6/MONCLER-POUR-FEMME.png",
         "family": "Amaderado Almizclado"
     },
     {
@@ -10493,7 +10493,7 @@ export const perfumes = [
         "DE 500 A 999 GRS": 223.7517333333,
         "DE 250 A 499 GRS": 239.734,
         "DE 120 A 249 GRS": 239.734,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "picture": "https://i.postimg.cc/j2hW2VKy/MONCLER-POUR-HOMME.jpg",
         "family": "Amaderado Aromático"
     },
     {
@@ -10637,7 +10637,7 @@ export const perfumes = [
         "DE 500 A 999 GRS": 216.9608,
         "DE 250 A 499 GRS": 232.458,
         "DE 120 A 249 GRS": 232.458,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "picture": "https://i.postimg.cc/MHfpxtcx/MONTALE-REDES-VOUS-A-MILAN.png",
         "family": "Gourmand"
     },
     {
@@ -11070,7 +11070,7 @@ export const perfumes = [
         "DE 500 A 999 GRS": 160.7769333333,
         "DE 250 A 499 GRS": 172.261,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/ryGRQ4Wz/PDM-HEROD.jpg"
     },
     {
         "id": 688,
@@ -12510,6 +12510,23 @@ export const perfumes = [
     },
     {
         "id": 779,
+        "brand": "DUMONT PARIS",
+        "name": "ESC. INSP. EN DUMONT PARIS NITRO BLACK",
+        "category": "Nicho",
+        "isNew": true,
+        "newName": "BLACK SPIRIT",
+        "gender": "Hombre",
+        "10 KG EN ADELANTE": 167,
+        "5 KG A 9,99 KG": 176,
+        "1 KG A 4,99 KG": 187,
+        "DE 500 A 999 GRS": 200,
+        "DE 250 A 499 GRS": 214,
+        "DE 120 A 249 GRS": 214,
+        "picture": "https://i.postimg.cc/XNF9KTTF/NITRO-BLACK.png",
+        "family": "Aromática"
+    },
+    {
+        "id": 780,
         "brand": "FRENCH AVENUE",
         "name": "ESC. INSP. EN FRENCH AVENUE VULCAN FEU",
         "category": "Nicho",
@@ -12526,7 +12543,7 @@ export const perfumes = [
         "family": "Oriental Amaderada"
     },
     {
-        "id": 780,
+        "id": 781,
         "brand": "SUPERZ BUDAPEST",
         "name": "ESC. INSP. EN SUPERZ BUDAPEST TENERIFE",
         "category": "Nicho",
@@ -12543,7 +12560,7 @@ export const perfumes = [
         "family": "Cítrica Aromática"
     },
     {
-        "id": 781,
+        "id": 782,
         "brand": "TEXTIL",
         "name": "ESC. INSP. EN AGUA DE LINOS",
         "category": "Textiles",
@@ -12559,7 +12576,7 @@ export const perfumes = [
         "family": "Foral"
     },
     {
-        "id": 782,
+        "id": 783,
         "brand": "LATTAFA",
         "name": "ESC. INSP. EN LATTAFA TERIAQ INTENSE",
         "category": "Nicho",
@@ -12576,8 +12593,8 @@ export const perfumes = [
         "family": "Oriental Especiada"
     },
     {
-        "id": 783,
-        "brand": "LATTAFA",
+        "id": 784,
+        "brand": "ARMAF",
         "name": "ESC. INSP. EN ARMAF ODYSSEY DUBAI CHOCOLAT",
         "category": "Nicho",
         "isNew": true,
@@ -12592,7 +12609,278 @@ export const perfumes = [
         "picture": "https://i.postimg.cc/XJMb3zQY/ODYSSEY-CHOCOLAT.jpg",
         "family": "Oriental Vainilla"
     },
-    
+    {
+        "id": 785,
+        "brand": "AHLI",
+        "name": "ESC. INSP. EN AHLI PEGASUS",
+        "category": "Nicho",
+        "isNew": true,
+        "newName": "IMPERION",
+        "gender": "Unisex",
+        "10 KG EN ADELANTE": 156,
+        "5 KG A 9,99 KG": 165,
+        "1 KG A 4,99 KG": 176,
+        "DE 500 A 999 GRS": 188,
+        "DE 250 A 499 GRS": 201,
+        "DE 120 A 249 GRS": 201,
+        "picture": "https://i.postimg.cc/1XGkjRbn/PEGASUS.jpg",
+        "family": "Aromática Acuática"
+    },
+    {
+        "id": 786,
+        "brand": "LATTAFA",
+        "name": "ESC. INSP. EN LATTAFA VICTORIA",
+        "category": "Nicho",
+        "isNew": true,
+        "newName": "MERINGUE BRULEE",
+        "gender": "Unisex",
+        "10 KG EN ADELANTE": 169,
+        "5 KG A 9,99 KG": 179,
+        "1 KG A 4,99 KG": 190,
+        "DE 500 A 999 GRS": 203,
+        "DE 250 A 499 GRS": 217,
+        "DE 120 A 249 GRS": 217,
+        "picture": "https://i.postimg.cc/RhxrdJpx/VICTORIA-LATTAFA.jpg",
+        "family": "Frutal Gourmand"
+    },
+    {
+        "id": 787,
+        "brand": "KARL LAGERFELD",
+        "name": "ESC. INSP. EN KARL LAGERFELD IKONIK WOMAN",
+        "category": "Diseñador",
+        "isNew": true,
+        "newName": "HER LEGACY",
+        "gender": "Mujer",
+        "10 KG EN ADELANTE": 157,
+        "5 KG A 9,99 KG": 166,
+        "1 KG A 4,99 KG": 176,
+        "DE 500 A 999 GRS": 188,
+        "DE 250 A 499 GRS": 202,
+        "DE 120 A 249 GRS": 202,
+        "picture": "https://i.postimg.cc/FRL50VZx/IKONIK-WOMAN.jpg",
+        "family": "Oriental Floral"
+    },
+    {
+        "id": 788,
+        "brand": "LACOSTE",
+        "name": "ESC. INSP. EN LACOSTE VERT",
+        "category": "Diseñador",
+        "isNew": true,
+        "newName": "LEVERT",
+        "gender": "Hombre",
+        "10 KG EN ADELANTE": 131,
+        "5 KG A 9,99 KG": 139,
+        "1 KG A 4,99 KG": 148,
+        "DE 500 A 999 GRS": 158,
+        "DE 250 A 499 GRS": 169,
+        "DE 120 A 249 GRS": 169,
+        "picture": "https://i.postimg.cc/c4Zy8Y8Q/LACOSTE-LAVERT.jpg",
+        "family": "Cítrica Aromática"
+    },
+    {
+        "id": 789,
+        "brand": "BURBERRY",
+        "name": "ESC. INSP. EN BURBERRY HER EAU DE TOILETTE",
+        "category": "Diseñador",
+        "isNew": true,
+        "newName": "LONDON SPIRIT",
+        "gender": "Dama",
+        "10 KG EN ADELANTE": 155,
+        "5 KG A 9,99 KG": 164,
+        "1 KG A 4,99 KG": 174,
+        "DE 500 A 999 GRS": 186,
+        "DE 250 A 499 GRS": 199,
+        "DE 120 A 249 GRS": 200,
+        "picture": "https://i.postimg.cc/vmPnZqm6/BURBERRY-HER-EDT.png",
+        "family": "Floral Frutal"
+    },
+    {
+        "id": 790,
+        "brand": "CAROLINA HERRERA",
+        "name": "ESC. INSP. EN CH LA BOMBA",
+        "category": "Diseñador",
+        "isNew": true,
+        "newName": "METAMORPHOSIS",
+        "gender": "Dama",
+        "10 KG EN ADELANTE": 143,
+        "5 KG A 9,99 KG": 152,
+        "1 KG A 4,99 KG": 161,
+        "DE 500 A 999 GRS": 172,
+        "DE 250 A 499 GRS": 184,
+        "DE 120 A 249 GRS": 200,
+        "picture": "https://i.postimg.cc/fLp0xVmz/CH-LA-BOMBA.jpg",
+        "family": "Oriental Floral"
+    },
+    {
+        "id": 791,
+        "brand": "KARL LAGERFELD",
+        "name": "ESC. INSP. EN KARL LAGERFELD IKONIK MAN",
+        "category": "Diseñador",
+        "isNew": true,
+        "newName": "LEGENDARY DESIGNER",
+        "gender": "Hombre",
+        "10 KG EN ADELANTE": 162,
+        "5 KG A 9,99 KG": 172,
+        "1 KG A 4,99 KG": 183,
+        "DE 500 A 999 GRS": 195,
+        "DE 250 A 499 GRS": 209,
+        "DE 120 A 249 GRS": 209,
+        "picture": "https://i.postimg.cc/j2fnvR4z/KARL-LAGERFELD-IKONIK.png",
+        "family": "Oriental Fougère"
+    },
+    {
+        "id": 792,
+        "brand": "CAROLINA HERRERA",
+        "name": "ESC. INSP. EN CH BAD BOY ELIXIR",
+        "category": "Diseñador",
+        "isNew": true,
+        "newName": "ULTIMATE FLASH",
+        "gender": "Hombre",
+        "10 KG EN ADELANTE": 157,
+        "5 KG A 9,99 KG": 166,
+        "1 KG A 4,99 KG": 176,
+        "DE 500 A 999 GRS": 188,
+        "DE 250 A 499 GRS": 202,
+        "DE 120 A 249 GRS": 202,
+        "picture": "https://i.postimg.cc/0y0mL2Rn/CH-BAD-BOY-ELIXIR.png",
+        "family": "Oriental Fougère"
+    },
+    {
+        "id": 793,
+        "brand": "BHARARA",
+        "name": "ESC. INSP. EN BHARARA PHAROH RAMESSES I",
+        "category": "Nicho",
+        "isNew": true,
+        "newName": "MENES",
+        "gender": "Unisex",
+        "10 KG EN ADELANTE": 154,
+        "5 KG A 9,99 KG": 163,
+        "1 KG A 4,99 KG": 173,
+        "DE 500 A 999 GRS": 185,
+        "DE 250 A 499 GRS": 198,
+        "DE 120 A 249 GRS": 200,
+        "picture": "https://i.postimg.cc/MpNsP68H/PHARAOH-RAMESSES.jpg",
+        "family": "Amaderada Especiada"
+    },
+    {
+        "id": 794,
+        "brand": "ILMIN",
+        "name": "ESC. INSP. EN ILMIN IL GOUTTE",
+        "category": "Nicho",
+        "isNew": true,
+        "newName": "THE DROPLET",
+        "gender": "Unisex",
+        "10 KG EN ADELANTE": 157,
+        "5 KG A 9,99 KG": 166,
+        "1 KG A 4,99 KG": 176,
+        "DE 500 A 999 GRS": 188,
+        "DE 250 A 499 GRS": 202,
+        "DE 120 A 249 GRS": 202,
+        "picture": "https://i.postimg.cc/4Nzh9NdG/ILMIN-IL-GOUTTE.png",
+        "family": "Floral Amaderada"
+    },
+    {
+        "id": 795,
+        "brand": "ILMIN",
+        "name": "ESC. INSP. EN ILMIN IL VOSS",
+        "category": "Nicho",
+        "isNew": true,
+        "newName": "WHISPERS OF NATURE",
+        "gender": "Unisex",
+        "10 KG EN ADELANTE": 157,
+        "5 KG A 9,99 KG": 166,
+        "1 KG A 4,99 KG": 176,
+        "DE 500 A 999 GRS": 188,
+        "DE 250 A 499 GRS": 202,
+        "DE 120 A 249 GRS": 202,
+        "picture": "https://i.postimg.cc/Hkd84Dcy/ILMIN-IL-VOSS.png",
+        "family": "Floral Frutal Ambarada"
+    },
+    {
+        "id": 796,
+        "brand": "LATTAFA",
+        "name": "ESC. INSP. EN LATTAFA AFEEF",
+        "category": "Nicho",
+        "isNew": true,
+        "newName": "TIMAFEEF",
+        "gender": "Unisex",
+        "10 KG EN ADELANTE": 154,
+        "5 KG A 9,99 KG": 163,
+        "1 KG A 4,99 KG": 173,
+        "DE 500 A 999 GRS": 185,
+        "DE 250 A 499 GRS": 198,
+        "DE 120 A 249 GRS": 200,
+        "picture": "https://i.postimg.cc/pTpFhf9c/AFEEF-LATTAFA.png",
+        "family": "Floral Frutal"
+    },
+    {
+        "id": 797,
+        "brand": "LATTAFA",
+        "name": "ESC. INSP. EN LATTAFA ATHEERI",
+        "category": "Nicho",
+        "isNew": true,
+        "newName": "ORCHID HONEY",
+        "gender": "Dama",
+        "10 KG EN ADELANTE": 143,
+        "5 KG A 9,99 KG": 152,
+        "1 KG A 4,99 KG": 161,
+        "DE 500 A 999 GRS": 172,
+        "DE 250 A 499 GRS": 184,
+        "DE 120 A 249 GRS": 200,
+        "picture": "https://i.postimg.cc/DzfsFk7T/ATHEERI.png",
+        "family": "Oriental Floral"
+    },
+    {
+        "id": 798,
+        "brand": "LATTAFA",
+        "name": "ESC. INSP. EN LATTAFA MAYAR CHERRY INTENSE",
+        "category": "Nicho",
+        "isNew": true,
+        "newName": "GOURMET NECTAR",
+        "gender": "Unisex",
+        "10 KG EN ADELANTE": 151,
+        "5 KG A 9,99 KG": 160,
+        "1 KG A 4,99 KG": 170,
+        "DE 500 A 999 GRS": 182,
+        "DE 250 A 499 GRS": 195,
+        "DE 120 A 249 GRS": 200,
+        "picture": "https://i.postimg.cc/YCRGdnYy/LATTAFA-MAYAR-CHERRY.png",
+        "family": "Oriental Vainilla"
+    },
+    {
+        "id": 799,
+        "brand": "LATTAFA",
+        "name": "ESC. INSP. EN LATTAFA MUSAMAN WHITE INTENSE",
+        "category": "Nicho",
+        "isNew": true,
+        "newName": "COMFORTING JOURNEY",
+        "gender": "Unisex",
+        "10 KG EN ADELANTE": 143,
+        "5 KG A 9,99 KG": 152,
+        "1 KG A 4,99 KG": 161,
+        "DE 500 A 999 GRS": 172,
+        "DE 250 A 499 GRS": 184,
+        "DE 120 A 249 GRS": 200,
+        "picture": "https://i.postimg.cc/d007p29Q/LATTAFA-MUSSAMAN-WHITE-INTENSE.png",
+        "family": "Oriental Floral"
+    },
+    {
+        "id": 800,
+        "brand": "ORIENTICA",
+        "name": "ESC. INSP. EN ORIENTICA DANIA EXCLUSIVE",
+        "category": "Nicho",
+        "isNew": true,
+        "newName": "TEMPTING AURA",
+        "gender": "Dama",
+        "10 KG EN ADELANTE": 143,
+        "5 KG A 9,99 KG": 152,
+        "1 KG A 4,99 KG": 161,
+        "DE 500 A 999 GRS": 172,
+        "DE 250 A 499 GRS": 184,
+        "DE 120 A 249 GRS": 200,
+        "picture": "https://i.postimg.cc/L4gPmVFn/DANIA-ORIENTICA.png",
+        "family": "Oriental Vainilla"
+    },
 ]
 
 // module.exports = {perfumes}
