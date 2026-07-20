@@ -3,6 +3,7 @@ import { Search, X, ListFilterIcon } from "lucide-react";
 import { Delete } from 'lucide-react';
 import { label } from "motion/react-client";
 import { Dropdown } from "../../../components/Dropdown/Dropdown";
+import FiltersPanelMobile from "../../../components/FiltersPanelMobile/FiltersPanelMobile";
 
 export function Filters({
   searchQuery,
@@ -28,7 +29,10 @@ export function Filters({
     family: true,
   });
 
+  // Controla los menus del modo desktop
   const [openDropdown, setOpenDropdown] = useState(null);
+  // Controla los menus del modo mobile 
+  
   const [isMobileFiltersOpen, setIsMobileFiltersOpen] = useState(false);
 
   const toggleSection = (section) => {
@@ -52,6 +56,11 @@ export function Filters({
     setSearchQuery("");
   };
 
+  // Decide que estado modificar
+  const handleOpenFilters = (filterType) => {
+      setOpenDropdown(openDropdown === filterType ? null : filterType)
+  }
+
   const FiltersContent = () => (
     <>
       <div className="relative w-full md:w-auto md:flex">
@@ -63,7 +72,7 @@ export function Filters({
           onChange={setSelectedGender}
           isOpen={openDropdown === "gender"}
           onToggle={() =>
-            setOpenDropdown(openDropdown === "gender" ? null : "gender")
+            handleOpenFilters('gender')
           }
         />
 
@@ -75,7 +84,7 @@ export function Filters({
           onChange={setSelectedCategory}
           isOpen={openDropdown === "category"}
           onToggle={() =>
-            setOpenDropdown(openDropdown === "category" ? null : "category")
+            handleOpenFilters('category')
           }
         />
 
@@ -87,7 +96,7 @@ export function Filters({
           onChange={setSelectedFamily}
           isOpen={openDropdown === "family"}
           onToggle={() =>
-            setOpenDropdown(openDropdown === "family" ? null : "family")
+            handleOpenFilters('family')
           }
         />
 
@@ -99,7 +108,7 @@ export function Filters({
           onChange={setSelectedBrands}
           isOpen={openDropdown === "brand"}
           onToggle={() =>
-            setOpenDropdown(openDropdown === "brand" ? null : "brand")
+            handleOpenFilters('brand')
           }
         />
       </div>
@@ -160,22 +169,23 @@ export function Filters({
 
       {/* Mobile Filters Panel */}
       {isMobileFiltersOpen && (
-        <div className="md:hidden fixed inset-0 z-50 bg-black/95">
-          <div className="h-full overflow-y-auto p-6">
-            <div className="flex justify-between items-center mb-6">
-              <h2 className="text-xl font-bold text-white">Filtros</h2>
-              <button
-                onClick={() => setIsMobileFiltersOpen(false)}
-                className="text-white"
-              >
-                <X className="w-6 h-6" />
-              </button>
-            </div>
-            <div className="flex flex-col gap-4">
-              <FiltersContent />
-            </div>
-          </div>
-        </div>
+        <FiltersPanelMobile
+          onClose={()=>{
+            setIsMobileFiltersOpen(false)
+          }}
+          selectedBrands={selectedBrands}
+          setSelectedBrands={setSelectedBrands}
+          selectedCategory={selectedCategory}
+          setSelectedCategory={setSelectedCategory}
+          selectedFamily={selectedFamily}
+          setSelectedFamily={setSelectedFamily}
+          selectedGender={selectedGender}
+          setSelectedGender={setSelectedGender}
+          opcionesBrand={opcionesBrand}
+          opcionesCategory={opcionesCategory}
+          opcionesFamily={opcionesFamily}
+          opcionesGender={opcionesGender}
+        />
       )}
       {/* Click outside handler for dropdowns */}
       {openDropdown && (
