@@ -2,7 +2,11 @@ import SectionContent from "../SectionContent/SectionContent";
 
 const MapSection = () => {
   return (
-    <SectionContent className="relative h-screen bg-cover bg-center bg-black">
+    <SectionContent 
+      style={{
+          backgroundImage: `url('https://iili.io/KGlqjg1.png')`,
+        }}
+    className="relative h-screen bg-cover bg-center bg-black">
       <div className="flex text-end items-end gap-8 text-white py-16 px-20 w-full flex-col">
         <h2 className="italic font-titleAlt text-6xl font-semibold tracking-tighter">
           Presencia Nacional e Internacional
