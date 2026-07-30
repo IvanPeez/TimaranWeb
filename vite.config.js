@@ -18,6 +18,9 @@ export default defineConfig({
     port: Number(process.env.PORT) || 5173,
   },
   optimizeDeps: {
-    include: ['pdfjs-dist/build/pdf.worker.js'],
+    // pdf.js se publica como UMD; pre-empaquetarlo evita que Vite lo re-analice
+    // en caliente la primera vez que se abre el visor del catálogo. El worker
+    // NO va aquí: se importa con `?url` y debe quedar como asset suelto.
+    include: ['pdfjs-dist/build/pdf'],
   },
 })
