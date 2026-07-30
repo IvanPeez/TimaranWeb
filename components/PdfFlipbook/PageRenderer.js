@@ -32,13 +32,21 @@ export class PageRenderer {
     this.painted = new WeakMap();
   }
 
+  /** ¿El canvas ya muestra esta página a este tamaño? */
+  _yaPintado(canvas, pageNumber, cssWidth) {
+    const previo = this.painted.get(canvas);
+    return previo?.pageNumber === pageNumber && previo.cssWidth === cssWidth;
+  }
+
   /**
    * Pinta `pageNumber` dentro de `canvas` para que se vea a `cssWidth` píxeles
    * de ancho. Resuelve en true si el canvas quedó pintado.
    */
   request(pageNumber, canvas, cssWidth) {
     if (this.destroyed || !canvas || !cssWidth) return Promise.resolve(false);
-    if (this.painted.get(canvas) === cssWidth) return Promise.resolve(true);
+    // La lupa reutiliza el mismo canvas para páginas distintas, así que la
+    // caché tiene que mirar también qué página está pintada, no sólo el ancho.
+    if (this._yaPintado(canvas, pageNumber, cssWidth)) return Promise.resolve(true);
 
     this._drop(canvas);
 
@@ -113,6 +121,12 @@ export class PageRenderer {
     canvas.height = Math.max(1, Math.floor(viewport.height));
 
     const context = canvas.getContext("2d", { alpha: false });
+    // Un canvas sin alfa nace negro en cuanto se le asigna tamaño, y como está
+    // por encima del marcador de carga taparía la página con un rectángulo
+    // negro hasta que pdf.js termine. Se rellena antes con el mismo tono del
+    // marcador para que la transición no se note.
+    context.fillStyle = "#f4f1ec";
+    context.fillRect(0, 0, canvas.width, canvas.height);
     // Fondo blanco explícito: sin él las páginas con transparencia salen negras
     // sobre el tema oscuro del sitio.
     const task = page.render({
@@ -124,7 +138,7 @@ export class PageRenderer {
 
     try {
       await task.promise;
-      this.painted.set(canvas, cssWidth);
+      this.painted.set(canvas, { pageNumber, cssWidth });
       return true;
     } catch (error) {
       // Cancelar es parte del flujo normal (el usuario pasó de página): no es

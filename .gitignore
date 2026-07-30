@@ -131,3 +131,7 @@ out
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Catálogos en PDF: se suben al Blob de Vercel, no al repositorio.
+# Se dejan en la raíz sólo para poder ejecutar `vercel blob put`.
+/catalogo-*.pdf

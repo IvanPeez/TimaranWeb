@@ -22,6 +22,19 @@ export function usePdfDocument(url) {
 
   useEffect(() => {
     let cancelled = false;
+
+    // Sin URL configurada no hay nada que pedir. Es un fallo de despliegue (la
+    // variable de entorno del catálogo quedó vacía), no un error de red, y se
+    // distingue para poder mostrar un mensaje que le sirva al cliente.
+    if (!url) {
+      console.error(
+        "[PdfFlipbook] No hay URL del catálogo. Define VITE_CATALOGO_ENVASES_PDF / " +
+          "VITE_CATALOGO_ESENCIAS_PDF con la URL pública del Blob de Vercel (ver .env.example)."
+      );
+      setState({ ...INITIAL, status: "unset" });
+      return undefined;
+    }
+
     setState(INITIAL);
 
     const task = pdfjsLib.getDocument({ url });
