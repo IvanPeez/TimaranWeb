@@ -1,9 +1,13 @@
 import React, { useState } from "react";
-import { Search, X, ListFilterIcon } from "lucide-react";
-import { Delete } from 'lucide-react';
-import { label } from "motion/react-client";
+import { ListFilter, Search, SlidersHorizontal, X } from "lucide-react";
 import { Dropdown } from "../../../components/Dropdown/Dropdown";
 import FiltersPanelMobile from "../../../components/FiltersPanelMobile/FiltersPanelMobile";
+import { SORT_OPTIONS } from "./catalogUtils";
+
+const toggleValue = (values, value) =>
+  values.includes(value)
+    ? values.filter((item) => item !== value)
+    : [...values, value];
 
 export function Filters({
   searchQuery,
@@ -20,33 +24,35 @@ export function Filters({
   opcionesBrand,
   opcionesGender,
   opcionesFamily,
-  isScrolled,
+  sortBy,
+  setSortBy,
+  resultCount,
+  totalCount,
 }) {
-  const [sectionsOpen, setSectionsOpen] = useState({
-    gender: true,
-    category: true,
-    brand: true,
-    family: true,
-  });
-
-  // Controla los menus del modo desktop
   const [openDropdown, setOpenDropdown] = useState(null);
-  // Controla los menus del modo mobile 
-  
   const [isMobileFiltersOpen, setIsMobileFiltersOpen] = useState(false);
 
-  const toggleSection = (section) => {
-    setSectionsOpen((prev) => ({
-      ...prev,
-      [section]: !prev[section],
-    }));
-  };
+  const activeFilters = [
+    ...selectedGender.map((value) => ({
+      value,
+      remove: () => setSelectedGender(toggleValue(selectedGender, value)),
+    })),
+    ...selectedCategory.map((value) => ({
+      value,
+      remove: () => setSelectedCategory(toggleValue(selectedCategory, value)),
+    })),
+    ...selectedFamily.map((value) => ({
+      value,
+      remove: () => setSelectedFamily(toggleValue(selectedFamily, value)),
+    })),
+    ...selectedBrands.map((value) => ({
+      value,
+      remove: () => setSelectedBrands(toggleValue(selectedBrands, value)),
+    })),
+  ];
 
-  const hasActiveFilters =
-    selectedGender.length > 0 ||
-    selectedCategory.length > 0 ||
-    selectedBrands.length > 0 ||
-    selectedFamily.length > 0;
+  const activeCount = activeFilters.length;
+  const hasActiveFilters = activeCount > 0 || searchQuery.length > 0;
 
   const clearAllFilters = () => {
     setSelectedGender([]);
@@ -56,123 +62,153 @@ export function Filters({
     setSearchQuery("");
   };
 
-  // Decide que estado modificar
-  const handleOpenFilters = (filterType) => {
-      setOpenDropdown(openDropdown === filterType ? null : filterType)
-  }
-
-  const FiltersContent = () => (
-    <>
-      <div className="relative w-full md:w-auto md:flex">
-        {/* Gender Filter */}
-        <Dropdown
-          label="Género"
-          options={opcionesGender}
-          selectedValues={selectedGender}
-          onChange={setSelectedGender}
-          isOpen={openDropdown === "gender"}
-          onToggle={() =>
-            handleOpenFilters('gender')
-          }
-        />
-
-        {/* Category Filter */}
-        <Dropdown
-          label="Categoría"
-          options={[...opcionesCategory, "Novedades"]}
-          selectedValues={selectedCategory}
-          onChange={setSelectedCategory}
-          isOpen={openDropdown === "category"}
-          onToggle={() =>
-            handleOpenFilters('category')
-          }
-        />
-
-        {/* Family Filter */}
-        <Dropdown
-          label="Familia Olfativa"
-          options={opcionesFamily}
-          selectedValues={selectedFamily}
-          onChange={setSelectedFamily}
-          isOpen={openDropdown === "family"}
-          onToggle={() =>
-            handleOpenFilters('family')
-          }
-        />
-
-        {/* Brand Filter */}
-        <Dropdown
-          label="Marca"
-          options={opcionesBrand}
-          selectedValues={selectedBrands}
-          onChange={setSelectedBrands}
-          isOpen={openDropdown === "brand"}
-          onToggle={() =>
-            handleOpenFilters('brand')
-          }
-        />
-      </div>
-    </>
-  );
-
-  const DeleteButton = ({isScrolled}) => (<button
-            onClick={clearAllFilters}
-            className="flex items-center gap-2 px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition-colors"
-          >
-    {!isScrolled &&<X className="w-4 h-4" />}
-    {!isScrolled ? "Borrar filtros" : <Delete/>}
-          </button>)
+  const handleOpenFilters = (filterType) =>
+    setOpenDropdown(openDropdown === filterType ? null : filterType);
 
   return (
     <>
-      <div style={isScrolled ? {minWidth: "600px"} : {}} className={`${
-        isScrolled 
-          ? 'fixed top-4 left-1/2 transform -translate-x-1/2 bg-black/80 backdrop-blur-lg rounded-2xl shadow-2xl border border-gray-700' 
-          : 'relative bg-transparent'
-      } px-6 py-4 z-50 transition-all duration-300 ease-in-out`}>
-        <div className="flex flex-col md:flex-row items-center justify-center gap-4 flex-wrap">
-          <div className="flex items-center gap-4">
-            {/* Search Bar */}
-            <div className="relative">
+      <div className="sticky top-14 z-40 border-y border-white/[0.07] bg-ink/90 backdrop-blur-xl">
+        <div className="mx-auto max-w-[1600px] px-4 py-3 sm:px-6">
+          <div className="flex items-center gap-3">
+            {/* Búsqueda */}
+            <div className="relative min-w-0 flex-1 md:max-w-xs">
+              <Search className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-white/35" />
               <input
                 type="text"
-                placeholder="Buscar perfume..."
+                placeholder="Buscar por nombre o inspiración..."
                 value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-                  className={`w-full pl-10 pr-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-gray-700 focus:border-transparent ${
-                    isScrolled 
-                      ? 'bg-gray-500/20 border-gray-700 focus:text-gray-400' 
-                      : 'bg-white border-gray-300 text-black focus:text-black'
-                  }`}
+                onChange={(event) => setSearchQuery(event.target.value)}
+                className="w-full rounded-xl border border-white/10 bg-white/[0.04] py-2.5 pl-10 pr-9 text-sm text-white placeholder:text-white/35 focus:border-champagne/50 focus:outline-none focus:ring-1 focus:ring-champagne/30"
               />
-              <Search className="absolute left-3 top-1/2  transform -translate-y-1/2 text-gray-400 w-4 h-4" />
+              {searchQuery && (
+                <button
+                  type="button"
+                  onClick={() => setSearchQuery("")}
+                  aria-label="Limpiar búsqueda"
+                  className="absolute right-2 top-1/2 flex h-6 w-6 -translate-y-1/2 items-center justify-center rounded-full text-white/40 transition-colors hover:bg-white/10 hover:text-white"
+                >
+                  <X className="h-3.5 w-3.5" />
+                </button>
+              )}
             </div>
-            {hasActiveFilters && isScrolled && <DeleteButton isScrolled/>}
+
+            {/* Filtros desktop */}
+            <div className="hidden items-center gap-1 md:flex">
+              <Dropdown
+                label="Género"
+                options={opcionesGender}
+                selectedValues={selectedGender}
+                onChange={setSelectedGender}
+                isOpen={openDropdown === "gender"}
+                onToggle={() => handleOpenFilters("gender")}
+              />
+              <Dropdown
+                label="Categoría"
+                options={[...opcionesCategory, "Novedades"]}
+                selectedValues={selectedCategory}
+                onChange={setSelectedCategory}
+                isOpen={openDropdown === "category"}
+                onToggle={() => handleOpenFilters("category")}
+              />
+              <Dropdown
+                label="Familia olfativa"
+                align="right"
+                options={opcionesFamily}
+                selectedValues={selectedFamily}
+                onChange={setSelectedFamily}
+                isOpen={openDropdown === "family"}
+                onToggle={() => handleOpenFilters("family")}
+              />
+              <Dropdown
+                label="Inspiración"
+                align="right"
+                options={opcionesBrand}
+                selectedValues={selectedBrands}
+                onChange={setSelectedBrands}
+                isOpen={openDropdown === "brand"}
+                onToggle={() => handleOpenFilters("brand")}
+              />
+            </div>
+
+            <div className="ml-auto flex shrink-0 items-center gap-2">
+              {/* Orden */}
+              <div className="relative hidden lg:block">
+                <SlidersHorizontal className="pointer-events-none absolute left-3 top-1/2 h-3.5 w-3.5 -translate-y-1/2 text-white/35" />
+                <select
+                  value={sortBy}
+                  onChange={(event) => setSortBy(event.target.value)}
+                  aria-label="Ordenar catálogo"
+                  className="cursor-pointer appearance-none rounded-xl border border-white/10 bg-white/[0.04] py-2.5 pl-9 pr-8 text-sm text-white/80 focus:border-champagne/50 focus:outline-none"
+                >
+                  {SORT_OPTIONS.map((option) => (
+                    <option
+                      key={option.value}
+                      value={option.value}
+                      className="bg-ink-card text-white"
+                    >
+                      {option.label}
+                    </option>
+                  ))}
+                </select>
+              </div>
+
+              {/* Botón filtros móvil */}
+              <button
+                type="button"
+                onClick={() => setIsMobileFiltersOpen(true)}
+                className="relative flex items-center gap-2 rounded-xl border border-white/10 bg-white/[0.04] px-4 py-2.5 text-sm text-white/80 md:hidden"
+              >
+                <ListFilter className="h-4 w-4" />
+                Filtros
+                {activeCount > 0 && (
+                  <span className="flex h-5 min-w-[20px] items-center justify-center rounded-full bg-champagne px-1 text-[11px] font-semibold text-ink">
+                    {activeCount}
+                  </span>
+                )}
+              </button>
+            </div>
           </div>
-          
-          <div className="hidden md:block">
-            <FiltersContent />
+
+          {/* Chips activos + conteo */}
+          <div className="mt-3 flex items-center gap-2 overflow-x-auto pb-0.5 scrollbar-none">
+            <span className="shrink-0 text-xs text-white/40">
+              <span className="text-champagne">{resultCount}</span> de{" "}
+              {totalCount} esencias
+            </span>
+
+            {activeFilters.map((filter) => (
+              <button
+                key={filter.value}
+                type="button"
+                onClick={filter.remove}
+                className="flex shrink-0 items-center gap-1.5 rounded-full border border-champagne/30 bg-champagne/10 py-1 pl-3 pr-2 text-xs text-champagne transition-colors hover:bg-champagne/20"
+              >
+                {filter.value}
+                <X className="h-3 w-3" />
+              </button>
+            ))}
+
+            {hasActiveFilters && (
+              <button
+                type="button"
+                onClick={clearAllFilters}
+                className="shrink-0 rounded-full px-3 py-1 text-xs text-white/45 underline-offset-4 transition-colors hover:text-white hover:underline"
+              >
+                Limpiar todo
+              </button>
+            )}
           </div>
-          {hasActiveFilters && !isScrolled && (
-          <DeleteButton/>
-          )}
         </div>
       </div>
 
-      {/* Mobile Filters Button */}
-      <button
-        onClick={() => setIsMobileFiltersOpen(true)}
-        className="md:hidden fixed bottom-6 right-6 z-50 bg-blue-500 text-white p-4 rounded-full shadow-lg"
-      >
-        <ListFilterIcon className="w-6 h-6" />
-      </button>
-
-      {/* Mobile Filters Panel */}
+      {/* Panel de filtros móvil */}
       {isMobileFiltersOpen && (
         <FiltersPanelMobile
-          onClose={()=>{
-            setIsMobileFiltersOpen(false)
-          }}
+          onClose={() => setIsMobileFiltersOpen(false)}
+          onClear={clearAllFilters}
+          resultCount={resultCount}
+          sortBy={sortBy}
+          setSortBy={setSortBy}
           selectedBrands={selectedBrands}
           setSelectedBrands={setSelectedBrands}
           selectedCategory={selectedCategory}
@@ -187,10 +223,11 @@ export function Filters({
           opcionesGender={opcionesGender}
         />
       )}
-      {/* Click outside handler for dropdowns */}
+
+      {/* Cierre de dropdowns al hacer click afuera */}
       {openDropdown && (
         <div
-          className="fixed inset-0 z-0"
+          className="fixed inset-0 z-30"
           onClick={() => setOpenDropdown(null)}
         />
       )}
