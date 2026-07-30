@@ -9,8 +9,14 @@
 
 
 @layer base {
+  html {
+    color-scheme: dark;
+  }
+
+  /* Sin fondo propio el canvas queda blanco: destello al cargar y rebote
+     blanco al hacer overscroll en un sitio completamente oscuro. */
   body {
-    @apply font-generalSans;
+    @apply font-generalSans bg-ink text-white;
   }
 }
 

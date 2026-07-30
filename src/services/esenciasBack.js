@@ -1,6 +1,7 @@
 export const perfumes = [
     {
         "id": 1,
+        "date": "2025-01-01",
         "brand": "ANIMALE",
         "name": "ESC. INSP. EN ANIMALE",
         "category": "Diseñador",
@@ -17,6 +18,7 @@ export const perfumes = [
     },
     {
         "id": 2,
+        "date": "2025-01-01",
         "brand": "ARIANA GRANDE",
         "name": "ESC. INSP. EN ARI BY ARIANA GRANDE",
         "category": "Diseñador",
@@ -33,6 +35,7 @@ export const perfumes = [
     },
     {
         "id": 3,
+        "date": "2025-01-01",
         "brand": "ARIANA GRANDE",
         "name": "ESC. INSP. EN CLOUD PINK ARIANA GRANDE",
         "category": "Diseñador",
@@ -49,6 +52,7 @@ export const perfumes = [
     },
     {
         "id": 4,
+        "date": "2025-01-01",
         "brand": "ARIANA GRANDE",
         "name": "ESC. INSP. EN CLOUD ARIANA GRANDE",
         "category": "Diseñador",
@@ -65,6 +69,7 @@ export const perfumes = [
     },
     {
         "id": 5,
+        "date": "2025-01-01",
         "brand": "ARIANA GRANDE",
         "name": "ESC. INSP. EN LOVENOTES VANILLA SUEDE",
         "category": "Diseñador",
@@ -81,6 +86,7 @@ export const perfumes = [
     },
     {
         "id": 6,
+        "date": "2025-01-01",
         "brand": "ARIANA GRANDE",
         "name": "ESC. INSP. EN MOD VANILLA  ARIANA GRANDE",
         "category": "Diseñador",
@@ -97,6 +103,7 @@ export const perfumes = [
     },
     {
         "id": 7,
+        "date": "2025-01-01",
         "brand": "ARIANA GRANDE",
         "name": "ESC. INSP. EN R.E.M. ARIANA GRANDE",
         "category": "Diseñador",
@@ -113,6 +120,7 @@ export const perfumes = [
     },
     {
         "id": 8,
+        "date": "2025-01-01",
         "brand": "ARIANA GRANDE",
         "name": "ESC. INSP. EN SWEET LIKE CANDY ARIANA GRANDE",
         "category": "Diseñador",
@@ -129,6 +137,7 @@ export const perfumes = [
     },
     {
         "id": 9,
+        "date": "2025-01-01",
         "brand": "ARIANA GRANDE",
         "name": "ESC. INSP. EN THANK U NEXT ARIANA GRANDE",
         "category": "Diseñador",
@@ -146,6 +155,7 @@ export const perfumes = [
 
     {
         "id": 10,
+        "date": "2025-01-01",
         "brand": "ARMANI",
         "name": "ESC. INSP. EN ARMANI ACQUA DI GIOGIA",
         "category": "Diseñador",
@@ -162,6 +172,7 @@ export const perfumes = [
     },
     {
         "id": 11,
+        "date": "2025-01-01",
         "brand": "ARMANI",
         "name": "ESC. INSP. EN ARMANI BECAUSE ITS YOU",
         "category": "Diseñador",
@@ -178,6 +189,7 @@ export const perfumes = [
     },
     {
         "id": 12,
+        "date": "2025-01-01",
         "brand": "ARMANI",
         "name": "ESC. INSP. EN GIORGIO ARMANI SI",
         "category": "Diseñador",
@@ -194,6 +206,7 @@ export const perfumes = [
     },
     {
         "id": 13,
+        "date": "2025-01-01",
         "brand": "ARMANI",
         "name": "ESC. INSP. EN GIORGIO ARMANI SI EAU DE PARFUM INTENSE",
         "category": "Diseñador",
@@ -210,6 +223,7 @@ export const perfumes = [
     },
     {
         "id": 14,
+        "date": "2025-01-01",
         "brand": "ANTONIO BANDERAS",
         "name": "ESC. INSP. EN ANTONIO BANDERAS BLUE SEDUCTION",
         "category": "Diseñador",
@@ -226,6 +240,7 @@ export const perfumes = [
     },
     {
         "id": 15,
+        "date": "2025-01-01",
         "brand": "BATH AND BODY WORKS",
         "name": "ESC. INSP. EN BATH AND BODY VELVET SUGAR",
         "category": "Diseñador",
@@ -242,6 +257,7 @@ export const perfumes = [
     },
     {
         "id": 16,
+        "date": "2025-01-01",
         "brand": "BATH AND BODY WORKS",
         "name": "ESC. INSP. EN BYB PINK CHIFFON",
         "category": "Diseñador",
@@ -258,6 +274,7 @@ export const perfumes = [
     },
     {
         "id": 17,
+        "date": "2025-01-01",
         "brand": "BATH AND BODY WORKS",
         "name": "ESC. INSP. EN LOQUITO POR TI",
         "category": "Diseñador",
@@ -274,6 +291,7 @@ export const perfumes = [
     },
     {
         "id": 18,
+        "date": "2025-01-01",
         "brand": "BATH AND BODY WORKS",
         "name": "ESC INSP. EN PINK PINEAPPLE SUNRISE",
         "category": "Diseñador",
@@ -290,6 +308,7 @@ export const perfumes = [
     },
     {
         "id": 19,
+        "date": "2025-01-01",
         "brand": "BEVERLY HILLS",
         "name": "ESC. INSP. EN BEVERLY HILLS 273",
         "category": "Diseñador",
@@ -306,6 +325,7 @@ export const perfumes = [
     },
     {
         "id": 20,
+        "date": "2025-01-01",
         "brand": "BILLIE EILISH",
         "name": "ESC. INSP. EN BILLIE EILISH ELISH",
         "category": "Diseñador",
@@ -322,6 +342,7 @@ export const perfumes = [
     },
     {
         "id": 21,
+        "date": "2025-01-01",
         "brand": "BRITNEY SPEARS",
         "name": "ESC. INSP. EN FANTASY",
         "category": "Diseñador",
@@ -338,6 +359,7 @@ export const perfumes = [
     },
     {
         "id": 22,
+        "date": "2025-01-01",
         "brand": "BRITNEY SPEARS",
         "name": "ESC. INSP. EN FANTASY NOCHE",
         "category": "Diseñador",
@@ -354,6 +376,7 @@ export const perfumes = [
     },
     {
         "id": 23,
+        "date": "2025-01-01",
         "brand": "BRITNEY SPEARS",
         "name": "ESC. INSP. EN HIDDEN FANTASY",
         "category": "Diseñador",
@@ -370,6 +393,7 @@ export const perfumes = [
     },
     {
         "id": 24,
+        "date": "2025-01-01",
         "brand": "BURBERRY",
         "name": "ESC. INSP. EN BURBERRY",
         "category": "Diseñador",
@@ -386,6 +410,7 @@ export const perfumes = [
     },
     {
         "id": 25,
+        "date": "2025-01-01",
         "brand": "BURBERRY",
         "name": "ESC. INSP. EN BURBERRY HER",
         "category": "Diseñador",
@@ -402,6 +427,7 @@ export const perfumes = [
     },
     {
         "id": 26,
+        "date": "2025-01-01",
         "brand": "BURBERRY",
         "name": "ESC. INSP. EN BURBERRY HER ELIXIR",
         "category": "Diseñador",
@@ -418,6 +444,7 @@ export const perfumes = [
     },
     {
         "id": 27,
+        "date": "2025-01-01",
         "brand": "BELLEZA EXPRESS",
         "name": "ESC. INSP. EN ARRURRU Unisex",
         "category": "Diseñador",
@@ -434,6 +461,7 @@ export const perfumes = [
     },
     {
         "id": 28,
+        "date": "2025-01-01",
         "brand": "BVLGARY",
         "name": "ESC. INSP. EN BVLGARI BABY",
         "category": "Diseñador",
@@ -450,6 +478,7 @@ export const perfumes = [
     },
     {
         "id": 29,
+        "date": "2025-01-01",
         "brand": "BVLGARY",
         "name": "ESC. INSP. EN BVLGARI OMNIA AMATHISTA",
         "category": "Diseñador",
@@ -466,6 +495,7 @@ export const perfumes = [
     },
     {
         "id": 30,
+        "date": "2025-01-01",
         "brand": "BVLGARY",
         "name": "ESC. INSP. EN BVLGARI OMNIA CORAL",
         "category": "Diseñador",
@@ -482,6 +512,7 @@ export const perfumes = [
     },
     {
         "id": 31,
+        "date": "2025-01-01",
         "brand": "BVLGARY",
         "name": "ESC. INSP. EN BVLGARI OMNIA CRISTALLINE",
         "category": "Diseñador",
@@ -498,6 +529,7 @@ export const perfumes = [
     },
     {
         "id": 32,
+        "date": "2025-01-01",
         "brand": "BVLGARY",
         "name": "ESC. INSP. EN BVLGARI OMNIA PARAIBA",
         "category": "Diseñador",
@@ -514,6 +546,7 @@ export const perfumes = [
     },
     {
         "id": 33,
+        "date": "2025-01-01",
         "brand": "BVLGARY",
         "name": "ESC. INSP. EN BVLGARI OMNIA PINK",
         "category": "Diseñador",
@@ -530,6 +563,7 @@ export const perfumes = [
     },
     {
         "id": 34,
+        "date": "2025-01-01",
         "brand": "BVLGARY",
         "name": "ESC. INSP. EN BVLGARI OMNIA GOLDEN CITRINE",
         "category": "Diseñador",
@@ -546,6 +580,7 @@ export const perfumes = [
     },
     {
         "id": 35,
+        "date": "2025-01-01",
         "brand": "CACHAREL",
         "name": "ESC. INSP. EN CACHAREL AMOR AMOR",
         "category": "Diseñador",
@@ -562,6 +597,7 @@ export const perfumes = [
     },
     {
         "id": 36,
+        "date": "2025-01-01",
         "brand": "CACHAREL",
         "name": "ESC. INSP. EN CACHAREL YES I AM",
         "category": "Diseñador",
@@ -578,6 +614,7 @@ export const perfumes = [
     },
     {
         "id": 37,
+        "date": "2025-01-01",
         "brand": "CALVIN KLEIN",
         "name": "ESC. INSP. EN CK ESCAPE",
         "category": "Diseñador",
@@ -594,6 +631,7 @@ export const perfumes = [
     },
     {
         "id": 38,
+        "date": "2025-01-01",
         "brand": "CALVIN KLEIN",
         "name": "ESC. INSP. EN CK ETERNITY",
         "category": "Diseñador",
@@ -610,6 +648,7 @@ export const perfumes = [
     },
     {
         "id": 39,
+        "date": "2025-01-01",
         "brand": "CALVIN KLEIN",
         "name": "ESC. INSP. EN CK EUPHORIA",
         "category": "Diseñador",
@@ -626,6 +665,7 @@ export const perfumes = [
     },
     {
         "id": 40,
+        "date": "2025-01-01",
         "brand": "CALVIN KLEIN",
         "name": "ESC. INSP. EN CK IN 2U",
         "category": "Diseñador",
@@ -642,6 +682,7 @@ export const perfumes = [
     },
     {
         "id": 41,
+        "date": "2025-01-01",
         "brand": "CAROLINA HERRERA",
         "name": "ESC. INSP. EN CH 212 GRIS NYC",
         "category": "Diseñador",
@@ -658,6 +699,7 @@ export const perfumes = [
     },
     {
         "id": 42,
+        "date": "2025-01-01",
         "brand": "CAROLINA HERRERA",
         "name": "ESC. INSP. EN CH 212 HEROES FOREVER YOUNG ",
         "category": "Diseñador",
@@ -674,6 +716,7 @@ export const perfumes = [
     },
     {
         "id": 43,
+        "date": "2025-01-01",
         "brand": "CAROLINA HERRERA",
         "name": "ESC. INSP. EN CH 212 SEXY",
         "category": "Diseñador",
@@ -690,6 +733,7 @@ export const perfumes = [
     },
     {
         "id": 44,
+        "date": "2025-01-01",
         "brand": "CAROLINA HERRERA",
         "name": "ESC. INSP. EN CH 212 VIP CLUB",
         "category": "Diseñador",
@@ -706,6 +750,7 @@ export const perfumes = [
     },
     {
         "id": 45,
+        "date": "2025-01-01",
         "brand": "CAROLINA HERRERA",
         "name": "ESC. INSP. EN CH 212 VIP",
         "category": "Diseñador",
@@ -722,6 +767,7 @@ export const perfumes = [
     },
     {
         "id": 46,
+        "date": "2025-01-01",
         "brand": "CAROLINA HERRERA",
         "name": "ESC. INSP. EN CH 212 VIP FEVER",
         "category": "Diseñador",
@@ -738,6 +784,7 @@ export const perfumes = [
     },
     {
         "id": 47,
+        "date": "2025-01-01",
         "brand": "CAROLINA HERRERA",
         "name": "ESC. INSP. EN CH 212 VIP ROSE",
         "category": "Diseñador",
@@ -754,6 +801,7 @@ export const perfumes = [
     },
     {
         "id": 48,
+        "date": "2025-01-01",
         "brand": "CAROLINA HERRERA",
         "name": "ESC. INSP. EN CH 212 VIP ROSE EXTRA",
         "category": "Diseñador",
@@ -770,6 +818,7 @@ export const perfumes = [
     },
     {
         "id": 49,
+        "date": "2025-01-01",
         "brand": "CAROLINA HERRERA",
         "name": "ESC. INSP. EN CH 212 VIP ROSE I LOVE NY",
         "category": "Diseñador",
@@ -786,6 +835,7 @@ export const perfumes = [
     },
     {
         "id": 50,
+        "date": "2025-01-01",
         "brand": "CAROLINA HERRERA",
         "name": "ESC. INSP. EN CH 212 VIP ROSE RED",
         "category": "Diseñador",
@@ -802,6 +852,7 @@ export const perfumes = [
     },
     {
         "id": 51,
+        "date": "2025-01-01",
         "brand": "CAROLINA HERRERA",
         "name": "ESC. INSP. EN CH 212 VIP WILD PARTY",
         "category": "Diseñador",
@@ -818,6 +869,7 @@ export const perfumes = [
     },
     {
         "id": 52,
+        "date": "2025-01-01",
         "brand": "CAROLINA HERRERA",
         "name": "ESC. INSP. EN CH 212 VIP WINS ",
         "category": "Diseñador",
@@ -834,6 +886,7 @@ export const perfumes = [
     },
     {
         "id": 53,
+        "date": "2025-01-01",
         "brand": "CAROLINA HERRERA",
         "name": "ESC. INSP. EN CH AFRICA",
         "category": "Diseñador",
@@ -850,6 +903,7 @@ export const perfumes = [
     },
     {
         "id": 54,
+        "date": "2025-01-01",
         "brand": "CAROLINA HERRERA",
         "name": "ESC. INSP. EN CH BEAUTIES",
         "category": "Diseñador",
@@ -866,6 +920,7 @@ export const perfumes = [
     },
     {
         "id": 55,
+        "date": "2025-01-01",
         "brand": "CAROLINA HERRERA",
         "name": "ESC. INSP. EN CH BIRDS OF PARADISE",
         "category": "Diseñador",
@@ -882,6 +937,7 @@ export const perfumes = [
     },
     {
         "id": 56,
+        "date": "2025-01-01",
         "brand": "CAROLINA HERRERA",
         "name": "ESC. INSP. EN CH CAROLINA HERRERA",
         "category": "Diseñador",
@@ -898,6 +954,7 @@ export const perfumes = [
     },
     {
         "id": 57,
+        "date": "2025-01-01",
         "brand": "CAROLINA HERRERA",
         "name": "ESC. INSP. EN CH CENTRAL PARK",
         "category": "Diseñador",
@@ -914,6 +971,7 @@ export const perfumes = [
     },
     {
         "id": 58,
+        "date": "2025-01-01",
         "brand": "CAROLINA HERRERA",
         "name": "ESC. INSP. EN CH GOOD GIRL",
         "category": "Diseñador",
@@ -930,6 +988,7 @@ export const perfumes = [
     },
     {
         "id": 59,
+        "date": "2025-01-01",
         "brand": "CAROLINA HERRERA",
         "name": "ESC. INSP. EN CH GOOD GIRL LEGERE",
         "category": "Diseñador",
@@ -946,6 +1005,7 @@ export const perfumes = [
     },
     {
         "id": 60,
+        "date": "2025-01-01",
         "brand": "CAROLINA HERRERA",
         "name": "ESC. INSP. EN CH GOOD GIRL BLUSH",
         "category": "Diseñador",
@@ -962,6 +1022,7 @@ export const perfumes = [
     },
     {
         "id": 61,
+        "date": "2025-01-01",
         "brand": "CAROLINA HERRERA",
         "name": "ESC. INSP. EN CH GOOD GIRL DAZZLING GARDEN",
         "category": "Diseñador",
@@ -979,6 +1040,7 @@ export const perfumes = [
 
     {
         "id": 62,
+        "date": "2025-01-01",
         "brand": "CAROLINA HERRERA",
         "name": "ESC. INSP. EN CH GOOD GIRL MIDNIGHT ",
         "category": "Diseñador",
@@ -995,6 +1057,7 @@ export const perfumes = [
     },
     {
         "id": 63,
+        "date": "2025-01-01",
         "brand": "CAROLINA HERRERA",
         "name": "ESC. INSP. EN CH GOOD GIRL SUPREME ",
         "category": "Diseñador",
@@ -1011,6 +1074,7 @@ export const perfumes = [
     },
     {
         "id": 64,
+        "date": "2025-01-01",
         "brand": "CAROLINA HERRERA",
         "name": "ESC. INSP. EN CH GOOD GIRL BLUSH ELIXIR EDP",
         "category": "Diseñador",
@@ -1027,6 +1091,7 @@ export const perfumes = [
     },
     {
         "id": 65,
+        "date": "2025-01-01",
         "brand": "CAROLINA HERRERA",
         "name": "ESC. INSP. EN CH PRIVE",
         "category": "Diseñador",
@@ -1043,6 +1108,7 @@ export const perfumes = [
     },
     {
         "id": 66,
+        "date": "2025-01-01",
         "brand": "CAROLINA HERRERA",
         "name": "ESC. INSP. EN CH SUBLIME",
         "category": "Diseñador",
@@ -1059,6 +1125,7 @@ export const perfumes = [
     },
     {
         "id": 67,
+        "date": "2025-01-01",
         "brand": "CAROLINA HERRERA",
         "name": "ESC. INSP. EN CH VERY GOOD GIRL GLAM",
         "category": "Diseñador",
@@ -1075,6 +1142,7 @@ export const perfumes = [
     },
     {
         "id": 68,
+        "date": "2025-01-01",
         "brand": "CAROLINA HERRERA",
         "name": "ESC. INSP. EN CH WOMAN",
         "category": "Diseñador",
@@ -1091,6 +1159,7 @@ export const perfumes = [
     },
     {
         "id": 69,
+        "date": "2025-01-01",
         "brand": "CAROLINA HERRERA",
         "name": "ESC. INSP. EN CH QUEENS ",
         "category": "Diseñador",
@@ -1107,6 +1176,7 @@ export const perfumes = [
     },
     {
         "id": 70,
+        "date": "2025-01-01",
         "brand": "CARTIER",
         "name": "ESC. INSP. EN CARTIER MUST DE CARTIER",
         "category": "Diseñador",
@@ -1123,6 +1193,7 @@ export const perfumes = [
     },
     {
         "id": 71,
+        "date": "2025-01-01",
         "brand": "CHANEL",
         "name": "ESC. INSP. EN CHANEL CHANCE",
         "category": "Diseñador",
@@ -1139,6 +1210,7 @@ export const perfumes = [
     },
     {
         "id": 72,
+        "date": "2025-01-01",
         "brand": "CHANEL",
         "name": "ESC. INSP. EN CHANEL CHANCE EAU TENDRE",
         "category": "Diseñador",
@@ -1155,6 +1227,7 @@ export const perfumes = [
     },
     {
         "id": 73,
+        "date": "2025-01-01",
         "brand": "CHANEL",
         "name": "ESC. INSP. EN CHANEL CHANCE EAU FRAICHE",
         "category": "Diseñador",
@@ -1171,6 +1244,7 @@ export const perfumes = [
     },
     {
         "id": 74,
+        "date": "2025-01-01",
         "brand": "CHANEL",
         "name": "ESC. INSP. EN CHANEL COCO MADEMOISELLE",
         "category": "Diseñador",
@@ -1187,6 +1261,7 @@ export const perfumes = [
     },
     {
         "id": 75,
+        "date": "2025-01-01",
         "brand": "CHANEL",
         "name": "ESC. INSP. EN CHANEL NO 5",
         "category": "Diseñador",
@@ -1203,6 +1278,7 @@ export const perfumes = [
     },
     {
         "id": 76,
+        "date": "2025-01-01",
         "brand": "CHANEL",
         "name": "ESC. INSP. EN CHANEL GABRIELLE",
         "category": "Diseñador",
@@ -1219,6 +1295,7 @@ export const perfumes = [
     },
     {
         "id": 77,
+        "date": "2025-01-01",
         "brand": "CHRISTIAN DIOR",
         "name": "ESC. INSP. EN CRISTIAN DIOR JADORE",
         "category": "Diseñador",
@@ -1235,6 +1312,7 @@ export const perfumes = [
     },
     {
         "id": 78,
+        "date": "2025-01-01",
         "brand": "CHRISTIAN DIOR",
         "name": "ESC. INSP. EN CRIST DIOR MISS BLOOMING BOUQUET",
         "category": "Diseñador",
@@ -1251,6 +1329,7 @@ export const perfumes = [
     },
     {
         "id": 79,
+        "date": "2025-01-01",
         "brand": "CHRISTIAN DIOR",
         "name": "ESC. INSP. EN JOY BY DIOR ",
         "category": "Diseñador",
@@ -1267,6 +1346,7 @@ export const perfumes = [
     },
     {
         "id": 80,
+        "date": "2025-01-01",
         "brand": "CHRISTIAN DIOR",
         "name": "ESC. INSP. EN CRIST DIOR MISS DIOR PARFUM",
         "category": "Diseñador",
@@ -1283,6 +1363,7 @@ export const perfumes = [
     },
     {
         "id": 81,
+        "date": "2025-01-01",
         "brand": "CLINIQUE",
         "name": "ESC. INSP. EN CLINIQUE HAPPY  ",
         "category": "Diseñador",
@@ -1299,6 +1380,7 @@ export const perfumes = [
     },
     {
         "id": 82,
+        "date": "2025-01-01",
         "brand": "DIESEL",
         "name": "ESC. INSP. EN DIESEL ZERO",
         "category": "Diseñador",
@@ -1316,6 +1398,7 @@ export const perfumes = [
 
     {
         "id": 83,
+        "date": "2025-01-01",
         "brand": "DIESEL",
         "name": "ESC. INSP. EN DIESEL LOVERDOSE TATTO",
         "category": "Diseñador",
@@ -1332,6 +1415,7 @@ export const perfumes = [
     },
     {
         "id": 84,
+        "date": "2025-01-01",
         "brand": "DOLCE GABBANA",
         "name": "ESC. INSP. EN DOLCE GABBANA DEVOTION ",
         "category": "Diseñador",
@@ -1348,6 +1432,7 @@ export const perfumes = [
     },
     {
         "id": 85,
+        "date": "2025-01-01",
         "brand": "DOLCE GABBANA",
         "name": "ESC. INSP. EN DOLCE GABBANA IMPERATRICE   ",
         "category": "Diseñador",
@@ -1364,6 +1449,7 @@ export const perfumes = [
     },
     {
         "id": 86,
+        "date": "2025-01-01",
         "brand": "DOLCE GABBANA",
         "name": "ESC. INSP. EN DOLCE GABBANA LIGHT BLUE  ",
         "category": "Diseñador",
@@ -1380,6 +1466,7 @@ export const perfumes = [
     },
     {
         "id": 87,
+        "date": "2025-01-01",
         "brand": "DOLCE GABBANA",
         "name": "ESC. INSP. EN DOLCE GABBANA LIGHT BLUE SUMMER VIBES",
         "category": "Diseñador",
@@ -1396,6 +1483,7 @@ export const perfumes = [
     },
     {
         "id": 88,
+        "date": "2025-01-01",
         "brand": "DOLCE GABBANA",
         "name": "ESC. INSP. EN DOLCE GABBANA PINEAPPLE ",
         "category": "Diseñador",
@@ -1412,6 +1500,7 @@ export const perfumes = [
     },
     {
         "id": 89,
+        "date": "2025-01-01",
         "brand": "DOLCE GABBANA",
         "name": "ESC. INSP. EN DOLCE GABBANA Q BY DYG",
         "category": "Diseñador",
@@ -1428,6 +1517,7 @@ export const perfumes = [
     },
     {
         "id": 90,
+        "date": "2025-01-01",
         "brand": "DOLCE GABBANA",
         "name": "ESC. INSP. EN DOLCE GABBANA THE ONE ",
         "category": "Diseñador",
@@ -1444,6 +1534,7 @@ export const perfumes = [
     },
     {
         "id": 91,
+        "date": "2025-01-01",
         "brand": "DONNA KARAN",
         "name": "ESC. INSP. EN DKNY BY DELICIOUS",
         "category": "Diseñador",
@@ -1460,6 +1551,7 @@ export const perfumes = [
     },
     {
         "id": 92,
+        "date": "2025-01-01",
         "brand": "ELIZABETH ARDEN",
         "name": "ESC. INSP. EN ELIZABETH ARDEN 5TH AVENIDA  ",
         "category": "Diseñador",
@@ -1476,6 +1568,7 @@ export const perfumes = [
     },
     {
         "id": 93,
+        "date": "2025-01-01",
         "brand": "ELIZABETH TYALOR",
         "name": "ESC. INSP. EN ELIZABETH TAYLOR DIAMANTE BLANC",
         "category": "Diseñador",
@@ -1492,6 +1585,7 @@ export const perfumes = [
     },
     {
         "id": 94,
+        "date": "2025-01-01",
         "brand": "ESCADA",
         "name": "ESC. INSP. EN ESCADA AGUA DEL SOL",
         "category": "Diseñador",
@@ -1508,6 +1602,7 @@ export const perfumes = [
     },
     {
         "id": 95,
+        "date": "2025-01-01",
         "brand": "ESCADA",
         "name": "ESC. INSP. EN ESCADA CHERRY ESCADA",
         "category": "Diseñador",
@@ -1524,6 +1619,7 @@ export const perfumes = [
     },
     {
         "id": 96,
+        "date": "2025-01-01",
         "brand": "ESCADA",
         "name": "ESC. INSP. EN ESCADA FIESTA CARIOCA",
         "category": "Diseñador",
@@ -1540,6 +1636,7 @@ export const perfumes = [
     },
     {
         "id": 97,
+        "date": "2025-01-01",
         "brand": "ESCADA",
         "name": "ESC. INSP. EN ESCADA MAGNETISM",
         "category": "Diseñador",
@@ -1556,6 +1653,7 @@ export const perfumes = [
     },
     {
         "id": 98,
+        "date": "2025-01-01",
         "brand": "ESCADA",
         "name": "ESC. INSP. EN ESCADA MIAMI BLOSOOM",
         "category": "Diseñador",
@@ -1572,6 +1670,7 @@ export const perfumes = [
     },
     {
         "id": 99,
+        "date": "2025-01-01",
         "brand": "ESCADA",
         "name": "ESC. INSP. EN ESCADA MOON SPARKLE",
         "category": "Diseñador",
@@ -1588,6 +1687,7 @@ export const perfumes = [
     },
     {
         "id": 100,
+        "date": "2025-01-01",
         "brand": "ESCADA",
         "name": "ESC. INSP. EN ESCADA OCEAN LOUNGE",
         "category": "Diseñador",
@@ -1604,6 +1704,7 @@ export const perfumes = [
     },
     {
         "id": 101,
+        "date": "2025-01-01",
         "brand": "ESCADA",
         "name": "ESC. INSP. EN ESCADA ROCKIN RIO",
         "category": "Diseñador",
@@ -1620,6 +1721,7 @@ export const perfumes = [
     },
     {
         "id": 102,
+        "date": "2025-01-01",
         "brand": "ESCADA",
         "name": "ESC. INSP. EN ESCADA SORBETTO ROSSO",
         "category": "Diseñador",
@@ -1636,6 +1738,7 @@ export const perfumes = [
     },
     {
         "id": 103,
+        "date": "2025-01-01",
         "brand": "ESCADA",
         "name": "ESC. INSP. EN ESCADA SHOW ME LOVE",
         "category": "Diseñador",
@@ -1652,6 +1755,7 @@ export const perfumes = [
     },
     {
         "id": 104,
+        "date": "2025-01-01",
         "brand": "ESCADA",
         "name": "ESC. INSP. EN ESCADA TAJ SUNSET",
         "category": "Diseñador",
@@ -1668,6 +1772,7 @@ export const perfumes = [
     },
     {
         "id": 105,
+        "date": "2025-01-01",
         "brand": "FRED HAYMAN",
         "name": "ESC. INSP. EN FRED HAYMAN TOUCH",
         "category": "Diseñador",
@@ -1684,6 +1789,7 @@ export const perfumes = [
     },
     {
         "id": 106,
+        "date": "2025-01-01",
         "brand": "GIVENCHY",
         "name": "ESC. INSP. EN GIVENCHY ANGEL Y DEMONIO ",
         "category": "Diseñador",
@@ -1700,6 +1806,7 @@ export const perfumes = [
     },
     {
         "id": 107,
+        "date": "2025-01-01",
         "brand": "GIVENCHY",
         "name": "ESC. INSP. EN GIVENCHY IRRESISTIBLE ",
         "category": "Diseñador",
@@ -1716,6 +1823,7 @@ export const perfumes = [
     },
     {
         "id": 108,
+        "date": "2025-01-01",
         "brand": "GIVENCHY",
         "name": "ESC. INSP. EN GIVENCHY ORGANZA ",
         "category": "Diseñador",
@@ -1732,6 +1840,7 @@ export const perfumes = [
     },
     {
         "id": 109,
+        "date": "2025-01-01",
         "brand": "GIVENCHY",
         "name": "ESC. INSP. EN GIVENCHY VERY IRRESISTIBLE ",
         "category": "Diseñador",
@@ -1748,6 +1857,7 @@ export const perfumes = [
     },
     {
         "id": 110,
+        "date": "2025-01-01",
         "brand": "GUCCI",
         "name": "ESC. INSP. EN GUCCI RUSH Mujer",
         "category": "Diseñador",
@@ -1764,6 +1874,7 @@ export const perfumes = [
     },
     {
         "id": 111,
+        "date": "2025-01-01",
         "brand": "GUCCI",
         "name": "ESC. INSP. EN GUCCI GUILTY",
         "category": "Diseñador",
@@ -1780,6 +1891,7 @@ export const perfumes = [
     },
     {
         "id": 112,
+        "date": "2025-01-01",
         "brand": "GUESS",
         "name": "ESC. INSP. EN GUESS TRADICIONAL",
         "category": "Diseñador",
@@ -1796,6 +1908,7 @@ export const perfumes = [
     },
     {
         "id": 113,
+        "date": "2025-01-01",
         "brand": "HALLOWEN",
         "name": "ESC. INSP. EN HALLOWEN",
         "category": "Diseñador",
@@ -1812,6 +1925,7 @@ export const perfumes = [
     },
     {
         "id": 114,
+        "date": "2025-01-01",
         "brand": "HUGO BOSS",
         "name": "ESC. INSP. EN HUGO BOSS WOMAN",
         "category": "Diseñador",
@@ -1828,6 +1942,7 @@ export const perfumes = [
     },
     {
         "id": 115,
+        "date": "2025-01-01",
         "brand": "HUGO BOSS",
         "name": "ESC. INSP. EN HUGO BOSS THE SCENT",
         "category": "Diseñador",
@@ -1844,6 +1959,7 @@ export const perfumes = [
     },
     {
         "id": 116,
+        "date": "2025-01-01",
         "brand": "HUGO BOSS",
         "name": "ESC. INSP. EN HUGO BOSS XX",
         "category": "Diseñador",
@@ -1860,6 +1976,7 @@ export const perfumes = [
     },
     {
         "id": 117,
+        "date": "2025-01-01",
         "brand": "HUGO BOSS",
         "name": "ESC. INSP. EN HUGO BOSS DEEP RED",
         "category": "Diseñador",
@@ -1876,6 +1993,7 @@ export const perfumes = [
     },
     {
         "id": 118,
+        "date": "2025-01-01",
         "brand": "ISSEY MIYAKE",
         "name": "ESC. INSP. EN ISSEY MIYAKE",
         "category": "Diseñador",
@@ -1892,6 +2010,7 @@ export const perfumes = [
     },
     {
         "id": 119,
+        "date": "2025-01-01",
         "brand": "JEAN PAUL GAULTIER",
         "name": "ESC. INSP. EN JEAN PAUL GAULTIER",
         "category": "Diseñador",
@@ -1908,6 +2027,7 @@ export const perfumes = [
     },
     {
         "id": 120,
+        "date": "2025-01-01",
         "brand": "JEAN PAUL GAULTIER",
         "name": "ESC. INSP. EN JEAN PAUL GAULTIER SCANDAL",
         "category": "Diseñador",
@@ -1924,6 +2044,7 @@ export const perfumes = [
     },
     {
         "id": 121,
+        "date": "2025-01-01",
         "brand": "JEAN PAUL GAULTIER",
         "name": "ESC. INSP. EN JEAN PAUL GAULTIER DIVINE",
         "category": "Diseñador",
@@ -1940,6 +2061,7 @@ export const perfumes = [
     },
     {
         "id": 122,
+        "date": "2025-01-01",
         "brand": "JEAN PAUL GAULTIER",
         "name": "ESC. INSP. EN JEAN PAUL LA BELLE FLEUR TERRIBLE ",
         "category": "Diseñador",
@@ -1956,6 +2078,7 @@ export const perfumes = [
     },
     {
         "id": 123,
+        "date": "2025-01-01",
         "brand": "JEAN PAUL GAULTIER",
         "name": "ESC. INSP. EN JEAN PAUL LA BELLE LE PARFUM",
         "category": "Diseñador",
@@ -1972,6 +2095,7 @@ export const perfumes = [
     },
     {
         "id": 124,
+        "date": "2025-01-01",
         "brand": "JUICY COUTURE",
         "name": "ESC. INSP. EN JUICY COUTURE VIVA LA JUICY",
         "category": "Diseñador",
@@ -1988,6 +2112,7 @@ export const perfumes = [
     },
     {
         "id": 125,
+        "date": "2025-01-01",
         "brand": "JUSTIN BIEBER",
         "name": "ESC. INSP. EN JUSTIN BIEBER NEXT GIRLFRIEND",
         "category": "Diseñador",
@@ -2004,6 +2129,7 @@ export const perfumes = [
     },
     {
         "id": 126,
+        "date": "2025-01-01",
         "brand": "KATY PERRY",
         "name": "ESC. INSP. EN KATHY PERRY MEAU",
         "category": "Diseñador",
@@ -2020,6 +2146,7 @@ export const perfumes = [
     },
     {
         "id": 127,
+        "date": "2025-01-01",
         "brand": "KENZO",
         "name": "ESC. INSP. EN FLOWER BY KENZO",
         "category": "Diseñador",
@@ -2036,6 +2163,7 @@ export const perfumes = [
     },
     {
         "id": 128,
+        "date": "2025-01-01",
         "brand": "KENZO",
         "name": "ESC. INSP. EN KENZO WORLD FANTASY",
         "category": "Diseñador",
@@ -2052,6 +2180,7 @@ export const perfumes = [
     },
     {
         "id": 129,
+        "date": "2025-01-01",
         "brand": "KIM KARDASHIAN",
         "name": "ESC. INSP. EN KIM KARDASHAN BFF",
         "category": "Diseñador",
@@ -2068,6 +2197,7 @@ export const perfumes = [
     },
     {
         "id": 130,
+        "date": "2025-01-01",
         "brand": "LACOSTE",
         "name": "ESC. INSP. EN LACOSTE MAGNETIC",
         "category": "Diseñador",
@@ -2084,6 +2214,7 @@ export const perfumes = [
     },
     {
         "id": 131,
+        "date": "2025-01-01",
         "brand": "LACOSTE",
         "name": "ESC. INSP. EN LACOSTE NATURAL",
         "category": "Diseñador",
@@ -2100,6 +2231,7 @@ export const perfumes = [
     },
     {
         "id": 132,
+        "date": "2025-01-01",
         "brand": "LACOSTE",
         "name": "ESC. INSP. EN LACOSTE ROSE EAU INTENSE",
         "category": "Diseñador",
@@ -2116,6 +2248,7 @@ export const perfumes = [
     },
     {
         "id": 133,
+        "date": "2025-01-01",
         "brand": "LACOSTE",
         "name": "ESC. INSP. EN LACOSTE SENSUALLE",
         "category": "Diseñador",
@@ -2132,6 +2265,7 @@ export const perfumes = [
     },
     {
         "id": 134,
+        "date": "2025-01-01",
         "brand": "LACOSTE",
         "name": "ESC. INSP. EN LACOSTE SPARKLING",
         "category": "Diseñador",
@@ -2148,6 +2282,7 @@ export const perfumes = [
     },
     {
         "id": 135,
+        "date": "2025-01-01",
         "brand": "LACOSTE",
         "name": "ESC. INSP. EN LACOSTE TOUCH PINK",
         "category": "Diseñador",
@@ -2164,6 +2299,7 @@ export const perfumes = [
     },
     {
         "id": 136,
+        "date": "2025-01-01",
         "brand": "LANCOME",
         "name": "ESC. INSP. EN LANCOME LA NUIT TRESOR",
         "category": "Diseñador",
@@ -2180,6 +2316,7 @@ export const perfumes = [
     },
     {
         "id": 137,
+        "date": "2025-01-01",
         "brand": "LANCOME",
         "name": "ESC. INSP. EN LANCOME LA VIDA ES BELLA",
         "category": "Diseñador",
@@ -2196,6 +2333,7 @@ export const perfumes = [
     },
     {
         "id": 138,
+        "date": "2025-01-01",
         "brand": "LOLITA LEMPIKA",
         "name": "ESC. INSP. EN LOLITA LEMPIKA",
         "category": "Diseñador",
@@ -2212,6 +2350,7 @@ export const perfumes = [
     },
     {
         "id": 139,
+        "date": "2025-01-01",
         "brand": "MALUMA",
         "name": "ESC. INSP. EN MALUMA",
         "category": "Diseñador",
@@ -2228,6 +2367,7 @@ export const perfumes = [
     },
     {
         "id": 140,
+        "date": "2025-01-01",
         "brand": "MALUMA",
         "name": "ESC. INSP. EN MALUMA JADE",
         "category": "Diseñador",
@@ -2244,6 +2384,7 @@ export const perfumes = [
     },
     {
         "id": 141,
+        "date": "2025-01-01",
         "brand": "MOSCHINO",
         "name": "ESC. INSP. EN MOSCHINO FUNNY",
         "category": "Diseñador",
@@ -2260,6 +2401,7 @@ export const perfumes = [
     },
     {
         "id": 142,
+        "date": "2025-01-01",
         "brand": "MOSCHINO",
         "name": "ESC. INSP. EN MOSCHINO GOLD FRESH",
         "category": "Diseñador",
@@ -2276,6 +2418,7 @@ export const perfumes = [
     },
     {
         "id": 143,
+        "date": "2025-01-01",
         "brand": "MOSCHINO",
         "name": "ESC. INSP. EN MOSCHINO I LOVE LOVE",
         "category": "Diseñador",
@@ -2292,6 +2435,7 @@ export const perfumes = [
     },
     {
         "id": 144,
+        "date": "2025-01-01",
         "brand": "MOSCHINO",
         "name": "ESC. INSP. EN MOSCHINO TOY 2 BUBBLE GUM",
         "category": "Diseñador",
@@ -2308,6 +2452,7 @@ export const perfumes = [
     },
     {
         "id": 145,
+        "date": "2025-01-01",
         "brand": "MOSCHINO",
         "name": "ESC. INSP. EN MOSCHINO TOY 2",
         "category": "Diseñador",
@@ -2324,6 +2469,7 @@ export const perfumes = [
     },
     {
         "id": 146,
+        "date": "2025-01-01",
         "brand": "MOSCHINO",
         "name": "ESC. INSP. EN MOSCHINO TOY 2 PEARL",
         "category": "Diseñador",
@@ -2340,6 +2486,7 @@ export const perfumes = [
     },
     {
         "id": 147,
+        "date": "2025-01-01",
         "brand": "MONT BLANC",
         "name": "ESC. INSP. EN MONT BLANC LADY EMBLEM",
         "category": "Diseñador",
@@ -2356,6 +2503,7 @@ export const perfumes = [
     },
     {
         "id": 148,
+        "date": "2025-01-01",
         "brand": "MONT BLANC",
         "name": "ESC. INSP. EN MONT BLANC SIGNATURE ABSOLUE",
         "category": "Diseñador",
@@ -2372,6 +2520,7 @@ export const perfumes = [
     },
     {
         "id": 149,
+        "date": "2025-01-01",
         "brand": "NARCISO RODRIGUEZ",
         "name": "ESC. INSP. EN NARCISO RODRIGUEZ MUSC NOIR",
         "category": "Diseñador",
@@ -2388,6 +2537,7 @@ export const perfumes = [
     },
     {
         "id": 150,
+        "date": "2025-01-01",
         "brand": "ONE DIRECTION",
         "name": "ESC. INSP. EN ONE DIRECTION OUR MOMENT",
         "category": "Diseñador",
@@ -2404,6 +2554,7 @@ export const perfumes = [
     },
     {
         "id": 151,
+        "date": "2025-01-01",
         "brand": "PACO RABANNE",
         "name": "ESC. INSP. EN PACO RABANNE BLACK XS LOS ANGELES",
         "category": "Diseñador",
@@ -2420,6 +2571,7 @@ export const perfumes = [
     },
     {
         "id": 152,
+        "date": "2025-01-01",
         "brand": "PACO RABANNE",
         "name": "ESC. INSP. EN PACO RABANNE BLACK XS PURE",
         "category": "Diseñador",
@@ -2436,6 +2588,7 @@ export const perfumes = [
     },
     {
         "id": 153,
+        "date": "2025-01-01",
         "brand": "PACO RABANNE",
         "name": "ESC. INSP. EN PACO RABANNE BLACK XS TRADICIONAL",
         "category": "Diseñador",
@@ -2452,6 +2605,7 @@ export const perfumes = [
     },
     {
         "id": 154,
+        "date": "2025-01-01",
         "brand": "PACO RABANNE",
         "name": "ESC. INSP. EN PACO RABANNE FAME",
         "category": "Diseñador",
@@ -2468,6 +2622,7 @@ export const perfumes = [
     },
     {
         "id": 155,
+        "date": "2025-01-01",
         "brand": "PACO RABANNE",
         "name": "ESC. INSP. EN PACO RABBANE FAME BLOOMING PINK",
         "category": "Diseñador",
@@ -2484,6 +2639,7 @@ export const perfumes = [
     },
     {
         "id": 156,
+        "date": "2025-01-01",
         "brand": "PACO RABANNE",
         "name": "ESC. INSP. EN PACO RABANNE LADY MILLION",
         "category": "Diseñador",
@@ -2500,6 +2656,7 @@ export const perfumes = [
     },
     {
         "id": 157,
+        "date": "2025-01-01",
         "brand": "PACO RABANNE",
         "name": "ESC. INSP. EN PACO RABANNE LADY MILLION LUCKY",
         "category": "Diseñador",
@@ -2516,6 +2673,7 @@ export const perfumes = [
     },
     {
         "id": 158,
+        "date": "2025-01-01",
         "brand": "PACO RABANNE",
         "name": "ESC. INSP. EN PACO RABANNE LADY MILLION PRIVE",
         "category": "Diseñador",
@@ -2532,6 +2690,7 @@ export const perfumes = [
     },
     {
         "id": 159,
+        "date": "2025-01-01",
         "brand": "PACO RABANNE",
         "name": "ESC. INSP. EN PACO RABANNE LADY MILLION ROYAL",
         "category": "Diseñador",
@@ -2548,6 +2707,7 @@ export const perfumes = [
     },
     {
         "id": 160,
+        "date": "2025-01-01",
         "brand": "PACO RABANNE",
         "name": "ESC. INSP. EN PACO RABANNE MILLION GOLD FOR HER",
         "category": "Diseñador",
@@ -2564,6 +2724,7 @@ export const perfumes = [
     },
     {
         "id": 161,
+        "date": "2025-01-01",
         "brand": "PACO RABANNE",
         "name": "ESC. INSP. EN PACO RABANNE OLYMPEA AQUA",
         "category": "Diseñador",
@@ -2580,6 +2741,7 @@ export const perfumes = [
     },
     {
         "id": 162,
+        "date": "2025-01-01",
         "brand": "PACO RABANNE",
         "name": "ESC. INSP. EN PACO RABANNE OLYMPEA",
         "category": "Diseñador",
@@ -2596,6 +2758,7 @@ export const perfumes = [
     },
     {
         "id": 163,
+        "date": "2025-01-01",
         "brand": "PACO RABANNE",
         "name": "ESC. INSP. EN PACO RABANNE OLYMPEA FLORA",
         "category": "Diseñador",
@@ -2612,6 +2775,7 @@ export const perfumes = [
     },
     {
         "id": 164,
+        "date": "2025-01-01",
         "brand": "PARIS HILTON",
         "name": "ESC. INSP. EN PARIS HILTON  GOLD RUSH",
         "category": "Diseñador",
@@ -2628,6 +2792,7 @@ export const perfumes = [
     },
     {
         "id": 165,
+        "date": "2025-01-01",
         "brand": "PARIS HILTON",
         "name": "ESC. INSP. EN PARIS HILTON CAN CAN BLING",
         "category": "Diseñador",
@@ -2644,6 +2809,7 @@ export const perfumes = [
     },
     {
         "id": 166,
+        "date": "2025-01-01",
         "brand": "PARIS HILTON",
         "name": "ESC. INSP. EN PARIS HILTON CAN CAN BURLESQUE",
         "category": "Diseñador",
@@ -2660,6 +2826,7 @@ export const perfumes = [
     },
     {
         "id": 167,
+        "date": "2025-01-01",
         "brand": "PARIS HILTON",
         "name": "ESC. INSP. EN PARIS HILTON CAN CAN",
         "category": "Diseñador",
@@ -2676,6 +2843,7 @@ export const perfumes = [
     },
     {
         "id": 168,
+        "date": "2025-01-01",
         "brand": "PARIS HILTON",
         "name": "ESC. INSP. EN PARIS HILTON DAZZLE",
         "category": "Diseñador",
@@ -2692,6 +2860,7 @@ export const perfumes = [
     },
     {
         "id": 169,
+        "date": "2025-01-01",
         "brand": "PARIS HILTON",
         "name": "ESC. INSP. EN PARIS HILTON",
         "category": "Diseñador",
@@ -2708,6 +2877,7 @@ export const perfumes = [
     },
     {
         "id": 170,
+        "date": "2025-01-01",
         "brand": "PARIS HILTON",
         "name": "ESC. INSP. EN PARIS HILTON HEIRESS",
         "category": "Diseñador",
@@ -2724,6 +2894,7 @@ export const perfumes = [
     },
     {
         "id": 171,
+        "date": "2025-01-01",
         "brand": "PARIS HILTON",
         "name": "ESC. INSP. EN PARIS HILTON PASSPORT",
         "category": "Diseñador",
@@ -2740,6 +2911,7 @@ export const perfumes = [
     },
     {
         "id": 172,
+        "date": "2025-01-01",
         "brand": "PARIS HILTON",
         "name": "ESC. INSP. EN PARIS HILTON WITH LOVE",
         "category": "Diseñador",
@@ -2756,6 +2928,7 @@ export const perfumes = [
     },
     {
         "id": 173,
+        "date": "2025-01-01",
         "brand": "PERRY ELLIS",
         "name": "ESC. INSP. EN PERRY ELLIS 360 CORAL",
         "category": "Diseñador",
@@ -2772,6 +2945,7 @@ export const perfumes = [
     },
     {
         "id": 174,
+        "date": "2025-01-01",
         "brand": "PERRY ELLIS",
         "name": "ESC. INSP. EN PERRY ELLIS 360",
         "category": "Diseñador",
@@ -2788,6 +2962,7 @@ export const perfumes = [
     },
     {
         "id": 175,
+        "date": "2025-01-01",
         "brand": "PRADA",
         "name": "ESC. INSP. EN PRADA CANDY NIGHT",
         "category": "Diseñador",
@@ -2804,6 +2979,7 @@ export const perfumes = [
     },
     {
         "id": 176,
+        "date": "2025-01-01",
         "brand": "RALPH LAUREN",
         "name": "ESC. INSP. EN POLO 2",
         "category": "Diseñador",
@@ -2820,6 +2996,7 @@ export const perfumes = [
     },
     {
         "id": 177,
+        "date": "2025-01-01",
         "brand": "RALPH LAUREN",
         "name": "ESC. INSP. EN RALPH LAUREN",
         "category": "Diseñador",
@@ -2836,6 +3013,7 @@ export const perfumes = [
     },
     {
         "id": 178,
+        "date": "2025-01-01",
         "brand": "RICCI",
         "name": "ESC. INSP. EN NINA RICHI",
         "category": "Diseñador",
@@ -2852,6 +3030,7 @@ export const perfumes = [
     },
     {
         "id": 179,
+        "date": "2025-01-01",
         "brand": "ROBERTO CABALLI",
         "name": "ESC. INSP. EN ROBERTO CAVALLI DEEP DESIRE",
         "category": "Diseñador",
@@ -2868,6 +3047,7 @@ export const perfumes = [
     },
     {
         "id": 180,
+        "date": "2025-01-01",
         "brand": "ROLEX",
         "name": "ESC. INSP. EN ROLEX",
         "category": "Diseñador",
@@ -2884,6 +3064,7 @@ export const perfumes = [
     },
     {
         "id": 181,
+        "date": "2025-01-01",
         "brand": "SELENA GOMEZ",
         "name": "ESC. INSP. EN SELENA GOMEZ",
         "category": "Diseñador",
@@ -2900,6 +3081,7 @@ export const perfumes = [
     },
     {
         "id": 182,
+        "date": "2025-01-01",
         "brand": "SHAKIRA",
         "name": "ESC. INSP. EN SHAKIRA ROCK",
         "category": "Diseñador",
@@ -2916,6 +3098,7 @@ export const perfumes = [
     },
     {
         "id": 183,
+        "date": "2025-01-01",
         "brand": "SHAKIRA",
         "name": "ESC. INSP. EN SHAKIRA S",
         "category": "Diseñador",
@@ -2932,6 +3115,7 @@ export const perfumes = [
     },
     {
         "id": 184,
+        "date": "2025-01-01",
         "brand": "SHAKIRA",
         "name": "ESC. INSP EN SHAKIRA DANCE",
         "category": "Diseñador",
@@ -2948,6 +3132,7 @@ export const perfumes = [
     },
     {
         "id": 185,
+        "date": "2025-01-01",
         "brand": "SOFIA VERGARA",
         "name": "ESC. INSP. EN LOVE BY SOFIA",
         "category": "Diseñador",
@@ -2964,6 +3149,7 @@ export const perfumes = [
     },
     {
         "id": 186,
+        "date": "2025-01-01",
         "brand": "SOFIA VERGARA",
         "name": "ESC. INSP. EN SOFIA BY SOFIA VERGARA",
         "category": "Diseñador",
@@ -2980,6 +3166,7 @@ export const perfumes = [
     },
     {
         "id": 187,
+        "date": "2025-01-01",
         "brand": "SOL DE JANEIRO",
         "name": "ESC INSP. EN BRAZILIAN CRUSH CHEIROSA 68",
         "category": "Diseñador",
@@ -2996,6 +3183,7 @@ export const perfumes = [
     },
     {
         "id": 188,
+        "date": "2025-01-01",
         "brand": "SOL DE JANEIRO",
         "name": "ESC INSP. EN SOL DE JANEIRO CHEIROSA 59",
         "category": "Diseñador",
@@ -3012,6 +3200,7 @@ export const perfumes = [
     },
     {
         "id": 189,
+        "date": "2025-01-01",
         "brand": "SOL DE JANEIRO",
         "name": "ESC INSP. SOL DE JANEIRO RIO RADIANCE",
         "category": "Diseñador",
@@ -3028,6 +3217,7 @@ export const perfumes = [
     },
     {
         "id": 190,
+        "date": "2025-01-01",
         "brand": "THIERRY MUGLER",
         "name": "ESC. INSP. EN THIERRY MUGLER ANGEL",
         "category": "Diseñador",
@@ -3044,6 +3234,7 @@ export const perfumes = [
     },
     {
         "id": 191,
+        "date": "2025-01-01",
         "brand": "TOMMY HILFIGER",
         "name": "ESC. INSP. EN TOMMY GIRL",
         "category": "Diseñador",
@@ -3060,6 +3251,7 @@ export const perfumes = [
     },
     {
         "id": 192,
+        "date": "2025-01-01",
         "brand": "TOUS",
         "name": "ESC.INSP. EN TOUS MORE MORE PINK",
         "category": "Diseñador",
@@ -3076,6 +3268,7 @@ export const perfumes = [
     },
     {
         "id": 193,
+        "date": "2025-01-01",
         "brand": "VALENTINO",
         "name": "ESC. INSP. EN BORN IN ROMA YELLOW DREAM",
         "category": "Diseñador",
@@ -3092,6 +3285,7 @@ export const perfumes = [
     },
     {
         "id": 194,
+        "date": "2025-01-01",
         "brand": "VALENTINO",
         "name": "ESC INSP. EN DONNA BORN IN ROMAN CORAL FANTASY",
         "category": "Diseñador",
@@ -3108,6 +3302,7 @@ export const perfumes = [
     },
     {
         "id": 195,
+        "date": "2025-01-01",
         "brand": "VERSACE",
         "name": "ESC. INSP. EN VERSACE CRYSTAL",
         "category": "Diseñador",
@@ -3124,6 +3319,7 @@ export const perfumes = [
     },
     {
         "id": 196,
+        "date": "2025-01-01",
         "brand": "VERSACE",
         "name": "ESC. INSP. EN VERSACE DYLAN BLUE",
         "category": "Diseñador",
@@ -3140,6 +3336,7 @@ export const perfumes = [
     },
     {
         "id": 197,
+        "date": "2025-01-01",
         "brand": "VERSACE",
         "name": "ESC. INSP. EN VERSACE DYLAN PURPLE",
         "category": "Diseñador",
@@ -3156,6 +3353,7 @@ export const perfumes = [
     },
     {
         "id": 198,
+        "date": "2025-01-01",
         "brand": "VERSACE",
         "name": "ESC. INSP. EN VERSACE EROS",
         "category": "Diseñador",
@@ -3172,6 +3370,7 @@ export const perfumes = [
     },
     {
         "id": 199,
+        "date": "2025-01-01",
         "brand": "VERSACE",
         "name": "ESC. INSP. EN VERSACE YELLOW DIAMOND",
         "category": "Diseñador",
@@ -3188,6 +3387,7 @@ export const perfumes = [
     },
     {
         "id": 200,
+        "date": "2025-01-01",
         "brand": "VICTOR ROLF",
         "name": "ESC. INSP. EN VICTOR ROLF BONBON",
         "category": "Diseñador",
@@ -3204,6 +3404,7 @@ export const perfumes = [
     },
     {
         "id": 201,
+        "date": "2025-01-01",
         "brand": "VICTORIAS SECRET",
         "name": "ESC. INSP. EN V.S AMBER ROMANCE ",
         "category": "Diseñador",
@@ -3220,6 +3421,7 @@ export const perfumes = [
     },
     {
         "id": 202,
+        "date": "2025-01-01",
         "brand": "VICTORIAS SECRET",
         "name": "ESC. INSP. EN V.S AQUA KISS ",
         "category": "Diseñador",
@@ -3236,6 +3438,7 @@ export const perfumes = [
     },
     {
         "id": 203,
+        "date": "2025-01-01",
         "brand": "VICTORIAS SECRET",
         "name": "ESC. INSP. EN V.S BOMBSHELL",
         "category": "Diseñador",
@@ -3252,6 +3455,7 @@ export const perfumes = [
     },
     {
         "id": 204,
+        "date": "2025-01-01",
         "brand": "VICTORIAS SECRET",
         "name": "ESC. INSP. EN V.S COCONUT PASSION",
         "category": "Diseñador",
@@ -3268,6 +3472,7 @@ export const perfumes = [
     },
     {
         "id": 205,
+        "date": "2025-01-01",
         "brand": "VICTORIAS SECRET",
         "name": "ESC. INSP. EN V.S COOL AND BRIGTH",
         "category": "Diseñador",
@@ -3284,6 +3489,7 @@ export const perfumes = [
     },
     {
         "id": 206,
+        "date": "2025-01-01",
         "brand": "VICTORIAS SECRET",
         "name": "ESC. INSP. EN V.S CHOCOLATE",
         "category": "Diseñador",
@@ -3300,6 +3506,7 @@ export const perfumes = [
     },
     {
         "id": 207,
+        "date": "2025-01-01",
         "brand": "VICTORIAS SECRET",
         "name": "ESC. INSP. EN V.S DAME AMOR",
         "category": "Diseñador",
@@ -3316,6 +3523,7 @@ export const perfumes = [
     },
     {
         "id": 208,
+        "date": "2025-01-01",
         "brand": "VICTORIAS SECRET",
         "name": "ESC. INSP. EN V.S EAU SO SEXY",
         "category": "Diseñador",
@@ -3332,6 +3540,7 @@ export const perfumes = [
     },
     {
         "id": 209,
+        "date": "2025-01-01",
         "brand": "VICTORIAS SECRET",
         "name": "ESC. INSP. EN V.S ENCHANTED NIGTH",
         "category": "Diseñador",
@@ -3348,6 +3557,7 @@ export const perfumes = [
     },
     {
         "id": 210,
+        "date": "2025-01-01",
         "brand": "VICTORIAS SECRET",
         "name": "ESC. INSP. EN V.S ENDLESS LOVE",
         "category": "Diseñador",
@@ -3364,6 +3574,7 @@ export const perfumes = [
     },
     {
         "id": 211,
+        "date": "2025-01-01",
         "brand": "VICTORIAS SECRET",
         "name": "ESC. INSP. EN V.S FRESH AND CLEAN",
         "category": "Diseñador",
@@ -3380,6 +3591,7 @@ export const perfumes = [
     },
     {
         "id": 212,
+        "date": "2025-01-01",
         "brand": "VICTORIAS SECRET",
         "name": "ESC. INSP. EN V.S GLAM ANGEL",
         "category": "Diseñador",
@@ -3396,6 +3608,7 @@ export const perfumes = [
     },
     {
         "id": 213,
+        "date": "2025-01-01",
         "brand": "VICTORIAS SECRET",
         "name": "ESC. INSP. EN V.S GOLD ANGEL",
         "category": "Diseñador",
@@ -3412,6 +3625,7 @@ export const perfumes = [
     },
     {
         "id": 214,
+        "date": "2025-01-01",
         "brand": "VICTORIAS SECRET",
         "name": "ESC. INSP. EN V.S HOT CRUSH",
         "category": "Diseñador",
@@ -3428,6 +3642,7 @@ export const perfumes = [
     },
     {
         "id": 215,
+        "date": "2025-01-01",
         "brand": "VICTORIAS SECRET",
         "name": "ESC. INSP. EN V.S JUICED BERRY",
         "category": "Diseñador",
@@ -3444,6 +3659,7 @@ export const perfumes = [
     },
     {
         "id": 216,
+        "date": "2025-01-01",
         "brand": "VICTORIAS SECRET",
         "name": "ESC. INSP. EN V.S LOST IN FANTASY",
         "category": "Diseñador",
@@ -3460,6 +3676,7 @@ export const perfumes = [
     },
     {
         "id": 217,
+        "date": "2025-01-01",
         "brand": "VICTORIAS SECRET",
         "name": "ESC. INSP. EN V.S LOVE ADICT",
         "category": "Diseñador",
@@ -3476,6 +3693,7 @@ export const perfumes = [
     },
     {
         "id": 218,
+        "date": "2025-01-01",
         "brand": "VICTORIAS SECRET",
         "name": "ESC. INSP. EN V.S LOVE SPELL",
         "category": "Diseñador",
@@ -3492,6 +3710,7 @@ export const perfumes = [
     },
     {
         "id": 219,
+        "date": "2025-01-01",
         "brand": "VICTORIAS SECRET",
         "name": "ESC. INSP. EN V.S MANDARINA",
         "category": "Diseñador",
@@ -3508,6 +3727,7 @@ export const perfumes = [
     },
     {
         "id": 220,
+        "date": "2025-01-01",
         "brand": "VICTORIAS SECRET",
         "name": "ESC. INSP. EN V.S MANGO TEMTATION",
         "category": "Diseñador",
@@ -3524,6 +3744,7 @@ export const perfumes = [
     },
     {
         "id": 221,
+        "date": "2025-01-01",
         "brand": "PASSION FRUIT",
         "name": "ESC. INSP. EN V.S MARACUYA",
         "category": "Diseñador",
@@ -3540,6 +3761,7 @@ export const perfumes = [
     },
     {
         "id": 222,
+        "date": "2025-01-01",
         "brand": "VICTORIAS SECRET",
         "name": "ESC. INSP. EN V.S MIDNIGHT DARE",
         "category": "Diseñador",
@@ -3556,6 +3778,7 @@ export const perfumes = [
     },
     {
         "id": 223,
+        "date": "2025-01-01",
         "brand": "VICTORIAS SECRET",
         "name": "ESC. INSP. EN V.S MOONLITE KISS",
         "category": "Diseñador",
@@ -3572,6 +3795,7 @@ export const perfumes = [
     },
     {
         "id": 224,
+        "date": "2025-01-01",
         "brand": "VICTORIAS SECRET",
         "name": "ESC. INSP. EN V.S NIGHT ANGEL",
         "category": "Diseñador",
@@ -3588,6 +3812,7 @@ export const perfumes = [
     },
     {
         "id": 225,
+        "date": "2025-01-01",
         "brand": "VICTORIAS SECRET",
         "name": "ESC. INSP. EN V.S PASSION STRUCK",
         "category": "Diseñador",
@@ -3604,6 +3829,7 @@ export const perfumes = [
     },
     {
         "id": 226,
+        "date": "2025-01-01",
         "brand": "VICTORIAS SECRET",
         "name": "ESC. INSP. EN V.S PERA",
         "category": "Diseñador",
@@ -3620,6 +3846,7 @@ export const perfumes = [
     },
     {
         "id": 227,
+        "date": "2025-01-01",
         "brand": "VICTORIAS SECRET",
         "name": "ESC. INSP. EN V.S PINEAPPLE COVE NEON PAPAYA",
         "category": "Diseñador",
@@ -3636,6 +3863,7 @@ export const perfumes = [
     },
     {
         "id": 228,
+        "date": "2025-01-01",
         "brand": "VICTORIAS SECRET",
         "name": "ESC. INSP. EN V.S PLUM DROP PRUNA",
         "category": "Diseñador",
@@ -3652,6 +3880,7 @@ export const perfumes = [
     },
     {
         "id": 229,
+        "date": "2025-01-01",
         "brand": "VICTORIAS SECRET",
         "name": "ESC. INSP. EN V.S PRETTY AND PURE",
         "category": "Diseñador",
@@ -3668,6 +3897,7 @@ export const perfumes = [
     },
     {
         "id": 230,
+        "date": "2025-01-01",
         "brand": "VICTORIAS SECRET",
         "name": "ESC. INSP. EN V.S PRISA",
         "category": "Diseñador",
@@ -3684,6 +3914,7 @@ export const perfumes = [
     },
     {
         "id": 231,
+        "date": "2025-01-01",
         "brand": "VICTORIAS SECRET",
         "name": "ESC. INSP. EN V.S PURE DAY DREAM",
         "category": "Diseñador",
@@ -3700,6 +3931,7 @@ export const perfumes = [
     },
     {
         "id": 232,
+        "date": "2025-01-01",
         "brand": "VICTORIAS SECRET",
         "name": "ESC. INSP. EN V.S PURE ORCHID",
         "category": "Diseñador",
@@ -3716,6 +3948,7 @@ export const perfumes = [
     },
     {
         "id": 233,
+        "date": "2025-01-01",
         "brand": "VICTORIAS SECRET",
         "name": "ESC. INSP. EN V.S PURE SEDUCTION",
         "category": "Diseñador",
@@ -3732,6 +3965,7 @@ export const perfumes = [
     },
     {
         "id": 234,
+        "date": "2025-01-01",
         "brand": "VICTORIAS SECRET",
         "name": "ESC. INSP. EN V.S PURPLE IRIS",
         "category": "Diseñador",
@@ -3748,6 +3982,7 @@ export const perfumes = [
     },
     {
         "id": 235,
+        "date": "2025-01-01",
         "brand": "VICTORIAS SECRET",
         "name": "ESC. INSP. EN V.S SANDIA",
         "category": "Diseñador",
@@ -3764,6 +3999,7 @@ export const perfumes = [
     },
     {
         "id": 236,
+        "date": "2025-01-01",
         "brand": "VICTORIAS SECRET",
         "name": "ESC. INSP. EN V.S SECRET CHARM",
         "category": "Diseñador",
@@ -3780,6 +4016,7 @@ export const perfumes = [
     },
     {
         "id": 237,
+        "date": "2025-01-01",
         "brand": "VICTORIAS SECRET",
         "name": "ESC. INSP. EN V.S SEXY ANGEL",
         "category": "Diseñador",
@@ -3796,6 +4033,7 @@ export const perfumes = [
     },
     {
         "id": 238,
+        "date": "2025-01-01",
         "brand": "VICTORIAS SECRET",
         "name": "ESC. INSP. EN V.S SHEER LOVE",
         "category": "Diseñador",
@@ -3812,6 +4050,7 @@ export const perfumes = [
     },
     {
         "id": 239,
+        "date": "2025-01-01",
         "brand": "VICTORIAS SECRET",
         "name": "ESC. INSP. EN V.S STRAWBERRY CHAMPAGNE",
         "category": "Diseñador",
@@ -3828,6 +4067,7 @@ export const perfumes = [
     },
     {
         "id": 240,
+        "date": "2025-01-01",
         "brand": "VICTORIAS SECRET",
         "name": "ESC. INSP. EN V.S SUNNY Y HAPPY",
         "category": "Diseñador",
@@ -3844,6 +4084,7 @@ export const perfumes = [
     },
     {
         "id": 241,
+        "date": "2025-01-01",
         "brand": "VICTORIAS SECRET",
         "name": "ESC. INSP. EN V.S SWEET FLIRTY",
         "category": "Diseñador",
@@ -3860,6 +4101,7 @@ export const perfumes = [
     },
     {
         "id": 242,
+        "date": "2025-01-01",
         "brand": "VICTORIAS SECRET",
         "name": "ESC. INSP. EN V.S TOTAL ATRACTION",
         "category": "Diseñador",
@@ -3876,6 +4118,7 @@ export const perfumes = [
     },
     {
         "id": 243,
+        "date": "2025-01-01",
         "brand": "VICTORIAS SECRET",
         "name": "ESC. INSP. EN V.S TOTAL FLIRT",
         "category": "Diseñador",
@@ -3892,6 +4135,7 @@ export const perfumes = [
     },
     {
         "id": 244,
+        "date": "2025-01-01",
         "brand": "VICTORIAS SECRET",
         "name": "ESC. INSP. EN V.S VAINILLA LACE",
         "category": "Diseñador",
@@ -3908,6 +4152,7 @@ export const perfumes = [
     },
     {
         "id": 245,
+        "date": "2025-01-01",
         "brand": "VICTORIAS SECRET",
         "name": "ESC. INSP. EN V.S VELVET PETALS",
         "category": "Diseñador",
@@ -3924,6 +4169,7 @@ export const perfumes = [
     },
     {
         "id": 246,
+        "date": "2025-01-01",
         "brand": "VICTORIAS SECRET",
         "name": "ESC. INSP. EN V.S WARM AND COZY",
         "category": "Diseñador",
@@ -3940,6 +4186,7 @@ export const perfumes = [
     },
     {
         "id": 247,
+        "date": "2025-01-01",
         "brand": "VICTORIAS SECRET",
         "name": "ESC. INSP. EN V.S WILD AND BREZY",
         "category": "Diseñador",
@@ -3956,6 +4203,7 @@ export const perfumes = [
     },
     {
         "id": 248,
+        "date": "2025-01-01",
         "brand": "VICTORIAS SECRET",
         "name": "ESC. INSP. EN V.S WICKIE WICKIE",
         "category": "Diseñador",
@@ -3973,6 +4221,7 @@ export const perfumes = [
 
     {
         "id": 249,
+        "date": "2025-01-01",
         "brand": "VICTORINOX",
         "name": "ESC. INSP. EN SWISS ARMY",
         "category": "Diseñador",
@@ -3989,6 +4238,7 @@ export const perfumes = [
     },
     {
         "id": 250,
+        "date": "2025-01-01",
         "brand": "YANBAL",
         "name": "ESC. INSP. EN YANBAL ADRENALINA",
         "category": "Diseñador",
@@ -4005,6 +4255,7 @@ export const perfumes = [
     },
     {
         "id": 251,
+        "date": "2025-01-01",
         "brand": "YANBAL",
         "name": "ESC. INSP. EN YANBAL CCORI LE PERFUM ",
         "category": "Diseñador",
@@ -4021,6 +4272,7 @@ export const perfumes = [
     },
     {
         "id": 252,
+        "date": "2025-01-01",
         "brand": "YANBAL",
         "name": "ESC. INSP. EN YANBAL CCORI PASSION ",
         "category": "Diseñador",
@@ -4037,6 +4289,7 @@ export const perfumes = [
     },
     {
         "id": 253,
+        "date": "2025-01-01",
         "brand": "YANBAL",
         "name": "ESC. INSP. EN YANBAL CCORI ROSE",
         "category": "Diseñador",
@@ -4053,6 +4306,7 @@ export const perfumes = [
     },
     {
         "id": 254,
+        "date": "2025-01-01",
         "brand": "YANBAL",
         "name": "ESC. INSP. EN YANBAL CELOS",
         "category": "Diseñador",
@@ -4069,6 +4323,7 @@ export const perfumes = [
     },
     {
         "id": 255,
+        "date": "2025-01-01",
         "brand": "YANBAL",
         "name": "ESC. INSP. EN YANBAL CIELO",
         "category": "Diseñador",
@@ -4085,6 +4340,7 @@ export const perfumes = [
     },
     {
         "id": 256,
+        "date": "2025-01-01",
         "brand": "YANBAL",
         "name": "ESC. INSP. EN YANBAL GAIA",
         "category": "Diseñador",
@@ -4101,6 +4357,7 @@ export const perfumes = [
     },
     {
         "id": 257,
+        "date": "2025-01-01",
         "brand": "YANBAL",
         "name": "ESC. INSP. EN YANBAL OSADIA",
         "category": "Diseñador",
@@ -4117,6 +4374,7 @@ export const perfumes = [
     },
     {
         "id": 258,
+        "date": "2025-01-01",
         "brand": "YANBAL",
         "name": "ESC. INSP. EN YANBAL TEMPTATION",
         "category": "Diseñador",
@@ -4133,6 +4391,7 @@ export const perfumes = [
     },
     {
         "id": 259,
+        "date": "2025-01-01",
         "brand": "YVES SAINT LAURENT",
         "name": "ESC. INSP. EN YVES YVES SAINT L. BLACK OPIUM",
         "category": "Diseñador",
@@ -4149,6 +4408,7 @@ export const perfumes = [
     },
     {
         "id": 260,
+        "date": "2025-01-01",
         "brand": "YVES SAINT LAURENT",
         "name": "ESC. INSP. EN YVES YVES SAINT L. LIBRE",
         "category": "Diseñador",
@@ -4165,6 +4425,7 @@ export const perfumes = [
     },
     {
         "id": 261,
+        "date": "2025-01-01",
         "brand": "CASA GENERAL",
         "name": "ESC. INSP. EN EMMIR",
         "category": "Diseñador",
@@ -4183,6 +4444,7 @@ export const perfumes = [
     //Perfumes de Hombres
     {
         "id": 262,
+        "date": "2025-01-01",
         "brand": "ABERCROMBIE AND FITCH",
         "name": "ESC. INSP. EN AUTHENTIC A8F MEN ",
         "category": "Diseñador",
@@ -4199,6 +4461,7 @@ export const perfumes = [
     },
     {
         "id": 263,
+        "date": "2025-01-01",
         "brand": "ANIMALE",
         "name": "ESC. INSP. EN ANIMALE MEN ",
         "category": "Diseñador",
@@ -4215,6 +4478,7 @@ export const perfumes = [
     },
     {
         "id": 264,
+        "date": "2025-01-01",
         "brand": "ANTONIO BANDERAS",
         "name": "ESC. INSP. EN ANTONIO BANDERAS BLUE SEDUCTION MEN ",
         "category": "Diseñador",
@@ -4231,6 +4495,7 @@ export const perfumes = [
     },
     {
         "id": 265,
+        "date": "2025-01-01",
         "brand": "ANTONIO BANDERAS",
         "name": "ESC. INSP. EN ANTONIO BANDE KING OF SEDUCTION MEN",
         "category": "Diseñador",
@@ -4247,6 +4512,7 @@ export const perfumes = [
     },
     {
         "id": 266,
+        "date": "2025-01-01",
         "brand": "ANTONIO BANDERAS",
         "name": "ESC. INSP. EN THE GOLDEN SECRET MEN",
         "category": "Diseñador",
@@ -4263,6 +4529,7 @@ export const perfumes = [
     },
     {
         "id": 267,
+        "date": "2025-01-01",
         "brand": "ARMANI",
         "name": "ESC. INSP. EN ARMANI ACQUA DI GIO MEN ",
         "category": "Diseñador",
@@ -4279,6 +4546,7 @@ export const perfumes = [
     },
     {
         "id": 268,
+        "date": "2025-01-01",
         "brand": "ARMANI",
         "name": "ESC. INSP. EN ARMANI ACQUA DI GIO PARFUM MEN ",
         "category": "Diseñador",
@@ -4295,6 +4563,7 @@ export const perfumes = [
     },
     {
         "id": 269,
+        "date": "2025-01-01",
         "brand": "ARMANI",
         "name": "ESC. INSP. EN ARMANI ACQUA DI GIO PROFUMO MEN ",
         "category": "Diseñador",
@@ -4311,6 +4580,7 @@ export const perfumes = [
     },
     {
         "id": 270,
+        "date": "2025-01-01",
         "brand": "ARMANI",
         "name": "ESC. INSP. EN ARMANI ACQUA DI GIO PROFONDO MEN ",
         "category": "Diseñador",
@@ -4327,6 +4597,7 @@ export const perfumes = [
     },
     {
         "id": 271,
+        "date": "2025-01-01",
         "brand": "ARMANI",
         "name": "ESC. INSP. EN ARMANI CODE MEN ",
         "category": "Diseñador",
@@ -4343,6 +4614,7 @@ export const perfumes = [
     },
     {
         "id": 272,
+        "date": "2025-01-01",
         "brand": "ARMANI",
         "name": "ESC. INSP. EN ARMANI STRONGER WITH YOU MEN ",
         "category": "Diseñador",
@@ -4359,6 +4631,7 @@ export const perfumes = [
     },
     {
         "id": 273,
+        "date": "2025-01-01",
         "brand": "ARMANI",
         "name": "ESC. INSP. EN ARMANI OUD STRONGER WITH YOU MEN ",
         "category": "Diseñador",
@@ -4375,6 +4648,7 @@ export const perfumes = [
     },
     {
         "id": 274,
+        "date": "2025-01-01",
         "brand": "AZZARO",
         "name": "ESC. INSP. EN AZZARO POUR HOMME MEN ",
         "category": "Diseñador",
@@ -4391,6 +4665,7 @@ export const perfumes = [
     },
     {
         "id": 275,
+        "date": "2025-01-01",
         "brand": "BURBERRY",
         "name": "ESC. INSP. EN BURBERRY HERO EAU DE PARFUM MEN",
         "category": "Diseñador",
@@ -4407,6 +4682,7 @@ export const perfumes = [
     },
     {
         "id": 276,
+        "date": "2025-01-01",
         "brand": "BVLGARY",
         "name": "ESC. INSP. EN BVLGARI AQUA DE BVLGARY MEN ",
         "category": "Diseñador",
@@ -4423,6 +4699,7 @@ export const perfumes = [
     },
     {
         "id": 277,
+        "date": "2025-01-01",
         "brand": "BVLGARY",
         "name": "ESC. INSP. EN BVLGARI AQUA MARINE MEN ",
         "category": "Diseñador",
@@ -4439,6 +4716,7 @@ export const perfumes = [
     },
     {
         "id": 278,
+        "date": "2025-01-01",
         "brand": "BVLGARY",
         "name": "ESC. INSP. EN BVLGARI BLV MEN ",
         "category": "Diseñador",
@@ -4455,6 +4733,7 @@ export const perfumes = [
     },
     {
         "id": 279,
+        "date": "2025-01-01",
         "brand": "BVLGARY",
         "name": "ESC. INSP. EN BVLGARI MAN MEN ",
         "category": "Diseñador",
@@ -4471,6 +4750,7 @@ export const perfumes = [
     },
     {
         "id": 280,
+        "date": "2025-01-01",
         "brand": "BVLGARY",
         "name": "ESC. INSP. EN BVLGARI MAN IN BLACK MEN ",
         "category": "Diseñador",
@@ -4487,6 +4767,7 @@ export const perfumes = [
     },
     {
         "id": 281,
+        "date": "2025-01-01",
         "brand": "BVLGARY",
         "name": "ESC. INSP. EN BVLGARI MAN RAIN ESSENCE MEN ",
         "category": "Diseñador",
@@ -4503,6 +4784,7 @@ export const perfumes = [
     },
     {
         "id": 282,
+        "date": "2025-01-01",
         "brand": "BVLGARY",
         "name": "ESC. INSP. EN BVLGARI POUR HOMME MEN",
         "category": "Diseñador",
@@ -4519,6 +4801,7 @@ export const perfumes = [
     },
     {
         "id": 283,
+        "date": "2025-01-01",
         "brand": "BVLGARY",
         "name": "ESC. INSP. EN BVLGARI POUR HOMME SOIR",
         "category": "Diseñador",
@@ -4535,6 +4818,7 @@ export const perfumes = [
     },
     {
         "id": 284,
+        "date": "2025-01-01",
         "brand": "BVLGARY",
         "name": "ESC. INSP. EN BVLGARI WOOD MEN ",
         "category": "Diseñador",
@@ -4551,6 +4835,7 @@ export const perfumes = [
     },
     {
         "id": 285,
+        "date": "2025-01-01",
         "brand": "CALVIN KLEIN",
         "name": "ESC. INSP. EN CK BE MEN ",
         "category": "Diseñador",
@@ -4567,6 +4852,7 @@ export const perfumes = [
     },
     {
         "id": 286,
+        "date": "2025-01-01",
         "brand": "CALVIN KLEIN",
         "name": "ESC. INSP. EN CK ESCAPE MEN ",
         "category": "Diseñador",
@@ -4583,6 +4869,7 @@ export const perfumes = [
     },
     {
         "id": 287,
+        "date": "2025-01-01",
         "brand": "CALVIN KLEIN",
         "name": "ESC. INSP. EN CK ETERNITY MEN ",
         "category": "Diseñador",
@@ -4599,6 +4886,7 @@ export const perfumes = [
     },
     {
         "id": 288,
+        "date": "2025-01-01",
         "brand": "CALVIN KLEIN",
         "name": "ESC. INSP. EN CK EUPHORIA Hombre ",
         "category": "Diseñador",
@@ -4615,6 +4903,7 @@ export const perfumes = [
     },
     {
         "id": 289,
+        "date": "2025-01-01",
         "brand": "CALVIN KLEIN",
         "name": "ESC. INSP. EN CK IN 2U MEN ",
         "category": "Diseñador",
@@ -4631,6 +4920,7 @@ export const perfumes = [
     },
     {
         "id": 290,
+        "date": "2025-01-01",
         "brand": "CALVIN KLEIN",
         "name": "ESC. INSP. EN CK ONE Unisex ",
         "category": "Diseñador",
@@ -4647,6 +4937,7 @@ export const perfumes = [
     },
     {
         "id": 291,
+        "date": "2025-01-01",
         "brand": "CALVIN KLEIN",
         "name": "ESC. INSP. EN CK ONE REFLECTIONS",
         "category": "Diseñador",
@@ -4663,6 +4954,7 @@ export const perfumes = [
     },
     {
         "id": 292,
+        "date": "2025-01-01",
         "brand": "CALVIN KLEIN",
         "name": "ESC. INSP. EN CK ONE SHOCK MEN ",
         "category": "Diseñador",
@@ -4679,6 +4971,7 @@ export const perfumes = [
     },
     {
         "id": 293,
+        "date": "2025-01-01",
         "brand": "CAROLINA HERRERA",
         "name": "ESC. INSP. EN CH 212 VIP BLACK I LOVE NY MEN ",
         "category": "Diseñador",
@@ -4695,6 +4988,7 @@ export const perfumes = [
     },
     {
         "id": 294,
+        "date": "2025-01-01",
         "brand": "CAROLINA HERRERA",
         "name": "ESC. INSP. EN CH 212 HEROES FOREVER YOUNG MEN ",
         "category": "Diseñador",
@@ -4711,6 +5005,7 @@ export const perfumes = [
     },
     {
         "id": 295,
+        "date": "2025-01-01",
         "brand": "CAROLINA HERRERA",
         "name": "ESC. INSP. EN CH 212 NYC AQUA MEN ",
         "category": "Diseñador",
@@ -4727,6 +5022,7 @@ export const perfumes = [
     },
     {
         "id": 296,
+        "date": "2025-01-01",
         "brand": "CAROLINA HERRERA",
         "name": "ESC. INSP. EN CH 212 NYC MEN ",
         "category": "Diseñador",
@@ -4743,6 +5039,7 @@ export const perfumes = [
     },
     {
         "id": 297,
+        "date": "2025-01-01",
         "brand": "CAROLINA HERRERA",
         "name": "ESC. INSP. EN CH 212 SEXY MEN",
         "category": "Diseñador",
@@ -4759,6 +5056,7 @@ export const perfumes = [
     },
     {
         "id": 298,
+        "date": "2025-01-01",
         "brand": "CAROLINA HERRERA",
         "name": "ESC. INSP. EN CH 212 VIP BLACK RED MEN ",
         "category": "Diseñador",
@@ -4775,6 +5073,7 @@ export const perfumes = [
     },
     {
         "id": 299,
+        "date": "2025-01-01",
         "brand": "CAROLINA HERRERA",
         "name": "ESC. INSP. EN CH 212 VIP BLACK",
         "category": "Diseñador",
@@ -4791,6 +5090,7 @@ export const perfumes = [
     },
     {
         "id": 300,
+        "date": "2025-01-01",
         "brand": "CAROLINA HERRERA",
         "name": "ESC. INSP. EN CH 212 VIP BLACK EXTRA",
         "category": "Diseñador",
@@ -4807,6 +5107,7 @@ export const perfumes = [
     },
     {
         "id": 301,
+        "date": "2025-01-01",
         "brand": "CAROLINA HERRERA",
         "name": "ESC. INSP. EN CH 212 VIP CLUB",
         "category": "Diseñador",
@@ -4823,6 +5124,7 @@ export const perfumes = [
     },
     {
         "id": 302,
+        "date": "2025-01-01",
         "brand": "CAROLINA HERRERA",
         "name": "ESC. INSP. EN CH 212 VIP FEVER",
         "category": "Diseñador",
@@ -4839,6 +5141,7 @@ export const perfumes = [
     },
     {
         "id": 303,
+        "date": "2025-01-01",
         "brand": "CAROLINA HERRERA",
         "name": "ESC. INSP. EN CH 212 VIP",
         "category": "Diseñador",
@@ -4855,6 +5158,7 @@ export const perfumes = [
     },
     {
         "id": 304,
+        "date": "2025-01-01",
         "brand": "CAROLINA HERRERA",
         "name": "ESC. INSP. EN CH 212 VIP WILD PARTY",
         "category": "Diseñador",
@@ -4871,6 +5175,7 @@ export const perfumes = [
     },
     {
         "id": 305,
+        "date": "2025-01-01",
         "brand": "CAROLINA HERRERA",
         "name": "ESC. INSP. EN CH 212 VIP WINS",
         "category": "Diseñador",
@@ -4887,6 +5192,7 @@ export const perfumes = [
     },
     {
         "id": 306,
+        "date": "2025-01-01",
         "brand": "CAROLINA HERRERA",
         "name": "ESC. INSP. EN CH AFRICA",
         "category": "Diseñador",
@@ -4903,6 +5209,7 @@ export const perfumes = [
     },
     {
         "id": 307,
+        "date": "2025-01-01",
         "brand": "CAROLINA HERRERA",
         "name": "ESC. INSP. EN CH BAD BOY",
         "category": "Diseñador",
@@ -4919,6 +5226,7 @@ export const perfumes = [
     },
     {
         "id": 308,
+        "date": "2025-01-01",
         "brand": "CAROLINA HERRERA",
         "name": "ESC. INSP. EN CH BAD BOY DAZZLING GARDEN MEN",
         "category": "Diseñador",
@@ -4935,6 +5243,7 @@ export const perfumes = [
     },
     {
         "id": 309,
+        "date": "2025-01-01",
         "brand": "CAROLINA HERRERA",
         "name": "ESC. INSP. EN CH BEASTS",
         "category": "Diseñador",
@@ -4951,6 +5260,7 @@ export const perfumes = [
     },
     {
         "id": 310,
+        "date": "2025-01-01",
         "brand": "CAROLINA HERRERA",
         "name": "ESC. INSP. EN CH BIRDS OF PARADISE Hombre",
         "category": "Diseñador",
@@ -4967,6 +5277,7 @@ export const perfumes = [
     },
     {
         "id": 311,
+        "date": "2025-01-01",
         "brand": "CAROLINA HERRERA",
         "name": "ESC. INSP. EN CH CAROLINA HERRERA Hombre ",
         "category": "Diseñador",
@@ -4983,6 +5294,7 @@ export const perfumes = [
     },
     {
         "id": 312,
+        "date": "2025-01-01",
         "brand": "CAROLINA HERRERA",
         "name": "ESC. INSP. EN CH CENTRAL PARK",
         "category": "Diseñador",
@@ -4999,6 +5311,7 @@ export const perfumes = [
     },
     {
         "id": 313,
+        "date": "2025-01-01",
         "brand": "CAROLINA HERRERA",
         "name": "ESC. INSP. EN CH",
         "category": "Diseñador",
@@ -5015,6 +5328,7 @@ export const perfumes = [
     },
     {
         "id": 314,
+        "date": "2025-01-01",
         "brand": "CAROLINA HERRERA",
         "name": "ESC. INSP. EN CH PRIVE",
         "category": "Diseñador",
@@ -5031,6 +5345,7 @@ export const perfumes = [
     },
     {
         "id": 315,
+        "date": "2025-01-01",
         "brand": "CAROLINA HERRERA",
         "name": "ESC. INSP. EN CH CHIC FOR MEN ",
         "category": "Diseñador",
@@ -5047,6 +5362,7 @@ export const perfumes = [
     },
     {
         "id": 316,
+        "date": "2025-01-01",
         "brand": "CARTIER",
         "name": "ESC. INSP. EN CARTIER DECLARACION DE CARTIER MEN",
         "category": "Diseñador",
@@ -5063,6 +5379,7 @@ export const perfumes = [
     },
     {
         "id": 317,
+        "date": "2025-01-01",
         "brand": "CARTIER",
         "name": "ESC. INSP. EN CARTIER EAU DE CARTIER",
         "category": "Diseñador",
@@ -5079,6 +5396,7 @@ export const perfumes = [
     },
     {
         "id": 318,
+        "date": "2025-01-01",
         "brand": "CARTIER",
         "name": "ESC. INSP. EN CARTIER SANTOS",
         "category": "Diseñador",
@@ -5095,6 +5413,7 @@ export const perfumes = [
     },
     {
         "id": 319,
+        "date": "2025-01-01",
         "brand": "CHANEL",
         "name": "ESC. INSP. EN CHANEL ALLURE",
         "category": "Diseñador",
@@ -5111,6 +5430,7 @@ export const perfumes = [
     },
     {
         "id": 320,
+        "date": "2025-01-01",
         "brand": "CHANEL",
         "name": "ESC. INSP. EN CHANEL ALLURE SPORT",
         "category": "Diseñador",
@@ -5127,6 +5447,7 @@ export const perfumes = [
     },
     {
         "id": 321,
+        "date": "2025-01-01",
         "brand": "CHANEL",
         "name": "ESC. INSP. EN CHANEL BLEU DE CHANEL",
         "category": "Diseñador",
@@ -5143,6 +5464,7 @@ export const perfumes = [
     },
     {
         "id": 322,
+        "date": "2025-01-01",
         "brand": "CHRISTIAN DIOR",
         "name": "ESC. INSP. EN CRISTIAN DIOR DIOR HOMME SPORT ",
         "category": "Diseñador",
@@ -5159,6 +5481,7 @@ export const perfumes = [
     },
     {
         "id": 323,
+        "date": "2025-01-01",
         "brand": "CHRISTIAN DIOR",
         "name": "ESC. INSP. EN CRISTIAN DIOR FAHRENHEIT",
         "category": "Diseñador",
@@ -5175,6 +5498,7 @@ export const perfumes = [
     },
     {
         "id": 324,
+        "date": "2025-01-01",
         "brand": "CHRISTIAN DIOR",
         "name": "ESC. INSP. EN CRISTIAN DIOR SAUVAGE ELIXIR",
         "category": "Diseñador",
@@ -5191,6 +5515,7 @@ export const perfumes = [
     },
     {
         "id": 325,
+        "date": "2025-01-01",
         "brand": "CHRISTIAN DIOR",
         "name": "ESC. INSP. EN CRISTIAN DIOR SAUVAGE",
         "category": "Diseñador",
@@ -5207,6 +5532,7 @@ export const perfumes = [
     },
     {
         "id": 326,
+        "date": "2025-01-01",
         "brand": "CLINIQUE",
         "name": "ESC. INSP. EN CLINIQUE HAPPY",
         "category": "Diseñador",
@@ -5223,6 +5549,7 @@ export const perfumes = [
     },
     {
         "id": 327,
+        "date": "2025-01-01",
         "brand": "CRISTIANO",
         "name": "ESC. INSP. EN CRISTIANO",
         "category": "Diseñador",
@@ -5239,6 +5566,7 @@ export const perfumes = [
     },
     {
         "id": 328,
+        "date": "2025-01-01",
         "brand": "DAVID BECKHAM",
         "name": "ESC. INSP. EN URBAN HOMME DAVID BECKHAM",
         "category": "Diseñador",
@@ -5255,6 +5583,7 @@ export const perfumes = [
     },
     {
         "id": 329,
+        "date": "2025-01-01",
         "brand": "DIESEL",
         "name": "ESC. INSP. EN DIESEL BAD",
         "category": "Diseñador",
@@ -5271,6 +5600,7 @@ export const perfumes = [
     },
     {
         "id": 330,
+        "date": "2025-01-01",
         "brand": "DIESEL",
         "name": "ESC. INSP. EN DIESEL FUEL FOR LIFE",
         "category": "Diseñador",
@@ -5287,6 +5617,7 @@ export const perfumes = [
     },
     {
         "id": 331,
+        "date": "2025-01-01",
         "brand": "DIESEL",
         "name": "ESC. INSP. EN DIESEL ONLY THE BRAVE",
         "category": "Diseñador",
@@ -5303,6 +5634,7 @@ export const perfumes = [
     },
     {
         "id": 332,
+        "date": "2025-01-01",
         "brand": "DIESEL",
         "name": "ESC. INSP. EN DIESEL PLUS BLANCA MEN",
         "category": "Diseñador",
@@ -5319,6 +5651,7 @@ export const perfumes = [
     },
     {
         "id": 333,
+        "date": "2025-01-01",
         "brand": "DIESEL",
         "name": "ESC. INSP. EN DIESEL SPIRIT THE BRAVE",
         "category": "Diseñador",
@@ -5335,6 +5668,7 @@ export const perfumes = [
     },
     {
         "id": 334,
+        "date": "2025-01-01",
         "brand": "DOLCE GABBANA",
         "name": "ESC. INSP. EN DOLCE GABBANA INTENSO",
         "category": "Diseñador",
@@ -5351,6 +5685,7 @@ export const perfumes = [
     },
     {
         "id": 335,
+        "date": "2025-01-01",
         "brand": "DOLCE GABBANA",
         "name": "ESC. INSP. EN DOLCE GABBANA K",
         "category": "Diseñador",
@@ -5367,6 +5702,7 @@ export const perfumes = [
     },
     {
         "id": 336,
+        "date": "2025-01-01",
         "brand": "DOLCE GABBANA",
         "name": "ESC. INSP. EN DOLCE GABBANA LIGHT BLUE",
         "category": "Diseñador",
@@ -5383,6 +5719,7 @@ export const perfumes = [
     },
     {
         "id": 337,
+        "date": "2025-01-01",
         "brand": "DOLCE GABBANA",
         "name": "ESC. INSP. EN DOLCE GABBANA LIGHT BLUE POUR HOMME SUMMER VIBES MEN",
         "category": "Diseñador",
@@ -5399,6 +5736,7 @@ export const perfumes = [
     },
     {
         "id": 338,
+        "date": "2025-01-01",
         "brand": "DOLCE GABBANA",
         "name": "ESC. INSP. EN DOLCE GABBANA POUR HOMME MEN ",
         "category": "Diseñador",
@@ -5415,6 +5753,7 @@ export const perfumes = [
     },
     {
         "id": 339,
+        "date": "2025-01-01",
         "brand": "DOLCE GABBANA",
         "name": "ESC. INSP. EN DOLCE GABBANA THE ONE MEN ",
         "category": "Diseñador",
@@ -5431,6 +5770,7 @@ export const perfumes = [
     },
     {
         "id": 340,
+        "date": "2025-01-01",
         "brand": "DOLCE GABBANA",
         "name": "ESC. INSP. EN DOLCE GABBANA THE ONE SPORT MEN ",
         "category": "Diseñador",
@@ -5447,6 +5787,7 @@ export const perfumes = [
     },
     {
         "id": 341,
+        "date": "2025-01-01",
         "brand": "DOLCE GABBANA",
         "name": "ESC. INSP. EN DOLCE GABBANA THE ONE LUMINOUS NIGHT MEN ",
         "category": "Diseñador",
@@ -5463,6 +5804,7 @@ export const perfumes = [
     },
     {
         "id": 342,
+        "date": "2025-01-01",
         "brand": "ENRIQUE IGLESIAS",
         "name": "ESC. INSP. EN ENRIQUE IGLESIAS ADRENALINA MEN .",
         "category": "Diseñador",
@@ -5479,6 +5821,7 @@ export const perfumes = [
     },
     {
         "id": 343,
+        "date": "2025-01-01",
         "brand": "ESIKA",
         "name": "ESC. INSP. EN ESIKA DORSAY Hombre",
         "category": "Diseñador",
@@ -5495,6 +5838,7 @@ export const perfumes = [
     },
     {
         "id": 344,
+        "date": "2025-01-01",
         "brand": "ESIKA",
         "name": "ESC. INSP. EN ESIKA WINNER SPORT Hombre ",
         "category": "Diseñador",
@@ -5511,6 +5855,7 @@ export const perfumes = [
     },
     {
         "id": 345,
+        "date": "2025-01-01",
         "brand": "FERRARI",
         "name": "ESC. INSP. EN ESCUDERIA FERRARI MEN ",
         "category": "Diseñador",
@@ -5527,6 +5872,7 @@ export const perfumes = [
     },
     {
         "id": 346,
+        "date": "2025-01-01",
         "brand": "FACONABLE",
         "name": "ESC. INSP. EN FACONABLE MEN ",
         "category": "Diseñador",
@@ -5543,6 +5889,7 @@ export const perfumes = [
     },
     {
         "id": 347,
+        "date": "2025-01-01",
         "brand": "GILLES CANTUEL",
         "name": "ESC. INSP. EN ARSENAL MEN .",
         "category": "Diseñador",
@@ -5559,6 +5906,7 @@ export const perfumes = [
     },
     {
         "id": 348,
+        "date": "2025-01-01",
         "brand": "GIVENCHY",
         "name": "ESC. INSP. EN GIVENCHY BLUE MEN ",
         "category": "Diseñador",
@@ -5575,6 +5923,7 @@ export const perfumes = [
     },
     {
         "id": 349,
+        "date": "2025-01-01",
         "brand": "GIVENCHY",
         "name": "ESC. INSP. EN GIVENCHY PI  MEN ",
         "category": "Diseñador",
@@ -5591,6 +5940,7 @@ export const perfumes = [
     },
     {
         "id": 350,
+        "date": "2025-01-01",
         "brand": "GIVENCHY",
         "name": "ESC. INSP. EN GIVENCHY PLAY INTENSE MEN ",
         "category": "Diseñador",
@@ -5607,6 +5957,7 @@ export const perfumes = [
     },
     {
         "id": 351,
+        "date": "2025-01-01",
         "brand": "GIVENCHY",
         "name": "ESC. INSP. EN GIVENCHY PLAY MEN ",
         "category": "Diseñador",
@@ -5623,6 +5974,7 @@ export const perfumes = [
     },
     {
         "id": 352,
+        "date": "2025-01-01",
         "brand": "GIVENCHY",
         "name": "ESC. INSP. EN GIVENCHY GENTLEMAN RESERVE PRIVEE MEN ",
         "category": "Diseñador",
@@ -5639,6 +5991,7 @@ export const perfumes = [
     },
     {
         "id": 353,
+        "date": "2025-01-01",
         "brand": "GUCCI",
         "name": "ESC. INSP. EN GUCCI POUR HOMME MEN ",
         "category": "Diseñador",
@@ -5655,6 +6008,7 @@ export const perfumes = [
     },
     {
         "id": 354,
+        "date": "2025-01-01",
         "brand": "GUCCI",
         "name": "ESC. INSP. EN GUCCI POUR HOMME II MEN ",
         "category": "Diseñador",
@@ -5671,6 +6025,7 @@ export const perfumes = [
     },
     {
         "id": 355,
+        "date": "2025-01-01",
         "brand": "GUY LAROCHE",
         "name": "ESC. INSP. EN GUY LAROCHE DRAKKAR NOIR MEN",
         "category": "Diseñador",
@@ -5687,6 +6042,7 @@ export const perfumes = [
     },
     {
         "id": 356,
+        "date": "2025-01-01",
         "brand": "HALLOWEN",
         "name": "ESC. INSP. EN HALLOWEN Hombre",
         "category": "Diseñador",
@@ -5703,6 +6059,7 @@ export const perfumes = [
     },
     {
         "id": 357,
+        "date": "2025-01-01",
         "brand": "HUGO BOSS",
         "name": "ESC. INSP. EN HUGO BOSS BOTTLED NIGTH MEN ",
         "category": "Diseñador",
@@ -5719,6 +6076,7 @@ export const perfumes = [
     },
     {
         "id": 358,
+        "date": "2025-01-01",
         "brand": "HUGO BOSS",
         "name": "ESC. INSP. EN HUGO BOSS BOTTLED PARFUM MEN ",
         "category": "Diseñador",
@@ -5735,6 +6093,7 @@ export const perfumes = [
     },
     {
         "id": 359,
+        "date": "2025-01-01",
         "brand": "HUGO BOSS",
         "name": "ESC. INSP. EN HUGO BOSS BOTTLED UNITED MEN ",
         "category": "Diseñador",
@@ -5751,6 +6110,7 @@ export const perfumes = [
     },
     {
         "id": 360,
+        "date": "2025-01-01",
         "brand": "HUGO BOSS",
         "name": "ESC. INSP. EN HUGO BOSS BOTTLED ELIXIR MEN",
         "category": "Diseñador",
@@ -5767,6 +6127,7 @@ export const perfumes = [
     },
     {
         "id": 361,
+        "date": "2025-01-01",
         "brand": "HUGO BOSS",
         "name": "ESC. INSP. EN HUGO BOSS DARK BLUE MEN ",
         "category": "Diseñador",
@@ -5783,6 +6144,7 @@ export const perfumes = [
     },
     {
         "id": 362,
+        "date": "2025-01-01",
         "brand": "HUGO BOSS",
         "name": "ESC. INSP. EN HUGO BOSS ELEMENT MEN ",
         "category": "Diseñador",
@@ -5799,6 +6161,7 @@ export const perfumes = [
     },
     {
         "id": 363,
+        "date": "2025-01-01",
         "brand": "HUGO BOSS",
         "name": "ESC. INSP. EN HUGO BOSS ENERGISE MEN ",
         "category": "Diseñador",
@@ -5815,6 +6178,7 @@ export const perfumes = [
     },
     {
         "id": 364,
+        "date": "2025-01-01",
         "brand": "HUGO BOSS",
         "name": "ESC. INSP. EN HUGO BOSS GRIS MEN ",
         "category": "Diseñador",
@@ -5831,6 +6195,7 @@ export const perfumes = [
     },
     {
         "id": 365,
+        "date": "2025-01-01",
         "brand": "HUGO BOSS",
         "name": "ESC. INSP. EN HUGO BOSS ICED MEN ",
         "category": "Diseñador",
@@ -5847,6 +6212,7 @@ export const perfumes = [
     },
     {
         "id": 366,
+        "date": "2025-01-01",
         "brand": "HUGO BOSS",
         "name": "ESC. INSP. EN HUGO BOSS IN MOTION MEN ",
         "category": "Diseñador",
@@ -5863,6 +6229,7 @@ export const perfumes = [
     },
     {
         "id": 367,
+        "date": "2025-01-01",
         "brand": "HUGO BOSS",
         "name": "ESC. INSP. EN HUGO BOSS JUST DIFERENT MEN ",
         "category": "Diseñador",
@@ -5879,6 +6246,7 @@ export const perfumes = [
     },
     {
         "id": 368,
+        "date": "2025-01-01",
         "brand": "HUGO BOSS",
         "name": "ESC INSP. EN HUGO BOSS THE SCENT ELIXIR MEN",
         "category": "Diseñador",
@@ -5895,6 +6263,7 @@ export const perfumes = [
     },
     {
         "id": 369,
+        "date": "2025-01-01",
         "brand": "HUGO BOSS",
         "name": "ESC. INSP. EN HUGO BOSS ORANGE MEN ",
         "category": "Diseñador",
@@ -5911,6 +6280,7 @@ export const perfumes = [
     },
     {
         "id": 370,
+        "date": "2025-01-01",
         "brand": "HUGO BOSS",
         "name": "ESC. INSP. EN HUGO BOSS RED MEN ",
         "category": "Diseñador",
@@ -5927,6 +6297,7 @@ export const perfumes = [
     },
     {
         "id": 371,
+        "date": "2025-01-01",
         "brand": "HUGO BOSS",
         "name": "ESC. INSP. EN HUGO BOSS REVERSE MEN ",
         "category": "Diseñador",
@@ -5943,6 +6314,7 @@ export const perfumes = [
     },
     {
         "id": 372,
+        "date": "2025-01-01",
         "brand": "HUGO BOSS",
         "name": "ESC. INSP. EN HUGO BOSS THE SCENT MEN ",
         "category": "Diseñador",
@@ -5959,6 +6331,7 @@ export const perfumes = [
     },
     {
         "id": 373,
+        "date": "2025-01-01",
         "brand": "HUGO BOSS",
         "name": "ESC. INSP. EN HUGO BOSS BOTTLED TONIC MEN",
         "category": "Diseñador",
@@ -5975,6 +6348,7 @@ export const perfumes = [
     },
     {
         "id": 374,
+        "date": "2025-01-01",
         "brand": "HUGO BOSS",
         "name": "ESC. INSP. EN HUGO BOSS BOTTLED UNLIMITED MEN",
         "category": "Diseñador",
@@ -5991,6 +6365,7 @@ export const perfumes = [
     },
     {
         "id": 375,
+        "date": "2025-01-01",
         "brand": "HUGO BOSS",
         "name": "ESC. INSP. EN HUGO BOSS VERDE MEN",
         "category": "Diseñador",
@@ -6007,6 +6382,7 @@ export const perfumes = [
     },
     {
         "id": 376,
+        "date": "2025-01-01",
         "brand": "IBRAHIMOVIC",
         "name": "ESC. INSP. EN ZLATAN POUR HOMME",
         "category": "Diseñador",
@@ -6023,6 +6399,7 @@ export const perfumes = [
     },
     {
         "id": 377,
+        "date": "2025-01-01",
         "brand": "ISSEY MIYAKE",
         "name": "ESC. INSP. EN ISSEY MIYAKE LEAU D ISSEY INTENSE POUR HOMME",
         "category": "Diseñador",
@@ -6039,6 +6416,7 @@ export const perfumes = [
     },
     {
         "id": 378,
+        "date": "2025-01-01",
         "brand": "ISSEY MIYAKE",
         "name": "ESC. INSP. EN ISSEY MIYAKE",
         "category": "Diseñador",
@@ -6055,6 +6433,7 @@ export const perfumes = [
     },
     {
         "id": 379,
+        "date": "2025-01-01",
         "brand": "ISSEY MIYAKE",
         "name": "ESC. INSP. EN ISSEY MIYAKE NUIT",
         "category": "Diseñador",
@@ -6071,6 +6450,7 @@ export const perfumes = [
     },
     {
         "id": 380,
+        "date": "2025-01-01",
         "brand": "JEAN PASCAL",
         "name": "ESC. INSP. EN JEAN PASCAL.",
         "category": "Diseñador",
@@ -6087,6 +6467,7 @@ export const perfumes = [
     },
     {
         "id": 381,
+        "date": "2025-01-01",
         "brand": "JEAN PAUL GAULTIER",
         "name": "ESC. INSP. EN JEAN PAUL GAUTIER",
         "category": "Diseñador",
@@ -6103,6 +6484,7 @@ export const perfumes = [
     },
     {
         "id": 382,
+        "date": "2025-01-01",
         "brand": "JEAN PAUL GAULTIER",
         "name": "ESC. INSP. EN JEAN PAUL LE MALE ESSENCE DE PARFUM",
         "category": "Diseñador",
@@ -6119,6 +6501,7 @@ export const perfumes = [
     },
     {
         "id": 383,
+        "date": "2025-01-01",
         "brand": "JEAN PAUL GAULTIER",
         "name": "ESC. INSP. EN JEAN PAUL LE MALE LE PARFUM",
         "category": "Diseñador",
@@ -6135,6 +6518,7 @@ export const perfumes = [
     },
     {
         "id": 384,
+        "date": "2025-01-01",
         "brand": "JEAN PAUL GAULTIER",
         "name": "ESC. INSP. EN JEAN PAUL GAULTIER SCANDAL Hombre.",
         "category": "Diseñador",
@@ -6151,6 +6535,7 @@ export const perfumes = [
     },
     {
         "id": 385,
+        "date": "2025-01-01",
         "brand": "JEAN PAUL GAULTIER",
         "name": "ESC. INSP. EN JEAN PAUL ULTRA MALE",
         "category": "Diseñador",
@@ -6167,6 +6552,7 @@ export const perfumes = [
     },
     {
         "id": 386,
+        "date": "2025-01-01",
         "brand": "JEAN PAUL GAULTIER",
         "name": "ESC. INSP. EN JEAN PAUL GAULTIER LE BEAU",
         "category": "Diseñador",
@@ -6183,6 +6569,7 @@ export const perfumes = [
     },
     {
         "id": 387,
+        "date": "2025-01-01",
         "brand": "JEAN PAUL GAULTIER",
         "name": "ESC. INSP. EN JEAN PAUL GAULTIER LE BEAU LE PARFUM",
         "category": "Diseñador",
@@ -6199,6 +6586,7 @@ export const perfumes = [
     },
     {
         "id": 388,
+        "date": "2025-01-01",
         "brand": "JEAN PAUL GAULTIER",
         "name": "ESC. INSP. EN JEAN PAUL LE MALE ELIXIR",
         "category": "Diseñador",
@@ -6215,6 +6603,7 @@ export const perfumes = [
     },
     {
         "id": 389,
+        "date": "2025-01-01",
         "brand": "JOOP",
         "name": "ESC. INSP. EN JOOP HOMME",
         "category": "Diseñador",
@@ -6231,6 +6620,7 @@ export const perfumes = [
     },
     {
         "id": 390,
+        "date": "2025-01-01",
         "brand": "LACOSTE",
         "name": "ESC. INSP. EN LACOSTE BLANC EAU INTENSE MEN",
         "category": "Diseñador",
@@ -6247,6 +6637,7 @@ export const perfumes = [
     },
     {
         "id": 391,
+        "date": "2025-01-01",
         "brand": "LACOSTE",
         "name": "ESC. INSP. EN LACOSTE BLANCA MEN",
         "category": "Diseñador",
@@ -6263,6 +6654,7 @@ export const perfumes = [
     },
     {
         "id": 392,
+        "date": "2025-01-01",
         "brand": "LACOSTE",
         "name": "ESC. INSP. EN LACOSTE ENERGISE",
         "category": "Diseñador",
@@ -6279,6 +6671,7 @@ export const perfumes = [
     },
     {
         "id": 393,
+        "date": "2025-01-01",
         "brand": "LACOSTE",
         "name": "ESC. INSP. EN LACOSTE ESSENTIAL",
         "category": "Diseñador",
@@ -6295,6 +6688,7 @@ export const perfumes = [
     },
     {
         "id": 394,
+        "date": "2025-01-01",
         "brand": "LACOSTE",
         "name": "ESC. INSP. EN LACOSTE FREICHE",
         "category": "Diseñador",
@@ -6311,6 +6705,7 @@ export const perfumes = [
     },
     {
         "id": 395,
+        "date": "2025-01-01",
         "brand": "LACOSTE",
         "name": "ESC. INSP. EN LACOSTE L12 BLEU",
         "category": "Diseñador",
@@ -6327,6 +6722,7 @@ export const perfumes = [
     },
     {
         "id": 396,
+        "date": "2025-01-01",
         "brand": "LACOSTE",
         "name": "ESC. INSP. EN LACOSTE L12 JAUNE AMARILLA",
         "category": "Diseñador",
@@ -6343,6 +6739,7 @@ export const perfumes = [
     },
     {
         "id": 397,
+        "date": "2025-01-01",
         "brand": "LACOSTE",
         "name": "ESC. INSP. EN LACOSTE L12 ROUGE",
         "category": "Diseñador",
@@ -6359,6 +6756,7 @@ export const perfumes = [
     },
     {
         "id": 398,
+        "date": "2025-01-01",
         "brand": "LACOSTE",
         "name": "ESC. INSP. EN LACOSTE MAGNETIC",
         "category": "Diseñador",
@@ -6375,6 +6773,7 @@ export const perfumes = [
     },
     {
         "id": 399,
+        "date": "2025-01-01",
         "brand": "LACOSTE",
         "name": "ESC. INSP. EN LACOSTE NOIR NEGRA",
         "category": "Diseñador",
@@ -6391,6 +6790,7 @@ export const perfumes = [
     },
     {
         "id": 400,
+        "date": "2025-01-01",
         "brand": "LACOSTE",
         "name": "ESC. INSP. EN LACOSTE RED",
         "category": "Diseñador",
@@ -6407,6 +6807,7 @@ export const perfumes = [
     },
     {
         "id": 401,
+        "date": "2025-01-01",
         "brand": "LIZ CLAIBOME",
         "name": "ESC. INSP. EN LIZ CLAIBOME CURVE",
         "category": "Diseñador",
@@ -6423,6 +6824,7 @@ export const perfumes = [
     },
     {
         "id": 402,
+        "date": "2025-01-01",
         "brand": "LOEWE",
         "name": "ESC. INSP. EN LOEWE 7 LOEWE",
         "category": "Diseñador",
@@ -6439,6 +6841,7 @@ export const perfumes = [
     },
     {
         "id": 403,
+        "date": "2025-01-01",
         "brand": "LOEWE",
         "name": "ESC. INSP. EN LOEWE SOLO LOEWE",
         "category": "Diseñador",
@@ -6455,6 +6858,7 @@ export const perfumes = [
     },
     {
         "id": 404,
+        "date": "2025-01-01",
         "brand": "MALUMA",
         "name": "ESC. INSP. EN MALUMA GARNET",
         "category": "Diseñador",
@@ -6471,6 +6875,7 @@ export const perfumes = [
     },
     {
         "id": 405,
+        "date": "2025-01-01",
         "brand": "MALUMA",
         "name": "ESC. INSP. EN MALUMA ONYX",
         "category": "Diseñador",
@@ -6487,6 +6892,7 @@ export const perfumes = [
     },
     {
         "id": 406,
+        "date": "2025-01-01",
         "brand": "MONT BLANC",
         "name": "ESC. INSP. EN MONT BLANC EMBLEM",
         "category": "Diseñador",
@@ -6503,6 +6909,7 @@ export const perfumes = [
     },
     {
         "id": 407,
+        "date": "2025-01-01",
         "brand": "MONT BLANC",
         "name": "ESC. INSP. EN MONT BLANC EXPLORER",
         "category": "Diseñador",
@@ -6519,6 +6926,7 @@ export const perfumes = [
     },
     {
         "id": 408,
+        "date": "2025-01-01",
         "brand": "MONT BLANC",
         "name": "ESC. INSP. EN MONT BLANC EXPLORER PLATINUM",
         "category": "Diseñador",
@@ -6535,6 +6943,7 @@ export const perfumes = [
     },
     {
         "id": 409,
+        "date": "2025-01-01",
         "brand": "MONT BLANC",
         "name": "ESC. INSP. EN MONT BLANC LEGEND",
         "category": "Diseñador",
@@ -6551,6 +6960,7 @@ export const perfumes = [
     },
     {
         "id": 410,
+        "date": "2025-01-01",
         "brand": "MONT BLANC",
         "name": "ESC. INSP. EN MONT BLANC LEGEND SPIRIT",
         "category": "Diseñador",
@@ -6567,6 +6977,7 @@ export const perfumes = [
     },
     {
         "id": 411,
+        "date": "2025-01-01",
         "brand": "MONT BLANC",
         "name": "ESC. INSP. EN MONT BLANC STARWALKER",
         "category": "Diseñador",
@@ -6583,6 +6994,7 @@ export const perfumes = [
     },
     {
         "id": 412,
+        "date": "2025-01-01",
         "brand": "MONT BLANC",
         "name": "ESC. INSP. EN MONT BLANC LEGEND NIGHT",
         "category": "Diseñador",
@@ -6599,6 +7011,7 @@ export const perfumes = [
     },
     {
         "id": 413,
+        "date": "2025-01-01",
         "brand": "MOSCHINO",
         "name": "ESC. INSP. EN MOSCHINO TOY BOY",
         "category": "Diseñador",
@@ -6615,6 +7028,7 @@ export const perfumes = [
     },
     {
         "id": 414,
+        "date": "2025-01-01",
         "brand": "NATURA",
         "name": "ESC INSP. EN KAIAK FOR MEN",
         "category": "Diseñador",
@@ -6631,6 +7045,7 @@ export const perfumes = [
     },
     {
         "id": 415,
+        "date": "2025-01-01",
         "brand": "NAUTICA",
         "name": "ESC. INSP. EN NAUTICA VOYAGE",
         "category": "Diseñador",
@@ -6647,6 +7062,7 @@ export const perfumes = [
     },
     {
         "id": 416,
+        "date": "2025-01-01",
         "brand": "NAUTICA",
         "name": "ESC. INSP. EN NAUTICA BLUE SAIL",
         "category": "Diseñador",
@@ -6663,6 +7079,7 @@ export const perfumes = [
     },
     {
         "id": 417,
+        "date": "2025-01-01",
         "brand": "OSCAR DE LA RENTA",
         "name": "ESC. INSP. EN OSCAR DE LA RENTA POUR LUI MEN",
         "category": "Diseñador",
@@ -6679,6 +7096,7 @@ export const perfumes = [
     },
     {
         "id": 418,
+        "date": "2025-01-01",
         "brand": "PACO RABANNE",
         "name": "ESC. INSP. EN PACO RABANNE BLACK XS APHRODISIAQUE MEN ",
         "category": "Diseñador",
@@ -6695,6 +7113,7 @@ export const perfumes = [
     },
     {
         "id": 419,
+        "date": "2025-01-01",
         "brand": "PACO RABANNE",
         "name": "ESC. INSP. EN PACORABANNE BLACK XS BE A LEGEND MEN",
         "category": "Diseñador",
@@ -6711,6 +7130,7 @@ export const perfumes = [
     },
     {
         "id": 420,
+        "date": "2025-01-01",
         "brand": "PACO RABANNE",
         "name": "ESC. INSP. EN PACO RABANNE BLACK XS LEXCES",
         "category": "Diseñador",
@@ -6727,6 +7147,7 @@ export const perfumes = [
     },
     {
         "id": 421,
+        "date": "2025-01-01",
         "brand": "PACO RABANNE",
         "name": "ESC. INSP. EN PACO RABANNE BLACK XS LOS ANGELES MEN ",
         "category": "Diseñador",
@@ -6743,6 +7164,7 @@ export const perfumes = [
     },
     {
         "id": 422,
+        "date": "2025-01-01",
         "brand": "PACO RABANNE",
         "name": "ESC. INSP. EN PACO RABANNE BLACK XS PURE",
         "category": "Diseñador",
@@ -6759,6 +7181,7 @@ export const perfumes = [
     },
     {
         "id": 423,
+        "date": "2025-01-01",
         "brand": "PACO RABANNE",
         "name": "ESC. INSP. EN PACO RABANNE BLACK XS TRADICIONAL",
         "category": "Diseñador",
@@ -6775,6 +7198,7 @@ export const perfumes = [
     },
     {
         "id": 424,
+        "date": "2025-01-01",
         "brand": "PACO RABANNE",
         "name": "ESC. INSP. EN PACO RABANNE INVICTUS AQUA ",
         "category": "Diseñador",
@@ -6791,6 +7215,7 @@ export const perfumes = [
     },
     {
         "id": 425,
+        "date": "2025-01-01",
         "brand": "PACO RABANNE",
         "name": "ESC. INSP. EN PACO RABANNE INVICTUS INTENSE",
         "category": "Diseñador",
@@ -6807,6 +7232,7 @@ export const perfumes = [
     },
     {
         "id": 426,
+        "date": "2025-01-01",
         "brand": "PACO RABANNE",
         "name": "ESC. INSP. EN PACO RABANNE INVICTUS LEGEND",
         "category": "Diseñador",
@@ -6823,6 +7249,7 @@ export const perfumes = [
     },
     {
         "id": 427,
+        "date": "2025-01-01",
         "brand": "PACO RABANNE",
         "name": "ESC. INSP. EN PACO RABANNE INVICTUS",
         "category": "Diseñador",
@@ -6839,6 +7266,7 @@ export const perfumes = [
     },
     {
         "id": 428,
+        "date": "2025-01-01",
         "brand": "PACO RABANNE",
         "name": "ESC. INSP. EN PACO RABANNE INVICTUS ONYX",
         "category": "Diseñador",
@@ -6855,6 +7283,7 @@ export const perfumes = [
     },
     {
         "id": 429,
+        "date": "2025-01-01",
         "brand": "PACO RABANNE",
         "name": "ESC. INSP. EN PACO RABANNE INVICTUS VICTORY.",
         "category": "Diseñador",
@@ -6871,6 +7300,7 @@ export const perfumes = [
     },
     {
         "id": 430,
+        "date": "2025-01-01",
         "brand": "PACO RABANNE",
         "name": "ESC. INSP. EN PACO RABANNE INVICTUS VICTORY ELIXIR MEN",
         "category": "Diseñador",
@@ -6887,6 +7317,7 @@ export const perfumes = [
     },
     {
         "id": 431,
+        "date": "2025-01-01",
         "brand": "PACO RABANNE",
         "name": "ESC. INSP. EN PACO RABANNE INVICTUS PARFUM MEN",
         "category": "Diseñador",
@@ -6903,6 +7334,7 @@ export const perfumes = [
     },
     {
         "id": 432,
+        "date": "2025-01-01",
         "brand": "PACO RABANNE",
         "name": "ESC. INSP. EN PACO RABANNE INVICTUS PLATINUM MEN",
         "category": "Diseñador",
@@ -6919,6 +7351,7 @@ export const perfumes = [
     },
     {
         "id": 433,
+        "date": "2025-01-01",
         "brand": "PACO RABANNE",
         "name": "ESC. INSP. EN PACO RABANNE MILLION GOLD INTENSE MEN",
         "category": "Diseñador",
@@ -6935,6 +7368,7 @@ export const perfumes = [
     },
     {
         "id": 434,
+        "date": "2025-01-01",
         "brand": "PACO RABANNE",
         "name": "ESC. INSP. EN PACO RABANNE ONE MILLION MEN",
         "category": "Diseñador",
@@ -6951,6 +7385,7 @@ export const perfumes = [
     },
     {
         "id": 435,
+        "date": "2025-01-01",
         "brand": "PACO RABANNE",
         "name": "ESC. INSP. EN PACO RABANNE ONE MILLION ELIXIR",
         "category": "Diseñador",
@@ -6967,6 +7402,7 @@ export const perfumes = [
     },
     {
         "id": 436,
+        "date": "2025-01-01",
         "brand": "PACO RABANNE",
         "name": "ESC. INSP. EN PACO RABANNE ONE MILLION LUCKY",
         "category": "Diseñador",
@@ -6983,6 +7419,7 @@ export const perfumes = [
     },
     {
         "id": 437,
+        "date": "2025-01-01",
         "brand": "PACO RABANNE",
         "name": "ESC. INSP. EN PACO RABANNE ONE MILLION PRIVE",
         "category": "Diseñador",
@@ -6999,6 +7436,7 @@ export const perfumes = [
     },
     {
         "id": 438,
+        "date": "2025-01-01",
         "brand": "PACO RABANNE",
         "name": "ESC. INSP. EN PACO RABANNE ONE MILLION ROYAL MEN",
         "category": "Diseñador",
@@ -7015,6 +7453,7 @@ export const perfumes = [
     },
     {
         "id": 439,
+        "date": "2025-01-01",
         "brand": "PACO RABANNE",
         "name": "ESC. INSP. EN PACO RABANNE PHANTOM ",
         "category": "Diseñador",
@@ -7031,6 +7470,7 @@ export const perfumes = [
     },
     {
         "id": 440,
+        "date": "2025-01-01",
         "brand": "PACO RABANNE",
         "name": "ESC. INSP. EN PACO RABANNE PHANTOM LEGION",
         "category": "Diseñador",
@@ -7047,6 +7487,7 @@ export const perfumes = [
     },
     {
         "id": 441,
+        "date": "2025-01-01",
         "brand": "PACO RABANNE",
         "name": "ESC. INSP. EN PACO RABANNE PHANTOM INTENSE MEN",
         "category": "Diseñador",
@@ -7063,6 +7504,7 @@ export const perfumes = [
     },
     {
         "id": 442,
+        "date": "2025-01-01",
         "brand": "PACO RABANNE",
         "name": "ESC. INSP. EN PHANTOM PARFUM RABANNE",
         "category": "Diseñador",
@@ -7079,6 +7521,7 @@ export const perfumes = [
     },
     {
         "id": 443,
+        "date": "2025-01-01",
         "brand": "PACO RABANNE",
         "name": "ESC. INSP. EN PACO RABANNE PACO MEN",
         "category": "Diseñador",
@@ -7095,6 +7538,7 @@ export const perfumes = [
     },
     {
         "id": 444,
+        "date": "2025-01-01",
         "brand": "PARIS HILTON",
         "name": "ESC. INSP. EN PARIS HILTON GOLD RUSH",
         "category": "Diseñador",
@@ -7111,6 +7555,7 @@ export const perfumes = [
     },
     {
         "id": 445,
+        "date": "2025-01-01",
         "brand": "PARIS HILTON",
         "name": "ESC. INSP. EN PARIS HILTON",
         "category": "Diseñador",
@@ -7127,6 +7572,7 @@ export const perfumes = [
     },
     {
         "id": 446,
+        "date": "2025-01-01",
         "brand": "PENHALIGONS",
         "name": "ESC. INSP. EN PENHALIGONS LORD GEORGE",
         "category": "Diseñador",
@@ -7143,6 +7589,7 @@ export const perfumes = [
     },
     {
         "id": 447,
+        "date": "2025-01-01",
         "brand": "PERRY ELLIS",
         "name": "ESC. INSP. EN PERRY ELLIS 360 RED",
         "category": "Diseñador",
@@ -7159,6 +7606,7 @@ export const perfumes = [
     },
     {
         "id": 448,
+        "date": "2025-01-01",
         "brand": "PERRY ELLIS",
         "name": "ESC. INSP. EN PERRY ELLIS 360 TRADICIONAL",
         "category": "Diseñador",
@@ -7175,6 +7623,7 @@ export const perfumes = [
     },
     {
         "id": 449,
+        "date": "2025-01-01",
         "brand": "PHILIPP PLEIN",
         "name": "ESC. INSP. EN PHILIPP PLEIN NO LIMITS",
         "category": "Diseñador",
@@ -7191,6 +7640,7 @@ export const perfumes = [
     },
     {
         "id": 450,
+        "date": "2025-01-01",
         "brand": "PRADA",
         "name": "ESC. INSP. EN PRADA LUNA ROSSA OCEAN",
         "category": "Diseñador",
@@ -7207,6 +7657,7 @@ export const perfumes = [
     },
     {
         "id": 451,
+        "date": "2025-01-01",
         "brand": "PRADA",
         "name": "ESC. INSP. EN PRADA LUNA ROSSA CARBON",
         "category": "Diseñador",
@@ -7223,6 +7674,7 @@ export const perfumes = [
     },
     {
         "id": 452,
+        "date": "2025-01-01",
         "brand": "RALPH LAUREN",
         "name": "ESC. INSP. EN POLO BLUE",
         "category": "Diseñador",
@@ -7239,6 +7691,7 @@ export const perfumes = [
     },
     {
         "id": 453,
+        "date": "2025-01-01",
         "brand": "RALPH LAUREN",
         "name": "ESC. INSP. EN POLO RED",
         "category": "Diseñador",
@@ -7255,6 +7708,7 @@ export const perfumes = [
     },
     {
         "id": 454,
+        "date": "2025-01-01",
         "brand": "RALPH LAUREN",
         "name": "ESC. INSP. EN POLO ULTRA BLUE",
         "category": "Diseñador",
@@ -7271,6 +7725,7 @@ export const perfumes = [
     },
     {
         "id": 455,
+        "date": "2025-01-01",
         "brand": "REVLON",
         "name": "ESC. INSP. EN REVLON JEAN NATTE Hombre ",
         "category": "Diseñador",
@@ -7287,6 +7742,7 @@ export const perfumes = [
     },
     {
         "id": 456,
+        "date": "2025-01-01",
         "brand": "REYANE",
         "name": "ESC. INSP. EN INSURRECTION",
         "category": "Diseñador",
@@ -7303,6 +7759,7 @@ export const perfumes = [
     },
     {
         "id": 457,
+        "date": "2025-01-01",
         "brand": "ROLEX",
         "name": "ESC. INSP. EN ROLEX",
         "category": "Diseñador",
@@ -7319,6 +7776,7 @@ export const perfumes = [
     },
     {
         "id": 458,
+        "date": "2025-01-01",
         "brand": "TED LAPIDUS",
         "name": "ESC. INSP. EN LAPIDUSS",
         "category": "Diseñador",
@@ -7335,6 +7793,7 @@ export const perfumes = [
     },
     {
         "id": 459,
+        "date": "2025-01-01",
         "brand": "THIERRY MUGLER",
         "name": "ESC. INSP. EN THIERRY MUGLER ANGEL",
         "category": "Diseñador",
@@ -7351,6 +7810,7 @@ export const perfumes = [
     },
     {
         "id": 460,
+        "date": "2025-01-01",
         "brand": "TOMMY HILFIGER",
         "name": "ESC. INSP. EN TOMMY",
         "category": "Diseñador",
@@ -7367,6 +7827,7 @@ export const perfumes = [
     },
     {
         "id": 461,
+        "date": "2025-01-01",
         "brand": "VALENTINO",
         "name": "ESC. INSP. EN VALENTINO BORN IN ROMA",
         "category": "Diseñador",
@@ -7383,6 +7844,7 @@ export const perfumes = [
     },
     {
         "id": 462,
+        "date": "2025-01-01",
         "brand": "VALENTINO",
         "name": "ESC. INSP. EN VALENTINO UOMO",
         "category": "Diseñador",
@@ -7399,6 +7861,7 @@ export const perfumes = [
     },
     {
         "id": 463,
+        "date": "2025-01-01",
         "brand": "VERSACE",
         "name": "ESC. INSP. EN VERSACE BLUE JEANS",
         "category": "Diseñador",
@@ -7415,6 +7878,7 @@ export const perfumes = [
     },
     {
         "id": 464,
+        "date": "2025-01-01",
         "brand": "VERSACE",
         "name": "ESC. INSP. EN VERSACE DYLAN BLUE",
         "category": "Diseñador",
@@ -7431,6 +7895,7 @@ export const perfumes = [
     },
     {
         "id": 465,
+        "date": "2025-01-01",
         "brand": "VERSACE",
         "name": "ESC. INSP. EN VERSACE EROS",
         "category": "Diseñador",
@@ -7447,6 +7912,7 @@ export const perfumes = [
     },
     {
         "id": 466,
+        "date": "2025-01-01",
         "brand": "VERSACE",
         "name": "ESC. INSP. EN VERSACE EROS FLAME",
         "category": "Diseñador",
@@ -7463,6 +7929,7 @@ export const perfumes = [
     },
     {
         "id": 467,
+        "date": "2025-01-01",
         "brand": "VERSACE",
         "name": "ESC. INSP. EN VERSACE FREICHE",
         "category": "Diseñador",
@@ -7479,6 +7946,7 @@ export const perfumes = [
     },
     {
         "id": 468,
+        "date": "2025-01-01",
         "brand": "VERSACE",
         "name": "ESC. INSP. EN VERSACE POUR HOMME",
         "category": "Diseñador",
@@ -7495,6 +7963,7 @@ export const perfumes = [
     },
     {
         "id": 469,
+        "date": "2025-01-01",
         "brand": "VICTOR ROLF",
         "name": "ESC. INSP. EN VICTOR ROLF SPICEBOMB",
         "category": "Diseñador",
@@ -7511,6 +7980,7 @@ export const perfumes = [
     },
     {
         "id": 470,
+        "date": "2025-01-01",
         "brand": "VICTORINOX",
         "name": "ESC. INSP. EN SWISS ARMY",
         "category": "Diseñador",
@@ -7527,6 +7997,7 @@ export const perfumes = [
     },
     {
         "id": 471,
+        "date": "2025-01-01",
         "brand": "VIDAL",
         "name": "ESC. INSP. EN PINO SILVESTRE BY VIDAL",
         "category": "Diseñador",
@@ -7543,6 +8014,7 @@ export const perfumes = [
     },
     {
         "id": 472,
+        "date": "2025-01-01",
         "brand": "YANBAL",
         "name": "ESC. INSP. EN YANBAL 43 N PARALEL",
         "category": "Diseñador",
@@ -7559,6 +8031,7 @@ export const perfumes = [
     },
     {
         "id": 473,
+        "date": "2025-01-01",
         "brand": "YANBAL",
         "name": "ESC. INSP. EN YANBAL ADRENALINE",
         "category": "Diseñador",
@@ -7575,6 +8048,7 @@ export const perfumes = [
     },
     {
         "id": 474,
+        "date": "2025-01-01",
         "brand": "YANBAL",
         "name": "ESC. INSP. EN YANBAL AROM POUR HOMME",
         "category": "Diseñador",
@@ -7591,6 +8065,7 @@ export const perfumes = [
     },
     {
         "id": 475,
+        "date": "2025-01-01",
         "brand": "YANBAL",
         "name": "ESC. INSP. EN YANBAL OHM",
         "category": "Diseñador",
@@ -7607,6 +8082,7 @@ export const perfumes = [
     },
     {
         "id": 476,
+        "date": "2025-01-01",
         "brand": "YANBAL",
         "name": "ESC. INSP. EN YANBAL OHM SOUL",
         "category": "Diseñador",
@@ -7623,6 +8099,7 @@ export const perfumes = [
     },
     {
         "id": 477,
+        "date": "2025-01-01",
         "brand": "YANBAL",
         "name": "ESC. INSP. EN YANBAL OSADIA ",
         "category": "Diseñador",
@@ -7639,6 +8116,7 @@ export const perfumes = [
     },
     {
         "id": 478,
+        "date": "2025-01-01",
         "brand": "YANBAL",
         "name": "ESC. INSP. EN YANBAL SOLO",
         "category": "Diseñador",
@@ -7655,6 +8133,7 @@ export const perfumes = [
     },
     {
         "id": 479,
+        "date": "2025-01-01",
         "brand": "YANBAL",
         "name": "ESC. INSP. EN YANBAL TEMPTATION",
         "category": "Diseñador",
@@ -7671,6 +8150,7 @@ export const perfumes = [
     },
     {
         "id": 480,
+        "date": "2025-01-01",
         "brand": "YVES SAINT LAURENT",
         "name": "ESC. INSP. EN YVES SAINT LORANT M7",
         "category": "Diseñador",
@@ -7687,6 +8167,7 @@ export const perfumes = [
     },
     {
         "id": 481,
+        "date": "2025-01-01",
         "brand": "YVES SAINT LAURENT",
         "name": "ESC. INSP. EN YVES YVES SAINT L.",
         "category": "Diseñador",
@@ -7703,6 +8184,7 @@ export const perfumes = [
     },
     {
         "id": 482,
+        "date": "2025-01-01",
         "brand": "AFNAN",
         "name": "ESC. INSP. EN AFNAN 9AM DIVE",
         "category": "Nicho",
@@ -7719,6 +8201,7 @@ export const perfumes = [
     },
     {
         "id": 483,
+        "date": "2025-01-01",
         "brand": "AFNAN",
         "name": "ESC. INSP. EN AFNAN 9PM",
         "category": "Nicho",
@@ -7735,6 +8218,7 @@ export const perfumes = [
     },
     {
         "id": 484,
+        "date": "2025-01-01",
         "brand": "AFNAN",
         "name": "ESC. INSP. EN AFNAN 9PM POUR FEMME",
         "category": "Nicho",
@@ -7751,6 +8235,7 @@ export const perfumes = [
     },
     {
         "id": 485,
+        "date": "2025-01-01",
         "brand": "AFNAN",
         "name": "ESC. INSP. EN 9AM POUR FEMME",
         "category": "Nicho",
@@ -7767,6 +8252,7 @@ export const perfumes = [
     },
     {
         "id": 486,
+        "date": "2025-01-01",
         "brand": "AHLI",
         "name": "ESC. INSP. EN AHLI AURIGA",
         "category": "Nicho",
@@ -7783,6 +8269,7 @@ export const perfumes = [
     },
     {
         "id": 487,
+        "date": "2025-01-01",
         "brand": "AHLI",
         "name": "ESC. INSP. EN AHLI CANES",
         "category": "Nicho",
@@ -7799,6 +8286,7 @@ export const perfumes = [
     },
     {
         "id": 488,
+        "date": "2025-01-01",
         "brand": "AHLI",
         "name": "ESC. INSP. EN AHLI CORVUS",
         "category": "Nicho",
@@ -7815,6 +8303,7 @@ export const perfumes = [
     },
     {
         "id": 489,
+        "date": "2025-01-01",
         "brand": "AHLI",
         "name": "ESC. INSP. EN AHLI KARPOS",
         "category": "Nicho",
@@ -7831,6 +8320,7 @@ export const perfumes = [
     },
     {
         "id": 490,
+        "date": "2025-01-01",
         "brand": "AHLI",
         "name": "ESC. INSP. EN AHLI OCTANS",
         "category": "Nicho",
@@ -7847,6 +8337,7 @@ export const perfumes = [
     },
     {
         "id": 491,
+        "date": "2025-01-01",
         "brand": "AHLI",
         "name": "ESC. INSP. EN AHLI OVERDOSE",
         "category": "Nicho",
@@ -7863,6 +8354,7 @@ export const perfumes = [
     },
     {
         "id": 492,
+        "date": "2025-01-01",
         "brand": "AHLI",
         "name": "ESC. INSP. EN AHLI VEGA",
         "category": "Nicho",
@@ -7879,6 +8371,7 @@ export const perfumes = [
     },
     {
         "id": 493,
+        "date": "2025-01-01",
         "brand": "ALEXANDRE J .",
         "name": "ESC. INSP. EN ALEXANDRE J BLACK MUSCS Unisex ",
         "category": "Nicho",
@@ -7895,6 +8388,7 @@ export const perfumes = [
     },
     {
         "id": 494,
+        "date": "2025-01-01",
         "brand": "ALEXANDRE J .",
         "name": "ESC. INSP. EN ALEXANDRE J ROSE ALBA  ",
         "category": "Nicho",
@@ -7911,6 +8405,7 @@ export const perfumes = [
     },
     {
         "id": 495,
+        "date": "2025-01-01",
         "brand": "AMOUAGE",
         "name": "ESC. INSP. EN AMOUAGE INTERLUDE",
         "category": "Nicho",
@@ -7927,6 +8422,7 @@ export const perfumes = [
     },
     {
         "id": 496,
+        "date": "2025-01-01",
         "brand": "AMOUAGE",
         "name": "ESC. INSP. EN AMOUAGE SUNSHINE",
         "category": "Nicho",
@@ -7943,6 +8439,7 @@ export const perfumes = [
     },
     {
         "id": 497,
+        "date": "2025-01-01",
         "brand": "ARMAF",
         "name": "ESC. INSP. EN ARMAF CLUB DE NUIT",
         "category": "Nicho",
@@ -7959,6 +8456,7 @@ export const perfumes = [
     },
     {
         "id": 498,
+        "date": "2025-01-01",
         "brand": "ARMAF",
         "name": "ESC. INSP. EN ARMAF CLUB DE NUIT INTENSE MEN",
         "category": "Nicho",
@@ -7975,6 +8473,7 @@ export const perfumes = [
     },
     {
         "id": 499,
+        "date": "2025-01-01",
         "brand": "ARMAF",
         "name": "ESC. INSP. EN ARMAF CLUB DE NUIT SILLAGE",
         "category": "Nicho",
@@ -7991,6 +8490,7 @@ export const perfumes = [
     },
     {
         "id": 500,
+        "date": "2025-01-01",
         "brand": "ARMAF",
         "name": "ESC. INSP. EN THE LIONS CLUB RUGIR",
         "category": "Nicho",
@@ -8007,6 +8507,7 @@ export const perfumes = [
     },
     {
         "id": 501,
+        "date": "2025-01-01",
         "brand": "ARMAF",
         "name": "ESC. INSP. EN THE LIONS CLUB MONARQUE",
         "category": "Nicho",
@@ -8023,6 +8524,7 @@ export const perfumes = [
     },
     {
         "id": 502,
+        "date": "2025-01-01",
         "brand": "ARMAF",
         "name": "ESC. INSP. EN LIONHEART WOMAN",
         "category": "Nicho",
@@ -8039,6 +8541,7 @@ export const perfumes = [
     },
     {
         "id": 503,
+        "date": "2025-01-01",
         "brand": "ARMAF",
         "name": "ESC. INSP. EN LIONHEART MEN",
         "category": "Nicho",
@@ -8055,6 +8558,7 @@ export const perfumes = [
     },
     {
         "id": 504,
+        "date": "2025-01-01",
         "brand": "ARMAF",
         "name": "ESC. INSP. EN ODYSSEY MANDARIN SKY ",
         "category": "Nicho",
@@ -8071,10 +8575,10 @@ export const perfumes = [
     },
     {
         "id": 737,
+        "date": "2025-01-01",
         "brand": "ARMAF",
         "name": "ESC. INSP EN ODYSSEY HOMME WHITE EDITION",
         "category": "Nicho",
-        "isNew": true,
         "newName": "LUMINOUS AURA",
         "gender": "Hombre",
         "10 KG EN ADELANTE": 150,
@@ -8088,10 +8592,10 @@ export const perfumes = [
     },
     {
         "id": 734,
+        "date": "2025-01-01",
         "brand": "ARMAF",
         "name": "ESC. INSP EN ODYSSEY AQUA",
         "category": "Nicho",
-        "isNew": true,
         "newName": "GREEN SEA",
         "gender": "Hombre",
         "10 KG EN ADELANTE": 160,
@@ -8105,6 +8609,7 @@ export const perfumes = [
     },
     {
         "id": 505,
+        "date": "2025-01-01",
         "brand": "ARMAF",
         "name": "ESC. INSP. EN ODYSSEY AOUD",
         "category": "Nicho",
@@ -8121,6 +8626,7 @@ export const perfumes = [
     },
     {
         "id": 506,
+        "date": "2025-01-01",
         "brand": "ARMAF",
         "name": "ESC. INSP. EN CLUB DE NUIT MILESTONE",
         "category": "Nicho",
@@ -8137,10 +8643,10 @@ export const perfumes = [
     },
     {
         "id": 507,
+        "date": "2025-01-01",
         "brand": "ARMAF",
         "name": "ESC. INSP. EN YUM YUM",
         "category": "Nicho",
-        "isNew": true,
         "newName": "AMILKSHAKE PLEASE",
         "gender": "Mujer",
         "10 KG EN ADELANTE": 159.9888888889,
@@ -8154,10 +8660,10 @@ export const perfumes = [
     },
     {
         "id": 508,
+        "date": "2025-01-01",
         "brand": "ARMAF",
         "name": "ESC. INSP. EN ISLAND BLISS",
         "category": "Nicho",
-        "isNew": true,
         "newName": "TROPICAL GETAWAY",
         "gender": "Mujer",
         "10 KG EN ADELANTE": 159.9888888889,
@@ -8171,6 +8677,7 @@ export const perfumes = [
     },
     {
         "id": 509,
+        "date": "2025-01-01",
         "brand": "ATELIER VERSACE",
         "name": "ESC. INSP. EN ATELIER VERSACE SANTAL BOISE",
         "category": "Nicho",
@@ -8187,6 +8694,7 @@ export const perfumes = [
     },
     {
         "id": 510,
+        "date": "2025-01-01",
         "brand": "ATELIER VERSACE",
         "name": "ESC. INSP. EN ATELIER VERSACE VANILLE ROUGE",
         "category": "Nicho",
@@ -8203,10 +8711,10 @@ export const perfumes = [
     },
     {
         "id": 511,
+        "date": "2025-01-01",
         "brand": "BHARARA",
         "name": "ESC. INSP. EN BHARARA BLEU POUR HOMME",
         "category": "Nicho",
-        "isNew": true,
         "newName": "ESTRELLA AZUL",
         "gender": "Hombre",
         "10 KG EN ADELANTE": 210.1011111111,
@@ -8220,6 +8728,7 @@ export const perfumes = [
     },
     {
         "id": 512,
+        "date": "2025-01-01",
         "brand": "BHARARA",
         "name": "ESC. INSP. EN BHARARA NICHE FEMME",
         "category": "Nicho",
@@ -8236,6 +8745,7 @@ export const perfumes = [
     },
     {
         "id": 513,
+        "date": "2025-01-01",
         "brand": "BHARARA",
         "name": "ESC. INSP. EN BHARARA NICHE",
         "category": "Nicho",
@@ -8252,6 +8762,7 @@ export const perfumes = [
     },
     {
         "id": 514,
+        "date": "2025-01-01",
         "brand": "BHARARA",
         "name": "ESC. INSP. EN BHARARA KING",
         "category": "Nicho",
@@ -8268,10 +8779,10 @@ export const perfumes = [
     },
     {
         "id": 515,
+        "date": "2025-01-01",
         "brand": "BHARARA",
         "name": "ESC. INSP. EN BHARARA ONYX",
         "category": "Nicho",
-        "isNew": true,
         "newName": "ONIX  BRAVIU",
         "gender": "Hombre",
         "10 KG EN ADELANTE": 187.0944444444,
@@ -8285,6 +8796,7 @@ export const perfumes = [
     },
     {
         "id": 516,
+        "date": "2025-01-01",
         "brand": "BHARARA",
         "name": "ESC. INSP. EN BHARARA ROSE",
         "category": "Nicho",
@@ -8302,6 +8814,7 @@ export const perfumes = [
 
     {
         "id": 517,
+        "date": "2025-01-01",
         "brand": "BHARARA MAST PERFUME ",
         "name": "ESC. INSP. EN BHARARA VELVET ROSE",
         "category": "Nicho",
@@ -8318,6 +8831,7 @@ export const perfumes = [
     },
     {
         "id": 518,
+        "date": "2025-01-01",
         "brand": "BHARARA",
         "name": "ESC. INSP. EN BHARARA VIKING KASHMIR ",
         "category": "Nicho",
@@ -8334,6 +8848,7 @@ export const perfumes = [
     },
     {
         "id": 519,
+        "date": "2025-01-01",
         "brand": "BOND N 9",
         "name": "ESC. INSP. EN BOND N 9 BLEECKER ST",
         "category": "Nicho",
@@ -8350,6 +8865,7 @@ export const perfumes = [
     },
     {
         "id": 520,
+        "date": "2025-01-01",
         "brand": "BOND N 9",
         "name": "ESC. INSP. EN BOND N 9.COM",
         "category": "Nicho",
@@ -8366,6 +8882,7 @@ export const perfumes = [
     },
     {
         "id": 521,
+        "date": "2025-01-01",
         "brand": "BOND N 9",
         "name": "ESC. INSP. EN BOND N 9 DUBAI RUBY",
         "category": "Nicho",
@@ -8382,6 +8899,7 @@ export const perfumes = [
     },
     {
         "id": 522,
+        "date": "2025-01-01",
         "brand": "BOND N 9",
         "name": "ESC. INSP. EN BOND N 9 HAPTONS",
         "category": "Nicho",
@@ -8398,6 +8916,7 @@ export const perfumes = [
     },
     {
         "id": 523,
+        "date": "2025-01-01",
         "brand": "BOND N 9",
         "name": "ESC. INSP. EN BOND N 9 LAFAYETTE STREET",
         "category": "Nicho",
@@ -8414,6 +8933,7 @@ export const perfumes = [
     },
     {
         "id": 524,
+        "date": "2025-01-01",
         "brand": "BOND N 9",
         "name": "ESC. INSP. EN BOND N 9 NOLITA",
         "category": "Nicho",
@@ -8430,6 +8950,7 @@ export const perfumes = [
     },
     {
         "id": 525,
+        "date": "2025-01-01",
         "brand": "BOND N 9",
         "name": "ESC. INSP. EN BOND N 9 SIGNATURE",
         "category": "Nicho",
@@ -8446,6 +8967,7 @@ export const perfumes = [
     },
     {
         "id": 526,
+        "date": "2025-01-01",
         "brand": "BOND N 9",
         "name": "ESC. INSP. EN BOND N 9 THE SCENT OF PEACE",
         "category": "Nicho",
@@ -8462,6 +8984,7 @@ export const perfumes = [
     },
     {
         "id": 527,
+        "date": "2025-01-01",
         "brand": "BOND N 9",
         "name": "ESC. INSP. EN BOND N 9 TRIBECA",
         "category": "Nicho",
@@ -8478,6 +9001,7 @@ export const perfumes = [
     },
     {
         "id": 528,
+        "date": "2025-01-01",
         "brand": "COACH",
         "name": "ESC. INSP. EN COACH DREAMS SUNSET",
         "category": "Nicho",
@@ -8494,6 +9018,7 @@ export const perfumes = [
     },
     {
         "id": 529,
+        "date": "2025-01-01",
         "brand": "CREED",
         "name": "ESC. INSP. EN CREED AVENTUS",
         "category": "Nicho",
@@ -8510,6 +9035,7 @@ export const perfumes = [
     },
     {
         "id": 530,
+        "date": "2025-01-01",
         "brand": "CREED",
         "name": "ESC. INSP. EN CREED CENTAURUS",
         "category": "Nicho",
@@ -8526,6 +9052,7 @@ export const perfumes = [
     },
     {
         "id": 531,
+        "date": "2025-01-01",
         "brand": "CREED",
         "name": "ESC. INSP. EN CREED LOVE IN WHITE",
         "category": "Nicho",
@@ -8542,6 +9069,7 @@ export const perfumes = [
     },
     {
         "id": 532,
+        "date": "2025-01-01",
         "brand": "CREED",
         "name": "ESC. INSP. EN CREED AVENTUS",
         "category": "Nicho",
@@ -8558,6 +9086,7 @@ export const perfumes = [
     },
     {
         "id": 533,
+        "date": "2025-01-01",
         "brand": "CREED",
         "name": "ESC. INSP. EN CREED CARMINA",
         "category": "Nicho",
@@ -8575,6 +9104,7 @@ export const perfumes = [
 
     {
         "id": 534,
+        "date": "2025-01-01",
         "brand": "CREED",
         "name": "ESC. INSP. EN CREED SPRING FLOWER",
         "category": "Nicho",
@@ -8591,6 +9121,7 @@ export const perfumes = [
     },
     {
         "id": 535,
+        "date": "2025-01-01",
         "brand": "CREED",
         "name": "ESC. INSP. EN CREED GREEN IRISH TWEED",
         "category": "Nicho",
@@ -8607,6 +9138,7 @@ export const perfumes = [
     },
     {
         "id": 536,
+        "date": "2025-01-01",
         "brand": "CREED",
         "name": "ESC. INSP. EN CREED MILLESIME IMPÉRIAL",
         "category": "Nicho",
@@ -8623,6 +9155,7 @@ export const perfumes = [
     },
     {
         "id": 537,
+        "date": "2025-01-01",
         "brand": "CREED",
         "name": "ESC. INSP. EN CREED SANTAL",
         "category": "Nicho",
@@ -8639,6 +9172,7 @@ export const perfumes = [
     },
     {
         "id": 538,
+        "date": "2025-01-01",
         "brand": "CREED",
         "name": "ESC. INSP. EN CREED SILVER MEN",
         "category": "Nicho",
@@ -8655,6 +9189,7 @@ export const perfumes = [
     },
     {
         "id": 539,
+        "date": "2025-01-01",
         "brand": "CREED",
         "name": "ESC. INSP. EN CREED VIKING COLOGNE MEN",
         "category": "Nicho",
@@ -8671,6 +9206,7 @@ export const perfumes = [
     },
     {
         "id": 540,
+        "date": "2025-01-01",
         "brand": "EL GANSO",
         "name": "ESC. INSP. EN EL GANSO BRAVO MONSIER",
         "category": "Nicho",
@@ -8687,6 +9223,7 @@ export const perfumes = [
     },
     {
         "id": 541,
+        "date": "2025-01-01",
         "brand": "EMIRATO",
         "name": "ESC. INSP. EN EMIRATO 1 ABU DABI",
         "category": "Nicho",
@@ -8703,6 +9240,7 @@ export const perfumes = [
     },
     {
         "id": 542,
+        "date": "2025-01-01",
         "brand": "EMIRATO",
         "name": "ESC. INSP. EN EMIRATO 2 DUBAI",
         "category": "Nicho",
@@ -8719,6 +9257,7 @@ export const perfumes = [
     },
     {
         "id": 543,
+        "date": "2025-01-01",
         "brand": "EMIRATO",
         "name": "ESC. INSP. EN EMIRATO 3 SARJA",
         "category": "Nicho",
@@ -8735,6 +9274,7 @@ export const perfumes = [
     },
     {
         "id": 544,
+        "date": "2025-01-01",
         "brand": "EMIRATO",
         "name": "ESC. INSP. EN EMIRATO 4 AJMAN",
         "category": "Nicho",
@@ -8751,6 +9291,7 @@ export const perfumes = [
     },
     {
         "id": 545,
+        "date": "2025-01-01",
         "brand": "EMIRATO",
         "name": "ESC. INSP. EN EMIRATO 5 QAYWAYN",
         "category": "Nicho",
@@ -8767,6 +9308,7 @@ export const perfumes = [
     },
     {
         "id": 546,
+        "date": "2025-01-01",
         "brand": "EMIRATO",
         "name": "ESC. INSP. EN EMIRATO 6 JAIMA",
         "category": "Nicho",
@@ -8783,6 +9325,7 @@ export const perfumes = [
     },
     {
         "id": 547,
+        "date": "2025-01-01",
         "brand": "EMIRATO",
         "name": "ESC. INSP. EN EMIRATO 7 FUYAIRA",
         "category": "Nicho",
@@ -8799,6 +9342,7 @@ export const perfumes = [
     },
     {
         "id": 548,
+        "date": "2025-01-01",
         "brand": "EMMIR",
         "name": "ESC. INSP.EN  VERONA Unisex  ",
         "category": "Nicho",
@@ -8815,6 +9359,7 @@ export const perfumes = [
     },
     {
         "id": 549,
+        "date": "2025-01-01",
         "brand": "EMPER",
         "name": "ESC.INSP.EN EMPER STALLION 53",
         "category": "Nicho",
@@ -8831,6 +9376,7 @@ export const perfumes = [
     },
     {
         "id": 550,
+        "date": "2025-01-01",
         "brand": "FRANK OLIVIER",
         "name": "ESC. INSP. EN FRANK OLIVIER SUN JAVA ROSEOUD UNSX ",
         "category": "Nicho",
@@ -8847,6 +9393,7 @@ export const perfumes = [
     },
     {
         "id": 551,
+        "date": "2025-01-01",
         "brand": "FUGAZZY",
         "name": "ESC. INSP. EN SUGARDADDY",
         "category": "Nicho",
@@ -8863,6 +9410,7 @@ export const perfumes = [
     },
     {
         "id": 552,
+        "date": "2025-01-01",
         "brand": "GIARDINI DI TOSCANA",
         "name": "ESC. INSP. EN GIARDINI DI TOSCANA BIANCO LATTE ",
         "category": "Nicho",
@@ -8879,6 +9427,7 @@ export const perfumes = [
     },
     {
         "id": 553,
+        "date": "2025-01-01",
         "brand": "GUERLAIN",
         "name": "ESC. INSP. EN SANTAL PAO ROSA Unisex ",
         "category": "Nicho",
@@ -8895,6 +9444,7 @@ export const perfumes = [
     },
     {
         "id": 554,
+        "date": "2025-01-01",
         "brand": "HARAMAIN",
         "name": "ESC. INSP. EN ALHARAMAIN AMBER OUD ",
         "category": "Nicho",
@@ -8911,6 +9461,7 @@ export const perfumes = [
     },
     {
         "id": 555,
+        "date": "2025-01-01",
         "brand": "HARAMAIN",
         "name": "ESC. INSP. EN ALHARAMAIN AMBER OUD GOLD ",
         "category": "Nicho",
@@ -8927,6 +9478,7 @@ export const perfumes = [
     },
     {
         "id": 556,
+        "date": "2025-01-01",
         "brand": "HARAMAIN",
         "name": "ESC. INSP. EN ALHARAMAIN AMBER OUD EXCLUSIF BLEU",
         "category": "Nicho",
@@ -8943,6 +9495,7 @@ export const perfumes = [
     },
     {
         "id": 557,
+        "date": "2025-01-01",
         "brand": "HARAMAIN",
         "name": "ESC. INSP. EN ALHARAMAIN AMBER MUSK Unisex ",
         "category": "Nicho",
@@ -8959,6 +9512,7 @@ export const perfumes = [
     },
     {
         "id": 558,
+        "date": "2025-01-01",
         "brand": "HARAMAIN",
         "name": "ESC. INSP. EN ALHARAMAIN AMBER ROUGE Unisex",
         "category": "Nicho",
@@ -8975,6 +9529,7 @@ export const perfumes = [
     },
     {
         "id": 559,
+        "date": "2025-01-01",
         "brand": "HARAMAIN",
         "name": "ESC. INSP. EN ALHARAMAIN L AVENTURE",
         "category": "Nicho",
@@ -8991,6 +9546,7 @@ export const perfumes = [
     },
     {
         "id": 560,
+        "date": "2025-01-01",
         "brand": "HARAMAIN",
         "name": "ESC. INSP. EN ALHARAMAIN L AVENTURE BLANCHE",
         "category": "Nicho",
@@ -9007,6 +9563,7 @@ export const perfumes = [
     },
     {
         "id": 561,
+        "date": "2025-01-01",
         "brand": "HARAMAIN",
         "name": "ESC. INSP. EN ALHARAMAIN L AVENTURE KNIGHT",
         "category": "Nicho",
@@ -9023,6 +9580,7 @@ export const perfumes = [
     },
     {
         "id": 562,
+        "date": "2025-01-01",
         "brand": "HARAMAIN",
         "name": "ESC. INSP. EN ALHARAMAIN L AVENTURE ROSE",
         "category": "Nicho",
@@ -9039,6 +9597,7 @@ export const perfumes = [
     },
     {
         "id": 563,
+        "date": "2025-01-01",
         "brand": "HARAMAIN",
         "name": "ESC. INSP. EN ALHARAMAIN MANEGE BLANCHE",
         "category": "Nicho",
@@ -9055,6 +9614,7 @@ export const perfumes = [
     },
     {
         "id": 564,
+        "date": "2025-01-01",
         "brand": "HARAMAIN",
         "name": "ESC. INSP. EN ALHARAMAIN MANEGE ROUGE",
         "category": "Nicho",
@@ -9071,6 +9631,7 @@ export const perfumes = [
     },
     {
         "id": 565,
+        "date": "2025-01-01",
         "brand": "HARAMAIN",
         "name": "ESC. INSP. EN ALHARAMAIN NARJIS",
         "category": "Nicho",
@@ -9087,6 +9648,7 @@ export const perfumes = [
     },
     {
         "id": 566,
+        "date": "2025-01-01",
         "brand": "HARAMAIN",
         "name": "ESC. INSP. EN ALHARAMAIN TANASUK",
         "category": "Nicho",
@@ -9103,6 +9665,7 @@ export const perfumes = [
     },
     {
         "id": 567,
+        "date": "2025-01-01",
         "brand": "HARAMAIN",
         "name": "ESC. INSP. EN AMBER OUD BLUE EDITION",
         "category": "Nicho",
@@ -9119,6 +9682,7 @@ export const perfumes = [
     },
     {
         "id": 568,
+        "date": "2025-01-01",
         "brand": "INITIO",
         "name": "ESC. INSP. EN INITIO ATOMIC ROSE",
         "category": "Nicho",
@@ -9135,6 +9699,7 @@ export const perfumes = [
     },
     {
         "id": 569,
+        "date": "2025-01-01",
         "brand": "INITIO",
         "name": "ESC. INSP. EN INITIO NARCOTIC DELIGHT",
         "category": "Nicho",
@@ -9151,6 +9716,7 @@ export const perfumes = [
     },
     {
         "id": 570,
+        "date": "2025-01-01",
         "brand": "INITIO",
         "name": "ESC. INSP. EN INITIO OUD FOR GREATNESS",
         "category": "Nicho",
@@ -9167,10 +9733,10 @@ export const perfumes = [
     },
     {
         "id": 735,
+        "date": "2025-01-01",
         "brand": "INITIO",
         "name": "ESC. INSP EN OUD FOR GREATNESS NEO",
         "category": "Nicho",
-        "isNew": true,
         "newName": "SYNERGISTIC ENERGY",
         "gender": "Unisex",
         "10 KG EN ADELANTE": 156,
@@ -9184,6 +9750,7 @@ export const perfumes = [
     },
     {
         "id": 571,
+        "date": "2025-01-01",
         "brand": "INITIO",
         "name": "ESC. INSP. EN INITIO REHAB",
         "category": "Nicho",
@@ -9200,6 +9767,7 @@ export const perfumes = [
     },
     {
         "id": 572,
+        "date": "2025-01-01",
         "brand": "INITIO",
         "name": "ESC. INSP. EN INITIO SIDE EFFECT",
         "category": "Nicho",
@@ -9216,6 +9784,7 @@ export const perfumes = [
     },
     {
         "id": 573,
+        "date": "2025-01-01",
         "brand": "ILMIN",
         "name": "ESC. INSP. EN ILMIN IL DOLCE",
         "category": "Nicho",
@@ -9232,6 +9801,7 @@ export const perfumes = [
     },
     {
         "id": 574,
+        "date": "2025-01-01",
         "brand": "ILMIN",
         "name": "ESC. INSP. EN ILMIN IL EGO Unisex",
         "category": "Nicho",
@@ -9248,6 +9818,7 @@ export const perfumes = [
     },
     {
         "id": 575,
+        "date": "2025-01-01",
         "brand": "ILMIN",
         "name": "ESC. INSP. EN ILMIN IL EROTIQUE",
         "category": "Nicho",
@@ -9264,6 +9835,7 @@ export const perfumes = [
     },
     {
         "id": 576,
+        "date": "2025-01-01",
         "brand": "ILMIN",
         "name": "ESC. INSP. EN ILMIN IL FEMME",
         "category": "Nicho",
@@ -9280,6 +9852,7 @@ export const perfumes = [
     },
     {
         "id": 577,
+        "date": "2025-01-01",
         "brand": "ILMIN",
         "name": "ESC. INSP. EN ILMIN IL KAKUNO",
         "category": "Nicho",
@@ -9296,6 +9869,7 @@ export const perfumes = [
     },
     {
         "id": 578,
+        "date": "2025-01-01",
         "brand": "ILMIN",
         "name": "ESC. INSP. EN ILMIN IL ORGASME",
         "category": "Nicho",
@@ -9312,6 +9886,7 @@ export const perfumes = [
     },
     {
         "id": 579,
+        "date": "2025-01-01",
         "brand": "ILMIN",
         "name": "ESC. INSP. EN ILMIN IL PEACE",
         "category": "Nicho",
@@ -9328,6 +9903,7 @@ export const perfumes = [
     },
     {
         "id": 580,
+        "date": "2025-01-01",
         "brand": "ILMIN",
         "name": "ESC. INSP. EN ILMIN IL ROSO",
         "category": "Nicho",
@@ -9344,6 +9920,7 @@ export const perfumes = [
     },
     {
         "id": 581,
+        "date": "2025-01-01",
         "brand": "ILMIN",
         "name": "ESC. INSP. EN ILMIN IL SEXUEL",
         "category": "Nicho",
@@ -9360,6 +9937,7 @@ export const perfumes = [
     },
     {
         "id": 582,
+        "date": "2025-01-01",
         "brand": "ILMIN",
         "name": "ESC. INSP. EN ILMIN IL VITA",
         "category": "Nicho",
@@ -9376,6 +9954,7 @@ export const perfumes = [
     },
     {
         "id": 583,
+        "date": "2025-01-01",
         "brand": "JOMILANO",
         "name": "ESC. INSP. EN JOMILANO GAME OF SPADES BID",
         "category": "Nicho",
@@ -9392,6 +9971,7 @@ export const perfumes = [
     },
     {
         "id": 584,
+        "date": "2025-01-01",
         "brand": "JOMILANO",
         "name": "ESC. INSP. EN JOMILANO GAME OF SPADES ROYALE",
         "category": "Nicho",
@@ -9408,6 +9988,7 @@ export const perfumes = [
     },
     {
         "id": 585,
+        "date": "2025-01-01",
         "brand": "KAJAL",
         "name": "ESC. INSP. EN DAHAB KAJAL",
         "category": "Nicho",
@@ -9424,6 +10005,7 @@ export const perfumes = [
     },
     {
         "id": 586,
+        "date": "2025-01-01",
         "brand": "KAJAL",
         "name": "ESC. INSP. EN LAMAR KAJAL",
         "category": "Nicho",
@@ -9440,6 +10022,7 @@ export const perfumes = [
     },
     {
         "id": 587,
+        "date": "2025-01-01",
         "brand": "KAJAL",
         "name": "ESC. INSP. ALMAZ KAJAL Unisex",
         "category": "Nicho",
@@ -9456,6 +10039,7 @@ export const perfumes = [
     },
     {
         "id": 588,
+        "date": "2025-01-01",
         "brand": "KAYALI",
         "name": "ESC. INSP. EN OUDGASM TOBACCO OUD",
         "category": "Nicho",
@@ -9472,6 +10056,7 @@ export const perfumes = [
     },
     {
         "id": 589,
+        "date": "2025-01-01",
         "brand": "KAYALI",
         "name": "ESC. INSP. EN EDEN JUICE APPLE",
         "category": "Nicho",
@@ -9488,6 +10073,7 @@ export const perfumes = [
     },
     {
         "id": 590,
+        "date": "2025-01-01",
         "brand": "KAYALI",
         "name": "ESC. INSP. EN LOVEFEST BURNING CHERRY",
         "category": "Nicho",
@@ -9504,6 +10090,7 @@ export const perfumes = [
     },
     {
         "id": 591,
+        "date": "2025-01-01",
         "brand": "KAYALI",
         "name": "ESC. INSP. EN EDEN SPARKLING LYCHE",
         "category": "Nicho",
@@ -9520,6 +10107,7 @@ export const perfumes = [
     },
     {
         "id": 592,
+        "date": "2025-01-01",
         "brand": "KILIAN",
         "name": "ESC. INSP. EN KILIAN ANGELS SHARE Unisex ",
         "category": "Nicho",
@@ -9536,6 +10124,7 @@ export const perfumes = [
     },
     {
         "id": 593,
+        "date": "2025-01-01",
         "brand": "KILIAN",
         "name": "ESC. INSP. EN KILIAN BLACK PHANTOM",
         "category": "Nicho",
@@ -9552,6 +10141,7 @@ export const perfumes = [
     },
     {
         "id": 594,
+        "date": "2025-01-01",
         "brand": "KILIAN",
         "name": "ESC. INSP. EN KILIAN LOVE DONT BY SHY",
         "category": "Nicho",
@@ -9568,6 +10158,7 @@ export const perfumes = [
     },
     {
         "id": 595,
+        "date": "2025-01-01",
         "brand": "KILIAN",
         "name": "ESC. INSP. EN KILIAN SMOKING HOT Unisex ",
         "category": "Nicho",
@@ -9584,6 +10175,7 @@ export const perfumes = [
     },
     {
         "id": 596,
+        "date": "2025-01-01",
         "brand": "KILIAN",
         "name": "ESC. INSP. EN KILIAN STRAIGHT TO HEAVEN",
         "category": "Nicho",
@@ -9600,6 +10192,7 @@ export const perfumes = [
     },
     {
         "id": 597,
+        "date": "2025-01-01",
         "brand": "LATTAFA",
         "name": "ESC. INSP. EN LATTAFA ATLAS",
         "category": "Nicho",
@@ -9616,10 +10209,10 @@ export const perfumes = [
     },
     {
         "id": 731,
+        "date": "2025-01-01",
         "brand": "LATTAFA",
         "name": "ESC. INSP EN HER CONFESSION",
         "category": "Nicho",
-        "isNew": true,
         "newName": "SOUL REVELATION",
         "gender": "Mujer",
         "10 KG EN ADELANTE": 139,
@@ -9633,6 +10226,7 @@ export const perfumes = [
     },
     {
         "id": 598,
+        "date": "2025-01-01",
         "brand": "LATTAFA",
         "name": "ESC. INSP. EN LATTAFA AJWAD",
         "category": "Nicho",
@@ -9649,6 +10243,7 @@ export const perfumes = [
     },
     {
         "id": 599,
+        "date": "2025-01-01",
         "brand": "LATTAFA",
         "name": "ESC. INSP. EN LATTAFA AJWAD PINK TO PINK",
         "category": "Nicho",
@@ -9665,6 +10260,7 @@ export const perfumes = [
     },
     {
         "id": 600,
+        "date": "2025-01-01",
         "brand": "LATTAFA",
         "name": "ESC. INSP. EN LATTAFA AMETHYSTE",
         "category": "Nicho",
@@ -9681,6 +10277,7 @@ export const perfumes = [
     },
     {
         "id": 601,
+        "date": "2025-01-01",
         "brand": "LATTAFA",
         "name": "ESC. INSP. EN LATTAFA ASAD",
         "category": "Nicho",
@@ -9697,6 +10294,7 @@ export const perfumes = [
     },
     {
         "id": 602,
+        "date": "2025-01-01",
         "brand": "LATTAFA",
         "name": "ESC. INSP. EN LATTAFA ASAD ZANZIBAR",
         "category": "Nicho",
@@ -9713,6 +10311,7 @@ export const perfumes = [
     },
     {
         "id": 603,
+        "date": "2025-01-01",
         "brand": "LATTAFA",
         "name": "ESC. INSP. EN LATTAFA ASDAAF AMEERAT AL ARAB",
         "category": "Nicho",
@@ -9729,6 +10328,7 @@ export const perfumes = [
     },
     {
         "id": 604,
+        "date": "2025-01-01",
         "brand": "LATTAFA",
         "name": "ESC. INSP. EN LATTAFA BADEE AL OUD SUBLIME",
         "category": "Nicho",
@@ -9745,6 +10345,7 @@ export const perfumes = [
     },
     {
         "id": 605,
+        "date": "2025-01-01",
         "brand": "LATTAFA",
         "name": "ESC. INSP. EN LATTAFA BADEE AL OUD HONOR Y GLORY",
         "category": "Nicho",
@@ -9761,6 +10362,7 @@ export const perfumes = [
     },
     {
         "id": 606,
+        "date": "2025-01-01",
         "brand": "LATTAFA",
         "name": "ESC. INSP. EN LATTAFA ECLAIRE",
         "category": "Nicho",
@@ -9777,6 +10379,7 @@ export const perfumes = [
     },
     {
         "id": 607,
+        "date": "2025-01-01",
         "brand": "LATTAFA",
         "name": "ESC. INSP. EN LATTAFA EMEER",
         "category": "Nicho",
@@ -9793,6 +10396,7 @@ export const perfumes = [
     },
     {
         "id": 608,
+        "date": "2025-01-01",
         "brand": "LATTAFA",
         "name": "ESC. INSP. EN LATTAFA FAKHAR BLACK ",
         "category": "Nicho",
@@ -9809,6 +10413,7 @@ export const perfumes = [
     },
     {
         "id": 609,
+        "date": "2025-01-01",
         "brand": "LATTAFA",
         "name": "ESC. INSP. EN LATTAFA HAYA",
         "category": "Nicho",
@@ -9825,6 +10430,7 @@ export const perfumes = [
     },
     {
         "id": 610,
+        "date": "2025-01-01",
         "brand": "LATTAFA",
         "name": "ESC. INSP. EN LATTAFA JASOOR",
         "category": "Nicho",
@@ -9841,6 +10447,7 @@ export const perfumes = [
     },
     {
         "id": 611,
+        "date": "2025-01-01",
         "brand": "LATTAFA",
         "name": "ESC. INSP. EN LATTAFA KHAMRAH",
         "category": "Nicho",
@@ -9857,6 +10464,7 @@ export const perfumes = [
     },
     {
         "id": 612,
+        "date": "2025-01-01",
         "brand": "LATTAFA",
         "name": "ESC. INSP. EN LATTAFA MAYAR",
         "category": "Nicho",
@@ -9873,6 +10481,7 @@ export const perfumes = [
     },
     {
         "id": 613,
+        "date": "2025-01-01",
         "brand": "LATTAFA",
         "name": "ESC. INSP. EN LATTAFA MAYAR INTENSE Mujer",
         "category": "Nicho",
@@ -9889,6 +10498,7 @@ export const perfumes = [
     },
     {
         "id": 614,
+        "date": "2025-01-01",
         "brand": "LATTAFA",
         "name": "ESC. INSP. EN LATTAFA OUD FOR GLORY",
         "category": "Nicho",
@@ -9905,6 +10515,7 @@ export const perfumes = [
     },
     {
         "id": 615,
+        "date": "2025-01-01",
         "brand": "LATTAFA",
         "name": "ESC. INSP. EN LATTAFA PRIDE AL QIAM GOLD",
         "category": "Nicho",
@@ -9922,6 +10533,7 @@ export const perfumes = [
 
     {
         "id": 616,
+        "date": "2025-01-01",
         "brand": "LATTAFA",
         "name": "ESC. INSP. EN LATTAFA PRIDE NEBRAS",
         "category": "Nicho",
@@ -9938,6 +10550,7 @@ export const perfumes = [
     },
     {
         "id": 617,
+        "date": "2025-01-01",
         "brand": "LATTAFA",
         "name": "ESC. INSP. EN LATTAFA PRIDE SHAHEEN GOLD",
         "category": "Nicho",
@@ -9954,6 +10567,7 @@ export const perfumes = [
     },
     {
         "id": 618,
+        "date": "2025-01-01",
         "brand": "LATTAFA",
         "name": "ESC. INSP. EN LATTAFA TERIAQ",
         "category": "Nicho",
@@ -9970,6 +10584,7 @@ export const perfumes = [
     },
     {
         "id": 619,
+        "date": "2025-01-01",
         "brand": "LATTAFA",
         "name": "ESC. INSP. EN LATTAFA YARA",
         "category": "Nicho",
@@ -9986,6 +10601,7 @@ export const perfumes = [
     },
     {
         "id": 620,
+        "date": "2025-01-01",
         "brand": "LATTAFA",
         "name": "ESC. INSP. EN LATTAFA YARA CANDY",
         "category": "Nicho",
@@ -10002,6 +10618,7 @@ export const perfumes = [
     },
     {
         "id": 621,
+        "date": "2025-01-01",
         "brand": "LATTAFA",
         "name": "ESC. INSP. EN LATTAFA YARA MOI",
         "category": "Nicho",
@@ -10018,6 +10635,7 @@ export const perfumes = [
     },
     {
         "id": 622,
+        "date": "2025-01-01",
         "brand": "LATTAFA",
         "name": "ESC. INSP. EN LATTAFA YARA TOUS",
         "category": "Nicho",
@@ -10034,6 +10652,7 @@ export const perfumes = [
     },
     {
         "id": 623,
+        "date": "2025-01-01",
         "brand": "LATTAFA",
         "name": "ESC. INSP. EN LATTAFA NOBLE BLUSH",
         "category": "Nicho",
@@ -10050,6 +10669,7 @@ export const perfumes = [
     },
     {
         "id": 624,
+        "date": "2025-01-01",
         "brand": "LATTAFA",
         "name": "ESC. INSP. EN FAKHAR ROSE",
         "category": "Nicho",
@@ -10066,6 +10686,7 @@ export const perfumes = [
     },
     {
         "id": 625,
+        "date": "2025-01-01",
         "brand": "LE LABO",
         "name": "ESC. INSP. EN LE LABO BERGAMOTE 22",
         "category": "Nicho",
@@ -10082,6 +10703,7 @@ export const perfumes = [
     },
     {
         "id": 626,
+        "date": "2025-01-01",
         "brand": "LE LABO",
         "name": "ESC. INSP. EN SANTAL 33 LE LABO Unisex ",
         "category": "Nicho",
@@ -10098,6 +10720,7 @@ export const perfumes = [
     },
     {
         "id": 627,
+        "date": "2025-01-01",
         "brand": "LOUIS VUITTON",
         "name": "ESC. INSP. EN LOUIS VUITTON IMMENSITE",
         "category": "Nicho",
@@ -10114,6 +10737,7 @@ export const perfumes = [
     },
     {
         "id": 628,
+        "date": "2025-01-01",
         "brand": "LOUIS VUITTON",
         "name": "ESC. INSP. EN LOUIS VUITTON OMBRE NOMADE",
         "category": "Nicho",
@@ -10130,6 +10754,7 @@ export const perfumes = [
     },
     {
         "id": 629,
+        "date": "2025-01-01",
         "brand": "LOUIS VUITTON",
         "name": "ESC. INSP. EN LOUIS VUITTON PACIFIC CHILL",
         "category": "Nicho",
@@ -10146,6 +10771,7 @@ export const perfumes = [
     },
     {
         "id": 630,
+        "date": "2025-01-01",
         "brand": "LOUIS VUITTON",
         "name": "ESC. INSP. EN LOUIS VUITTON SYMPHONY",
         "category": "Nicho",
@@ -10162,6 +10788,7 @@ export const perfumes = [
     },
     {
         "id": 631,
+        "date": "2025-01-01",
         "brand": "LORENZO PAZZAGLIA",
         "name": "ESC. INSP. EN SUMMER HAMMER",
         "category": "Nicho",
@@ -10178,6 +10805,7 @@ export const perfumes = [
     },
     {
         "id": 632,
+        "date": "2025-01-01",
         "brand": "LORENZO PAZZAGLIA",
         "name": "ESC. INSP. EN PAX",
         "category": "Nicho",
@@ -10194,6 +10822,7 @@ export const perfumes = [
     },
     {
         "id": 633,
+        "date": "2025-01-01",
         "brand": "MAISON FRANCIS KURKDIJAN",
         "name": "ESC. INSP. EN BACCARAT ROUGE Unisex ",
         "category": "Nicho",
@@ -10210,6 +10839,7 @@ export const perfumes = [
     },
     {
         "id": 634,
+        "date": "2025-01-01",
         "brand": "MAISON FRANCES",
         "name": "ESC. INSP. EN OUD SATIN MOOD MAISON FRANCES",
         "category": "Nicho",
@@ -10226,6 +10856,7 @@ export const perfumes = [
     },
     {
         "id": 635,
+        "date": "2025-01-01",
         "brand": "MAISON FRANCES",
         "name": "ESC. INSP. EN MAISON OUD SILK MOOD",
         "category": "Nicho",
@@ -10242,6 +10873,7 @@ export const perfumes = [
     },
     {
         "id": 636,
+        "date": "2025-01-01",
         "brand": "MAISON ALHAMBRA",
         "name": "ESC. INSP. EN MAISON ALHAMBRA DELILAH Mujer ",
         "category": "Nicho",
@@ -10258,6 +10890,7 @@ export const perfumes = [
     },
     {
         "id": 637,
+        "date": "2025-01-01",
         "brand": "MAISON ALHAMBRA",
         "name": "ESC. INSP. EN MAISON ALHAMBRA JEAN LOWEOMBRE",
         "category": "Nicho",
@@ -10274,6 +10907,7 @@ export const perfumes = [
     },
     {
         "id": 638,
+        "date": "2025-01-01",
         "brand": "MAISON ALHAMBRA",
         "name": "ESC. INSP. EN MAISON ALHAMBRA SCEPTRE MALACHITE",
         "category": "Nicho",
@@ -10290,6 +10924,7 @@ export const perfumes = [
     },
     {
         "id": 639,
+        "date": "2025-01-01",
         "brand": "MAISON MARGIELA",
         "name": "ESC. INSP. EN MAISON MARGIELA BY THE FIREPLACE Unisex ",
         "category": "Nicho",
@@ -10306,6 +10941,7 @@ export const perfumes = [
     },
     {
         "id": 640,
+        "date": "2025-01-01",
         "brand": "MAISON MARGIELA",
         "name": "ESC. INSP. EN REPLICA JAZZ CLUB",
         "category": "Nicho",
@@ -10322,6 +10958,7 @@ export const perfumes = [
     },
     {
         "id": 641,
+        "date": "2025-01-01",
         "brand": "MARIE FARINA",
         "name": "ESC. INSP. EN MARIE FARINA ROGER GALLET Unisex  ",
         "category": "Nicho",
@@ -10338,6 +10975,7 @@ export const perfumes = [
     },
     {
         "id": 642,
+        "date": "2025-01-01",
         "brand": "MANCERA",
         "name": "ESC. INSP. EN MANCERA AMORE CAFFÉ Unisex ",
         "category": "Nicho",
@@ -10354,6 +10992,7 @@ export const perfumes = [
     },
     {
         "id": 643,
+        "date": "2025-01-01",
         "brand": "MANCERA",
         "name": "ESC. INSP. EN MANCERA BLACK GOLD",
         "category": "Nicho",
@@ -10370,6 +11009,7 @@ export const perfumes = [
     },
     {
         "id": 644,
+        "date": "2025-01-01",
         "brand": "MANCERA",
         "name": "ESC. INSP. EN MANCERA CEDRAT BOISE",
         "category": "Nicho",
@@ -10386,6 +11026,7 @@ export const perfumes = [
     },
     {
         "id": 645,
+        "date": "2025-01-01",
         "brand": "MANCERA",
         "name": "ESC. INSP. EN MANCERA RED TOBACCO",
         "category": "Nicho",
@@ -10402,6 +11043,7 @@ export const perfumes = [
     },
     {
         "id": 646,
+        "date": "2025-01-01",
         "brand": "MANCERA",
         "name": "ESC. INSP. EN MANCERA INSTANT CRUSH Unisex  ",
         "category": "Nicho",
@@ -10418,6 +11060,7 @@ export const perfumes = [
     },
     {
         "id": 647,
+        "date": "2025-01-01",
         "brand": "MATIERE PREMIERE ",
         "name": "ESC. INSP. EN MATIERE PREMIERE VAINILLA POWDER ",
         "category": "Nicho",
@@ -10434,6 +11077,7 @@ export const perfumes = [
     },
     {
         "id": 648,
+        "date": "2025-01-01",
         "brand": "MATIERE PREMIERE ",
         "name": "ESC. INSP. EN PARISIAN MUSC",
         "category": "Nicho",
@@ -10450,6 +11094,7 @@ export const perfumes = [
     },
     {
         "id": 649,
+        "date": "2025-01-01",
         "brand": "MATIERE PREMIERE ",
         "name": "ESC. INSP. EN FALCON LEALTHER",
         "category": "Nicho",
@@ -10466,6 +11111,7 @@ export const perfumes = [
     },
     {
         "id": 650,
+        "date": "2025-01-01",
         "brand": "MONCLER",
         "name": "ESC. INSP. EN MONCLER POUR FEMME",
         "category": "Nicho",
@@ -10482,6 +11128,7 @@ export const perfumes = [
     },
     {
         "id": 651,
+        "date": "2025-01-01",
         "brand": "MONCLER",
         "name": "ESC. INSP. EN MONCLER POUR HOMME",
         "category": "Nicho",
@@ -10498,6 +11145,7 @@ export const perfumes = [
     },
     {
         "id": 652,
+        "date": "2025-01-01",
         "brand": "MONTALE",
         "name": "ESC. INSP. EN MONTALE ARABIANS",
         "category": "Nicho",
@@ -10514,6 +11162,7 @@ export const perfumes = [
     },
     {
         "id": 653,
+        "date": "2025-01-01",
         "brand": "MONTALE",
         "name": "ESC. INSP. EN MONTALE ARABIANS TONKA",
         "category": "Nicho",
@@ -10530,6 +11179,7 @@ export const perfumes = [
     },
     {
         "id": 654,
+        "date": "2025-01-01",
         "brand": "MONTALE",
         "name": "ESC. INSP. EN MONTALE CHOCOLATE GREEDY",
         "category": "Nicho",
@@ -10546,6 +11196,7 @@ export const perfumes = [
     },
     {
         "id": 655,
+        "date": "2025-01-01",
         "brand": "MONTALE",
         "name": "ESC. INSP. EN MONTALE CRAZY IN LOVE  ",
         "category": "Nicho",
@@ -10562,6 +11213,7 @@ export const perfumes = [
     },
     {
         "id": 656,
+        "date": "2025-01-01",
         "brand": "MONTALE",
         "name": "ESC. INSP. EN MONTALE DAY DREAMS Mujer ",
         "category": "Nicho",
@@ -10578,6 +11230,7 @@ export const perfumes = [
     },
     {
         "id": 657,
+        "date": "2025-01-01",
         "brand": "MONTALE",
         "name": "ESC. INSP. EN MONTALE INTENSE CAFE Unisex ",
         "category": "Nicho",
@@ -10594,6 +11247,7 @@ export const perfumes = [
     },
     {
         "id": 658,
+        "date": "2025-01-01",
         "brand": "MONTALE",
         "name": "ESC. INSP. EN MONTALE MUSK TO MUSK  Unisex ",
         "category": "Nicho",
@@ -10610,6 +11264,7 @@ export const perfumes = [
     },
     {
         "id": 659,
+        "date": "2025-01-01",
         "brand": "MONTALE",
         "name": "ESC. INSP. EN MONTALE ROSES MUSK Unisex ",
         "category": "Nicho",
@@ -10626,6 +11281,7 @@ export const perfumes = [
     },
     {
         "id": 660,
+        "date": "2025-01-01",
         "brand": "MONTALE",
         "name": "ESC. INSP. EN MONTALE RENDEZ VOUS A MILAN",
         "category": "Nicho",
@@ -10642,6 +11298,7 @@ export const perfumes = [
     },
     {
         "id": 661,
+        "date": "2025-01-01",
         "brand": "MONTALE",
         "name": "ESC. INSP. EN MONTALE STARRY NIGTH",
         "category": "Nicho",
@@ -10658,6 +11315,7 @@ export const perfumes = [
     },
     {
         "id": 662,
+        "date": "2025-01-01",
         "brand": "MONTALE",
         "name": "ESC. INSP. EN MONTALE SENSUAL INSTINCT",
         "category": "Nicho",
@@ -10674,6 +11332,7 @@ export const perfumes = [
     },
     {
         "id": 663,
+        "date": "2025-01-01",
         "brand": "MONTALE",
         "name": "ESC. INSP. EN MONTALE VANILLE ABSOLU",
         "category": "Nicho",
@@ -10690,6 +11349,7 @@ export const perfumes = [
     },
     {
         "id": 664,
+        "date": "2025-01-01",
         "brand": "MONTALE",
         "name": "ESC. INSP. EN MONTALE WOOD AND SPICES Unisex ",
         "category": "Nicho",
@@ -10706,6 +11366,7 @@ export const perfumes = [
     },
     {
         "id": 665,
+        "date": "2025-01-01",
         "brand": "MONTALE",
         "name": "ESC. INSP. EN MONTALE ROSE NIGHT",
         "category": "Nicho",
@@ -10722,6 +11383,7 @@ export const perfumes = [
     },
     {
         "id": 666,
+        "date": "2025-01-01",
         "brand": "MONTANA",
         "name": "ESC. INSP. EN MONTANA POUR HOMME",
         "category": "Nicho",
@@ -10738,6 +11400,7 @@ export const perfumes = [
     },
     {
         "id": 667,
+        "date": "2025-01-01",
         "brand": "NISHANE",
         "name": "ESC. INSP. EN NISHANE HACIVAT Unisex ",
         "category": "Nicho",
@@ -10754,6 +11417,7 @@ export const perfumes = [
     },
     {
         "id": 668,
+        "date": "2025-01-01",
         "brand": "NISHANE",
         "name": "ESC. INSP. EN NISHANE HUNDRED SILENT WAYS",
         "category": "Nicho",
@@ -10770,6 +11434,7 @@ export const perfumes = [
     },
     {
         "id": 669,
+        "date": "2025-01-01",
         "brand": "NISHANE",
         "name": "ESC. INSP. EN NISHANE TERO",
         "category": "Nicho",
@@ -10786,6 +11451,7 @@ export const perfumes = [
     },
     {
         "id": 670,
+        "date": "2025-01-01",
         "brand": "NUSUK",
         "name": "ESC. INSP. EN NUSUK ANA AL AWWAL Mujer ",
         "category": "Nicho",
@@ -10802,6 +11468,7 @@ export const perfumes = [
     },
     {
         "id": 671,
+        "date": "2025-01-01",
         "brand": "NUSUK",
         "name": "ESC. INSP. EN NUSUK ANA AL AWWAL Hombre ",
         "category": "Nicho",
@@ -10818,6 +11485,7 @@ export const perfumes = [
     },
     {
         "id": 672,
+        "date": "2025-01-01",
         "brand": "NEW NOTES",
         "name": "ESC. INSP. EN  COCKTAIL MARACUJA",
         "category": "Nicho",
@@ -10834,6 +11502,7 @@ export const perfumes = [
     },
     {
         "id": 673,
+        "date": "2025-01-01",
         "brand": "ORIENTICA",
         "name": "ESC. INSP. EN ORIENTICA AMBER NOIR Unisex ",
         "category": "Nicho",
@@ -10850,6 +11519,7 @@ export const perfumes = [
     },
     {
         "id": 674,
+        "date": "2025-01-01",
         "brand": "ORIENTICA",
         "name": "ESC. INSP. EN ORIENTICA AMBER ROUGE Unisex ",
         "category": "Nicho",
@@ -10866,6 +11536,7 @@ export const perfumes = [
     },
     {
         "id": 675,
+        "date": "2025-01-01",
         "brand": "ORIENTICA",
         "name": "ESC. INSP. EN ORIENTICA AZZURE FANTASY",
         "category": "Nicho",
@@ -10882,6 +11553,7 @@ export const perfumes = [
     },
     {
         "id": 676,
+        "date": "2025-01-01",
         "brand": "ORIENTICA",
         "name": "ESC. INSP. EN ORIENTICA IMPERIAL GOLD",
         "category": "Nicho",
@@ -10898,6 +11570,7 @@ export const perfumes = [
     },
     {
         "id": 677,
+        "date": "2025-01-01",
         "brand": "ORIENTICA",
         "name": "ESC. INSP. EN ORIENTICA OUD SAFFRON",
         "category": "Nicho",
@@ -10914,6 +11587,7 @@ export const perfumes = [
     },
     {
         "id": 678,
+        "date": "2025-01-01",
         "brand": "ORIENTICA",
         "name": "ESC. INSP. EN ORIENTICA ROYAL AMBER Unisex ",
         "category": "Nicho",
@@ -10930,6 +11604,7 @@ export const perfumes = [
     },
     {
         "id": 679,
+        "date": "2025-01-01",
         "brand": "ORIENTICA",
         "name": "ESC. INSP. EN ORIENTICA ROYAL BLEU Unisex ",
         "category": "Nicho",
@@ -10946,6 +11621,7 @@ export const perfumes = [
     },
     {
         "id": 680,
+        "date": "2025-01-01",
         "brand": "ORIENTICA",
         "name": "ESC. INSP. EN ORIENTICA VELVET GOLD",
         "category": "Nicho",
@@ -10962,6 +11638,7 @@ export const perfumes = [
     },
     {
         "id": 681,
+        "date": "2025-01-01",
         "brand": "ORTO PARISI",
         "name": "ESC. INSP. EN ORTO PARISI MEGAMARE",
         "category": "Nicho",
@@ -10978,6 +11655,7 @@ export const perfumes = [
     },
     {
         "id": 682,
+        "date": "2025-01-01",
         "brand": "ORTO PARISI",
         "name": "ESC. INSP. EN ORTO PARISI TERRONI",
         "category": "Nicho",
@@ -10994,6 +11672,7 @@ export const perfumes = [
     },
     {
         "id": 683,
+        "date": "2025-01-01",
         "brand": "PACO RABANNE",
         "name": "ESC. INSP. EN PACO RABANNE ONE MILLION GOLDEN OUD",
         "category": "Nicho",
@@ -11010,6 +11689,7 @@ export const perfumes = [
     },
     {
         "id": 684,
+        "date": "2025-01-01",
         "brand": "PARFUMS DE MARLY",
         "name": "ESC. INSP. EN PARFUMS DE MARLY ALTHAIR",
         "category": "Nicho",
@@ -11026,6 +11706,7 @@ export const perfumes = [
     },
     {
         "id": 685,
+        "date": "2025-01-01",
         "brand": "PARFUMS DE MARLY",
         "name": "ESC. INSP. EN PARFUMS DE MARLY DELINA Mujer ",
         "category": "Nicho",
@@ -11042,6 +11723,7 @@ export const perfumes = [
     },
     {
         "id": 686,
+        "date": "2025-01-01",
         "brand": "PARFUMS DE MARLY",
         "name": "ESC. INSP. EN PARFUMS DE MARLY DELINA EXCLUSIFF",
         "category": "Nicho",
@@ -11058,6 +11740,7 @@ export const perfumes = [
     },
     {
         "id": 687,
+        "date": "2025-01-01",
         "brand": "PARFUMS DE MARLY",
         "name": "ESC. INSP. EN PARFUMS DE MARLY HEROD",
         "category": "Nicho",
@@ -11074,6 +11757,7 @@ export const perfumes = [
     },
     {
         "id": 688,
+        "date": "2025-01-01",
         "brand": "PARFUMS DE MARLY",
         "name": "ESC. INSP. EN PARFUMS DE MARLY KALAN",
         "category": "Nicho",
@@ -11090,6 +11774,7 @@ export const perfumes = [
     },
     {
         "id": 689,
+        "date": "2025-01-01",
         "brand": "PARFUMS DE MARLY",
         "name": "ESC. INSP. EN PARFUMS DE MARLY PEGASUS MEN",
         "category": "Nicho",
@@ -11106,6 +11791,7 @@ export const perfumes = [
     },
     {
         "id": 690,
+        "date": "2025-01-01",
         "brand": "PARFUMS DE MARLY",
         "name": "ESC. INSP. EN PARFUMS DE MARLY LAYTON",
         "category": "Nicho",
@@ -11122,6 +11808,7 @@ export const perfumes = [
     },
     {
         "id": 691,
+        "date": "2025-01-01",
         "brand": "RAMON MONEGAL",
         "name": "ESC. INSP. EN RAMON MONEGAL FLAMENCO",
         "category": "Nicho",
@@ -11138,6 +11825,7 @@ export const perfumes = [
     },
     {
         "id": 692,
+        "date": "2025-01-01",
         "brand": "RASASI",
         "name": "ESC. INSP. EN RASASI HAWAS FOR HIM",
         "category": "Nicho",
@@ -11154,6 +11842,7 @@ export const perfumes = [
     },
     {
         "id": 693,
+        "date": "2025-01-01",
         "brand": "RAVE",
         "name": "ESC. INSP. EN RAVE NOW",
         "category": "Nicho",
@@ -11170,6 +11859,7 @@ export const perfumes = [
     },
     {
         "id": 694,
+        "date": "2025-01-01",
         "brand": "ROJO",
         "name": "ESC. INSP. EN ROJA FETISH POUR HOMME",
         "category": "Nicho",
@@ -11186,6 +11876,7 @@ export const perfumes = [
     },
     {
         "id": 695,
+        "date": "2025-01-01",
         "brand": "SPIRIT OF KINGS",
         "name": "ESC. INSP. EN SPIRIT OF KINGS HADAR",
         "category": "Nicho",
@@ -11202,6 +11893,7 @@ export const perfumes = [
     },
     {
         "id": 696,
+        "date": "2025-01-01",
         "brand": "STEPHANE HUMBER LUCAS 777",
         "name": "ESC. INSP. EN GOD OF FIRE",
         "category": "Nicho",
@@ -11218,6 +11910,7 @@ export const perfumes = [
     },
     {
         "id": 697,
+        "date": "2025-01-01",
         "brand": "STEPHANE HUMBER LUCAS 777",
         "name": "ESC. INSP. EN SOLEIL DE JEDDAH",
         "category": "Nicho",
@@ -11234,6 +11927,7 @@ export const perfumes = [
     },
     {
         "id": 698,
+        "date": "2025-01-01",
         "brand": "TIZIANA TERENZI",
         "name": "ESC. INSP. EN TIZIANA TERENZI AL CONTRARIO",
         "category": "Nicho",
@@ -11250,6 +11944,7 @@ export const perfumes = [
     },
     {
         "id": 699,
+        "date": "2025-01-01",
         "brand": "TIZIANA TERENZI",
         "name": "ESC. INSP. EN TIZIANA TERENZI ANDROMEDA",
         "category": "Nicho",
@@ -11266,6 +11961,7 @@ export const perfumes = [
     },
     {
         "id": 700,
+        "date": "2025-01-01",
         "brand": "TIZIANA TERENZI",
         "name": "ESC. INSP. EN TIZIANA TERENZI CASSIOPEA Unisex ",
         "category": "Nicho",
@@ -11282,6 +11978,7 @@ export const perfumes = [
     },
     {
         "id": 701,
+        "date": "2025-01-01",
         "brand": "TIZIANA TERENZI",
         "name": "ESC. INSP. EN TIZIANA TERENZI KIRKE",
         "category": "Nicho",
@@ -11298,6 +11995,7 @@ export const perfumes = [
     },
     {
         "id": 702,
+        "date": "2025-01-01",
         "brand": "TIZIANA TERENZI",
         "name": "ESC. INSP. EN TIZIANA TERENZI ORZA Unisex ",
         "category": "Nicho",
@@ -11314,6 +12012,7 @@ export const perfumes = [
     },
     {
         "id": 703,
+        "date": "2025-01-01",
         "brand": "TIZIANA TERENZI",
         "name": "ESC. INSP. EN TIZIANA TERENZI TELEA Unisex",
         "category": "Nicho",
@@ -11330,6 +12029,7 @@ export const perfumes = [
     },
     {
         "id": 704,
+        "date": "2025-01-01",
         "brand": "TOM FORD",
         "name": "ESC. INSP. EN TOM FORD NOIR EXTREME",
         "category": "Nicho",
@@ -11346,6 +12046,7 @@ export const perfumes = [
     },
     {
         "id": 705,
+        "date": "2025-01-01",
         "brand": "TOM FORD",
         "name": "ESC. INSP. EN TOM FORD OMBRE LEATHER 16",
         "category": "Nicho",
@@ -11362,6 +12063,7 @@ export const perfumes = [
     },
     {
         "id": 706,
+        "date": "2025-01-01",
         "brand": "TOM FORD",
         "name": "ESC. INSP. EN TOM FORD SOLEI DE FEU",
         "category": "Nicho",
@@ -11378,6 +12080,7 @@ export const perfumes = [
     },
     {
         "id": 707,
+        "date": "2025-01-01",
         "brand": "TOM FORD",
         "name": "ESC. INSP. EN TOM FORD TOBACCO VANILLE",
         "category": "Nicho",
@@ -11394,6 +12097,7 @@ export const perfumes = [
     },
     {
         "id": 708,
+        "date": "2025-01-01",
         "brand": "XERJOFF",
         "name": "ESC. INSP. EN ALEXANDRIA II XERJOFF Unisex ",
         "category": "Nicho",
@@ -11410,10 +12114,10 @@ export const perfumes = [
     },
     {
         "id": 732,
+        "date": "2025-01-01",
         "brand": "XERJOFF",
         "name": "ESC. INSP EN LEVAR DE SOLE",
         "category": "Nicho",
-        "isNew": true,
         "newName": "ETERNAL PHOENIX",
         "gender": "Unisex",
         "family": "Amaderado Aromático",
@@ -11427,6 +12131,7 @@ export const perfumes = [
     },
     {
         "id": 709,
+        "date": "2025-01-01",
         "brand": "XERJOFF",
         "name": "ESC. INSP. EN BOUQUET IDEALE XERJOFF",
         "category": "Nicho",
@@ -11443,6 +12148,7 @@ export const perfumes = [
     },
     {
         "id": 710,
+        "date": "2025-01-01",
         "brand": "XERJOFF",
         "name": "ESC. INSP. EN ERBA PURA XERJOFF Unisex ",
         "category": "Nicho",
@@ -11459,6 +12165,7 @@ export const perfumes = [
     },
     {
         "id": 711,
+        "date": "2025-01-01",
         "brand": "XERJOFF",
         "name": "ESC. INSP. EN XJ 1861 NAXOS XERJOFF Unisex ",
         "category": "Nicho",
@@ -11475,6 +12182,7 @@ export const perfumes = [
     },
     {
         "id": 712,
+        "date": "2025-01-01",
         "brand": "ZADIG & VOLTAIRE",
         "name": "ESC. INSP. EN ZADIG Y VOLTAIREGIRLS CAN BECRAZY Mujer",
         "category": "Nicho",
@@ -11491,6 +12199,7 @@ export const perfumes = [
     },
     {
         "id": 713,
+        "date": "2025-01-01",
         "brand": "ZAKAT",
         "name": "ESC. INSP. EN ZAKAT ROYALE RUBINIA",
         "category": "Nicho",
@@ -11507,6 +12216,7 @@ export const perfumes = [
     },
     {
         "id": 714,
+        "date": "2025-01-01",
         "brand": "INDUSTRIAL ",
         "name": "ESC. INSP. EN CANELA PICANTE ",
         "category": "Industrial",
@@ -11522,6 +12232,7 @@ export const perfumes = [
     },
     {
         "id": 715,
+        "date": "2025-01-01",
         "brand": "INDUSTRIAL ",
         "name": "ESC. INSP. EN CITRONELA ",
         "category": "Industrial",
@@ -11537,6 +12248,7 @@ export const perfumes = [
     },
     {
         "id": 716,
+        "date": "2025-01-01",
         "brand": "INDUSTRIAL ",
         "name": "ESC. INSP. EN CHICLE",
         "category": "Industrial",
@@ -11552,6 +12264,7 @@ export const perfumes = [
     },
     {
         "id": 717,
+        "date": "2025-01-01",
         "brand": "VICTORIAS SECRET",
         "name": "ESC. INSP. EN V.S COCO INDUSTRIAL Mujer ",
         "category": "Industrial",
@@ -11567,6 +12280,7 @@ export const perfumes = [
     },
     {
         "id": 718,
+        "date": "2025-01-01",
         "brand": "VICTORIAS SECRET",
         "name": "ESC. INSP. EN V.S FRUTOS ROJOS",
         "category": "Industrial",
@@ -11582,6 +12296,7 @@ export const perfumes = [
     },
     {
         "id": 719,
+        "date": "2025-01-01",
         "brand": "INDUSTRIAL ",
         "name": "ESC. INSP. EN LAVANDA ",
         "category": "Industrial",
@@ -11597,6 +12312,7 @@ export const perfumes = [
     },
     {
         "id": 720,
+        "date": "2025-01-01",
         "brand": "INDUSTRIAL ",
         "name": "ESC. INSP. EN LIMON PEEL ",
         "category": "Industrial",
@@ -11612,6 +12328,7 @@ export const perfumes = [
     },
     {
         "id": 721,
+        "date": "2025-01-01",
         "brand": "INDUSTRIAL ",
         "name": "ESC. INSP. EN PINO FRESH",
         "category": "Industrial",
@@ -11627,6 +12344,7 @@ export const perfumes = [
     },
     {
         "id": 722,
+        "date": "2025-01-01",
         "brand": "VICTORIAS SECRET",
         "name": "ESC. INSP. EN VAINILLA INDUSTRIAL ",
         "category": "Industrial",
@@ -11642,6 +12360,7 @@ export const perfumes = [
     },
     {
         "id": 723,
+        "date": "2025-01-01",
         "brand": "TEXTIL",
         "name": "ESC. INSP EN TE VERDE",
         "category": "Textiles",
@@ -11657,6 +12376,7 @@ export const perfumes = [
     },
     {
         "id": 724,
+        "date": "2025-01-01",
         "brand": "TEXTIL",
         "name": "ESC. INSP EN PERDURA MANZANA",
         "category": "Textiles",
@@ -11672,6 +12392,7 @@ export const perfumes = [
     },
     {
         "id": 725,
+        "date": "2025-01-01",
         "brand": "TEXTIL",
         "name": "ESC. INSP EN GREENNISH SOFT",
         "category": "Textiles",
@@ -11687,10 +12408,10 @@ export const perfumes = [
     },
     {
         "id": 726,
+        "date": "2025-01-01",
         "brand": "LATTAFA",
         "name": "ESC. INSP EN AFFECTION",
         "category": "Nicho",
-        "isNew": true,
         "newName": "PISTACHIO INDULGENCE",
         "gender": "Unisex",
         "10 KG EN ADELANTE": 123,
@@ -11704,10 +12425,10 @@ export const perfumes = [
     },
     {
         "id": 727,
+        "date": "2025-01-01",
         "brand": "LATTAFA",
         "name": "ESC. INSP EN AMEER AL OUDH INTENSE OUD",
         "category": "Nicho",
-        "isNew": true,
         "newName": "FEARLESS MOOD",
         "gender": "Unisex",
         "10 KG EN ADELANTE": 139,
@@ -11721,10 +12442,10 @@ export const perfumes = [
     },
     {
         "id": 728,
+        "date": "2025-01-01",
         "brand": "VERSACE",
         "name": "ESC. INSP EN BRIGHT CRYSTAL PARFUM",
         "category": "Diseñador",
-        "isNew": true,
         "newName": "BOHEMIA INTENSE",
         "gender": "Mujer",
         "10 KG EN ADELANTE": 166,
@@ -11738,10 +12459,10 @@ export const perfumes = [
     },
     {
         "id": 729,
+        "date": "2025-01-01",
         "brand": "VERSACE",
         "name": "ESC. INSP EN CRYSTAL NOIR PARFUM",
         "category": "Diseñador",
-        "isNew": true,
         "newName": "CALNEGRE INTENSE",
         "gender": "Mujer",
         "10 KG EN ADELANTE": 166,
@@ -11755,10 +12476,10 @@ export const perfumes = [
     },
     {
         "id": 730,
+        "date": "2025-01-01",
         "brand": "LANCOME",
         "name": "ESC. INSP EN LA VIDA ES BELLA ELIXIR",
         "category": "Diseñador",
-        "isNew": true,
         "newName": "TRUE EPOQUE",
         "gender": "Mujer",
         "10 KG EN ADELANTE": 154,
@@ -11772,10 +12493,10 @@ export const perfumes = [
     },
     {
         "id": 733,
+        "date": "2025-01-01",
         "brand": "BURBERRY",
         "name": "ESC. INSP EN GODDESS INTENSE",
         "category": "Diseñador",
-        "isNew": true,
         "newName": "SPLENDID DIVINITY",
         "gender": "Mujer",
         "10 KG EN ADELANTE": 154,
@@ -11789,10 +12510,10 @@ export const perfumes = [
     },
     {
         "id": 736,
+        "date": "2025-01-01",
         "brand": "JEAN PAUL GAULTIER",
         "name": "ESC. INSP EN LE MALE LOVER",
         "category": "Diseñador",
-        "isNew": true,
         "newName": " PASSIONATE SAILOR",
         "gender": "Hombre",
         "10 KG EN ADELANTE": 156,
@@ -11806,10 +12527,10 @@ export const perfumes = [
     },
     {
         "id": 738,
+        "date": "2025-01-01",
         "brand": "ARMANI",
         "name": "ESC. INSP EN STRONGER WITH YOU TOBACCO",
         "category": "Diseñador",
-        "isNew": true,
         "newName": "SMOKY DUET",
         "gender": "Hombre",
         "10 KG EN ADELANTE": 161,
@@ -11823,10 +12544,10 @@ export const perfumes = [
     },
     {
         "id": 739,
+        "date": "2025-01-01",
         "brand": "VERSACE",
         "name": "ESC. INSP EN VERSACE EROS ENERGY",
         "category": "Diseñador",
-        "isNew": true,
         "newName": "BREATHTAKING VEROS",
         "gender": "Hombre",
         "10 KG EN ADELANTE": 139,
@@ -11840,10 +12561,10 @@ export const perfumes = [
     },
     {
         "id": 740,
+        "date": "2025-01-01",
         "brand": "LATTAFA",
         "name": "ESC. INSP EN LATTAFA HIS CONFESSION",
         "category": "Nicho",
-        "isNew": true,
         "newName": "FORMAL DECLARATION",
         "gender": "Hombre",
         "10 KG EN ADELANTE": 152,
@@ -11857,10 +12578,10 @@ export const perfumes = [
     },
     {
         "id": 741,
+        "date": "2025-01-01",
         "brand": "LATTAFA",
         "name": "ESC. INSP EN LATTAFA SEHR",
         "category": "Nicho",
-        "isNew": true,
         "newName": "SHEER LUXURY",
         "gender": "Unisex",
         "10 KG EN ADELANTE": 152,
@@ -11874,10 +12595,10 @@ export const perfumes = [
     },
     {
         "id": 742,
+        "date": "2025-01-01",
         "brand": "LATTAFA",
         "name": "ESC. INSP EN LATTAFA ASAD BOURBON",
         "category": "Nicho",
-        "isNew": true,
         "newName": "ALLURING SPICE",
         "gender": "Hombre",
         "10 KG EN ADELANTE": 163,
@@ -11891,10 +12612,10 @@ export const perfumes = [
     },
     {
         "id": 743,
+        "date": "2025-01-01",
         "brand": "ARMAF",
         "name": "ESC. INSP EN ARMAF ODYSSEY TYRANT",
         "category": "Nicho",
-        "isNew": true,
         "newName": "PISISTRATO",
         "gender": "Hombre",
         "10 KG EN ADELANTE": 169,
@@ -11908,10 +12629,10 @@ export const perfumes = [
     },
     {
         "id": 744,
+        "date": "2025-01-01",
         "brand": "ARMAF",
         "name": "ESC. INSP EN ARMAF ODYSSEY SPECTRA",
         "category": "Nicho",
-        "isNew": true,
         "newName": "ODYSSEY SPECTRA",
         "gender": "Hombre",
         "10 KG EN ADELANTE": 131,
@@ -11925,10 +12646,10 @@ export const perfumes = [
     },
     {
         "id": 745,
+        "date": "2025-01-01",
         "brand": "ARMAF",
         "name": "ESC. INSP EN ARMAF ODYSSEY CANDEE",
         "category": "Nicho",
-        "isNew": true,
         "newName": "CANDYLAND",
         "gender": "Mujer",
         "10 KG EN ADELANTE": 131,
@@ -11942,10 +12663,10 @@ export const perfumes = [
     },
     {
         "id": 746,
+        "date": "2025-01-01",
         "brand": "LATTAFA",
         "name": "ESC. INSP EN LATTAFA KHAMRAH QAHWA",
         "category": "Nicho",
-        "isNew": true,
         "newName": "EVINING CAFÉ",
         "gender": "Unisex",
         "10 KG EN ADELANTE": 159,
@@ -11959,10 +12680,10 @@ export const perfumes = [
     },
     {
         "id": 747,
+        "date": "2025-01-01",
         "brand": "LOUIS VUITTON",
         "name": "ESC. INSP EN LOUIS VUITTON IMAGINATION",
         "category": "Nicho",
-        "isNew": true,
         "newName": "UNIVERSAL ATTRACTION",
         "gender": "Hombre",
         "10 KG EN ADELANTE": 178,
@@ -11976,10 +12697,10 @@ export const perfumes = [
     },
     {
         "id": 748,
+        "date": "2025-01-01",
         "brand": "LOUIS VUITTON",
         "name": "ESC. INSP EN LOUIS VUITTON ATTRAPE REVES",
         "category": "Nicho",
-        "isNew": true,
         "newName": "WONDER CELEBRATION",
         "gender": "Mujer",
         "10 KG EN ADELANTE": 166,
@@ -11993,10 +12714,10 @@ export const perfumes = [
     },
     {
         "id": 749,
+        "date": "2025-01-01",
         "brand": "JEAN PAUL GAULTIER",
         "name": "ESC. INSP EN JEAN PAUL GAULTIER DIVINE LE PARFUM",
         "category": "Diseñador",
-        "isNew": true,
         "newName": "GOLDEN MAJESTY",
         "gender": "Mujer",
         "10 KG EN ADELANTE": 151,
@@ -12010,10 +12731,10 @@ export const perfumes = [
     },
     {
         "id": 750,
+        "date": "2025-01-01",
         "brand": "NATURA",
         "name": "ESC. INSP EN NATURA KAIAK WOMAN",
         "category": "Diseñador",
-        "isNew": true,
         "newName": "VITAL FREEDOM",
         "gender": "Mujer",
         "10 KG EN ADELANTE": 149,
@@ -12027,10 +12748,10 @@ export const perfumes = [
     },
     {
         "id": 751,
+        "date": "2025-01-01",
         "brand": "YVES SAINT LAURENT",
         "name": "ESC. INSP EN YVES SAINT LAURENT MYSLF LE PARFUM",
         "category": "Diseñador",
-        "isNew": true,
         "newName": "FREEFLOW INTENSE",
         "gender": "Hombre",
         "10 KG EN ADELANTE": 151,
@@ -12044,10 +12765,10 @@ export const perfumes = [
     },
     {
         "id": 752,
+        "date": "2025-01-01",
         "brand": "AHLI",
         "name": "ESC. INSP EN AHLI CRUX",
         "category": "Nicho",
-        "isNew": true,
         "newName": "IVORY VANILLA",
         "gender": "Unisex",
         "10 KG EN ADELANTE": 228,
@@ -12061,10 +12782,10 @@ export const perfumes = [
     },
     {
         "id": 753,
+        "date": "2025-01-01",
         "brand": "ARMAF",
         "name": "ESC. INSP. EN ARMAF DESERT ROSE",
         "category": "Nicho",
-        "isNew": true,
         "newName": "DESERT ROSE",
         "gender": "Unisex",
         "10 KG EN ADELANTE": 201,
@@ -12078,10 +12799,10 @@ export const perfumes = [
     },
     {
         "id": 754,
+        "date": "2025-01-01",
         "brand": "LAVERNE",
         "name": "ESC. INSP. EN LAVERNE SENSE",
         "category": "Nicho",
-        "isNew": true,
         "newName": "BALLERINA POEM",
         "gender": "Mujer",
         "10 KG EN ADELANTE": 170,
@@ -12095,10 +12816,10 @@ export const perfumes = [
     },
     {
         "id": 755,
+        "date": "2025-01-01",
         "brand": "VALENTINO",
         "name": "ESC. INSP. EN VALENTINO DONNA",
         "category": "Diseñador",
-        "isNew": true,
         "newName": "VALERIA",
         "gender": "Mujer",
         "10 KG EN ADELANTE": 170,
@@ -12112,10 +12833,10 @@ export const perfumes = [
     },
     {
         "id": 756,
+        "date": "2025-01-01",
         "brand": "JEAN PAUL GAULTIER",
         "name": "ESC. INSP. EN JEAN PAUL GAULTIER PARADISE GARDEN",
         "category": "Diseñador",
-        "isNew": true,
         "newName": "TROPICAL DAPPER",
         "gender": "Hombre",
         "10 KG EN ADELANTE": 170,
@@ -12129,10 +12850,10 @@ export const perfumes = [
     },
     {
         "id": 757,
+        "date": "2025-01-01",
         "brand": "VALENTINO",
         "name": "ESC.INSP. EN VALENTINO DONNA BORN IN ROMA",
         "category": "Diseñador",
-        "isNew": true,
         "newName": "ROMAN VALERIA",
         "gender": "Mujer",
         "10 KG EN ADELANTE": 160,
@@ -12146,10 +12867,10 @@ export const perfumes = [
     },
     {
         "id": 758,
+        "date": "2025-01-01",
         "brand": "AFNAN",
         "name": "ESC. INSP. EN AFNAN 9PM REBEL",
         "category": "Nicho",
-        "isNew": true,
         "newName": "VIBRANT EVENING",
         "gender": "Unisex",
         "10 KG EN ADELANTE": 160,
@@ -12163,10 +12884,10 @@ export const perfumes = [
     },
      {
         "id": 759,
+        "date": "2025-01-01",
         "brand": "ZAKAT",
         "name": "ESC. INSP. EN ZAKAT Z-25",
         "category": "Nicho",
-        "isNew": true,
         "newName": "EMERALD STREET",
         "gender": "Unisex",
         "10 KG EN ADELANTE": 160,
@@ -12181,10 +12902,10 @@ export const perfumes = [
 
      {
         "id": 760,
+        "date": "2025-01-01",
         "brand": "AL HARAMAIN",
         "name": "ESC. INSP. EN AL HARAMAIN AMBER OUD AQUA DUBAI",
         "category": "Nicho",
-        "isNew": true,
         "newName": "ARABIAN SEA",
         "gender": "Unisex",
         "10 KG EN ADELANTE": 158,
@@ -12199,10 +12920,10 @@ export const perfumes = [
 
     {
         "id": 761,
+        "date": "2025-01-01",
         "brand": "ARMAF",
         "name": "ESC. INSP. ARMAF ODYSSEY LIMONI FRESH",
         "category": "Nicho",
-        "isNew": true,
         "newName": "LEMON BURST",
         "gender": "Unisex",
         "10 KG EN ADELANTE": 164,
@@ -12217,10 +12938,10 @@ export const perfumes = [
 
     {
         "id": 762,
+        "date": "2025-01-01",
         "brand": "MAISON CRIVELLI",
         "name": "ESC. INSP. MAISON CRIVELLI OUD CADENZA",
         "category": "Nicho",
-        "isNew": true,
         "newName": "HIDDEN DANCE",
         "gender": "Unisex",
         "10 KG EN ADELANTE": 159,
@@ -12235,10 +12956,10 @@ export const perfumes = [
 
     {
         "id": 763,
+        "date": "2025-01-01",
         "brand": "MAISON CRIVELLI",
         "name": "ESC. INSP. MAISON CRIVELLI OUD MARACUJÁ",
         "category": "Nicho",
-        "isNew": true,
         "newName": "EXOTIC CONTRAST",
         "gender": "Unisex",
         "10 KG EN ADELANTE": 176,
@@ -12252,10 +12973,10 @@ export const perfumes = [
     },
      {
         "id": 764,
+        "date": "2025-01-01",
         "brand": "VALENTINO",
         "name": "ESC. INSP. EN VALENTINO DONNA BORN IN ROMA GREEN STRAVAGANZA",
         "category": "Diseñador",
-        "isNew": true,
         "newName": "EXTRAVAGANT VALERIA",
         "gender": "Mujer",
         "10 KG EN ADELANTE": 166,
@@ -12269,10 +12990,10 @@ export const perfumes = [
     },
      {
         "id": 765,
+        "date": "2025-01-01",
         "brand": "VALENTINO",
         "name": "ESC. INSP. EN VALENTINO DONNA NOIR ABSOLU",
         "category": "Diseñador",
-        "isNew": true,
         "newName": "SENSUOUS ADDICTION",
         "gender": "Mujer",
         "10 KG EN ADELANTE": 166,
@@ -12286,10 +13007,10 @@ export const perfumes = [
     },
      {
         "id": 766,
+        "date": "2025-01-01",
         "brand": "PACO RABANNE",
         "name": "ESC. INSP. EN PACO RABANNE OLYMPEA PARFUM ",
         "category": "Diseñador",
-        "isNew": true,
         "newName": "OLIMPIANA EXTREME",
         "gender": "Mujer",
         "10 KG EN ADELANTE": 155,
@@ -12303,10 +13024,10 @@ export const perfumes = [
     },
     {
         "id": 767,
+        "date": "2025-01-01",
         "brand": "LATTAFA",
         "name": "ESC. INSP. EN LATTAFA AL NOBLE AMMER",
         "category": "Nicho",
-        "isNew": true,
         "newName": "NOBLE SPICY",
         "gender": "Unisex",
         "10 KG EN ADELANTE": 155,
@@ -12320,10 +13041,10 @@ export const perfumes = [
     },
     {
         "id": 768,
+        "date": "2025-01-01",
         "brand": "EX NIHILO",
         "name": "ESC. INSP. EN EX NIHILO OUTCAST BLUE ",
         "category": "Nicho",
-        "isNew": true,
         "newName": "REBELLIOUS SILLAGE",
         "gender": "Unisex",
         "10 KG EN ADELANTE": 153,
@@ -12337,6 +13058,7 @@ export const perfumes = [
     },
     {
         "id": 769,
+        "date": "2025-01-01",
         "brand": "ILMIN",
         "name": "ESC. INSP. EN ILMIN IL ARTE",
         "category": "Nicho",
@@ -12353,10 +13075,10 @@ export const perfumes = [
     },
     {
         "id": 770,
+        "date": "2025-01-01",
         "brand": "LATTAFA",
         "name": "ESC. INSP. EN LATTAFA KHAMRAH DUKHAN",
         "category": "Nicho",
-        "isNew": true,
         "newName": "FIERY AURA",
         "gender": "Hombre",
         "10 KG EN ADELANTE": 160,
@@ -12370,10 +13092,10 @@ export const perfumes = [
     },
     {
         "id": 771,
+        "date": "2025-01-01",
         "brand": "AL HARAMAIN",
         "name": "ESC. INSP. EN AL HARAMAIN AMBER OUD DUBAI NIGHT",
         "category": "Nicho",
-        "isNew": true,
         "newName": "GOLDEN CITY NIGHTFALL",
         "gender": "Hombre",
         "10 KG EN ADELANTE": 157,
@@ -12387,10 +13109,10 @@ export const perfumes = [
     },
     {
         "id": 772,
+        "date": "2025-01-01",
         "brand": "DUMONT PARIS",
         "name": "ESC. INSP. EN DUMONT PARIS NITRO RED",
         "category": "Nicho",
-        "isNew": true,
         "newName": "BOLD FLAME",
         "gender": "Hombre",
         "10 KG EN ADELANTE": 157,
@@ -12405,10 +13127,10 @@ export const perfumes = [
 
     {
         "id": 773,
+        "date": "2025-01-01",
         "brand": "LATTAFA",
         "name": "ESC. INSP. EN LATTAFA ART OF UNIVERSE",
         "category": "Nicho",
-        "isNew": true,
         "newName": "BLUE CONQUEST",
         "gender": "Unisex",
         "10 KG EN ADELANTE": 173,
@@ -12423,10 +13145,10 @@ export const perfumes = [
 
     {
         "id": 774,
+        "date": "2025-01-01",
         "brand": "DUMONT PARIS",
         "name": "ESC. INSP. EN DUMONT PARIS NITRO GREEN",
         "category": "Nicho",
-        "isNew": true,
         "newName": "GREEN FORCE",
         "gender": "Hombre",
         "10 KG EN ADELANTE": 137,
@@ -12441,10 +13163,10 @@ export const perfumes = [
     
     {
         "id": 775,
+        "date": "2025-01-01",
         "brand": "DUMONT PARIS",
         "name": "ESC. INSP. EN DUMONT PARIS NITRO BLUE",
         "category": "Nicho",
-        "isNew": true,
         "newName": "BLEU HORIZON",
         "gender": "Hombre",
         "10 KG EN ADELANTE": 307,
@@ -12459,10 +13181,10 @@ export const perfumes = [
     
     {
         "id": 776,
+        "date": "2025-01-01",
         "brand": "DUMONT PARIS",
         "name": "ESC. INSP. EN DUMONT PARIS NITRO WHITE",
         "category": "Nicho",
-        "isNew": true,
         "newName": "BLANC SUPREME",
         "gender": "Hombre",
         "10 KG EN ADELANTE": 155,
@@ -12476,10 +13198,10 @@ export const perfumes = [
     },
     {
         "id": 777,
+        "date": "2025-01-01",
         "brand": "DUMONT PARIS",
         "name": "ESC. INSP. EN DUMONT PARIS NITRO PLATINUM",
         "category": "Nicho",
-        "isNew": true,
         "newName": "PLATINUM CODE",
         "gender": "Hombre",
         "10 KG EN ADELANTE": 159,
@@ -12493,10 +13215,10 @@ export const perfumes = [
     },
     {
         "id": 778,
+        "date": "2025-01-01",
         "brand": "DUMONT PARIS",
         "name": "ESC. INSP. EN DUMONT PARIS NITRO INTENSE",
         "category": "Nicho",
-        "isNew": true,
         "newName": "DARK INSTINCT",
         "gender": "Hombre",
         "10 KG EN ADELANTE": 151,
@@ -12510,10 +13232,10 @@ export const perfumes = [
     },
     {
         "id": 779,
+        "date": "2025-01-01",
         "brand": "DUMONT PARIS",
         "name": "ESC. INSP. EN DUMONT PARIS NITRO BLACK",
         "category": "Nicho",
-        "isNew": true,
         "newName": "BLACK SPIRIT",
         "gender": "Hombre",
         "10 KG EN ADELANTE": 167,
@@ -12527,10 +13249,10 @@ export const perfumes = [
     },
     {
         "id": 780,
+        "date": "2025-01-01",
         "brand": "FRENCH AVENUE",
         "name": "ESC. INSP. EN FRENCH AVENUE VULCAN FEU",
         "category": "Nicho",
-        "isNew": true,
         "newName": "VOLKAN ABSOLU",
         "gender": "Unisex",
         "10 KG EN ADELANTE": 191,
@@ -12544,10 +13266,10 @@ export const perfumes = [
     },
     {
         "id": 781,
+        "date": "2025-01-01",
         "brand": "SUPERZ BUDAPEST",
         "name": "ESC. INSP. EN SUPERZ BUDAPEST TENERIFE",
         "category": "Nicho",
-        "isNew": true,
         "newName": "LAGUNA VENTO",
         "gender": "Unisex",
         "10 KG EN ADELANTE": 199,
@@ -12561,6 +13283,7 @@ export const perfumes = [
     },
     {
         "id": 782,
+        "date": "2025-01-01",
         "brand": "TEXTIL",
         "name": "ESC. INSP. EN AGUA DE LINOS",
         "category": "Textiles",
@@ -12577,10 +13300,10 @@ export const perfumes = [
     },
     {
         "id": 783,
+        "date": "2025-01-01",
         "brand": "LATTAFA",
         "name": "ESC. INSP. EN LATTAFA TERIAQ INTENSE",
         "category": "Nicho",
-        "isNew": true,
         "newName": "PURE ANTIDOTE",
         "gender": "Unisex",
         "10 KG EN ADELANTE": 160,
@@ -12594,10 +13317,10 @@ export const perfumes = [
     },
     {
         "id": 784,
+        "date": "2025-01-01",
         "brand": "ARMAF",
         "name": "ESC. INSP. EN ARMAF ODYSSEY DUBAI CHOCOLAT",
         "category": "Nicho",
-        "isNew": true,
         "newName": "POSH DESSERT",
         "gender": "Unisex",
         "10 KG EN ADELANTE": 160,
@@ -12611,10 +13334,10 @@ export const perfumes = [
     },
     {
         "id": 785,
+        "date": "2025-01-01",
         "brand": "AHLI",
         "name": "ESC. INSP. EN AHLI PEGASUS",
         "category": "Nicho",
-        "isNew": true,
         "newName": "IMPERION",
         "gender": "Unisex",
         "10 KG EN ADELANTE": 156,
@@ -12628,10 +13351,10 @@ export const perfumes = [
     },
     {
         "id": 786,
+        "date": "2025-01-01",
         "brand": "LATTAFA",
         "name": "ESC. INSP. EN LATTAFA VICTORIA",
         "category": "Nicho",
-        "isNew": true,
         "newName": "MERINGUE BRULEE",
         "gender": "Unisex",
         "10 KG EN ADELANTE": 169,
@@ -12645,10 +13368,10 @@ export const perfumes = [
     },
     {
         "id": 787,
+        "date": "2025-01-01",
         "brand": "KARL LAGERFELD",
         "name": "ESC. INSP. EN KARL LAGERFELD IKONIK WOMAN",
         "category": "Diseñador",
-        "isNew": true,
         "newName": "HER LEGACY",
         "gender": "Mujer",
         "10 KG EN ADELANTE": 157,
@@ -12662,10 +13385,10 @@ export const perfumes = [
     },
     {
         "id": 788,
+        "date": "2025-01-01",
         "brand": "LACOSTE",
         "name": "ESC. INSP. EN LACOSTE VERT",
         "category": "Diseñador",
-        "isNew": true,
         "newName": "LEVERT",
         "gender": "Hombre",
         "10 KG EN ADELANTE": 131,
@@ -12679,10 +13402,10 @@ export const perfumes = [
     },
     {
         "id": 789,
+        "date": "2025-01-01",
         "brand": "BURBERRY",
         "name": "ESC. INSP. EN BURBERRY HER EAU DE TOILETTE",
         "category": "Diseñador",
-        "isNew": true,
         "newName": "LONDON SPIRIT",
         "gender": "Mujer",
         "10 KG EN ADELANTE": 155,
@@ -12696,10 +13419,10 @@ export const perfumes = [
     },
     {
         "id": 790,
+        "date": "2025-01-01",
         "brand": "CAROLINA HERRERA",
         "name": "ESC. INSP. EN CH LA BOMBA",
         "category": "Diseñador",
-        "isNew": true,
         "newName": "METAMORPHOSIS",
         "gender": "Mujer",
         "10 KG EN ADELANTE": 143,
@@ -12713,10 +13436,10 @@ export const perfumes = [
     },
     {
         "id": 791,
+        "date": "2025-01-01",
         "brand": "KARL LAGERFELD",
         "name": "ESC. INSP. EN KARL LAGERFELD IKONIK MAN",
         "category": "Diseñador",
-        "isNew": true,
         "newName": "LEGENDARY DESIGNER",
         "gender": "Hombre",
         "10 KG EN ADELANTE": 162,
@@ -12730,10 +13453,10 @@ export const perfumes = [
     },
     {
         "id": 792,
+        "date": "2025-01-01",
         "brand": "CAROLINA HERRERA",
         "name": "ESC. INSP. EN CH BAD BOY ELIXIR",
         "category": "Diseñador",
-        "isNew": true,
         "newName": "ULTIMATE FLASH",
         "gender": "Hombre",
         "10 KG EN ADELANTE": 157,
@@ -12747,10 +13470,10 @@ export const perfumes = [
     },
     {
         "id": 793,
+        "date": "2025-01-01",
         "brand": "BHARARA",
         "name": "ESC. INSP. EN BHARARA PHAROH RAMESSES I",
         "category": "Nicho",
-        "isNew": true,
         "newName": "MENES",
         "gender": "Unisex",
         "10 KG EN ADELANTE": 154,
@@ -12764,10 +13487,10 @@ export const perfumes = [
     },
     {
         "id": 794,
+        "date": "2025-01-01",
         "brand": "ILMIN",
         "name": "ESC. INSP. EN ILMIN IL GOUTTE",
         "category": "Nicho",
-        "isNew": true,
         "newName": "THE DROPLET",
         "gender": "Unisex",
         "10 KG EN ADELANTE": 157,
@@ -12781,10 +13504,10 @@ export const perfumes = [
     },
     {
         "id": 795,
+        "date": "2025-01-01",
         "brand": "ILMIN",
         "name": "ESC. INSP. EN ILMIN IL VOSS",
         "category": "Nicho",
-        "isNew": true,
         "newName": "WHISPERS OF NATURE",
         "gender": "Unisex",
         "10 KG EN ADELANTE": 157,
@@ -12798,10 +13521,10 @@ export const perfumes = [
     },
     {
         "id": 796,
+        "date": "2025-01-01",
         "brand": "LATTAFA",
         "name": "ESC. INSP. EN LATTAFA AFEEF",
         "category": "Nicho",
-        "isNew": true,
         "newName": "TIMAFEEF",
         "gender": "Unisex",
         "10 KG EN ADELANTE": 154,
@@ -12815,10 +13538,10 @@ export const perfumes = [
     },
     {
         "id": 797,
+        "date": "2025-01-01",
         "brand": "LATTAFA",
         "name": "ESC. INSP. EN LATTAFA ATHEERI",
         "category": "Nicho",
-        "isNew": true,
         "newName": "ORCHID HONEY",
         "gender": "Mujer",
         "10 KG EN ADELANTE": 143,
@@ -12832,10 +13555,10 @@ export const perfumes = [
     },
     {
         "id": 798,
+        "date": "2025-01-01",
         "brand": "LATTAFA",
         "name": "ESC. INSP. EN LATTAFA MAYAR CHERRY INTENSE",
         "category": "Nicho",
-        "isNew": true,
         "newName": "GOURMET NECTAR",
         "gender": "Unisex",
         "10 KG EN ADELANTE": 151,
@@ -12849,10 +13572,10 @@ export const perfumes = [
     },
     {
         "id": 799,
+        "date": "2025-01-01",
         "brand": "LATTAFA",
         "name": "ESC. INSP. EN LATTAFA MUSAMAN WHITE INTENSE",
         "category": "Nicho",
-        "isNew": true,
         "newName": "COMFORTING JOURNEY",
         "gender": "Unisex",
         "10 KG EN ADELANTE": 143,
@@ -12866,10 +13589,10 @@ export const perfumes = [
     },
     {
         "id": 800,
+        "date": "2025-01-01",
         "brand": "ORIENTICA",
         "name": "ESC. INSP. EN ORIENTICA DANIA EXCLUSIVE",
         "category": "Nicho",
-        "isNew": true,
         "newName": "TEMPTING AURA",
         "gender": "Mujer",
         "10 KG EN ADELANTE": 143,
@@ -12883,10 +13606,10 @@ export const perfumes = [
     },
     {
         "id": 801,
+        "date": "2025-01-01",
         "brand": "RASASI",
         "name": "ESC. INSP. EN RASASI HAWAS TROPICAL",
         "category": "Nicho",
-        "isNew": true,
         "newName": "TROPICAL VIBE",
         "gender": "Hombre",
         "10 KG EN ADELANTE": 173,
@@ -12900,10 +13623,10 @@ export const perfumes = [
     },
     {
         "id": 802,
+        "date": "2025-01-01",
         "brand": "BHARARA MAST PERFUME",
         "name": "ESC. INSP. EN BHARARA ROME POUR FEMME",
         "category": "Nicho",
-        "isNew": true,
         "newName": "SERENISSIMA",
         "gender": "Mujer",
         "10 KG EN ADELANTE": 162,
@@ -12917,10 +13640,10 @@ export const perfumes = [
     },
     {
         "id": 803,
+        "date": "2025-01-01",
         "brand": "BHARARA MAST PERFUME",
         "name": "ESC. INSP. EN BHARARA ROME POUR HOMME",
         "category": "Nicho",
-        "isNew": true,
         "newName": "COLISEUM",
         "gender": "Hombre",
         "10 KG EN ADELANTE": 177,
@@ -12934,10 +13657,10 @@ export const perfumes = [
     },
     {
         "id": 804,
+        "date": "2025-01-01",
         "brand": "ILMIN",
         "name": " ESC. INSP. EN ILMIN IL MEXICO",
         "category": "Nicho",
-        "isNew": true,
         "newName": "NAVEL OF THE MOON",
         "gender": "Unisex",
         "10 KG EN ADELANTE": 160,
@@ -12951,10 +13674,10 @@ export const perfumes = [
     },
     {
         "id": 805,
+        "date": "2025-01-01",
         "brand": "ARMAF",
         "name": " ESC. INSP. EN ARMAF ODYSSEY ARTISTO",
         "category": "Nicho",
-        "isNew": true,
         "newName": "ARTISTIC THRILL",
         "gender": "Unisex",
         "10 KG EN ADELANTE": 148,
@@ -12968,10 +13691,10 @@ export const perfumes = [
     },
     {
         "id": 806,
+        "date": "2025-01-01",
         "brand": "PALOMA PICASSO",
         "name": " ESC. INSP. EN PALOMA PICASSO ",
         "category": "Diseñador",
-        "isNew": true,
         "newName": "PALOMA",
         "gender": "Mujer",
         "10 KG EN ADELANTE": 158,
@@ -12986,10 +13709,10 @@ export const perfumes = [
 
     {
         "id": 807,
+        "date": "2025-01-01",
         "brand": "ARMAF",
         "name": " ESC. INSP. EN ARMAF ODYSSEY MANDARIN SKY ELIXIR",
         "category": "Nicho",
-        "isNew": true,
         "newName": "INFINITE HORIZON",
         "gender": "Unisex",
         "10 KG EN ADELANTE": 150,
@@ -13004,10 +13727,10 @@ export const perfumes = [
 
     {
         "id": 808,
+        "date": "2025-01-01",
         "brand": "ARMAF",
         "name": " ESC. INSP. EN ARMAF ODYSSEY WILD ONE",
         "category": "Nicho",
-        "isNew": true,
         "newName": "ALPHA EMPIRE",
         "gender": "Hombre",
         "10 KG EN ADELANTE": 150,
@@ -13021,10 +13744,10 @@ export const perfumes = [
     },
     {
         "id": 809,
+        "date": "2025-01-01",
         "brand": "PACO RABANNE",
         "name": "ESC. INSP. EN PACO RABANNE MILLION GOLD ELIXIR",
         "category": "Diseñador",
-        "isNew": true,
         "newName": "MILXMIL AURA",
         "gender": "Hombre",
         "10 KG EN ADELANTE": 162,
@@ -13038,10 +13761,10 @@ export const perfumes = [
     },
     {
         "id": 810,
+        "date": "2025-01-01",
         "brand": "ARMAF",
         "name": "ESC. INSP. EN ARMAF CLUB DE NUIT ICONIC",
         "category": "Nicho",
-        "isNew": true,
         "newName": "AZZURE ADVENTURE",
         "gender": "Hombre",
         "10 KG EN ADELANTE": 146,
@@ -13055,10 +13778,10 @@ export const perfumes = [
     },
     {
         "id": 811,
+        "date": "2025-01-01",
         "brand": "RASASI",
         "name": " ESC. INSP. EN RASASI HAWAS BLACK",
         "category": "Nicho",
-        "isNew": true,
         "newName": "OBSIDIAN",
         "gender": "Unisex",
         "10 KG EN ADELANTE": 163,
@@ -13072,10 +13795,10 @@ export const perfumes = [
     },
     {
         "id": 812,
+        "date": "2025-01-01",
         "brand": "RASASI",
         "name": " ESC. INSP. EN RASASI HAWAS FIRE",
         "category": "Nicho",
-        "isNew": true,
         "newName": "BOOSTED CONFIDENCE",
         "gender": "Hombre",
         "10 KG EN ADELANTE": 149,
@@ -13089,10 +13812,10 @@ export const perfumes = [
     },
     {
         "id": 813,
+        "date": "2025-01-01",
         "brand": "PACO RABANNE",
         "name": " ESC. INSP. EN PACO RABANNE FAME COUTURE",
         "category": "Diseñador",
-        "isNew": true,
         "newName": "FASHION ERA",
         "gender": "Mujer",
         "10 KG EN ADELANTE": 149,
@@ -13106,10 +13829,10 @@ export const perfumes = [
     },
     {
         "id": 814,
+        "date": "2025-01-01",
         "brand": "JEAN PAUL GAULTIER",
         "name": " ESC. INSP. EN JEAN PAUL GAULTIER LE MALE ELIXIR ABSOLU",
         "category": "Diseñador",
-        "isNew": true,
         "newName": "GOLDEN DESIRE",
         "gender": "Hombre",
         "10 KG EN ADELANTE": 143,
@@ -13123,10 +13846,10 @@ export const perfumes = [
     },
     {
         "id": 815,
+        "date": "2025-01-01",
         "brand": "ARMAF",
         "name": " ESC. INSP. EN ARMAF ODYSSEY HOMME",
         "category": "Nicho",
-        "isNew": true,
         "newName": "DARK THRILL",
         "gender": "Hombre",
         "10 KG EN ADELANTE": 149,
@@ -13140,10 +13863,10 @@ export const perfumes = [
     },
     {
         "id": 816,
+        "date": "2025-01-01",
         "brand": "ARMAF",
         "name": " ESC. INSP. EN ARMAF ODYSSEY MEGA",
         "category": "Nicho",
-        "isNew": true,
         "newName": "TITÁN FORCE",
         "gender": "Hombre",
         "10 KG EN ADELANTE": 149,
@@ -13157,10 +13880,10 @@ export const perfumes = [
     },
     {
         "id": 817,
+        "date": "2025-01-01",
         "brand": "VALENTINO",
         "name": " ESC. INSP. EN VALENTINO BORN IN ROMA THE GOLD DONNA",
         "category": "Diseñador",
-        "isNew": true,
         "newName": "SOLAR VALERIA",
         "gender": "Mujer",
         "10 KG EN ADELANTE": 149,
@@ -13174,10 +13897,10 @@ export const perfumes = [
     },
     {
         "id": 818,
+        "date": "2025-01-01",
         "brand": "KAYALI",
         "name": " ESC. INSP. EN KAYALI YUM BOUJEE MARSHMALLOW",
         "category": "Nicho",
-        "isNew": true,
         "newName": "SUGAR CLOUD",
         "gender": "Mujer",
         "10 KG EN ADELANTE": 139,
@@ -13192,10 +13915,10 @@ export const perfumes = [
 
     {
         "id": 819,
+        "date": "2025-01-01",
         "brand": "AFNAN",
         "name": " ESC. INSP. EN AFNAN 9PM ELIXIR",
         "category": "Nicho",
-        "isNew": true,
         "newName": "EXQUISITE EVENING",
         "gender": "Unisex",
         "10 KG EN ADELANTE": 142,
@@ -13210,10 +13933,10 @@ export const perfumes = [
 
     {
         "id": 820,
+        "date": "2025-01-01",
         "brand": "ARMAF",
         "name": " ESC. INSP. EN ARMAF ISLAND BREEZE",
         "category": "Nicho",
-        "isNew": true,
         "newName": "TROPICAL WHISPERS",
         "gender": "Unisex",
         "10 KG EN ADELANTE": 137,
@@ -13228,10 +13951,10 @@ export const perfumes = [
 
     {
         "id": 821,
+        "date": "2025-01-01",
         "brand": "LATTAFA",
         "name": " ESC. INSP. EN LATTAFA ASAD ELIXIR",
         "category": "Nicho",
-        "isNew": true,
         "newName": "ROYAL SPICE",
         "gender": "Hombre",
         "10 KG EN ADELANTE": 132,
@@ -13246,10 +13969,10 @@ export const perfumes = [
 
     {
         "id": 822,
+        "date": "2025-01-01",
         "brand": "LATTAFA",
         "name": " ESC. INSP. EN LATTAFA YARA ELIXIR",
         "category": "Nicho",
-        "isNew": true,
         "newName": "PLAYFUL BLEND",
         "gender": "Mujer",
         "10 KG EN ADELANTE": 132,
@@ -13264,10 +13987,10 @@ export const perfumes = [
 
     {
         "id": 823,
+        "date": "2025-01-01",
         "brand": "LATTAFA",
         "name": " ESC. INSP. EN LATTAFA ECLAIRE BANOFFI",
         "category": "Nicho",
-        "isNew": true,
         "newName": "BANANADDICTION",
         "gender": "Unisex",
         "10 KG EN ADELANTE": 127,
@@ -13282,10 +14005,10 @@ export const perfumes = [
 
     {
         "id": 824,
+        "date": "2025-01-01",
         "brand": "LATTAFA",
         "name": " ESC. INSP. EN LATTAFA ECLAIRE PISTACHE",
         "category": "Nicho",
-        "isNew": true,
         "newName": "IRRESISTIBLE PISTACHO",
         "gender": "Unisex",
         "10 KG EN ADELANTE": 132,
@@ -13300,6 +14023,7 @@ export const perfumes = [
 
     {
         "id": 825,
+        "date": "2025-01-01",
         "brand": "DIFUSSER",
         "name": " ESC. INSP. EN BAMBU FINAL",
         "category": "Difusser",
@@ -13316,6 +14040,7 @@ export const perfumes = [
     },
     {
         "id": 826,
+        "date": "2025-01-01",
         "brand": "DIFUSSER",
         "name": " ESC. INSP. EN MANZANELA FINAL",
         "category": "Difusser",
@@ -13332,6 +14057,7 @@ export const perfumes = [
     },
     {
         "id": 827,
+        "date": "2025-01-01",
         "brand": "DIFUSSER",
         "name": " ESC. INSP. EN SPELOVE FINAL",
         "category": "Difusser",
@@ -13348,6 +14074,7 @@ export const perfumes = [
     },
     {
         "id": 828,
+        "date": "2025-01-01",
         "brand": "DIFUSSER",
         "name": " ESC. INSP. EN SEXY CHRISTMAS FINAL",
         "category": "Difusser",
@@ -13364,6 +14091,7 @@ export const perfumes = [
     },
     {
         "id": 830,
+        "date": "2025-01-01",
         "brand": "HUMIDIFICADORES",
         "name": "ESC. INSP. EN KING AURA HD",
         "category": "Humidificadores",
@@ -13380,6 +14108,7 @@ export const perfumes = [
     },
      {
         "id": 831,
+        "date": "2025-01-01",
         "brand": "HUMIDIFICADORES",
         "name": "ESC. INSP. EN KARALHY II HD",
         "category": "Humidificadores",
@@ -13396,6 +14125,7 @@ export const perfumes = [
     },
      {
         "id": 832,
+        "date": "2025-01-01",
         "brand": "HUMIDIFICADORES",
         "name": "ESC. INSP. EN NEW EXTRAVAGANCE HD",
         "category": "Humidificadores",
@@ -13412,6 +14142,7 @@ export const perfumes = [
     },
      {
         "id": 833,
+        "date": "2025-01-01",
         "brand": "HUMIDIFICADORES",
         "name": "ESC. INSP. EN ROME LEGEND HD",
         "category": "Humidificadores",
@@ -13428,6 +14159,7 @@ export const perfumes = [
     },
     {
         "id": 834,
+        "date": "2025-01-01",
         "brand": "HUMIDIFICADORES",
         "name": "ESC. INSP. EN VIBRANT EVENING HD",
         "category": "Humidificadores",
@@ -13444,6 +14176,7 @@ export const perfumes = [
     },
     {
         "id": 835,
+        "date": "2025-01-01",
         "brand": "HUMIDIFICADORES",
         "name": "ESC. INSP. EN PINK DUNE HD",
         "category": "Humidificadores",
@@ -13460,6 +14193,7 @@ export const perfumes = [
     },
     {
         "id": 836,
+        "date": "2025-01-01",
         "brand": "HUMIDIFICADORES",
         "name": "ESC. INSP. EN URBAN RANGER HD",
         "category": "Humidificadores",
@@ -13476,6 +14210,7 @@ export const perfumes = [
     },
      {
         "id": 837,
+        "date": "2025-01-01",
         "brand": "HUMIDIFICADORES",
         "name": "ESC. INSP. EN SAPPORO HD",
         "category": "Humidificadores",
@@ -13492,10 +14227,10 @@ export const perfumes = [
     },
     {
         "id": 838,
+        "date": "2025-01-01",
         "brand": "LATTAFA",
         "name": " ESC. INSP. EN LATTAFA MALLOW MADDNES",
         "category": "Nicho",
-        "isNew": true,
         "newName": "SUGAR REVERIE",
         "gender": "Mujer",
         "10 KG EN ADELANTE": 112,
@@ -13509,10 +14244,10 @@ export const perfumes = [
     },
     {
         "id": 839,
+        "date": "2025-01-01",
         "brand": "LATTAFA",
         "name": " ESC. INSP. EN LATTAFA VANILLA FREAK",
         "category": "Nicho",
-        "isNew": true,
         "newName": "CUPCAKE INDULGENCE",
         "gender": "Mujer",
         "10 KG EN ADELANTE": 112,
@@ -13526,10 +14261,10 @@ export const perfumes = [
     },
     {
         "id": 840,
+        "date": "2025-01-01",
         "brand": "LATTAFA",
         "name": " ESC. INSP. EN LATTAFA BERRY ON TOP",
         "category": "Nicho",
-        "isNew": true,
         "newName": "CANDY ILLUSION",
         "gender": "Mujer",
         "10 KG EN ADELANTE": 112,
@@ -13543,10 +14278,10 @@ export const perfumes = [
     },
     {
         "id": 841,
+        "date": "2026-07-30",
         "brand": "LATTAFA",
         "name": " ESC. INSP. EN LATTAFA WHIPPED PLEASURE",
         "category": "Nicho",
-        "isNew": true,
         "newName": "CREAM ADDICTION",
         "gender": "Mujer",
         "10 KG EN ADELANTE": 112,
@@ -13560,10 +14295,10 @@ export const perfumes = [
     },
     {
         "id": 842,
+        "date": "2026-07-30",
         "brand": "LATTAFA",
         "name": " ESC. INSP. EN LATTAFA COOKIE CRAVE",
         "category": "Nicho",
-        "isNew": true,
         "newName": "COZY SWEETNESS",
         "gender": "Mujer",
         "10 KG EN ADELANTE": 112,
@@ -13577,6 +14312,7 @@ export const perfumes = [
     },
     {
         "id": 843,
+        "date": "2026-07-30",
         "brand": "DIFUSSER",
         "name": " ESC. INSP. EN ULTRAMAN FINAL",
         "category": "Difusser",
@@ -13593,10 +14329,10 @@ export const perfumes = [
     },
     {
         "id": 844,
+        "date": "2026-07-30",
         "brand": "LATTAFA",
         "name": " ESC. INSP. EN LATTAFA CHOCO OVERDOSE",
         "category": "Nicho",
-        "isNew": true,
         "newName": "DELICIOUS EMBRACE",
         "gender": "Mujer",
         "10 KG EN ADELANTE": 112,
@@ -13610,10 +14346,10 @@ export const perfumes = [
     },
     {
         "id": 845,
+        "date": "2026-07-30",
         "brand": "PACO RABANNE",
         "name": " ESC. INSP. EN PACO RABANNE PHANTOM IN RED",
         "category": "Nicho",
-        "isNew": true,
         "newName": "FUTURISTIC LOVER",
         "gender": "Hombre",
         "10 KG EN ADELANTE": 179,
@@ -13627,10 +14363,10 @@ export const perfumes = [
     },
     {
         "id": 846,
+        "date": "2026-07-30",
         "brand": "PACO RABANNE",
         "name": " ESC. INSP. EN PACO RABANNE FAME IN LOVE",
         "category": "Diseñador",
-        "isNew": true,
         "newName": "JUICY ERA",
         "gender": "Mujer",
         "10 KG EN ADELANTE": 179,
@@ -13644,10 +14380,10 @@ export const perfumes = [
     },
     {
         "id": 847,
+        "date": "2026-07-30",
         "brand": "ARIANA GRANDE",
         "name": " ESC. INSP. EN ARIANA GRANDE THANK YOU NEXT 2.0",
         "category": "Diseñador",
-        "isNew": true,
         "newName": "NEW HIT",
         "gender": "Mujer",
         "10 KG EN ADELANTE": 164,
@@ -13661,10 +14397,10 @@ export const perfumes = [
     },
     {
         "id": 848,
+        "date": "2026-07-30",
         "brand": "ARMAF",
         "name": " ESC. INSP. EN ARMAF ODYSSEY MARSHMALLOW",
         "category": "Nicho",
-        "isNew": true,
         "newName": "SWEET DAYDREAM",
         "gender": "Unisex",
         "10 KG EN ADELANTE": 172,
@@ -13678,10 +14414,10 @@ export const perfumes = [
     },
     {
         "id": 849,
+        "date": "2026-07-30",
         "brand": "LORENZO PAZZAGLIA",
         "name": " ESC. INSP. EN LORENZO PAZZAGLIA QUE CHIMBA!",
         "category": "Nicho",
-        "isNew": true,
         "newName": "COLOMBIA NEW VIBES",
         "gender": "Unisex",
         "10 KG EN ADELANTE": 179,
@@ -13695,10 +14431,10 @@ export const perfumes = [
     },
     {
         "id": 850,
+        "date": "2026-07-30",
         "brand": "ARMAF",
         "name": " ESC. INSP. EN ARMAF ODYSSEY MANDARIN SKY VINTAGE EDITION",
         "category": "Nicho",
-        "isNew": true,
         "newName": "PRIME HORIZON",
         "gender": "Unisex",
         "10 KG EN ADELANTE": 143,
@@ -13712,10 +14448,10 @@ export const perfumes = [
     },
     {
         "id": 851,
+        "date": "2026-07-30",
         "brand": "ARMAF",
         "name": " ESC. INSP. EN ARMAF BON BON",
         "category": "Nicho",
-        "isNew": true,
         "newName": "BLUE ESCAPE",
         "gender": "Unisex",
         "10 KG EN ADELANTE": 143,
@@ -13729,10 +14465,10 @@ export const perfumes = [
     },
     {
         "id": 852,
+        "date": "2026-07-30",
         "brand": "FRENCH AVENUE",
         "name": " ESC. INSP. EN FRENCH AVENUE VULCAN BAIE",
         "category": "Nicho",
-        "isNew": true,
         "newName": "PINK SWIRL",
         "gender": "Unisex",
         "10 KG EN ADELANTE": 149,
@@ -13746,10 +14482,10 @@ export const perfumes = [
     },
     {
         "id": 853,
+        "date": "2026-07-30",
         "brand": "KORBAJ PARFUMS",
         "name": " ESC. INSP. EN KORBAJ EMIR",
         "category": "Nicho",
-        "isNew": true,
         "newName": "TROPICAL MIDNIGHT",
         "gender": "Unisex",
         "10 KG EN ADELANTE": 163,
@@ -13763,10 +14499,10 @@ export const perfumes = [
     },
     {
         "id": 854,
+        "date": "2026-07-30",
         "brand": "RASASI",
         "name": " ESC. INSP. EN RASASI HAWAS ICE",
         "category": "Nicho",
-        "isNew": true,
         "newName": "IMPULSE",
         "gender": "Hombre",
         "10 KG EN ADELANTE": 173,
@@ -13780,10 +14516,10 @@ export const perfumes = [
     },
     {
         "id": 855,
+        "date": "2026-07-30",
         "brand": "AFNAN",
         "name": " ESC. INSP. EN AFNAN 9PM NIGHT OUT",
         "category": "Nicho",
-        "isNew": true,
         "newName": "MAGNETIC EVENING",
         "gender": "Unisex",
         "10 KG EN ADELANTE": 131,
@@ -13797,10 +14533,10 @@ export const perfumes = [
     },
     {
         "id": 856,
+        "date": "2026-07-30",
         "brand": "ARMAF",
         "name": "ESC. INSP. EN ARMAF ODYSSEY BAHAMAS",
         "category": "Nicho",
-        "isNew": true,
         "newName": "CARNIVAL ESCAPE",
         "gender": "Unisex",
         "10 KG EN ADELANTE": 131,
@@ -13814,10 +14550,10 @@ export const perfumes = [
     },
     {
         "id": 857,
+        "date": "2026-07-30",
         "brand": "ARMAF",
         "name": "ESC. INSP. EN ARMAF BLACK FOREST",
         "category": "Nicho",
-        "isNew": true,
         "newName": "IRRESISTIBLE BAKERY",
         "gender": "Unisex",
         "10 KG EN ADELANTE": 131,
@@ -13831,10 +14567,10 @@ export const perfumes = [
     },
     {
         "id": 858,
+        "date": "2026-07-30",
         "brand": "ARMAF",
         "name": "ESC. INSP. EN ARMAF GO MANGO",
         "category": "Nicho",
-        "isNew": true,
         "newName": "EXOTIC SPIRIT",
         "gender": "Unisex",
         "10 KG EN ADELANTE": 131,
@@ -13848,10 +14584,10 @@ export const perfumes = [
     },
     {
         "id": 859,
+        "date": "2026-07-30",
         "brand": "ARMAF",
         "name": "ESC. INSP. EN ARMAF TOFFEE COFFEE",
         "category": "Nicho",
-        "isNew": true,
         "newName": "DELECTABLE WARMTH",
         "gender": "Unisex",
         "10 KG EN ADELANTE": 131,
@@ -13866,10 +14602,10 @@ export const perfumes = [
     
     {
         "id": 860,
+        "date": "2026-07-30",
         "brand": "MOSCHINO",
         "name": "ESC. INSP. EN MOSCHINO TOY BOY 2",
         "category": "Diseñador",
-        "isNew": true,
         "newName": "ESCAPE GAME",
         "gender": "Hombre",
         "10 KG EN ADELANTE": 131,
@@ -13883,10 +14619,10 @@ export const perfumes = [
     },
     {
         "id": 861,
+        "date": "2026-07-30",
         "brand": "PRADA",
         "name": "ESC. INSP. EN PRADA PARADOXE INTENSE",
         "category": "Diseñador",
-        "isNew": true,
         "newName": "EXTENDED ENIGMA",
         "gender": "Mujer",
         "10 KG EN ADELANTE": 139,
@@ -13900,10 +14636,10 @@ export const perfumes = [
     },
     {
         "id": 862,
+        "date": "2026-07-30",
         "brand": "ESCADA",
         "name": "ESC. INSP. EN ESCADA CANDY LOVE",
         "category": "Diseñador",
-        "isNew": true,
         "newName": "EARTHLY PARADISE",
         "gender": "Mujer",
         "10 KG EN ADELANTE": 130,
@@ -13917,10 +14653,10 @@ export const perfumes = [
     },
     {
         "id": 863,
+        "date": "2026-07-30",
         "brand": "TOM FORD",
         "name": "ESC. INSP. EN TOM FORD COSTA AZZURRA",
         "category": "Nicho",
-        "isNew": true,
         "newName": "UNINHIBITED ESCAPE",
         "gender": "Unisex",
         "10 KG EN ADELANTE": 130,
@@ -13934,10 +14670,10 @@ export const perfumes = [
     },
     {
         "id": 864,
+        "date": "2026-07-30",
         "brand": "SABRINA CARPENTER",
         "name": "ESC. INSP. EN SABRINA CARPENTER SWEET TOOTH CHERRY BABY",
         "category": "Diseñador",
-        "isNew": true,
         "newName": "SEDUCTIVE POP",
         "gender": "Unisex",
         "10 KG EN ADELANTE": 130,
@@ -13951,10 +14687,10 @@ export const perfumes = [
     },
     {
         "id": 865,
+        "date": "2026-07-30",
         "brand": "SABRINA CARPENTER",
         "name": "ESC. INSP. EN SABRINA CARPENTER SWEET TOOTH",
         "category": "Diseñador",
-        "isNew": true,
         "newName": "CANDY CRUSH",
         "gender": "Unisex",
         "10 KG EN ADELANTE": 130,
@@ -13968,10 +14704,10 @@ export const perfumes = [
     },
     {
         "id": 866,
+        "date": "2026-07-30",
         "brand": "LORENZO PAZZAGLIA",
         "name": "ESC. INSP. EN LORENZO PAZZAGLIA SUNGRIA",
         "category": "Nicho",
-        "isNew": true,
         "newName": "ELEPE",
         "gender": "Unisex",
         "10 KG EN ADELANTE": 130,
@@ -13985,10 +14721,10 @@ export const perfumes = [
     },
     {
         "id": 867,
+        "date": "2026-07-30",
         "brand": "VALENTINO",
         "name": "ESC. INSP. EN VALENTINO UOMO BORN IN ROMA INTENSE",
         "category": "Diseñador",
-        "isNew": true,
         "newName": "ETERNAL TRADITION",
         "gender": "Hombre",
         "10 KG EN ADELANTE": 130,
@@ -14002,10 +14738,10 @@ export const perfumes = [
     },
     {
         "id": 868,
+        "date": "2026-07-30",
         "brand": "CAROLINA HERRERA",
         "name": "ESC. INSP. EN CAROLINA HERRERA 212 VIP ROSÉ CAB",
         "category": "Diseñador",
-        "isNew": true,
         "newName": "CAROLA GLAM",
         "gender": "Mujer",
         "10 KG EN ADELANTE": 121,
@@ -14019,10 +14755,10 @@ export const perfumes = [
     },
     {
         "id": 869,
+        "date": "2026-07-30",
         "brand": "ARMAF",
         "name": "ESC. INSP. EN ARMAF BEACH PARTY",
         "category": "Nicho",
-        "isNew": true,
         "newName": "INFINITE SUMMER",
         "gender": "Unisex",
         "10 KG EN ADELANTE": 121,
@@ -14036,10 +14772,10 @@ export const perfumes = [
     },
     {
         "id": 870,
+        "date": "2026-07-30",
         "brand": "FRENCH AVENUE",
         "name": "ESC. INSP. EN FRENCH AVENUE VULCAN SABLE",
         "category": "Nicho",
-        "isNew": true,
         "newName": "HYPNOTIC MOVEMENT",
         "gender": "Unisex",
         "10 KG EN ADELANTE": 121,
