@@ -41,7 +41,7 @@ const CatalogoEnvasesView = () => {
             Cotizar
           </a>
           <Link
-            to="/catalogo/esencias"
+            to="/esencias"
             className="rounded-lg border border-white/15 px-4 py-2 text-xs uppercase tracking-[0.12em] text-white/70 transition-colors hover:border-champagne hover:text-champagne"
           >
             Ver esencias

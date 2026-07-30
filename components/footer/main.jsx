@@ -50,17 +50,17 @@ const Footer = () => {
                 </ScrollLink>
               </li>
               <li>
-                <Link to="/catalogo/esencias" className="hover:text-champagne">
+                <Link to="/esencias" className="hover:text-champagne">
                   Catálogo de esencias
                 </Link>
               </li>
               <li>
-                <Link to="/catalogo/envases" className="hover:text-champagne">
+                <Link to="/envases" className="hover:text-champagne">
                   Insumos y envases
                 </Link>
               </li>
               <li>
-                <Link to="/catalogo/esencias/pdf" className="hover:text-champagne">
+                <Link to="/esencias/pdf" className="hover:text-champagne">
                   Catálogo en PDF
                 </Link>
               </li>

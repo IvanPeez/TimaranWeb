@@ -95,7 +95,7 @@ const ComoComprar = () => {
 
         <div className="mt-10 flex flex-col justify-center gap-3 sm:flex-row">
           <Link
-            to="/catalogo/esencias"
+            to="/esencias"
             className="flex items-center justify-center rounded-xl bg-champagne px-7 py-3.5 text-sm font-semibold uppercase tracking-[0.14em] text-ink transition-colors duration-300 hover:bg-champagne-light"
           >
             Empezar por el catálogo

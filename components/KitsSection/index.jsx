@@ -119,7 +119,7 @@ const KitsSection = () => {
               Solicitar asesoría
             </a>
             <Link
-              to="/catalogo/esencias"
+              to="/esencias"
               className="rounded-xl border border-white/30 px-7 py-3.5 text-sm font-medium uppercase tracking-[0.14em] text-white transition-colors duration-300 hover:border-champagne hover:text-champagne"
             >
               Ver esencias
