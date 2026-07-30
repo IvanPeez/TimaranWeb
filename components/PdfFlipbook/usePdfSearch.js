@@ -10,6 +10,24 @@ const SNIPPET_ANTES = 45;
 const SNIPPET_DESPUES = 75;
 
 /**
+ * Devuelve el hilo al navegador sin usar setTimeout.
+ *
+ * Los navegadores limitan setTimeout a un mínimo de 1 s cuando la pestaña está
+ * en segundo plano: indexar 93 páginas tardaría más de minuto y medio si el
+ * usuario abre el catálogo en otra pestaña. Los mensajes de MessageChannel no
+ * sufren ese recorte.
+ */
+const cederElHilo = () =>
+  new Promise((resolve) => {
+    const canal = new MessageChannel();
+    canal.port1.onmessage = () => {
+      canal.port1.close();
+      resolve();
+    };
+    canal.port2.postMessage(null);
+  });
+
+/**
  * Extrae el texto de una página junto con la caja de cada fragmento.
  *
  * Las cajas se guardan en fracciones (0..1) del tamaño de la página, no en
@@ -86,10 +104,7 @@ export function usePdfTextIndex(doc, numPages) {
         setIndexed(number);
         if (number % LOTE === 0 || number === numPages) setPages([...acumulado]);
 
-        // Devuelve el hilo al navegador antes de seguir con la próxima página.
-        await new Promise((resolve) => {
-          setTimeout(resolve, 0);
-        });
+        await cederElHilo();
       }
     })();
 
