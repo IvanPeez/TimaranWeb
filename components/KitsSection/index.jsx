@@ -1,7 +1,10 @@
+import React from "react";
+import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
+import { FaWhatsapp } from "react-icons/fa";
 import SectionContent from "../SectionContent/SectionContent";
-import React, { useRef } from "react";
 import ProductCard from "../ProductCard";
-import { motion, useTransform, useScroll } from "framer-motion";
+import { landingMessage, whatsappLink } from "../../utils/contacto";
 import Kit1Image from "../../resources/img/KITS-EMPRENDIMIENTO-1.jpg";
 import Kit2Image from "../../resources/img/KITS-EMPRENDIMIENTO-2.jpg";
 import Kit3Image from "../../resources/img/KITS-EMPRENDIMIENTO-3.jpg";
@@ -11,9 +14,6 @@ const KitsSection = () => {
   const products = [
     {
       id: 1,
-      colorFrom: "#FDF4E3",
-      colorTo: "#FFF9F0",
-      image: "/path-to-product-image-1.jpg",
       name: "Kit Esencial",
       imageFull: Kit1Image,
       description: "Lo básico para iniciar en el mundo de la perfumería.",
@@ -27,9 +27,6 @@ const KitsSection = () => {
     },
     {
       id: 2,
-      colorFrom: "#FFE1A8",
-      colorTo: "#F5CBA7",
-      image: "/path-to-product-image-2.jpg",
       name: "Kit Avanzado",
       imageFull: Kit2Image,
       description: "Más insumos para expandir tu emprendimiento.",
@@ -44,12 +41,9 @@ const KitsSection = () => {
     },
     {
       id: 3,
-      colorFrom: "#AFC2D5",
-      colorTo: "#E2E8F0",
-      image: "/path-to-product-image-3.jpg",
       name: "Kit Profesional",
       imageFull: Kit3Image,
-      description: " Un surtido amplio para tu negocio",
+      description: "Un surtido amplio para tu negocio.",
       fullDescription: `10L de alcohol extra neutro.
           1Kg de Fijador.
           25 Esencias por 120gr C/U.
@@ -61,9 +55,6 @@ const KitsSection = () => {
     },
     {
       id: 4,
-      colorFrom: "#F3E5C0",
-      colorTo: "#FFF6E0",
-      image: "/path-to-product-image-4.jpg",
       name: "Kit Empresarial",
       imageFull: Kit4Image,
       description: "La opción más completa para maximizar tu producción.",
@@ -81,89 +72,79 @@ const KitsSection = () => {
             41 Válvulas dosificadoras.`,
     },
   ];
-  const targetRef = useRef(null);
-  const { scrollYProgress } = useScroll({
-    target: targetRef,
-    offset: ["start end", "end start"],
-  });
-
-  // Ajustes de animación para dispositivos móviles
-  
-
-  const clipPath = useTransform(
-    scrollYProgress,
-    [0, 0.5],
-    [
-      "inset(20% 10% 20% 10%)",
-      "inset(0% 0% 0% 0%)", // Menos agresivo en móviles
-    ]
-  );
 
   return (
-    <SectionContent
-    ref={targetRef}>
-      <motion.div
-        className="relative h-screen bg-cover bg-center"
-        style={{
-          backgroundImage: `url('https://i.postimg.cc/85y4qmQ3/image-fx.png')`,
-          clipPath
-        }}
-      >
-        <div className="absolute inset-0 bg-black/50"></div>
+    <SectionContent className="bg-ink">
+      {/* Portada de la sección. Sin clip-path animado: recortaba el bloque
+          entero (texto incluido) mientras se hacía scroll. */}
+      <div className="relative h-[60vh] overflow-hidden md:h-[75vh]">
+        <div
+          className="absolute inset-0 bg-cover bg-center"
+          style={{
+            backgroundImage: `url('https://i.postimg.cc/85y4qmQ3/image-fx.png')`,
+          }}
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-ink/40 via-ink/50 to-ink" />
+
         <motion.div
-          initial={{ y: -50, opacity: 0 }}
+          initial={{ y: 30, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
-          transition={{ delay: 0.3, duration: 1, ease: "easeInOut" }}
-          className="relative z-10 flex flex-col justify-end text-center items-center h-full px-6 pb-24 sm:px-12 md:px-24 lg:px-32"
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, ease: "easeOut" }}
+          className="relative z-10 flex h-full flex-col items-center justify-center px-6 text-center"
         >
-          <h1
-            initial={{ y: -50, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1 }}
-            transition={{ delay: 0.1, duration: 1, ease: "easeInOut" }}
-            className="text-white font-titleAlt italic tracking-tight text-5xl lg:text-8xl font-light mb-8 "
-          >
-            Kits de Emprendimiento
-          </h1>
-          <p className="text-white max-w-4xl text-sm lg:text-base">
-            En Distribuciones Timaran, creemos en el poder de los emprendedores
-            para transformar ideas en realidades. Al adquirir nuestros
-            productos, no solo estás obteniendo calidad y confianza, sino
-            también el respaldo de una entidad comprometida con tu éxito.
-            Estamos aquí para impulsar tu crecimiento, apoyarte en cada paso y
-            celebrar tus logros. Juntos, construimos un futuro lleno de
-            oportunidades.
+          <p className="text-[11px] uppercase tracking-[0.3em] text-champagne">
+            Para empezar de cero
           </p>
-          <div className="flex pt-6">
+          <h2 className="mt-4 font-titleAlt text-5xl font-light italic tracking-tight text-white lg:text-7xl">
+            Kits de Emprendimiento
+          </h2>
+          <p className="mt-5 max-w-xl text-sm text-white/60 lg:text-base">
+            Todo lo necesario para producir desde el primer día: esencias,
+            alcohol, fijador, envases y herramientas.
+          </p>
+
+          <div className="mt-8 flex flex-col items-center gap-3 sm:flex-row">
             <a
-              href=""
-              className=" text-white md:tracking-[0.5em] uppercase relative group"
+              href={whatsappLink(
+                landingMessage(
+                  "Quiero información sobre los kits de emprendimiento para montar mi línea de perfumería."
+                )
+              )}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 rounded-xl bg-champagne px-7 py-3.5 text-sm font-semibold uppercase tracking-[0.14em] text-ink transition-colors duration-300 hover:bg-champagne-light"
             >
-              Solicitar Asesoría
-              <div className="h-0.5 bg-white scale-x-0 group-hover:scale-x-100 transition-transform"></div>
+              <FaWhatsapp className="h-4 w-4" />
+              Solicitar asesoría
             </a>
+            <Link
+              to="/catalogo/esencias"
+              className="rounded-xl border border-white/30 px-7 py-3.5 text-sm font-medium uppercase tracking-[0.14em] text-white transition-colors duration-300 hover:border-champagne hover:text-champagne"
+            >
+              Ver esencias
+            </Link>
           </div>
         </motion.div>
-      </motion.div>
+      </div>
 
-      {/* <motion.div
-        initial={{ y: -50, opacity: 0 }}
-        whileInView={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.6, ease: "easeInOut" }}
-        className="p-4 grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-4 bg-white min-h-6xl"
-      >
-        {products.map((product) => (
-          <ProductCard
-            key={product.id}
-            // image={product.image}
-            name={product.name}
-            imageFull={product.imageFull}
-            colorFrom={product.colorFrom}
-            colorTo={product.colorTo}
-            description={product.description}
-            fullDescription={product.fullDescription}
-          />
-        ))}
-      </motion.div> */}
+      {/* Los 4 kits con su contenido real */}
+      <div className="px-4 pb-20 sm:px-6">
+        <div className="mx-auto max-w-6xl">
+          <div className="grid grid-cols-2 gap-4 sm:gap-5 lg:grid-cols-4">
+            {products.map((product, index) => (
+              <ProductCard
+                key={product.id}
+                index={index}
+                name={product.name}
+                imageFull={product.imageFull}
+                description={product.description}
+                fullDescription={product.fullDescription}
+              />
+            ))}
+          </div>
+        </div>
+      </div>
     </SectionContent>
   );
 };

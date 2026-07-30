@@ -1,6 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import { Link as ScrollLink } from "react-scroll";
+import { ChevronDown, Menu, X } from "lucide-react";
 import logoNav from "../../resources/SVG/logoNav.svg";
 import {
   FaFacebook,
@@ -8,273 +9,327 @@ import {
   FaLinkedin,
   FaWhatsapp,
 } from "react-icons/fa";
+import { advisorMessage, whatsappLink } from "../../utils/contacto";
+
+// Las dos puertas de entrada al catálogo, tal como se ven en el menú "Productos".
+const PRODUCTOS = [
+  {
+    to: "/catalogo/esencias",
+    titulo: "Esencias",
+    descripcion: "869 fragancias de autor, filtrables por familia y género.",
+  },
+  {
+    to: "/catalogo/envases",
+    titulo: "Insumos",
+    descripcion: "Envases, alcohol, fijadores y maquinaria para producir.",
+  },
+];
+
+const SECCIONES = [
+  { to: "nosotros", label: "Nosotros" },
+  { to: "contacto", label: "Contacto" },
+];
+
+const REDES = [
+  {
+    href: "https://www.instagram.com/distribuciones_timaran?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+    icon: FaInstagram,
+    label: "Instagram",
+  },
+  {
+    href: "https://facebook.com",
+    icon: FaFacebook,
+    label: "Facebook",
+  },
+  {
+    href: "https://linkedin.com",
+    icon: FaLinkedin,
+    label: "LinkedIn",
+  },
+];
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const [isProductsOpen, setIsProductsOpen] = useState(false);
+  const [isMobileProductsOpen, setIsMobileProductsOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
+  const productsRef = useRef(null);
 
-  const toggleSidebar = () => {
-    setIsOpen(!isOpen);
-  };
-
-  const [showNavbar, setShowNavbar] = useState(true);
-  const [lastScrollY, setLastScrollY] = useState(0);
-
-  // Función para manejar el scroll
-  const handleScroll = () => {
-    const currentScrollY = window.scrollY;
-    const windowWidth = window.innerWidth;
-
-    if (windowWidth > 768) {
-      // Solo aplicar lógica si la pantalla es mayor que 768px
-      if (currentScrollY > lastScrollY && currentScrollY > 50) {
-        setShowNavbar(false); // Usuario hace scroll hacia abajo
-      } else {
-        setShowNavbar(true); // Usuario hace scroll hacia arriba
-      }
-    }
-
-    setLastScrollY(currentScrollY);
-  };
-
+  // La barra queda siempre visible: el botón de WhatsApp es el único CTA
+  // permanente de la página y antes desaparecía justo al hacer scroll.
   useEffect(() => {
-    // Agregar el evento de scroll
-    window.addEventListener("scroll", handleScroll);
+    const handleScroll = () => setIsScrolled(window.scrollY > 10);
 
-    // Limpiar el evento al desmontar
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  // Cierra el menú de productos al hacer click afuera o con Escape
+  useEffect(() => {
+    if (!isProductsOpen) return undefined;
+
+    const handleClickOutside = (event) => {
+      if (productsRef.current && !productsRef.current.contains(event.target)) {
+        setIsProductsOpen(false);
+      }
     };
-  }, [lastScrollY]);
+    const handleKeyDown = (event) => {
+      if (event.key === "Escape") setIsProductsOpen(false);
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    window.addEventListener("keydown", handleKeyDown);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+      window.removeEventListener("keydown", handleKeyDown);
+    };
+  }, [isProductsOpen]);
+
+  const closeAll = () => {
+    setIsSidebarOpen(false);
+    setIsProductsOpen(false);
+    setIsMobileProductsOpen(false);
+  };
 
   return (
     <nav
-      className={`fixed  z-40 w-full bg-gradient-to-r border-solid border-b text-white  transition-transform duration-300 ${
-        showNavbar
-          ? `translate-y-0 ${
-              window.scrollY !== 0 ? "bg-black border-none " : ""
-            }`
-          : "-translate-y-full bg-transparent"
+      className={`fixed z-50 w-full text-white transition-all duration-300 ${
+        isScrolled || isProductsOpen
+          ? "border-b border-white/10 bg-ink/90 backdrop-blur-xl"
+          : "bg-gradient-to-b from-black/60 to-transparent"
       }`}
     >
       <div className="mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
-          {/* Logo */}
-          <div className="flex items-center">
-            <Link to="#home" className="text-xl font-bold">
-              <img src={logoNav} alt="Logo" className="h-10 w-auto" />
-            </Link>
-          </div>
+        <div className="flex h-16 items-center justify-between">
+          <Link to="/" onClick={closeAll} aria-label="Inicio">
+            <img src={logoNav} alt="Distribuciones Timarán" className="h-10 w-auto" />
+          </Link>
 
-          {/* Menu para pantallas grandes */}
-          <ul className="hidden md:flex space-x-4 font-light  gap-6">
+          {/* Menú desktop */}
+          <ul className="hidden items-center gap-8 md:flex">
             <li>
               <ScrollLink
                 to="home"
                 smooth={true}
                 duration={500}
                 offset={-70}
-                className="hover:text-secondary  text-sm cursor-pointer"
+                className="cursor-pointer text-sm transition-colors hover:text-champagne"
               >
                 Inicio
               </ScrollLink>
             </li>
-            <li>
-              <ScrollLink
-                to="products"
-                smooth={true}
-                duration={500}
-                className="hover:text-secondary  text-sm cursor-pointer"
+
+            {/* Productos: despliega Esencias / Insumos */}
+            <li className="relative" ref={productsRef}>
+              <button
+                type="button"
+                onClick={() => setIsProductsOpen((prev) => !prev)}
+                aria-expanded={isProductsOpen}
+                aria-haspopup="true"
+                className={`flex items-center gap-1.5 text-sm transition-colors ${
+                  isProductsOpen ? "text-champagne" : "hover:text-champagne"
+                }`}
               >
                 Productos
-              </ScrollLink>
+                <ChevronDown
+                  className={`h-3.5 w-3.5 transition-transform duration-300 ${
+                    isProductsOpen ? "rotate-180" : ""
+                  }`}
+                />
+              </button>
+
+              {isProductsOpen && (
+                <div className="absolute left-1/2 top-full z-50 mt-4 w-80 -translate-x-1/2 overflow-hidden rounded-2xl border border-white/10 bg-ink-card/95 shadow-2xl shadow-black/60 backdrop-blur-xl">
+                  {PRODUCTOS.map((producto) => (
+                    <Link
+                      key={producto.to}
+                      to={producto.to}
+                      onClick={closeAll}
+                      className="group block border-b border-white/[0.06] px-5 py-4 text-left transition-colors last:border-b-0 hover:bg-white/[0.05]"
+                    >
+                      <span className="block font-titleAlt text-xl italic text-white transition-colors group-hover:text-champagne">
+                        {producto.titulo}
+                      </span>
+                      <span className="mt-1 block text-xs leading-relaxed text-white/45">
+                        {producto.descripcion}
+                      </span>
+                    </Link>
+                  ))}
+                </div>
+              )}
             </li>
-            <li>
-              <ScrollLink
-                to="masEsencia"
-                smooth={true}
-                duration={500}
-                className="hover:text-secondary text-sm cursor-pointer"
-              >
-                Consume Mas Esencia
-              </ScrollLink>
-            </li>
-            <li>
-              <ScrollLink
-                to="aboutUs"
-                smooth={true}
-                duration={500}
-                className="hover:text-secondary  text-sm cursor-pointer"
-              >
-                Nosotros
-              </ScrollLink>
-            </li>
+
+            {SECCIONES.map((seccion) => (
+              <li key={seccion.to}>
+                <ScrollLink
+                  to={seccion.to}
+                  smooth={true}
+                  duration={500}
+                  offset={-70}
+                  className="cursor-pointer text-sm transition-colors hover:text-champagne"
+                >
+                  {seccion.label}
+                </ScrollLink>
+              </li>
+            ))}
           </ul>
-          <div className="hidden md:flex space-x-4  py-2 px-7">
+
+          {/* Redes + CTA desktop */}
+          <div className="hidden items-center gap-5 md:flex">
+            {REDES.map(({ href, icon: Icon, label }) => (
+              <a
+                key={label}
+                href={href}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={label}
+                className="text-white transition-colors duration-300 hover:text-champagne"
+              >
+                <Icon size={18} />
+              </a>
+            ))}
             <a
-              href="https://www.instagram.com/distribuciones_timaran?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+              href={whatsappLink(advisorMessage())}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-white hover:text-pink-400 transition duration-300"
+              className="flex items-center gap-2 rounded-full bg-champagne px-4 py-2 text-xs font-semibold uppercase tracking-[0.12em] text-ink transition-colors hover:bg-champagne-light"
             >
-              <FaInstagram size={20} />
-            </a>
-            <a
-              href="https://facebook.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-white hover:text-blue-400 transition duration-300"
-            >
-              <FaFacebook size={20} />
-            </a>
-            <a
-              href="https://linkedin.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-white hover:text-blue-600 transition duration-300"
-            >
-              <FaLinkedin size={20} />
-            </a>
-            <a
-              href="https://api.whatsapp.com/message/TQ6FRZIABEBPE1?autoload=1&app_absent=0"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-white hover:text-green-400 transition duration-300"
-            >
-              <FaWhatsapp size={20} />
+              <FaWhatsapp size={14} />
+              Cotizar
             </a>
           </div>
 
-          {/* Botón de menú para móviles */}
-          <div className="md:hidden">
-            <button
-              onClick={toggleSidebar}
-              className="text-gray-300 hover:text-white focus:outline-none"
-            >
-              <svg
-                className="w-6 h-6"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M4 6h16M4 12h16m-7 6h7"
-                />
-              </svg>
-            </button>
-          </div>
+          {/* Botón de menú móvil */}
+          <button
+            type="button"
+            onClick={() => setIsSidebarOpen(true)}
+            aria-label="Abrir menú"
+            className="text-white md:hidden"
+          >
+            <Menu className="h-6 w-6" />
+          </button>
         </div>
       </div>
 
-      {/* Sidebar para móviles */}
+      {/* Menú móvil */}
       <div
-        className={`fixed inset-0 z-40 bg-black bg-opacity-50 transform ${
-          isOpen ? "translate-x-0" : "-translate-x-full"
-        } transition-transform duration-300 ease-in-out md:hidden`}
+        className={`fixed inset-0 z-50 md:hidden ${
+          isSidebarOpen ? "pointer-events-auto" : "pointer-events-none"
+        }`}
       >
-        <div className="bg-white w-80 h-screen flex flex-col">
-          <div className="flex justify-between items-center p-4">
+        <div
+          onClick={closeAll}
+          className={`absolute inset-0 bg-black/70 transition-opacity duration-300 ${
+            isSidebarOpen ? "opacity-100" : "opacity-0"
+          }`}
+        />
+
+        <div
+          className={`absolute inset-y-0 left-0 flex w-80 max-w-[85vw] flex-col bg-ink transition-transform duration-300 ease-out ${
+            isSidebarOpen ? "translate-x-0" : "-translate-x-full"
+          }`}
+        >
+          <div className="flex items-center justify-between border-b border-white/10 px-5 py-4">
+            <img src={logoNav} alt="Distribuciones Timarán" className="h-8 w-auto" />
             <button
-              onClick={toggleSidebar}
-              className="text-primary hover:text-gray-400 focus:outline-none"
+              type="button"
+              onClick={closeAll}
+              aria-label="Cerrar menú"
+              className="flex h-9 w-9 items-center justify-center rounded-full border border-white/10 text-white/70"
             >
-              <svg
-                className="w-6 h-6"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M6 18L18 6M6 6l12 12"
-                />
-              </svg>
+              <X className="h-4 w-4" />
             </button>
           </div>
-          <nav className="h-full flex flex-col justify-around items-center space-y-2 ">
-            <div className="items-start w-full px-12 text-left">
+
+          <nav className="flex-1 overflow-y-auto px-5 py-6">
+            <ScrollLink
+              to="home"
+              smooth={true}
+              duration={500}
+              offset={-70}
+              onClick={closeAll}
+              className="block cursor-pointer py-3 text-lg text-white"
+            >
+              Inicio
+            </ScrollLink>
+
+            {/* Productos desplegable */}
+            <button
+              type="button"
+              onClick={() => setIsMobileProductsOpen((prev) => !prev)}
+              aria-expanded={isMobileProductsOpen}
+              className="flex w-full items-center justify-between py-3 text-left text-lg text-white"
+            >
+              Productos
+              <ChevronDown
+                className={`h-4 w-4 text-white/50 transition-transform duration-300 ${
+                  isMobileProductsOpen ? "rotate-180" : ""
+                }`}
+              />
+            </button>
+
+            {isMobileProductsOpen && (
+              <div className="mb-2 ml-1 space-y-1 border-l border-white/10 pl-4">
+                {PRODUCTOS.map((producto) => (
+                  <Link
+                    key={producto.to}
+                    to={producto.to}
+                    onClick={closeAll}
+                    className="block py-2.5"
+                  >
+                    <span className="block font-titleAlt text-lg italic text-champagne">
+                      {producto.titulo}
+                    </span>
+                    <span className="block text-xs text-white/45">
+                      {producto.descripcion}
+                    </span>
+                  </Link>
+                ))}
+              </div>
+            )}
+
+            {SECCIONES.map((seccion) => (
               <ScrollLink
-                to="home"
+                key={seccion.to}
+                to={seccion.to}
                 smooth={true}
                 duration={500}
-                onClick={toggleSidebar}
                 offset={-70}
-                className="cursor-pointer block px-4 py-2 text-primary hover:text-gray-400"
+                onClick={closeAll}
+                className="block cursor-pointer py-3 text-lg text-white"
               >
-                Inicio
+                {seccion.label}
               </ScrollLink>
-              <ScrollLink
-                to="products"
-                smooth={true}
-                duration={500}
-                onClick={toggleSidebar}
-                offset={-70}
-                className="cursor-pointer block px-4 py-2 text-primary hover:text-gray-400"
-              >
-                Productos
-              </ScrollLink>
-              <ScrollLink
-                to="masEsenciaMobile"
-                smooth={true}
-                duration={500}
-                onClick={toggleSidebar}
-                offset={-70}
-                className="cursor-pointer block px-4 py-2 text-primary hover:text-gray-400"
-              >
-                Consume Más Esencia
-              </ScrollLink>
-              <ScrollLink
-                to="aboutUs"
-                smooth={true}
-                duration={500}
-                onClick={toggleSidebar}
-                offset={-70}
-                className="cursor-pointer block px-4 py-2 text-primary hover:text-gray-400"
-              >
-                Nosotros
-              </ScrollLink>
-            </div>
-            <div className="flex space-x-4">
-              <a
-                href="https://www.instagram.com/distribuciones_timaran?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-primary hover:text-pink-400 transition duration-300"
-              >
-                <FaInstagram size={20} />
-              </a>
-              <a
-                href="https://facebook.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-primary hover:text-blue-400 transition duration-300"
-              >
-                <FaFacebook size={20} />
-              </a>
-              <a
-                href="https://linkedin.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-primary hover:text-blue-600 transition duration-300"
-              >
-                <FaLinkedin size={20} />
-              </a>
-              <a
-                href="https://api.whatsapp.com/message/TQ6FRZIABEBPE1?autoload=1&app_absent=0"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-primary hover:text-green-400 transition duration-300"
-              >
-                <FaWhatsapp size={20} />
-              </a>
-            </div>
+            ))}
           </nav>
+
+          <div className="border-t border-white/10 px-5 py-5">
+            <a
+              href={whatsappLink(advisorMessage())}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={closeAll}
+              className="flex items-center justify-center gap-2 rounded-xl bg-champagne px-5 py-3 text-sm font-semibold uppercase tracking-[0.12em] text-ink"
+            >
+              <FaWhatsapp size={16} />
+              Cotizar por WhatsApp
+            </a>
+
+            <div className="mt-5 flex justify-center gap-6">
+              {REDES.map(({ href, icon: Icon, label }) => (
+                <a
+                  key={label}
+                  href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={label}
+                  className="text-white/70 transition-colors duration-300 hover:text-champagne"
+                >
+                  <Icon size={20} />
+                </a>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
     </nav>

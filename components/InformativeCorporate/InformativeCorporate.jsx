@@ -11,7 +11,7 @@ const InformativeCorporate = () => {
   return (
     <section
       ref={targetRef}
-      className="relative w-full overflow-hidden h-[200vh] bg-black text-white px-6 md:px-20"
+      className="relative w-full overflow-hidden h-[70vh] md:h-[120vh] bg-black text-white px-6 md:px-20"
     >
       <motion.div
         style={{ y, scale, opacity, filter: `blur(${blurValue})` }}
