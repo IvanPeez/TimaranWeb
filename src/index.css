@@ -1,28 +1,31 @@
-/* Estilos de la barra */
+/* Barra de scroll: el sitio es oscuro, así que la pista va en ink y el thumb
+   en ink-line. Antes el thumb era negro puro (invisible sobre los paneles
+   oscuros) y la pista quedaba en el blanco del canvas. */
 ::-webkit-scrollbar {
-    width: 6px;
-    height: 8px;
-  }
-  
-  /* Color de la pista (fondo) */
-  ::-webkit-scrollbar-track {
-    background: none;
-    border-radius: 10px;
-  }
-  
-  /* Color del "thumb" (la parte que se mueve) */
-  ::-webkit-scrollbar-thumb {
-    background: black;
-    border-radius: none;
-  }
-  
-  /* Cambia el color al pasar el mouse */
+  width: 6px;
+  height: 8px;
+}
 
-  * {
-    scrollbar-width: thin;
-    scrollbar-color: black #f0f0f0;
-  }
-  
-  ::-webkit-scrollbar-button {
-    display: none;
-  }
+::-webkit-scrollbar-track {
+  background: #0a0a0b;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #26262b;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3a3a41;
+}
+
+::-webkit-scrollbar-button {
+  display: none;
+}
+
+/* Firefox. Se declara en html (no en *) para ganarle al reset que inyecta
+   el plugin tailwind-scrollbar. */
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #26262b #0a0a0b;
+}
