@@ -82,9 +82,9 @@ export const inspiredBy = (name = "") => {
   return clean || name;
 };
 
-/** Línea de la plantilla: "NOMBRE (insp. MARCA) - ___ g" */
+/** Línea de la plantilla: "NOMBRE (insp. MARCA) - gramos" */
 const lineaEsencia = (perfume) =>
-  `${perfume.newName} (insp. ${inspiredBy(perfume.name)}) - ___ g`;
+  `${perfume.newName} (insp. ${inspiredBy(perfume.name)}) - gramos`;
 
 export const singleQuoteMessage = (perfume) =>
   plantillaCotizacion({ esencias: [lineaEsencia(perfume)] });

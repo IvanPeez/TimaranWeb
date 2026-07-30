@@ -15,6 +15,11 @@ const MAX_CONCURRENT = 2;
 // dispara en pantallas Retina/móviles de gama alta.
 const MAX_DPR = 2;
 
+// Safari en iOS descarta el canvas si supera ~16,7 millones de píxeles y lo
+// deja en blanco sin avisar. Las páginas son muy verticales (750x1334), así que
+// con el zoom se llega rápido a ese techo: mejor recortar la escala.
+const MAX_CANVAS_PIXELS = 12e6;
+
 export class PageRenderer {
   constructor(doc) {
     this.doc = doc;
@@ -97,7 +102,12 @@ export class PageRenderer {
 
     const dpr = Math.min(window.devicePixelRatio || 1, MAX_DPR);
     const base = page.getViewport({ scale: 1 });
-    const viewport = page.getViewport({ scale: (cssWidth * dpr) / base.width });
+
+    let scale = (cssWidth * dpr) / base.width;
+    const pixeles = base.width * scale * (base.height * scale);
+    if (pixeles > MAX_CANVAS_PIXELS) scale *= Math.sqrt(MAX_CANVAS_PIXELS / pixeles);
+
+    const viewport = page.getViewport({ scale });
 
     canvas.width = Math.max(1, Math.floor(viewport.width));
     canvas.height = Math.max(1, Math.floor(viewport.height));
