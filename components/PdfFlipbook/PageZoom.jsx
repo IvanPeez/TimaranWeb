@@ -22,7 +22,6 @@ function PageZoom({ pageNumber, numPages, renderer, aspect, hits, onClose, onCha
 
   const [base, setBase] = useState({ ancho: 0, alto: 0 });
   const [zoom, setZoom] = useState(1);
-  const [painted, setPainted] = useState(false);
 
   // Tamaño con el que la página entra completa en el área disponible.
   useLayoutEffect(() => {
@@ -47,26 +46,22 @@ function PageZoom({ pageNumber, numPages, renderer, aspect, hits, onClose, onCha
     return () => observer.disconnect();
   }, [aspect]);
 
-  // Se pinta una vez por página, a la resolución máxima del zoom.
+  // Se pinta una vez por página, a la resolución máxima del zoom: acercar y
+  // alejar sólo cambia el tamaño mostrado, así no hay parpadeo en cada paso.
   useEffect(() => {
     const canvas = canvasRef.current;
-    if (!canvas || !base.ancho) return undefined;
+    if (!canvas || !base.ancho || !renderer) return undefined;
 
-    setPainted(false);
-    let vivo = true;
-    const anchoRender = Math.min(base.ancho * ZOOM_MAX, ANCHO_RENDER_MAX);
-    renderer.request(pageNumber, canvas, anchoRender).then((ok) => {
-      if (vivo && ok) setPainted(true);
-    });
-
-    return () => {
-      vivo = false;
-    };
+    // Vaciar antes de pedir deja ver el indicador de carga y evita que se
+    // quede a la vista la página anterior mientras llega la nueva.
+    renderer.release(canvas);
+    renderer.request(pageNumber, canvas, Math.min(base.ancho * ZOOM_MAX, ANCHO_RENDER_MAX));
+    return undefined;
   }, [renderer, pageNumber, base.ancho]);
 
   useEffect(() => {
     const canvas = canvasRef.current;
-    return () => renderer.release(canvas);
+    return () => renderer?.release(canvas);
   }, [renderer]);
 
   // Vuelve al encuadre completo al cambiar de página.
@@ -175,27 +170,24 @@ function PageZoom({ pageNumber, numPages, renderer, aspect, hits, onClose, onCha
             className="relative mx-auto bg-white shadow-2xl"
             style={{ width: ancho || undefined, height: alto || undefined }}
           >
-            <canvas ref={canvasRef} className="block h-full w-full" />
+            <div className="absolute inset-0 flex items-center justify-center bg-[#f4f1ec]">
+              <Loader2 className="h-5 w-5 animate-spin text-black/25" />
+            </div>
 
-            {!painted && (
-              <div className="absolute inset-0 flex items-center justify-center bg-[#f4f1ec]">
-                <Loader2 className="h-5 w-5 animate-spin text-black/25" />
-              </div>
-            )}
+            <canvas ref={canvasRef} className="relative block h-full w-full" />
 
-            {painted &&
-              hits?.map((hit, index) => (
-                <mark
-                  key={`${hit.x}-${hit.y}-${index}`}
-                  className="pointer-events-none absolute rounded-[2px] bg-champagne/55 mix-blend-multiply"
-                  style={{
-                    left: `${hit.x * 100}%`,
-                    top: `${hit.y * 100}%`,
-                    width: `${hit.w * 100}%`,
-                    height: `${hit.h * 100}%`,
-                  }}
-                />
-              ))}
+            {hits?.map((hit, index) => (
+              <mark
+                key={`${hit.x}-${hit.y}-${index}`}
+                className="pointer-events-none absolute rounded-[2px] bg-champagne/40 shadow-[0_0_0_1.5px_#D8BC8A]"
+                style={{
+                  left: `${hit.x * 100}%`,
+                  top: `${hit.y * 100}%`,
+                  width: `${hit.w * 100}%`,
+                  height: `${hit.h * 100}%`,
+                }}
+              />
+            ))}
           </div>
         </div>
 

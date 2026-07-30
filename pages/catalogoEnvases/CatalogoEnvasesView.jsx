@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { Loader2 } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
 import CatalogHeader from "../../components/CatalogHeader/CatalogHeader";
+import { PDF_ENVASES } from "../../utils/catalogos";
 import { landingMessage, whatsappLink } from "../../utils/contacto";
 
 // pdf.js pesa ~350 KB minificado y sólo hace falta en esta pantalla: cargarlo
@@ -11,10 +12,6 @@ const PdfFlipbook = lazy(() => import("../../components/PdfFlipbook/PdfFlipbook"
 
 const MENSAJE =
   "Estoy viendo el catálogo de envases e insumos y quiero cotizar.";
-
-// El PDF se sirve desde public/. BASE_URL ya trae la barra final y cambia según
-// el entorno ("/" en Vercel, "/TimaranWeb/" en GitHub Pages).
-const PDF_URL = `${import.meta.env.BASE_URL}catalogo-envases.pdf`;
 
 const CatalogoEnvasesView = () => {
   return (
@@ -26,7 +23,8 @@ const CatalogoEnvasesView = () => {
 
       {/* Visor propio. Antes esto era un iframe a fliphtml5: no se podía buscar
           dentro del catálogo, ni controlarlo, ni saber si el servicio seguía
-          en pie. Ahora el PDF vive en el sitio y pdf.js lo renderiza aquí. */}
+          en pie. Ahora el PDF vive en el Blob de Vercel y pdf.js lo renderiza
+          aquí, con el buscador incluido. */}
       <Suspense
         fallback={
           <div className="flex min-h-0 flex-1 items-center justify-center">
@@ -35,7 +33,7 @@ const CatalogoEnvasesView = () => {
         }
       >
         <PdfFlipbook
-          fileUrl={PDF_URL}
+          fileUrl={PDF_ENVASES}
           downloadName="catalogo-envases-timaran.pdf"
           actions={
             <div className="flex items-center gap-2">

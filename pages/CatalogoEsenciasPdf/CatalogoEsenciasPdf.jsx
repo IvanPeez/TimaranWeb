@@ -1,38 +1,61 @@
-import React from "react";
+import React, { Suspense, lazy } from "react";
 import { Link } from "react-router-dom";
+import { Loader2 } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
 import CatalogHeader from "../../components/CatalogHeader/CatalogHeader";
-import { landingMessage } from "../../utils/contacto";
+import { PDF_ESENCIAS } from "../../utils/catalogos";
+import { landingMessage, whatsappLink } from "../../utils/contacto";
+
+// Mismo visor que envases, cargado aparte para no meter pdf.js en el bundle
+// que descarga quien entra a la portada.
+const PdfFlipbook = lazy(() => import("../../components/PdfFlipbook/PdfFlipbook"));
+
+const MENSAJE = "Estoy viendo el catálogo de esencias en PDF y quiero cotizar.";
 
 const CatalogoEsenciasPdf = () => {
   return (
     <div className="flex h-screen flex-col bg-ink">
       <CatalogHeader
         titulo="Catálogo de esencias en PDF"
-        mensaje={landingMessage(
-          "Estoy viendo el catálogo de esencias en PDF y quiero cotizar."
-        )}
+        mensaje={landingMessage(MENSAJE)}
       />
 
-      <div className="flex min-h-0 flex-1 flex-col items-center gap-3 p-4">
-        <div className="w-full max-w-6xl flex-1 overflow-hidden rounded-lg shadow">
-          <iframe
-            src="https://drive.google.com/file/d/1fMwvLGH8Dwf6xY1lJ8Lw8rVmAKFI285U/preview"
-            className="h-full w-full"
-            allow="autoplay"
-            title="Catálogo de esencias en PDF"
-          />
-        </div>
-
-        <p className="text-center text-xs text-white/40">
-          ¿Prefieres buscar y filtrar?{" "}
-          <Link
-            to="/esencias"
-            className="text-champagne underline-offset-4 hover:underline"
-          >
-            Abre el catálogo interactivo
-          </Link>
-        </p>
-      </div>
+      {/* Antes era un iframe al visor de Google Drive: no dejaba buscar dentro
+          del catálogo, mostraba la interfaz de Drive encima de la marca y
+          dependía de un archivo compartido que cualquiera podía mover. Ahora
+          el PDF vive en el Blob de Vercel y lo abre el visor propio. */}
+      <Suspense
+        fallback={
+          <div className="flex min-h-0 flex-1 items-center justify-center">
+            <Loader2 className="h-6 w-6 animate-spin text-champagne" />
+          </div>
+        }
+      >
+        <PdfFlipbook
+          fileUrl={PDF_ESENCIAS}
+          downloadName="catalogo-esencias-timaran.pdf"
+          actions={
+            <div className="flex items-center gap-2">
+              <a
+                href={whatsappLink(landingMessage(MENSAJE))}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 rounded-lg bg-champagne px-4 py-2 text-xs font-semibold uppercase tracking-[0.12em] text-ink transition-colors hover:bg-champagne-light"
+              >
+                <FaWhatsapp className="h-3.5 w-3.5" />
+                Cotizar
+              </a>
+              <Link
+                to="/esencias"
+                title="Buscar y filtrar por familia olfativa, género o inspiración"
+                className="rounded-lg border border-white/15 px-4 py-2 text-xs uppercase tracking-[0.12em] text-white/70 transition-colors hover:border-champagne hover:text-champagne"
+              >
+                Catálogo interactivo
+              </Link>
+            </div>
+          }
+        />
+      </Suspense>
     </div>
   );
 };

@@ -1,29 +1,25 @@
 import React, { useCallback, useEffect, useRef, useState } from "react";
 import { X } from "lucide-react";
 
-const ANCHO_MINIATURA = 74;
+const ANCHO_MINIATURA = 54;
+
+// Los eventos de rueda con deltaMode 1 vienen en líneas, no en píxeles.
+const LINEA_EN_PX = 16;
 
 function Miniatura({ pageNumber, renderer, visible, activa, coincide, alto, onSelect, registrar }) {
   const canvasRef = useRef(null);
-  const [painted, setPainted] = useState(false);
 
   useEffect(() => {
     const canvas = canvasRef.current;
-    if (!canvas || !visible) return undefined;
+    if (!canvas || !visible || !renderer) return undefined;
 
-    let vivo = true;
-    renderer.request(pageNumber, canvas, ANCHO_MINIATURA).then((ok) => {
-      if (vivo && ok) setPainted(true);
-    });
-
-    return () => {
-      vivo = false;
-    };
+    renderer.request(pageNumber, canvas, ANCHO_MINIATURA);
+    return undefined;
   }, [renderer, pageNumber, visible]);
 
   useEffect(() => {
     const canvas = canvasRef.current;
-    return () => renderer.release(canvas);
+    return () => renderer?.release(canvas);
   }, [renderer]);
 
   return (
@@ -46,12 +42,12 @@ function Miniatura({ pageNumber, renderer, visible, activa, coincide, alto, onSe
         }`}
         style={{ width: ANCHO_MINIATURA, height: alto }}
       >
-        <canvas ref={canvasRef} className="block h-full w-full" />
-        {!painted && (
-          <span className="absolute inset-0 flex items-center justify-center text-[10px] text-black/25">
-            {pageNumber}
-          </span>
-        )}
+        {/* Igual que en el libro: el número queda debajo y el canvas lo tapa
+            al pintarse, sin depender de ningún estado intermedio. */}
+        <span className="absolute inset-0 flex items-center justify-center text-[10px] text-black/25">
+          {pageNumber}
+        </span>
+        <canvas ref={canvasRef} className="relative block h-full w-full" />
         {coincide && (
           <span className="absolute inset-x-0 bottom-0 h-1 bg-champagne" />
         )}
@@ -116,6 +112,18 @@ function ThumbnailStrip({ numPages, renderer, aspect, currentPage, matchPages, o
     observerRef.current?.observe(nodo);
   }, []);
 
+  // La tira sólo desborda en horizontal y el navegador no convierte solo la
+  // rueda vertical en desplazamiento lateral, así que sin esto la rueda encima
+  // de las miniaturas no hacía absolutamente nada.
+  const alRodar = (event) => {
+    const contenedor = contenedorRef.current;
+    if (!contenedor) return;
+    const delta =
+      Math.abs(event.deltaY) >= Math.abs(event.deltaX) ? event.deltaY : event.deltaX;
+    if (!delta) return;
+    contenedor.scrollLeft += delta * (event.deltaMode === 1 ? LINEA_EN_PX : 1);
+  };
+
   // Al abrir la tira, centra la página en la que está el lector.
   useEffect(() => {
     const contenedor = contenedorRef.current;
@@ -127,7 +135,10 @@ function ThumbnailStrip({ numPages, renderer, aspect, currentPage, matchPages, o
   }, []);
 
   return (
-    <div className="border-t border-white/[0.07] bg-ink-soft">
+    // Panel flotante sobre el libro, no una fila más del layout: si ocupara
+    // altura propia, el área del libro cambiaría de tamaño y StPageFlip tendría
+    // que reconstruirse entero cada vez que se abre o se cierra la tira.
+    <div className="absolute inset-x-0 bottom-0 z-30 border-t border-white/[0.07] bg-ink-soft/95 backdrop-blur-xl">
       <div className="flex items-center justify-between px-4 pt-2 sm:px-6">
         <span className="text-[11px] uppercase tracking-[0.2em] text-white/35">
           {matchPages.size > 0
@@ -146,6 +157,10 @@ function ThumbnailStrip({ numPages, renderer, aspect, currentPage, matchPages, o
 
       <div
         ref={contenedorRef}
+        // Marca para que la rueda del ratón desplace la tira en vez de hojear
+        // el libro que está detrás.
+        data-rueda-propia=""
+        onWheel={alRodar}
         className="flex gap-2 overflow-x-auto px-4 pb-3 pt-2 scrollbar-thin scrollbar-track-ink scrollbar-thumb-ink-line sm:px-6"
       >
         {Array.from({ length: numPages }, (_, index) => index + 1).map((page) => (
