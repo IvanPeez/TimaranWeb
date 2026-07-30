@@ -10,8 +10,13 @@ const base = process.env.VERCEL ? '/' : '/TimaranWeb/'
 export default defineConfig({
   plugins: [react()],
   base,
-  // Nota: no hace falta historyApiFallback. La app usa HashRouter, así que la
-  // ruta viaja en el hash y cualquier recarga directa la sirve index.html.
+  // La app usa BrowserRouter (URLs sin #). En dev, Vite ya sirve index.html
+  // para cualquier ruta desconocida; en producción el fallback lo dan
+  // vercel.json (rewrites) y dist/404.html (GitHub Pages).
+  server: {
+    // Permite levantar el dev server en un puerto asignado por el entorno.
+    port: Number(process.env.PORT) || 5173,
+  },
   optimizeDeps: {
     include: ['pdfjs-dist/build/pdf.worker.js'],
   },

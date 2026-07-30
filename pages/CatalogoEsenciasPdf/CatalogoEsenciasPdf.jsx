@@ -26,7 +26,7 @@ const CatalogoEsenciasPdf = () => {
         <p className="text-center text-xs text-white/40">
           ¿Prefieres buscar y filtrar?{" "}
           <Link
-            to="/catalogo/esencias"
+            to="/esencias"
             className="text-champagne underline-offset-4 hover:underline"
           >
             Abre el catálogo interactivo

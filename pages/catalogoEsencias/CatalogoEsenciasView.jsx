@@ -56,7 +56,6 @@ function CatalogoEsenciasView() {
   const sentinelRef = useRef(null);
   const catalogRef = useRef(null);
 
-  // Con HashRouter no se pueden usar anclas (#), el hash rompe la ruta.
   const scrollToCatalog = () =>
     catalogRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
 
@@ -411,7 +410,7 @@ function CatalogoEsenciasView() {
               Cotizar por WhatsApp
             </a>
             <Link
-              to="/catalogo/envases"
+              to="/envases"
               className="flex items-center justify-center gap-2 rounded-xl border border-white/20 px-7 py-3.5 text-sm font-medium uppercase tracking-[0.14em] text-white transition-colors hover:border-champagne hover:text-champagne"
             >
               Ver envases e insumos

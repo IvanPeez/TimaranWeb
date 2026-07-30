@@ -95,7 +95,7 @@ const Hero = () => {
           className="flex w-full flex-col gap-3 sm:w-auto sm:flex-row sm:items-center"
         >
           <Link
-            to="/catalogo/esencias"
+            to="/esencias"
             className="flex items-center justify-center gap-2 rounded-xl bg-champagne px-7 py-3.5 text-sm font-semibold uppercase tracking-[0.14em] text-ink transition-colors duration-300 hover:bg-champagne-light"
           >
             Ver esencias
@@ -103,7 +103,7 @@ const Hero = () => {
           </Link>
 
           <Link
-            to="/catalogo/envases"
+            to="/envases"
             className="flex items-center justify-center rounded-xl border border-white/30 px-7 py-3.5 text-sm font-medium uppercase tracking-[0.14em] text-white backdrop-blur-sm transition-colors duration-300 hover:border-champagne hover:text-champagne"
           >
             Insumos y envases

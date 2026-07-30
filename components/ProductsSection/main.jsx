@@ -5,14 +5,14 @@ import { ArrowRight } from "lucide-react";
 
 const PUERTAS = [
   {
-    to: "/catalogo/esencias",
+    to: "/esencias",
     titulo: "Esencias",
     texto: "Fragancias de autor para perfumes, cosmética y aromatización.",
     imagen:
       "https://cdn.leonardo.ai/users/68017305-d176-45f0-934a-cf03250a2262/generations/8404ffd9-7778-4068-be0f-3f7f28e66d73/Leonardo_Phoenix_09_En_primer_plano_un_lujoso_taller_de_perfum_2.jpg",
   },
   {
-    to: "/catalogo/envases",
+    to: "/envases",
     titulo: "Insumos",
     texto: "Envases, alcohol, fijadores, válvulas y maquinaria de precisión.",
     imagen:

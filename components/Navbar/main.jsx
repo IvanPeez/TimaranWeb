@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
+import { createPortal } from "react-dom";
 import { Link } from "react-router-dom";
 import { Link as ScrollLink } from "react-scroll";
 import { ChevronDown, Menu, X } from "lucide-react";
@@ -14,12 +15,12 @@ import { advisorMessage, whatsappLink } from "../../utils/contacto";
 // Las dos puertas de entrada al catálogo, tal como se ven en el menú "Productos".
 const PRODUCTOS = [
   {
-    to: "/catalogo/esencias",
+    to: "/esencias",
     titulo: "Esencias",
     descripcion: "869 fragancias de autor, filtrables por familia y género.",
   },
   {
-    to: "/catalogo/envases",
+    to: "/envases",
     titulo: "Insumos",
     descripcion: "Envases, alcohol, fijadores y maquinaria para producir.",
   },
@@ -84,6 +85,18 @@ const Navbar = () => {
       window.removeEventListener("keydown", handleKeyDown);
     };
   }, [isProductsOpen]);
+
+  // Con el menú abierto el fondo no debe desplazarse: además de ser molesto,
+  // el scroll cambiaba el fondo de la barra y arrastraba al drawer con ella.
+  useEffect(() => {
+    if (!isSidebarOpen) return undefined;
+
+    const { overflow } = document.body.style;
+    document.body.style.overflow = "hidden";
+    return () => {
+      document.body.style.overflow = overflow;
+    };
+  }, [isSidebarOpen]);
 
   const closeAll = () => {
     setIsSidebarOpen(false);
@@ -211,127 +224,132 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Menú móvil */}
-      <div
-        className={`fixed inset-0 z-50 md:hidden ${
-          isSidebarOpen ? "pointer-events-auto" : "pointer-events-none"
-        }`}
-      >
+      {/* Menú móvil: se monta en el body porque al hacer scroll el <nav> gana
+          backdrop-blur y eso vuelve a la barra el bloque contenedor de sus
+          descendientes fixed, dejando el drawer encerrado en sus 64px. */}
+      {createPortal(
         <div
-          onClick={closeAll}
-          className={`absolute inset-0 bg-black/70 transition-opacity duration-300 ${
-            isSidebarOpen ? "opacity-100" : "opacity-0"
-          }`}
-        />
-
-        <div
-          className={`absolute inset-y-0 left-0 flex w-80 max-w-[85vw] flex-col bg-ink transition-transform duration-300 ease-out ${
-            isSidebarOpen ? "translate-x-0" : "-translate-x-full"
+          className={`fixed inset-0 z-50 md:hidden ${
+            isSidebarOpen ? "pointer-events-auto" : "pointer-events-none"
           }`}
         >
-          <div className="flex items-center justify-between border-b border-white/10 px-5 py-4">
-            <img src={logoNav} alt="Distribuciones Timarán" className="h-8 w-auto" />
-            <button
-              type="button"
-              onClick={closeAll}
-              aria-label="Cerrar menú"
-              className="flex h-9 w-9 items-center justify-center rounded-full border border-white/10 text-white/70"
-            >
-              <X className="h-4 w-4" />
-            </button>
-          </div>
+          <div
+            onClick={closeAll}
+            className={`absolute inset-0 bg-black/70 transition-opacity duration-300 ${
+              isSidebarOpen ? "opacity-100" : "opacity-0"
+            }`}
+          />
 
-          <nav className="flex-1 overflow-y-auto px-5 py-6">
-            <ScrollLink
-              to="home"
-              smooth={true}
-              duration={500}
-              offset={-70}
-              onClick={closeAll}
-              className="block cursor-pointer py-3 text-lg text-white"
-            >
-              Inicio
-            </ScrollLink>
+          <div
+            className={`absolute inset-y-0 left-0 flex w-80 max-w-[85vw] flex-col bg-ink transition-transform duration-300 ease-out ${
+              isSidebarOpen ? "translate-x-0" : "-translate-x-full"
+            }`}
+          >
+            <div className="flex items-center justify-between border-b border-white/10 px-5 py-4">
+              <img src={logoNav} alt="Distribuciones Timarán" className="h-8 w-auto" />
+              <button
+                type="button"
+                onClick={closeAll}
+                aria-label="Cerrar menú"
+                className="flex h-9 w-9 items-center justify-center rounded-full border border-white/10 text-white/70"
+              >
+                <X className="h-4 w-4" />
+              </button>
+            </div>
 
-            {/* Productos desplegable */}
-            <button
-              type="button"
-              onClick={() => setIsMobileProductsOpen((prev) => !prev)}
-              aria-expanded={isMobileProductsOpen}
-              className="flex w-full items-center justify-between py-3 text-left text-lg text-white"
-            >
-              Productos
-              <ChevronDown
-                className={`h-4 w-4 text-white/50 transition-transform duration-300 ${
-                  isMobileProductsOpen ? "rotate-180" : ""
-                }`}
-              />
-            </button>
-
-            {isMobileProductsOpen && (
-              <div className="mb-2 ml-1 space-y-1 border-l border-white/10 pl-4">
-                {PRODUCTOS.map((producto) => (
-                  <Link
-                    key={producto.to}
-                    to={producto.to}
-                    onClick={closeAll}
-                    className="block py-2.5"
-                  >
-                    <span className="block font-titleAlt text-lg italic text-champagne">
-                      {producto.titulo}
-                    </span>
-                    <span className="block text-xs text-white/45">
-                      {producto.descripcion}
-                    </span>
-                  </Link>
-                ))}
-              </div>
-            )}
-
-            {SECCIONES.map((seccion) => (
+            <nav className="flex-1 overflow-y-auto overscroll-contain px-5 py-6">
               <ScrollLink
-                key={seccion.to}
-                to={seccion.to}
+                to="home"
                 smooth={true}
                 duration={500}
                 offset={-70}
                 onClick={closeAll}
                 className="block cursor-pointer py-3 text-lg text-white"
               >
-                {seccion.label}
+                Inicio
               </ScrollLink>
-            ))}
-          </nav>
 
-          <div className="border-t border-white/10 px-5 py-5">
-            <a
-              href={whatsappLink(advisorMessage())}
-              target="_blank"
-              rel="noopener noreferrer"
-              onClick={closeAll}
-              className="flex items-center justify-center gap-2 rounded-xl bg-champagne px-5 py-3 text-sm font-semibold uppercase tracking-[0.12em] text-ink"
-            >
-              <FaWhatsapp size={16} />
-              Cotizar por WhatsApp
-            </a>
+              {/* Productos desplegable */}
+              <button
+                type="button"
+                onClick={() => setIsMobileProductsOpen((prev) => !prev)}
+                aria-expanded={isMobileProductsOpen}
+                className="flex w-full items-center justify-between py-3 text-left text-lg text-white"
+              >
+                Productos
+                <ChevronDown
+                  className={`h-4 w-4 text-white/50 transition-transform duration-300 ${
+                    isMobileProductsOpen ? "rotate-180" : ""
+                  }`}
+                />
+              </button>
 
-            <div className="mt-5 flex justify-center gap-6">
-              {REDES.map(({ href, icon: Icon, label }) => (
-                <a
-                  key={label}
-                  href={href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label={label}
-                  className="text-white/70 transition-colors duration-300 hover:text-champagne"
+              {isMobileProductsOpen && (
+                <div className="mb-2 ml-1 space-y-1 border-l border-white/10 pl-4">
+                  {PRODUCTOS.map((producto) => (
+                    <Link
+                      key={producto.to}
+                      to={producto.to}
+                      onClick={closeAll}
+                      className="block py-2.5"
+                    >
+                      <span className="block font-titleAlt text-lg italic text-champagne">
+                        {producto.titulo}
+                      </span>
+                      <span className="block text-xs text-white/45">
+                        {producto.descripcion}
+                      </span>
+                    </Link>
+                  ))}
+                </div>
+              )}
+
+              {SECCIONES.map((seccion) => (
+                <ScrollLink
+                  key={seccion.to}
+                  to={seccion.to}
+                  smooth={true}
+                  duration={500}
+                  offset={-70}
+                  onClick={closeAll}
+                  className="block cursor-pointer py-3 text-lg text-white"
                 >
-                  <Icon size={20} />
-                </a>
+                  {seccion.label}
+                </ScrollLink>
               ))}
+            </nav>
+
+            <div className="border-t border-white/10 px-5 py-5">
+              <a
+                href={whatsappLink(advisorMessage())}
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={closeAll}
+                className="flex items-center justify-center gap-2 rounded-xl bg-champagne px-5 py-3 text-sm font-semibold uppercase tracking-[0.12em] text-ink"
+              >
+                <FaWhatsapp size={16} />
+                Cotizar por WhatsApp
+              </a>
+
+              <div className="mt-5 flex justify-center gap-6">
+                {REDES.map(({ href, icon: Icon, label }) => (
+                  <a
+                    key={label}
+                    href={href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={label}
+                    className="text-white/70 transition-colors duration-300 hover:text-champagne"
+                  >
+                    <Icon size={20} />
+                  </a>
+                ))}
+              </div>
             </div>
           </div>
-        </div>
-      </div>
+        </div>,
+        document.body
+      )}
     </nav>
   );
 };
