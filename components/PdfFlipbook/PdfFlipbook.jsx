@@ -26,6 +26,7 @@ import ThumbnailStrip from "./ThumbnailStrip";
 import { PageRenderer } from "./PageRenderer";
 import { usePdfDocument } from "./usePdfDocument";
 import { usePdfTextIndex, useSearchResults } from "./usePdfSearch";
+import { useUrlSinCache } from "./useUrlSinCache";
 import { ViewerProvider } from "./viewerContext";
 import { enlaceDescarga } from "../../utils/catalogos";
 
@@ -122,7 +123,16 @@ function PdfFlipbook({ fileUrl, downloadName = "catalogo.pdf", actions }) {
   const searchInputRef = useRef(null);
   const punteroRef = useRef(null);
 
-  const { status, progress, doc, numPages, aspect, error } = usePdfDocument(fileUrl);
+  // El catálogo se pide con una marca de versión en la URL para que un PDF
+  // recién subido se vea de una vez, sin esperar a que expire la caché del
+  // navegador (ver utils/catalogos.js). Mientras se resuelve vale `undefined`,
+  // que el visor trata como "cargando".
+  const urlCatalogo = useUrlSinCache(fileUrl);
+  // El botón de descarga no puede quedarse sin enlace ese instante: si todavía
+  // no hay versión, se ofrece la URL tal cual.
+  const urlDescarga = enlaceDescarga(urlCatalogo ?? fileUrl);
+
+  const { status, progress, doc, numPages, aspect, error } = usePdfDocument(urlCatalogo);
   const { pages: textIndex, indexed, total, ready } = usePdfTextIndex(doc, numPages);
 
   const [query, setQuery] = useState("");
@@ -413,7 +423,7 @@ function PdfFlipbook({ fileUrl, downloadName = "catalogo.pdf", actions }) {
               </button>
               {fileUrl && (
                 <a
-                  href={enlaceDescarga(fileUrl)}
+                  href={urlDescarga}
                   download={downloadName}
                   aria-label="Descargar el catálogo en PDF"
                   title="Descargar el catálogo en PDF"
@@ -527,7 +537,7 @@ function PdfFlipbook({ fileUrl, downloadName = "catalogo.pdf", actions }) {
                 {error?.message || "Revisa tu conexión e inténtalo de nuevo."}
               </p>
               <a
-                href={enlaceDescarga(fileUrl)}
+                href={urlDescarga}
                 download={downloadName}
                 className="mt-1 flex items-center gap-2 rounded-xl bg-champagne px-6 py-3 text-sm font-semibold uppercase tracking-[0.14em] text-ink transition-colors hover:bg-champagne-light"
               >

@@ -20,8 +20,15 @@ export const PLACEHOLDER_IMG = sinImagen;
 // hotlinkea a un tercero y se muestra el placeholder propio.
 const SIN_FOTO = /pro-kulturu\.cz|no[-_]?image/i;
 
-export const pictureOf = (item) =>
-  !item?.picture || SIN_FOTO.test(item.picture) ? sinImagen : item.picture;
+/**
+ * ¿La esencia tiene foto propia?
+ *
+ * Lo usan los botones de copiar/compartir la imagen: mandarle a un cliente el
+ * placeholder de "sin imagen" no le sirve a nadie, así que ahí no se ofrecen.
+ */
+export const tieneFoto = (item) => Boolean(item?.picture) && !SIN_FOTO.test(item.picture);
+
+export const pictureOf = (item) => (tieneFoto(item) ? item.picture : sinImagen);
 
 /** Si la imagen remota falla (enlace caído), cae al placeholder propio. */
 export const handleImageError = (event) => {
