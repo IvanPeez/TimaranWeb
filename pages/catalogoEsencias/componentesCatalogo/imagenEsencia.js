@@ -6,7 +6,7 @@
 // (`pointer-events-none`), el clic derecho no existe en un celular. De ahí
 // estas tres acciones explícitas: compartir, copiar y descargar.
 
-import { inspiredBy } from "./catalogUtils";
+import { inspiredBy, pictureOf } from "./catalogUtils";
 
 const EXTENSIONES = {
   "image/png": "png",
@@ -144,4 +144,224 @@ export async function compartirImagen(url, perfume, blob) {
 
   await navigator.share({ files: [archivo] });
   return true;
+}
+
+// ---------------------------------------------------------------------------
+// Varias esencias a la vez
+// ---------------------------------------------------------------------------
+
+/** Cuántas fotos se piden en paralelo. Más que esto sólo congestiona la red. */
+const EN_PARALELO = 4;
+
+/** Recorre la lista con un tope de tareas simultáneas, conservando el orden. */
+async function enTandas(lista, limite, tarea) {
+  const resultados = new Array(lista.length);
+  let siguiente = 0;
+
+  const obreros = Array.from({ length: Math.min(limite, lista.length) }, async () => {
+    while (siguiente < lista.length) {
+      const indice = siguiente++;
+      resultados[indice] = await tarea(lista[indice]);
+    }
+  });
+
+  await Promise.all(obreros);
+  return resultados;
+}
+
+/**
+ * Trae las fotos de varias esencias.
+ *
+ * Las que fallen se descartan en vez de tumbar el lote entero: si una de ocho
+ * tiene el enlace caído, el vendedor prefiere las otras siete a un error.
+ */
+export async function obtenerVarias(perfumes, { signal, onAvance } = {}) {
+  let listas = 0;
+
+  const resultados = await enTandas(perfumes, EN_PARALELO, async (perfume) => {
+    try {
+      const blob = await obtenerBlob(pictureOf(perfume), { signal });
+      return { perfume, blob };
+    } catch (error) {
+      if (error?.name === "AbortError") throw error;
+      console.warn("[catalogo] No se pudo traer la imagen de", perfume?.newName, error);
+      return null;
+    } finally {
+      onAvance?.(++listas, perfumes.length);
+    }
+  });
+
+  return resultados.filter(Boolean);
+}
+
+/**
+ * Guarda todas las fotos, cada una con su nombre.
+ *
+ * Van sueltas y no en un .zip a propósito: el vendedor las adjunta de una vez
+ * desde la carpeta de descargas, y un zip le agregaría el paso de
+ * descomprimir. La pausa entre archivos es porque los navegadores descartan
+ * descargas encadenadas demasiado rápido.
+ */
+export async function descargarVarias(imagenes) {
+  for (const [indice, { perfume, blob }] of imagenes.entries()) {
+    await descargarImagen(pictureOf(perfume), perfume, blob);
+    if (indice < imagenes.length - 1) {
+      await new Promise((resolver) => setTimeout(resolver, 250));
+    }
+  }
+}
+
+/**
+ * Comparte todas las fotos de una vez por el menú del sistema.
+ *
+ * Esta es la única forma real de mandar varias imágenes juntas: el menú nativo
+ * sí acepta una lista de archivos. Devuelve false si el equipo no puede con
+ * ese lote (algunos limitan la cantidad) para poder caer a la descarga.
+ */
+export async function compartirVarias(imagenes) {
+  if (!puedeCompartir() || !imagenes.length) return false;
+
+  const archivos = imagenes.map(
+    ({ perfume, blob }) => new File([blob], nombreArchivo(perfume, blob.type), { type: blob.type })
+  );
+  if (!navigator.canShare({ files: archivos })) return false;
+
+  await navigator.share({ files: archivos });
+  return true;
+}
+
+// Medidas de la lámina. La celda se achica cuando hay muchas esencias para que
+// el PNG no se vuelva inmanejable en el portapapeles.
+const MARGEN = 28;
+const HUECO = 18;
+const COLUMNAS_MAX = 3;
+
+const ladoCelda = (cantidad) => (cantidad > 12 ? 300 : cantidad > 6 ? 400 : 480);
+
+/** Dibuja la imagen llenando el recuadro y recortando lo que sobre (object-cover). */
+function dibujarRecortada(ctx, img, x, y, ancho, alto) {
+  const escala = Math.max(ancho / img.naturalWidth, alto / img.naturalHeight);
+  const w = img.naturalWidth * escala;
+  const h = img.naturalHeight * escala;
+
+  ctx.save();
+  ctx.beginPath();
+  ctx.rect(x, y, ancho, alto);
+  ctx.clip();
+  ctx.drawImage(img, x + (ancho - w) / 2, y + (alto - h) / 2, w, h);
+  ctx.restore();
+}
+
+/** Corta el texto con puntos suspensivos si no cabe en el ancho de la celda. */
+function recortarTexto(ctx, texto, maxAncho) {
+  if (ctx.measureText(texto).width <= maxAncho) return texto;
+
+  let corto = texto;
+  while (corto.length > 1 && ctx.measureText(`${corto}…`).width > maxAncho) {
+    corto = corto.slice(0, -1);
+  }
+  return `${corto}…`;
+}
+
+async function imagenDesde(blob) {
+  const objectUrl = URL.createObjectURL(blob);
+  const img = new Image();
+  img.src = objectUrl;
+  try {
+    await img.decode();
+    return { img, liberar: () => URL.revokeObjectURL(objectUrl) };
+  } catch (error) {
+    URL.revokeObjectURL(objectUrl);
+    throw error;
+  }
+}
+
+/**
+ * Arma una sola imagen con todas las esencias seleccionadas, cada una con su
+ * nombre y su inspiración.
+ *
+ * Existe porque el portapapeles del navegador guarda UNA imagen, no una lista:
+ * `clipboard.write` con varios elementos lo rechazan todos los navegadores. Si
+ * el vendedor quiere pegar la selección completa en un chat, la única salida es
+ * mandarla en una lámina. Para fotos sueltas están compartir y descargar.
+ */
+export async function laminaDe(imagenes) {
+  const celda = ladoCelda(imagenes.length);
+  const etiqueta = Math.round(celda * 0.22);
+  const columnas = Math.min(COLUMNAS_MAX, Math.ceil(Math.sqrt(imagenes.length)));
+  const filas = Math.ceil(imagenes.length / columnas);
+
+  const canvas = document.createElement("canvas");
+  canvas.width = MARGEN * 2 + columnas * celda + (columnas - 1) * HUECO;
+  canvas.height = MARGEN * 2 + filas * (celda + etiqueta) + (filas - 1) * HUECO;
+
+  const ctx = canvas.getContext("2d");
+  ctx.fillStyle = "#0A0A0B";
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+  // Sin esto la primera lámina puede salir con la tipografía de reserva,
+  // porque las fuentes de la página se cargan aparte.
+  await document.fonts?.ready;
+
+  for (const [indice, { perfume, blob }] of imagenes.entries()) {
+    const x = MARGEN + (indice % columnas) * (celda + HUECO);
+    const y = MARGEN + Math.floor(indice / columnas) * (celda + etiqueta + HUECO);
+
+    ctx.fillStyle = "#17171A";
+    ctx.fillRect(x, y, celda, celda + etiqueta);
+
+    const { img, liberar } = await imagenDesde(blob);
+    try {
+      dibujarRecortada(ctx, img, x, y, celda, celda);
+    } finally {
+      liberar();
+    }
+
+    const sangria = Math.round(celda * 0.045);
+    const anchoTexto = celda - sangria * 2;
+
+    ctx.textBaseline = "alphabetic";
+    ctx.fillStyle = "#FFFFFF";
+    ctx.font = `italic ${Math.round(celda * 0.072)}px "Bodoni Moda", Georgia, serif`;
+    ctx.fillText(
+      recortarTexto(ctx, perfume.newName ?? "", anchoTexto),
+      x + sangria,
+      y + celda + Math.round(etiqueta * 0.45)
+    );
+
+    ctx.fillStyle = "#D8BC8A";
+    ctx.font = `${Math.round(celda * 0.042)}px "General Sans", Arial, sans-serif`;
+    ctx.fillText(
+      recortarTexto(ctx, `Inspirada en ${inspiredBy(perfume.name ?? "")}`, anchoTexto),
+      x + sangria,
+      y + celda + Math.round(etiqueta * 0.78)
+    );
+  }
+
+  return new Promise((resolve, reject) => {
+    canvas.toBlob(
+      (png) => (png ? resolve(png) : reject(new Error("No se pudo armar la lámina"))),
+      "image/png"
+    );
+  });
+}
+
+/** Copia la lámina de la selección al portapapeles. */
+export async function copiarLamina(imagenes) {
+  await navigator.clipboard.write([new ClipboardItem({ "image/png": laminaDe(imagenes) })]);
+}
+
+/** Descarga la lámina, para cuando el portapapeles no está disponible. */
+export async function descargarLamina(imagenes) {
+  const png = await laminaDe(imagenes);
+  const objectUrl = URL.createObjectURL(png);
+
+  const enlace = document.createElement("a");
+  enlace.href = objectUrl;
+  enlace.download = `TIMARAN-SELECCION-${imagenes.length}.png`;
+  document.body.appendChild(enlace);
+  enlace.click();
+  enlace.remove();
+
+  setTimeout(() => URL.revokeObjectURL(objectUrl), 60_000);
 }
