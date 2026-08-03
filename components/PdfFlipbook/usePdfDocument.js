@@ -23,6 +23,14 @@ export function usePdfDocument(url) {
   useEffect(() => {
     let cancelled = false;
 
+    // `undefined` no es "falta la variable de entorno" sino "todavía se está
+    // resolviendo la versión del archivo" (ver useUrlSinCache): se queda
+    // cargando en vez de acusar un error de configuración que no existe.
+    if (url === undefined) {
+      setState(INITIAL);
+      return undefined;
+    }
+
     // Sin URL configurada no hay nada que pedir. Es un fallo de despliegue (la
     // variable de entorno del catálogo quedó vacía), no un error de red, y se
     // distingue para poder mostrar un mensaje que le sirva al cliente.

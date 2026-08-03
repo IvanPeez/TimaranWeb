@@ -1,12 +1,14 @@
 import React from "react";
 import { Check, Plus, Sparkles } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
+import { AccionesImagen } from "./AccionesImagen";
 import {
   esNovedad,
   handleImageError,
   inspiredBy,
   pictureOf,
   singleQuoteMessage,
+  tieneFoto,
   whatsappLink,
 } from "./catalogUtils";
 
@@ -33,7 +35,10 @@ export function PerfumeCard({ perfume, isSelected, onToggleSelect, onOpen, index
           loading="lazy"
           className="h-full w-full object-cover transition-transform duration-[900ms] ease-out group-hover:scale-[1.08]"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-ink-card via-ink-card/10 to-transparent" />
+        {/* `pointer-events-none`: el degradado es decoración y estaba tapando
+            la foto, así que el clic derecho caía sobre él y el menú del
+            navegador se quedaba sin "Copiar imagen". */}
+        <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-ink-card via-ink-card/10 to-transparent" />
 
         {/* Etiquetas */}
         <div className="absolute left-3 top-3 flex flex-col items-start gap-1.5">
@@ -50,36 +55,51 @@ export function PerfumeCard({ perfume, isSelected, onToggleSelect, onOpen, index
           )}
         </div>
 
-        {/* Guardar en la selección */}
-        <span
-          role="button"
-          tabIndex={0}
-          aria-label={
-            isSelected ? "Quitar de mi selección" : "Agregar a mi selección"
-          }
-          onClick={(event) => {
-            event.stopPropagation();
-            onToggleSelect();
-          }}
-          onKeyDown={(event) => {
-            if (event.key === "Enter" || event.key === " ") {
-              event.preventDefault();
+        {/* Acciones sobre la foto. Van como <span role="button"> y no como
+            <button> porque toda la imagen ya es un botón y el HTML no admite
+            un botón dentro de otro. */}
+        <div className="absolute right-3 top-3 flex flex-col items-center gap-2">
+          {/* Guardar en la selección */}
+          <span
+            role="button"
+            tabIndex={0}
+            aria-label={
+              isSelected ? "Quitar de mi selección" : "Agregar a mi selección"
+            }
+            onClick={(event) => {
               event.stopPropagation();
               onToggleSelect();
-            }
-          }}
-          className={`absolute right-3 top-3 flex h-9 w-9 items-center justify-center rounded-full border backdrop-blur-md transition-all duration-300 ${
-            isSelected
-              ? "border-champagne bg-champagne text-ink"
-              : "border-white/25 bg-black/40 text-white hover:border-champagne hover:text-champagne"
-          }`}
-        >
-          {isSelected ? (
-            <Check className="h-4 w-4" />
-          ) : (
-            <Plus className="h-4 w-4" />
+            }}
+            onKeyDown={(event) => {
+              if (event.key === "Enter" || event.key === " ") {
+                event.preventDefault();
+                event.stopPropagation();
+                onToggleSelect();
+              }
+            }}
+            className={`flex h-9 w-9 items-center justify-center rounded-full border backdrop-blur-md transition-all duration-300 ${
+              isSelected
+                ? "border-champagne bg-champagne text-ink"
+                : "border-white/25 bg-black/40 text-white hover:border-champagne hover:text-champagne"
+            }`}
+          >
+            {isSelected ? (
+              <Check className="h-4 w-4" />
+            ) : (
+              <Plus className="h-4 w-4" />
+            )}
+          </span>
+
+          {/* Llevarse la foto sin abrir el detalle: es el gesto que más repite
+              un vendedor mientras recorre la grilla. */}
+          {tieneFoto(perfume) && (
+            <AccionesImagen
+              perfume={perfume}
+              url={pictureOf(perfume)}
+              variante="tarjeta"
+            />
           )}
-        </span>
+        </div>
 
         {/* Pill de hover (desktop) */}
         <span className="pointer-events-none absolute inset-x-0 bottom-3 hidden justify-center md:flex">

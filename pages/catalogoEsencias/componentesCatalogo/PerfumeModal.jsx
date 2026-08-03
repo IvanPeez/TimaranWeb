@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { Check, Droplets, Plus, ShieldCheck, Truck, X } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
+import { AccionesImagen } from "./AccionesImagen";
 import {
   DISCLAIMER,
   PRESENTACIONES,
@@ -9,6 +10,7 @@ import {
   inspiredBy,
   pictureOf,
   singleQuoteMessage,
+  tieneFoto,
   whatsappLink,
 } from "./catalogUtils";
 
@@ -73,7 +75,10 @@ export function PerfumeModal({ perfume, onClose, isSelected, onToggleSelect }) {
               alt={perfume.newName}
               className="h-full w-full object-cover"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-ink-soft via-transparent to-transparent md:bg-gradient-to-r md:from-transparent md:to-ink-soft" />
+            {/* `pointer-events-none`: el degradado es decoración y estaba
+                tapando la foto, así que el clic derecho caía sobre él y el
+                menú del navegador se quedaba sin "Copiar imagen". */}
+            <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-ink-soft via-transparent to-transparent md:bg-gradient-to-r md:from-transparent md:to-ink-soft" />
             {esNovedad(perfume) && (
               <span className="absolute left-4 top-4 rounded-full bg-champagne px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.16em] text-ink">
                 Novedad
@@ -106,6 +111,13 @@ export function PerfumeModal({ perfume, onClose, isSelected, onToggleSelect }) {
                 </span>
               ))}
             </div>
+
+            {/* La foto es lo que el vendedor le manda al cliente, así que va
+                arriba: sin esto tocaba clic derecho sobre la imagen, que en
+                celular no existe. */}
+            {tieneFoto(perfume) && (
+              <AccionesImagen perfume={perfume} url={pictureOf(perfume)} />
+            )}
 
             {/* Presentaciones (sin precios) */}
             <div>
