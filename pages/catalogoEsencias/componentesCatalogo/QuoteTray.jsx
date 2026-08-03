@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { ChevronDown, ChevronUp, Trash2, X } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
+import { AccionesSeleccion } from "./AccionesSeleccion";
 import {
   handleImageError,
   inspiredBy,
@@ -52,10 +53,16 @@ export function QuoteTray({ items, onRemove, onClear }) {
               ))}
             </ul>
 
+            {/* Llevarse las fotos de todas las esencias marcadas de una sola
+                vez: es el paso previo a mandarle la propuesta al cliente. Las
+                descargas arrancan al abrir esta lista, no al pulsar el botón,
+                para que compartir en el celular no se caiga por la espera. */}
+            <AccionesSeleccion items={items} />
+
             <button
               type="button"
               onClick={onClear}
-              className="mt-2 flex items-center gap-2 px-2 py-1 text-xs text-white/40 transition-colors hover:text-red-400"
+              className="mt-3 flex items-center gap-2 px-2 py-1 text-xs text-white/40 transition-colors hover:text-red-400"
             >
               <Trash2 className="h-3.5 w-3.5" />
               Vaciar selección
