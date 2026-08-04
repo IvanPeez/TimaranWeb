@@ -3,7 +3,6 @@ import { pdfjsLib } from "./pdfjs";
 
 const INITIAL = {
   status: "loading",
-  progress: 0,
   doc: null,
   numPages: 0,
   // Proporción ancho/alto de la primera página. Se usa como referencia para
@@ -13,48 +12,39 @@ const INITIAL = {
 };
 
 /**
- * Carga el PDF y expone el progreso de descarga. El catálogo pesa ~13 MB, así
- * que sin barra de progreso la pantalla se queda varios segundos en blanco y
- * parece rota.
+ * Abre el catálogo que ya está en memoria.
+ *
+ * Recibe los BYTES y no una URL a propósito. Dándole la URL, pdf.js hace la
+ * petición él mismo —y con peticiones parciales por rangos, que ni siquiera se
+ * pueden guardar en Cache Storage—, así que el archivo se bajaría del Blob en
+ * cada apertura y no habría forma de reutilizar lo ya descargado. Quién trae
+ * esos bytes, de la caché local o de la red, lo decide useCatalogo; aquí sólo
+ * se interpretan.
+ *
+ * La barra de progreso vive por eso en useCatalogo: el avance que importa es el
+ * de la descarga, y cuando el catálogo sale de la copia guardada no hay
+ * descarga que mostrar.
  */
-export function usePdfDocument(url) {
+export function usePdfDocument(datos) {
   const [state, setState] = useState(INITIAL);
 
   useEffect(() => {
-    let cancelled = false;
-
-    // `undefined` no es "falta la variable de entorno" sino "todavía se está
-    // resolviendo la versión del archivo" (ver useUrlSinCache): se queda
-    // cargando en vez de acusar un error de configuración que no existe.
-    if (url === undefined) {
+    // Todavía no hay archivo: se está consultando la versión, descargando, o el
+    // catálogo no está configurado. Todos esos casos los distingue y los pinta
+    // el visor con el estado de useCatalogo.
+    if (!datos) {
       setState(INITIAL);
       return undefined;
     }
 
-    // Sin URL configurada no hay nada que pedir. Es un fallo de despliegue (la
-    // variable de entorno del catálogo quedó vacía), no un error de red, y se
-    // distingue para poder mostrar un mensaje que le sirva al cliente.
-    if (!url) {
-      console.error(
-        "[PdfFlipbook] No hay URL del catálogo. Define VITE_CATALOGO_ENVASES_PDF / " +
-          "VITE_CATALOGO_ESENCIAS_PDF con la URL pública del Blob de Vercel (ver .env.example)."
-      );
-      setState({ ...INITIAL, status: "unset" });
-      return undefined;
-    }
-
+    let cancelled = false;
     setState(INITIAL);
 
-    const task = pdfjsLib.getDocument({ url });
-
-    task.onProgress = ({ loaded, total }) => {
-      if (cancelled || !total) return;
-      setState((prev) =>
-        prev.status === "loading"
-          ? { ...prev, progress: Math.min(1, loaded / total) }
-          : prev
-      );
-    };
+    // Va una COPIA de los bytes: pdf.js transfiere el búfer al worker y lo deja
+    // inutilizable (detached). El original es la copia del catálogo que se
+    // conserva para el botón de descarga y para poder reabrir el documento sin
+    // volver a pedirle nada al Blob.
+    const task = pdfjsLib.getDocument({ data: datos.slice() });
 
     task.promise
       .then(async (doc) => {
@@ -63,7 +53,6 @@ export function usePdfDocument(url) {
         if (cancelled) return;
         setState({
           status: "ready",
-          progress: 1,
           doc,
           numPages: doc.numPages,
           aspect: viewport.width / viewport.height,
@@ -82,7 +71,7 @@ export function usePdfDocument(url) {
       // destroy() de la tarea también libera el documento asociado.
       task.destroy().catch(() => {});
     };
-  }, [url]);
+  }, [datos]);
 
   return state;
 }

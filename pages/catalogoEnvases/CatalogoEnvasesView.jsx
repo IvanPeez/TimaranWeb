@@ -34,6 +34,7 @@ const CatalogoEnvasesView = () => {
       >
         <PdfFlipbook
           fileUrl={PDF_ENVASES}
+          catalogoId="envases"
           downloadName="catalogo-envases-timaran.pdf"
           actions={
             <div className="flex items-center gap-2">

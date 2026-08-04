@@ -1,4 +1,4 @@
-// Ubicación de los catálogos en PDF.
+// Ubicación de los catálogos en PDF y cómo se averigua qué versión hay publicada.
 //
 // Los archivos viven en el Blob de Vercel, no en el repositorio: pesan más de
 // 10 MB cada uno y se reemplazan cada temporada. Tenerlos en `public/` obligaba
@@ -7,6 +7,9 @@
 //
 // Se configuran por variable de entorno (Vite sólo expone las que empiezan por
 // VITE_). Ver .env.example para el detalle y el comando de subida.
+//
+// Este módulo NO descarga el catálogo: sólo pregunta por sus metadatos. Quién
+// guarda el archivo y cuándo decide volver a bajarlo está en catalogoCache.js.
 
 export const PDF_ENVASES = import.meta.env.VITE_CATALOGO_ENVASES_PDF || "";
 
@@ -25,6 +28,12 @@ export const conParametro = (url, clave, valor) => {
  * El atributo `download` de un <a> se ignora cuando el archivo es de otro
  * origen, así que el navegador abriría el PDF en vez de bajarlo. El Blob de
  * Vercel resuelve esto con `?download=1`, que fuerza el Content-Disposition.
+ *
+ * Es la RUTA DE RESPALDO del botón de descarga: cuando el visor ya tiene el
+ * catálogo en memoria, el botón guarda esos bytes y no vuelve a pedirle nada al
+ * Blob (ver PdfFlipbook). Este enlace se usa sólo mientras todavía no hay copia
+ * —primera visita, o el archivo falló al cargar—, que es justo cuando no queda
+ * más remedio que ir a la red.
  */
 export const enlaceDescarga = (url) => conParametro(url, "download", "1");
 
@@ -38,7 +47,9 @@ export const enlaceDescarga = (url) => conParametro(url, "download", "1");
  *
  * Ambas son estables mientras el archivo no cambie (se sirven igual en un HIT
  * y en un MISS de la CDN), así que la huella sólo se mueve cuando de verdad se
- * subió un catálogo nuevo.
+ * subió un catálogo nuevo. Eso es lo que la vuelve utilizable como número de
+ * versión: comparar dos huellas responde «¿es el mismo archivo?» sin haber
+ * bajado un solo byte del archivo.
  */
 const huella = (respuesta) => {
   const partes = [];
@@ -56,51 +67,49 @@ const huella = (respuesta) => {
 };
 
 /**
- * URL del catálogo con una marca de versión que se mueve al cambiar el archivo.
+ * Qué catálogo hay publicado ahora mismo, sin descargarlo.
  *
- * El problema: el Blob sirve los PDF con `cache-control: public, max-age=...`
- * de días o semanas. Cuando se re-sube el catálogo sobre el mismo pathname la
- * CDN se actualiza en menos de un minuto, pero el navegador de quien ya lo vio
- * ni siquiera pregunta: sigue mostrando el PDF viejo hasta que vence ese
- * max-age. Es lo que hacía que un precio corregido tardara semanas en verse.
+ * Es UNA PETICIÓN HEAD: el servidor contesta las cabeceras y nada más, así que
+ * viaja del orden de 300 bytes en vez de 13 MB. Ésta es la operación que hace
+ * el botón «Sincronizar» y la que corre sola al abrir el visor; poder repetirla
+ * en cada visita sin que cueste nada es todo el punto del diseño.
  *
- * La solución de Vercel para esto es agregarle un parámetro distinto a la URL,
- * porque para el navegador otra URL es otro archivo. Poner ahí un `Date.now()`
- * funcionaría, pero rompería la caché en cada visita y volvería a bajar 15 MB
- * cada vez. Por eso se consulta primero por HEAD (unos cientos de bytes) cuál
- * es la versión publicada y se usa esa como parámetro: cambia cuando cambia el
- * catálogo y sólo entonces, así que quien ya lo tiene lo abre al instante y
- * quien tiene el viejo lo baja de nuevo.
+ * `cache: "no-store"` es lo que la hace útil: sin eso el navegador podría
+ * responder el HEAD con la misma copia vieja que se quiere detectar, y la
+ * huella nunca cambiaría.
  *
- * Si la consulta falla se devuelve la URL tal cual: es preferible mostrar el
- * catálogo con lo que haya en caché a dejar la pantalla en error. En ese caso
- * la frescura depende sólo del `--cache-control-max-age` con que se subió el
- * archivo, que por eso conviene dejar en el mínimo (ver .env.example).
+ * Devuelve también la URL versionada (…?v=<huella>). Para el navegador y para
+ * la CDN otra URL es otro archivo, así que pedir por ahí garantiza que un
+ * catálogo recién subido no se sirva desde una caché intermedia con el
+ * contenido anterior.
+ *
+ * Lanza si la petición falla. Quien llama decide qué hacer con eso — en el
+ * visor, seguir mostrando la copia guardada, que es preferible a una pantalla
+ * de error por no haber podido comprobar algo que probablemente no cambió.
  */
-export async function urlSinCache(url, { signal } = {}) {
-  if (!url) return url;
+export async function consultarPublicado(url, { signal } = {}) {
+  const respuesta = await fetch(url, { method: "HEAD", cache: "no-store", signal });
+  if (!respuesta.ok) throw new Error(`HTTP ${respuesta.status}`);
 
-  try {
-    // `cache: "no-store"` es lo que hace útil a esta petición: sin eso el
-    // navegador respondería el HEAD con la misma copia vieja que se quiere
-    // detectar, y la huella nunca cambiaría.
-    const respuesta = await fetch(url, { method: "HEAD", cache: "no-store", signal });
-    if (!respuesta.ok) throw new Error(`HTTP ${respuesta.status}`);
+  const version = huella(respuesta);
 
-    const version = huella(respuesta);
-    if (version) return conParametro(url, "v", version);
-
+  if (!version) {
     console.warn(
-      "[catalogos] La respuesta del catálogo no trae last-modified ni content-length; " +
-        "se usa la URL sin versionar y el PDF puede quedar servido desde la caché del navegador."
+      "[catalogos] La respuesta del catálogo no trae last-modified ni content-length: " +
+        "no hay con qué distinguir una versión de otra. El visor seguirá usando la copia " +
+        "guardada y no podrá detectar una actualización."
     );
-  } catch (error) {
-    // Al desmontar se aborta la petición: no es un fallo que valga la pena
-    // reportar.
-    if (signal?.aborted || error?.name === "AbortError") return url;
-
-    console.warn("[catalogos] No se pudo consultar la versión del catálogo:", error);
   }
 
-  return url;
+  const modificado = Date.parse(respuesta.headers.get("last-modified") ?? "");
+  const tamano = Number(respuesta.headers.get("content-length"));
+
+  return {
+    version,
+    // URL por la que hay que pedir ESTA versión. Sin huella se pide la de
+    // siempre: no hay nada mejor que ofrecer.
+    url: version ? conParametro(url, "v", version) : url,
+    bytes: Number.isFinite(tamano) && tamano > 0 ? tamano : null,
+    publicadoEn: Number.isFinite(modificado) ? modificado : null,
+  };
 }

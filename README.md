@@ -17,11 +17,30 @@ Es la pregunta que más vuelve —"corregí el catálogo y sigue saliendo el
 viejo"—, así que conviene tener claro de dónde sale cada cosa.
 
 **Catálogos en PDF** (`/envases`, `/esencias/pdf`). Viven en el Blob de Vercel,
-fuera del repositorio. Se actualizan re-subiendo el archivo, sin desplegar. El
-navegador de quien ya lo abrió guardaba el PDF durante días, así que la app
-consulta primero qué versión hay publicada y pide la URL con un `?v=` que sólo
-cambia cuando cambia el archivo (`utils/catalogos.js`). Subirlos siempre con
-`--cache-control-max-age 60`; el detalle está en `.env.example`.
+fuera del repositorio. Se actualizan re-subiendo el archivo, sin desplegar.
+
+Cada catálogo pesa ~13 MB y el Blob se factura por byte servido, así que el
+visor está construido para descargarlo **una vez por persona y por versión**:
+
+1. Al abrir la pantalla se muestra la copia que el navegador ya tiene guardada
+   (Cache Storage, no la caché HTTP: no la desaloja el `max-age`). Sale al
+   instante y no cuesta transferencia.
+2. En paralelo se pide por `HEAD` la fecha y el tamaño del archivo publicado
+   —unos 300 bytes— y se comparan con los de la copia guardada.
+3. Sólo si esa huella cambió se bajan los 13 MB, y el catálogo se reemplaza solo
+   en pantalla. Quien entra ve siempre lo último publicado.
+
+El botón **Sincronizar** de la barra repite el paso 2 a pedido: comprueba los
+metadatos, no vuelve a descargar el documento. Sirve para quien dejó el catálogo
+abierto en una pestaña y quiere asegurarse de que no salió uno nuevo.
+
+Descargar el PDF desde el visor tampoco toca el Blob: se guarda desde los bytes
+que ya están en el navegador.
+
+Todo eso vive en `utils/catalogoCache.js` (dónde se guarda y cómo se sabe si
+sirve), `utils/catalogos.js` (cómo se pregunta la versión) y
+`components/PdfFlipbook/useCatalogo.js` (el orden en que se usan). Subir los
+archivos con `--cache-control-max-age 86400`; el porqué está en `.env.example`.
 
 **Catálogo interactivo de esencias** (`/esencias`). Los productos están
 escritos en `src/services/esenciasBack.js`, es decir, dentro del código: para
