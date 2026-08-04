@@ -33,6 +33,7 @@ const CatalogoEsenciasPdf = () => {
       >
         <PdfFlipbook
           fileUrl={PDF_ESENCIAS}
+          catalogoId="esencias"
           downloadName="catalogo-esencias-timaran.pdf"
           actions={
             <div className="flex items-center gap-2">

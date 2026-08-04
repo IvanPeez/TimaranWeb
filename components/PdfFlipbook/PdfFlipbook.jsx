@@ -24,9 +24,10 @@ import ScrollReader from "./ScrollReader";
 import SearchField from "./SearchField";
 import ThumbnailStrip from "./ThumbnailStrip";
 import { PageRenderer } from "./PageRenderer";
+import { useCatalogo } from "./useCatalogo";
 import { usePdfDocument } from "./usePdfDocument";
 import { usePdfTextIndex, useSearchResults } from "./usePdfSearch";
-import { useUrlSinCache } from "./useUrlSinCache";
+import { AvisoSincronizacion, BotonSincronizar, CopiaGuardada } from "./SincronizarCatalogo";
 import { ViewerProvider } from "./viewerContext";
 import { enlaceDescarga } from "../../utils/catalogos";
 
@@ -114,8 +115,12 @@ function useBookLayout(areaRef, aspect) {
  * Reemplaza al flipbook alojado en un tercero: el PDF se descarga desde el
  * Blob de Vercel, se renderiza con pdf.js y el texto se indexa en el navegador,
  * así que la búsqueda funciona sobre el contenido real del catálogo.
+ *
+ * `catalogoId` es la identidad de la copia guardada en el equipo del cliente
+ * (ver useCatalogo). Tiene que ser estable entre despliegues: cambiarlo hace que
+ * el navegador no reconozca lo que ya tenía y vuelva a bajar los 13 MB.
  */
-function PdfFlipbook({ fileUrl, downloadName = "catalogo.pdf", actions }) {
+function PdfFlipbook({ fileUrl, catalogoId, downloadName = "catalogo.pdf", actions }) {
   const rootRef = useRef(null);
   const areaRef = useRef(null);
   const bookRef = useRef(null);
@@ -123,17 +128,44 @@ function PdfFlipbook({ fileUrl, downloadName = "catalogo.pdf", actions }) {
   const searchInputRef = useRef(null);
   const punteroRef = useRef(null);
 
-  // El catálogo se pide con una marca de versión en la URL para que un PDF
-  // recién subido se vea de una vez, sin esperar a que expire la caché del
-  // navegador (ver utils/catalogos.js). Mientras se resuelve vale `undefined`,
-  // que el visor trata como "cargando".
-  const urlCatalogo = useUrlSinCache(fileUrl);
-  // El botón de descarga no puede quedarse sin enlace ese instante: si todavía
-  // no hay versión, se ofrece la URL tal cual.
-  const urlDescarga = enlaceDescarga(urlCatalogo ?? fileUrl);
+  // El catálogo sale de la copia guardada en el equipo si la hay, y de la red
+  // sólo cuando la versión publicada cambió. Ver useCatalogo: es lo que impide
+  // que cada apertura del visor le cueste 13 MB de cuota al Blob.
+  const catalogo = useCatalogo(fileUrl, catalogoId);
 
-  const { status, progress, doc, numPages, aspect, error } = usePdfDocument(urlCatalogo);
+  const { status, doc, numPages, aspect, error } = usePdfDocument(catalogo.datos);
   const { pages: textIndex, indexed, total, ready } = usePdfTextIndex(doc, numPages);
+
+  /**
+   * Guarda el PDF desde los bytes que ya están en el navegador.
+   *
+   * Antes esto era un enlace directo al Blob, así que darle a «descargar»
+   * volvía a pedir los 13 MB de un archivo que el visor ya tenía entero: el
+   * cliente pagaba la espera y el proyecto pagaba la cuota. El enlace a la red
+   * sigue existiendo, pero sólo como respaldo para cuando todavía no hay copia.
+   *
+   * El objeto URL se crea en el clic y no al cargar el catálogo: mantenerlo vivo
+   * obliga al navegador a conservar otra copia de los 13 MB en memoria durante
+   * toda la lectura, y en un celular eso se siente.
+   */
+  const descargarCopia = useCallback(() => {
+    if (!catalogo.datos) return;
+
+    const objectUrl = URL.createObjectURL(
+      new Blob([catalogo.datos], { type: "application/pdf" })
+    );
+
+    const enlace = document.createElement("a");
+    enlace.href = objectUrl;
+    enlace.download = downloadName;
+    document.body.appendChild(enlace);
+    enlace.click();
+    enlace.remove();
+
+    // Se libera un rato después: revocarlo de inmediato cancela la descarga en
+    // algunos navegadores.
+    setTimeout(() => URL.revokeObjectURL(objectUrl), 60_000);
+  }, [catalogo.datos, downloadName]);
 
   const [query, setQuery] = useState("");
   const [activeResult, setActiveResult] = useState(0);
@@ -178,6 +210,17 @@ function PdfFlipbook({ fileUrl, downloadName = "catalogo.pdf", actions }) {
   // useBookLayout calcule el tamaño de hoja del libro.
   const listo =
     status === "ready" && Boolean(renderer) && (modoScroll || pageWidth > 0);
+
+  // Qué se pinta mientras no hay libro. Los estados vienen de dos sitios
+  // —conseguir el archivo (useCatalogo) e interpretarlo (pdf.js)— pero para el
+  // cliente son uno solo, así que se juntan aquí.
+  const sinConfigurar = catalogo.fase === "sin-configurar";
+  const fallo = catalogo.fase === "error" ? catalogo.error : status === "error" ? error : null;
+  // Sólo hay barra de progreso cuando de verdad se está bajando algo. Abrir la
+  // copia guardada es instantáneo y una barra que salta de 0 a 100 miente sobre
+  // lo que está pasando.
+  const descargando = catalogo.fase === "descargando";
+  const cargando = !listo && !sinConfigurar && !fallo;
 
   // Páginas que el lector tiene delante. En pliego doble la portada va sola,
   // igual que en un catálogo impreso.
@@ -229,6 +272,14 @@ function PdfFlipbook({ fileUrl, downloadName = "catalogo.pdf", actions }) {
   useEffect(() => {
     setActiveResult((prev) => (prev < results.length ? prev : 0));
   }, [results]);
+
+  // Un catálogo nuevo puede traer menos páginas que el que se estaba leyendo, y
+  // el reemplazo ocurre solo, sin recargar la pantalla: sin este ajuste el
+  // lector se quedaría parado en una página que ya no existe.
+  useEffect(() => {
+    if (!numPages) return;
+    setCurrentIndex((prev) => (prev < numPages ? prev : numPages - 1));
+  }, [numPages]);
 
   const seleccionarResultado = useCallback(
     (indice) => {
@@ -421,16 +472,39 @@ function PdfFlipbook({ fileUrl, downloadName = "catalogo.pdf", actions }) {
               >
                 <ZoomIn className="h-4 w-4" />
               </button>
-              {fileUrl && (
-                <a
-                  href={urlDescarga}
-                  download={downloadName}
+              {/* Descargar. Con el catálogo ya cargado se guarda desde la copia
+                  del navegador; el enlace al Blob queda para la primera visita,
+                  cuando todavía no hay nada que guardar. */}
+              {catalogo.datos ? (
+                <button
+                  type="button"
+                  onClick={descargarCopia}
                   aria-label="Descargar el catálogo en PDF"
                   title="Descargar el catálogo en PDF"
                   className={`${botonBarra} hidden sm:flex`}
                 >
                   <Download className="h-4 w-4" />
-                </a>
+                </button>
+              ) : (
+                fileUrl && (
+                  <a
+                    href={enlaceDescarga(fileUrl)}
+                    download={downloadName}
+                    aria-label="Descargar el catálogo en PDF"
+                    title="Descargar el catálogo en PDF"
+                    className={`${botonBarra} hidden sm:flex`}
+                  >
+                    <Download className="h-4 w-4" />
+                  </a>
+                )
+              )}
+              {fileUrl && (
+                <BotonSincronizar
+                  sincronizacion={catalogo.sincronizacion}
+                  actualizando={catalogo.actualizando}
+                  onSincronizar={catalogo.sincronizar}
+                  className={botonBarra}
+                />
               )}
               <button
                 type="button"
@@ -447,6 +521,12 @@ function PdfFlipbook({ fileUrl, downloadName = "catalogo.pdf", actions }) {
               </button>
             </div>
           </div>
+
+          <AvisoSincronizacion
+            sincronizacion={catalogo.sincronizacion}
+            actualizando={catalogo.actualizando}
+            progreso={catalogo.progreso}
+          />
         </div>
 
         {/* Libro */}
@@ -510,47 +590,68 @@ function PdfFlipbook({ fileUrl, downloadName = "catalogo.pdf", actions }) {
             </>
           )}
 
-          {status === "loading" && (
+          {cargando && (
             <div className="absolute inset-0 flex flex-col items-center justify-center gap-4 px-6 text-center">
               <Loader2 className="h-6 w-6 animate-spin text-champagne" />
-              <div className="w-full max-w-xs">
-                <div className="h-1 overflow-hidden rounded-full bg-white/10">
-                  <div
-                    className="h-full rounded-full bg-champagne transition-[width] duration-200"
-                    style={{ width: `${Math.round(progress * 100)}%` }}
-                  />
+              {descargando ? (
+                <div className="w-full max-w-xs">
+                  <div className="h-1 overflow-hidden rounded-full bg-white/10">
+                    <div
+                      className="h-full rounded-full bg-champagne transition-[width] duration-200"
+                      style={{ width: `${Math.round(catalogo.progreso * 100)}%` }}
+                    />
+                  </div>
+                  <p className="mt-3 text-xs uppercase tracking-[0.2em] text-white/40">
+                    Descargando catálogo {Math.round(catalogo.progreso * 100)}%
+                  </p>
                 </div>
-                <p className="mt-3 text-xs uppercase tracking-[0.2em] text-white/40">
-                  Cargando catálogo {Math.round(progress * 100)}%
+              ) : (
+                <p className="text-xs uppercase tracking-[0.2em] text-white/40">
+                  Abriendo el catálogo
                 </p>
-              </div>
+              )}
             </div>
           )}
 
-          {status === "error" && (
+          {fallo && (
             <div className="absolute inset-0 flex flex-col items-center justify-center gap-4 px-6 text-center">
               <TriangleAlert className="h-7 w-7 text-champagne/70" />
               <p className="font-titleAlt text-2xl italic text-white">
                 No pudimos abrir el catálogo
               </p>
               <p className="max-w-sm text-sm text-white/45">
-                {error?.message || "Revisa tu conexión e inténtalo de nuevo."}
+                {fallo?.message || "Revisa tu conexión e inténtalo de nuevo."}
               </p>
-              <a
-                href={urlDescarga}
-                download={downloadName}
-                className="mt-1 flex items-center gap-2 rounded-xl bg-champagne px-6 py-3 text-sm font-semibold uppercase tracking-[0.14em] text-ink transition-colors hover:bg-champagne-light"
-              >
-                <Download className="h-4 w-4" />
-                Descargar el PDF
-              </a>
+              {/* Si el archivo llegó y lo que falló fue interpretarlo, se ofrece
+                  el que ya está en el navegador; si nunca llegó, el del Blob. */}
+              {catalogo.datos ? (
+                <button
+                  type="button"
+                  onClick={descargarCopia}
+                  className="mt-1 flex items-center gap-2 rounded-xl bg-champagne px-6 py-3 text-sm font-semibold uppercase tracking-[0.14em] text-ink transition-colors hover:bg-champagne-light"
+                >
+                  <Download className="h-4 w-4" />
+                  Descargar el PDF
+                </button>
+              ) : (
+                fileUrl && (
+                  <a
+                    href={enlaceDescarga(fileUrl)}
+                    download={downloadName}
+                    className="mt-1 flex items-center gap-2 rounded-xl bg-champagne px-6 py-3 text-sm font-semibold uppercase tracking-[0.14em] text-ink transition-colors hover:bg-champagne-light"
+                  >
+                    <Download className="h-4 w-4" />
+                    Descargar el PDF
+                  </a>
+                )
+              )}
             </div>
           )}
 
           {/* El catálogo quedó sin URL configurada: para el cliente esto es
               "no disponible", no un error suyo. El detalle técnico va a la
               consola, donde sí le sirve a quien despliega. */}
-          {status === "unset" && (
+          {sinConfigurar && (
             <div className="absolute inset-0 flex flex-col items-center justify-center gap-4 px-6 text-center">
               <TriangleAlert className="h-7 w-7 text-champagne/70" />
               <p className="font-titleAlt text-2xl italic text-white">
@@ -605,6 +706,8 @@ function PdfFlipbook({ fileUrl, downloadName = "catalogo.pdf", actions }) {
                 </>
               )}
             </div>
+
+            <CopiaGuardada registro={catalogo.registro} desdeCache={catalogo.desdeCache} />
 
             {actions && <div className="flex shrink-0 justify-center">{actions}</div>}
           </div>
