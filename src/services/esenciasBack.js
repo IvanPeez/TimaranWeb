@@ -372,7 +372,7 @@ export const perfumes = [
         "DE 500 A 999 GRS": 178.4524,
         "DE 250 A 499 GRS": 191.199,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/sD5STskX/FANTASY-MIDNIGHT-BRITNEY-SPEARS.jpg"
     },
     {
         "id": 23,
@@ -4711,7 +4711,7 @@ export const perfumes = [
         "DE 500 A 999 GRS": 356.5398666667,
         "DE 250 A 499 GRS": 382.007,
         "DE 120 A 249 GRS": 382.007,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "picture": "https://i.postimg.cc/TYnmtfz1/BVLGARY-AQVA-MARINE.jpg",
         "family": "Aromática Acuática"
     },
     {
@@ -6258,8 +6258,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 225.6081333333,
         "DE 250 A 499 GRS": 241.723,
         "DE 120 A 249 GRS": 241.723,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
-        "family": "Amaderada Ámbar"
+        "picture": "https://i.postimg.cc/jdyNMtpj/THE-SCENT-ELIXIR-HUGO-BOSS.jpg",
+        "family": "Amaderada Especiada"
     },
     {
         "id": 369,
