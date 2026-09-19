@@ -329,7 +329,7 @@ export const perfumes = [
         "brand": "BILLIE EILISH",
         "name": "ESC. INSP. EN BILLIE EILISH ELISH",
         "category": "Diseñador",
-        "newName": "POWER FULL YYOU",
+        "newName": "POWER FULL YOU",
         "gender": "Mujer",
         "family": "Oriental Vainilla",
         "10 KG EN ADELANTE": 103.1994444444,
@@ -338,7 +338,7 @@ export const perfumes = [
         "DE 500 A 999 GRS": 123.8393333333,
         "DE 250 A 499 GRS": 132.685,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/ht4H3PjC/EILISH-BILLIE-EILISH.png"
     },
     {
         "id": 21,
@@ -372,7 +372,7 @@ export const perfumes = [
         "DE 500 A 999 GRS": 178.4524,
         "DE 250 A 499 GRS": 191.199,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg"
+        "picture": "https://i.postimg.cc/sD5STskX/FANTASY-MIDNIGHT-BRITNEY-SPEARS.jpg"
     },
     {
         "id": 23,
@@ -3960,7 +3960,7 @@ export const perfumes = [
         "DE 500 A 999 GRS": 141.5306666667,
         "DE 250 A 499 GRS": 151.64,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "picture": "https://i.postimg.cc/HnR4dn2c/PURE-SEDUCTION.jpg",
         "family": "Frutal Floral"
     },
     {
@@ -4711,7 +4711,7 @@ export const perfumes = [
         "DE 500 A 999 GRS": 356.5398666667,
         "DE 250 A 499 GRS": 382.007,
         "DE 120 A 249 GRS": 382.007,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "picture": "https://i.postimg.cc/TYnmtfz1/BVLGARY-AQVA-MARINE.jpg",
         "family": "Aromática Acuática"
     },
     {
@@ -5816,7 +5816,7 @@ export const perfumes = [
         "DE 500 A 999 GRS": 205.7272,
         "DE 250 A 499 GRS": 220.422,
         "DE 120 A 249 GRS": 220.422,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
+        "picture": "https://i.postimg.cc/SxD5SmwN/ENRIQUE-IGLESIAS-ADRENALINE.jpg",
         "family": "Amaderado Aromático"
     },
     {
@@ -6258,8 +6258,8 @@ export const perfumes = [
         "DE 500 A 999 GRS": 225.6081333333,
         "DE 250 A 499 GRS": 241.723,
         "DE 120 A 249 GRS": 241.723,
-        "picture": "https://www.pro-kulturu.cz/wp-content/uploads/2024/11/no-image.jpg",
-        "family": "Amaderada Ámbar"
+        "picture": "https://i.postimg.cc/jdyNMtpj/THE-SCENT-ELIXIR-HUGO-BOSS.jpg",
+        "family": "Amaderada Especiada"
     },
     {
         "id": 369,
@@ -11344,7 +11344,7 @@ export const perfumes = [
         "DE 500 A 999 GRS": 139.5949333333,
         "DE 250 A 499 GRS": 149.566,
         "DE 120 A 249 GRS": 200.0,
-        "picture": "https://i.postimg.cc/0y2WP88p/VANILLA-ABSOLU.png",
+        "picture": "https://i.postimg.cc/43p4Xx6d/VANILLA-ABSOLU-MONTALE.png",
         "family": "Oriental Vainilla"
     },
     {
@@ -15008,6 +15008,23 @@ export const perfumes = [
         "DE 120 A 249 GRS": 200,
         "picture": "https://i.postimg.cc/Y9FmKLyf/COCO-EAU-DE-PARFUM.png",
         "family": "Oriental Especiada"
+    },
+    {
+        "id": 883,
+        "date": "2026-08-24",
+        "brand": "LATTAFA",
+        "name": "ESC. INSP. EN LATTAFA KHAMRAH WAHA",
+        "category": "Nicho",
+        "newName": "TONIC OASIS",
+        "gender": "Unisex",
+        "10 KG EN ADELANTE": 121,
+        "5 KG A 9,99 KG": 129,
+        "1 KG A 4,99 KG": 137,
+        "DE 500 A 999 GRS": 146,
+        "DE 250 A 499 GRS": 156,
+        "DE 120 A 249 GRS": 200,
+        "picture": "https://i.postimg.cc/0NKDyY38/KHAMRAH-WAHA-LATTAFA.png",
+        "family": "Aromática Acuática"
     },
 
     // {
