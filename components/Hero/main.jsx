@@ -4,30 +4,36 @@ import { Link } from "react-router-dom";
 import { Link as ScrollLink } from "react-scroll";
 import { ArrowRight, ChevronDown } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
-// Ojo con las mayúsculas: el archivo en disco es timaranVid2.mov. Windows no
-// distingue may/min, pero un build en Linux (CI, Vercel) sí y fallaría.
-import HeroVid from "../../resources/vid/timaranVid2.mov";
-import HeroPoster from "../../resources/img/hero-poster.jpg";
+import HeroVid from "../../resources/vid/hero-optimized.mp4";
+import HeroPoster from "../../resources/optimized/hero-poster.webp";
 import { advisorMessage, whatsappLink } from "../../utils/contacto";
 
 const Hero = () => {
-  // El video pesa 55 MB. La imagen se pinta siempre y el video solo se
-  // descarga en escritorio y sin ahorro de datos: así el visitante que llega
-  // de Instagram con datos móviles no paga ese costo. Además el contenedor es
-  // QuickTime, que Firefox no reproduce; ahí queda la imagen de fondo en vez
-  // de un rectángulo negro.
   const [cargarVideo, setCargarVideo] = useState(false);
 
   useEffect(() => {
     const esEscritorio = window.matchMedia("(min-width: 768px)").matches;
-    const ahorroDeDatos = navigator.connection?.saveData === true;
-    if (esEscritorio && !ahorroDeDatos) setCargarVideo(true);
+    const reducirMovimiento = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const conexion = navigator.connection;
+    if (!esEscritorio || reducirMovimiento || conexion?.saveData || /(^|-)2g$/.test(conexion?.effectiveType || "")) return undefined;
+
+    // Let the poster and page resources finish before starting the video.
+    let timer;
+    const cargar = () => { timer = window.setTimeout(() => setCargarVideo(true), 1500); };
+    if (document.readyState === "complete") cargar();
+    else window.addEventListener("load", cargar, { once: true });
+    return () => {
+      window.removeEventListener("load", cargar);
+      window.clearTimeout(timer);
+    };
   }, []);
 
   return (
     <div id="home" className="relative h-screen w-full bg-ink">
       <img
         src={HeroPoster}
+        fetchPriority="high"
+        decoding="async"
         alt=""
         aria-hidden="true"
         className="absolute inset-0 h-full w-full object-cover"

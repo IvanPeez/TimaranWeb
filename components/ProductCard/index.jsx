@@ -21,6 +21,7 @@ const ProductCard = ({ name, imageFull, fullDescription, description, index = 0 
           src={imageFull}
           alt={name}
           loading="lazy"
+          decoding="async"
         />
       </div>
 

@@ -32,7 +32,8 @@ export function PerfumeCard({ perfume, isSelected, onToggleSelect, onOpen, index
           src={pictureOf(perfume)}
           onError={handleImageError}
           alt={perfume.newName}
-          loading="lazy"
+          loading={index < 4 ? "eager" : "lazy"}
+          decoding="async"
           className="h-full w-full object-cover transition-transform duration-[900ms] ease-out group-hover:scale-[1.08]"
         />
         {/* `pointer-events-none`: el degradado es decoración y estaba tapando

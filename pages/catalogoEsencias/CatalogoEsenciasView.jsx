@@ -29,8 +29,7 @@ import {
 
 const PAGE_SIZE = 40;
 
-const HERO_IMAGE =
-  "https://cdn.leonardo.ai/users/68017305-d176-45f0-934a-cf03250a2262/generations/8404ffd9-7778-4068-be0f-3f7f28e66d73/Leonardo_Phoenix_09_En_primer_plano_un_lujoso_taller_de_perfum_2.jpg";
+import HERO_IMAGE from "../../resources/optimized/esencias.webp";
 
 const BENEFICIOS = [
   { icon: ShieldCheck, title: "Calidad garantizada", text: "Concentración alta y fijación prolongada en cada lote." },
@@ -225,6 +224,8 @@ function CatalogoEsenciasView() {
       <section className="relative overflow-hidden border-b border-white/[0.07]">
         <img
           src={HERO_IMAGE}
+          fetchPriority="high"
+          decoding="async"
           alt=""
           aria-hidden="true"
           className="absolute inset-0 h-full w-full object-cover opacity-25"

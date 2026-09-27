@@ -1,14 +1,14 @@
-import React from "react";
+import React, { lazy, Suspense } from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
-import Home from "../pages/Home/main";
-import CatalogoEsenciasView from "../pages/catalogoEsencias/CatalogoEsenciasView";
-import CatalogoEnvasesView from "../pages/catalogoEnvases/CatalogoEnvasesView";
-import CatalogoEsenciasPdf from "../pages/CatalogoEsenciasPdf/CatalogoEsenciasPdf";
-
 import "./App.css";
+const Home = lazy(() => import("../pages/Home/main"));
+const CatalogoEsenciasView = lazy(() => import("../pages/catalogoEsencias/CatalogoEsenciasView"));
+const CatalogoEnvasesView = lazy(() => import("../pages/catalogoEnvases/CatalogoEnvasesView"));
+const CatalogoEsenciasPdf = lazy(() => import("../pages/CatalogoEsenciasPdf/CatalogoEsenciasPdf"));
 
 function App() {
   return (
+      <Suspense fallback={<div role="status" className="flex min-h-screen items-center justify-center bg-ink text-champagne">Cargando…</div>}>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/esencias" element={<CatalogoEsenciasView />} />
@@ -27,6 +27,7 @@ function App() {
         {/* Cualquier otra ruta vuelve al inicio en vez de mostrar una página en blanco */}
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
+      </Suspense>
   );
 }
 

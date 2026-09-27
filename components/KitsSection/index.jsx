@@ -5,10 +5,12 @@ import { FaWhatsapp } from "react-icons/fa";
 import SectionContent from "../SectionContent/SectionContent";
 import ProductCard from "../ProductCard";
 import { landingMessage, whatsappLink } from "../../utils/contacto";
-import Kit1Image from "../../resources/img/KITS-EMPRENDIMIENTO-1.jpg";
-import Kit2Image from "../../resources/img/KITS-EMPRENDIMIENTO-2.jpg";
-import Kit3Image from "../../resources/img/KITS-EMPRENDIMIENTO-3.jpg";
-import Kit4Image from "../../resources/img/KITS-EMPRENDIMIENTO-4.jpg";
+import Kit1Image from "../../resources/optimized/kit-1.webp";
+import Kit2Image from "../../resources/optimized/kit-2.webp";
+import Kit3Image from "../../resources/optimized/kit-3.webp";
+import Kit4Image from "../../resources/optimized/kit-4.webp";
+
+import kitsImage from "../../resources/optimized/kits.webp";
 
 const KitsSection = () => {
   const products = [
@@ -78,11 +80,12 @@ const KitsSection = () => {
       {/* Portada de la sección. Sin clip-path animado: recortaba el bloque
           entero (texto incluido) mientras se hacía scroll. */}
       <div className="relative h-[60vh] overflow-hidden md:h-[75vh]">
-        <div
-          className="absolute inset-0 bg-cover bg-center"
-          style={{
-            backgroundImage: `url('https://i.postimg.cc/85y4qmQ3/image-fx.png')`,
-          }}
+        <img
+          src={kitsImage}
+          alt=""
+          loading="lazy"
+          decoding="async"
+          className="absolute inset-0 h-full w-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-ink/40 via-ink/50 to-ink" />
 

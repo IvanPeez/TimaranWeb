@@ -1,7 +1,7 @@
 import React from 'react';
-import Felipe from "../../resources/felipe.jpg"
-import Owen from "../../resources/owen.jpg"
-import Mauricio from "../../resources/Mauricio.jpg"
+import Felipe from "../../resources/optimized/felipe.webp"
+import Owen from "../../resources/optimized/owen.webp"
+import Mauricio from "../../resources/optimized/Mauricio.webp"
 
 const FUNDADORES = [
     {
@@ -36,6 +36,7 @@ const CardsFounders = () => {
                         src={fundador.img}
                         alt={fundador.nombre}
                         loading="lazy"
+                        decoding="async"
                         className="h-[45vh] w-full object-cover object-top md:h-[80vh]"
                     />
 

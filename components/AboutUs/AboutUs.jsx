@@ -2,6 +2,8 @@ import React, { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import SectionContent from "../SectionContent/SectionContent";
 
+import nosotrosImage from "../../resources/optimized/nosotros.webp";
+
 const AboutUs = () => {
   const targetRef = useRef(null);
   const { scrollYProgress } = useScroll({
@@ -56,9 +58,10 @@ const AboutUs = () => {
         {/* Imagen */}
         <div className="relative mx-auto h-[320px] w-full overflow-hidden rounded-2xl lg:h-[480px]">
           <motion.img
-            src="https://i.postimg.cc/WzJm7zGD/image-fx-2.png"
+            src={nosotrosImage}
             alt="Perfumería"
             loading="lazy"
+            decoding="async"
             style={{ scale }}
             className="absolute inset-0 h-full w-full object-cover"
           />

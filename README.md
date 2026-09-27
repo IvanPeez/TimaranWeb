@@ -52,3 +52,40 @@ visita—, pero tampoco se actualiza sin un despliegue.
 `/assets` (llevan un hash del contenido en el nombre, así que un cambio genera
 otro nombre) y obliga a revalidar todo lo demás, `index.html` incluido. Un
 despliegue nuevo se ve de inmediato.
+
+## Imágenes rápidas
+
+Las fotos de portada y las fotos disponibles del catálogo se sirven en WebP
+como assets propios, con nombres que Vite versiona por contenido. No se
+precargan todas las fotos del catálogo: las tarjetas fuera de pantalla usan
+carga diferida. Las rutas también se cargan por separado, incluido el visor PDF.
+
+Al agregar o cambiar URLs `picture` en `src/services/esenciasBack.js`, ejecutar:
+
+```bash
+npm run images:optimize
+```
+
+El script descarga las fuentes, valida que sean imágenes y genera
+`resources/optimized/` y `src/services/catalogImages.js`. Incluir ambos en el
+commit. Las fuentes descargadas quedan en `.cache/images/` (ignorada por Git);
+el build de producción utiliza los archivos versionados, sin descargar fotos.
+Las URLs que no responden se registran en `scripts/unavailable-images.json`;
+conservan la URL original y el reemplazo local al fallar. Volver a ejecutar el
+script permite recuperarlas cuando el proveedor las restablezca. Con
+`npm run images:optimize -- --offline` se regeneran solo las fuentes en caché.
+Para renovar una imagen cuyo proveedor conservó la misma URL, eliminar su copia
+de esa caché antes de ejecutar el script.
+
+La foto de Insumos usa `resources/img/gallery5.jpg`: el antiguo proveedor
+externo devuelve 403. El video de portada conserva su duración, sin audio,
+con H.264 a 1280px/24fps y `faststart`. Para regenerarlo con FFmpeg:
+
+```bash
+ffmpeg -i resources/vid/timaranVid2.mov -an -vf 'scale=1280:-2,fps=24' \
+  -c:v libx264 -preset medium -crf 29 -pix_fmt yuv420p -movflags +faststart \
+  resources/vid/hero-optimized.mp4
+```
+
+El video se descarga después de la carga inicial, solo en escritorio, sin
+ahorro de datos ni preferencia de movimiento reducido.

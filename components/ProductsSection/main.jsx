@@ -3,20 +3,21 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
 
+import esenciasImage from "../../resources/optimized/esencias.webp";
+import envasesImage from "../../resources/optimized/envases.webp";
+
 const PUERTAS = [
   {
     to: "/esencias",
     titulo: "Esencias",
     texto: "Fragancias de autor para perfumes, cosmética y aromatización.",
-    imagen:
-      "https://cdn.leonardo.ai/users/68017305-d176-45f0-934a-cf03250a2262/generations/8404ffd9-7778-4068-be0f-3f7f28e66d73/Leonardo_Phoenix_09_En_primer_plano_un_lujoso_taller_de_perfum_2.jpg",
+    imagen: esenciasImage,
   },
   {
     to: "/envases",
     titulo: "Insumos",
     texto: "Envases, alcohol, fijadores, válvulas y maquinaria de precisión.",
-    imagen:
-      "https://granvelada.com/modules/numericco_category_custom_fields/upload/275/img/275-1637844268.jpeg",
+    imagen: envasesImage,
   },
 ];
 
@@ -64,6 +65,7 @@ const CardsSection = () => {
               src={puerta.imagen}
               alt={puerta.titulo}
               loading="lazy"
+              decoding="async"
               className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-black/60 transition-colors duration-500 group-hover:bg-black/45" />

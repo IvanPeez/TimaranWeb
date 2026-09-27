@@ -8,7 +8,9 @@ import {
   WHATSAPP_DISPLAY,
   WHATSAPP_PHONE,
 } from "../../../utils/contacto";
-import sinImagen from "../../../resources/img/sin-imagen.jpg";
+import sinImagen from "../../../resources/optimized/sin-imagen.webp";
+
+import { catalogImages } from "../../../src/services/catalogImages";
 
 // Se reexportan para que el catálogo siga importando todo desde un solo sitio.
 export { advisorMessage, whatsappLink, WHATSAPP_DISPLAY, WHATSAPP_PHONE };
@@ -28,7 +30,7 @@ const SIN_FOTO = /pro-kulturu\.cz|no[-_]?image/i;
  */
 export const tieneFoto = (item) => Boolean(item?.picture) && !SIN_FOTO.test(item.picture);
 
-export const pictureOf = (item) => (tieneFoto(item) ? item.picture : sinImagen);
+export const pictureOf = (item) => (tieneFoto(item) ? catalogImages[item.picture] || item.picture : sinImagen);
 
 /** Si la imagen remota falla (enlace caído), cae al placeholder propio. */
 export const handleImageError = (event) => {
