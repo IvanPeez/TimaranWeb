@@ -15026,6 +15026,23 @@ export const perfumes = [
         "picture": "https://i.postimg.cc/0NKDyY38/KHAMRAH-WAHA-LATTAFA.png",
         "family": "Aromática Acuática"
     },
+    {
+        "id": 885,
+        "date": "2026-10-16",
+        "brand": "CAROLINA HERRERA",
+        "name": "ESC. INSP. EN CH 212 VIP BLACK CAB",
+        "category": "Diseñador",
+        "newName": "ICONIC KING",
+        "gender": "Hombre",
+        "10 KG EN ADELANTE": 121,
+        "5 KG A 9,99 KG": 129,
+        "1 KG A 4,99 KG": 137,
+        "DE 500 A 999 GRS": 146,
+        "DE 250 A 499 GRS": 156,
+        "DE 120 A 249 GRS": 200,
+        "picture": "https://i.postimg.cc/V6397Mvc/212-VIP-BLACK-CAB.jpg",
+        "family": "Amaderada Aromático"
+    },
 
     // {
     //     "id": 805,
