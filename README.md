@@ -53,6 +53,27 @@ visita—, pero tampoco se actualiza sin un despliegue.
 otro nombre) y obliga a revalidar todo lo demás, `index.html` incluido. Un
 despliegue nuevo se ve de inmediato.
 
+## Novedades (`/novedades/`)
+
+Página aparte con las últimas fragancias, enlazada desde la barra ("Novedades").
+No es una vista de React: es la landing compilada del repositorio
+[landing-esencias](https://github.com/IvanPeez/landing-esencias) (Astro), copiada
+en `public/novedades/`, y Vite la publica tal cual en `dist/novedades/`.
+
+**No editar `public/novedades/` a mano.** Los cambios se hacen en
+landing-esencias y se exportan desde allí, con las dos copias una junto a otra:
+
+```bash
+cd landing-esencias
+npm run exportar -- ../TimaranWeb/public/novedades
+```
+
+El build sale con rutas relativas, así que sirve igual en `/novedades/`
+(Vercel) y en `/TimaranWeb/novedades/` (GitHub Pages). Por eso la URL debe
+acabar en `/`: Pages añade la barra solo, en Vercel lo hace la redirección de
+`vercel.json`, y la ruta `/novedades` del router lleva a la página si se llega
+por la app. `/novedades/_astro/` (con hash en el nombre) se cachea para siempre.
+
 ## Imágenes rápidas
 
 Las fotos de portada y las fotos disponibles del catálogo se sirven en WebP

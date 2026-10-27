@@ -1,10 +1,19 @@
-import React, { lazy, Suspense } from "react";
+import React, { lazy, Suspense, useEffect } from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
 import "./App.css";
 const Home = lazy(() => import("../pages/Home/main"));
 const CatalogoEsenciasView = lazy(() => import("../pages/catalogoEsencias/CatalogoEsenciasView"));
 const CatalogoEnvasesView = lazy(() => import("../pages/catalogoEnvases/CatalogoEnvasesView"));
 const CatalogoEsenciasPdf = lazy(() => import("../pages/CatalogoEsenciasPdf/CatalogoEsenciasPdf"));
+
+// "Novedades" no es una vista de la app: es una página aparte servida desde public/novedades.
+// Si se llega a /novedades por el router (o por el 404.html de GitHub Pages), se carga esa página.
+function IrANovedades() {
+  useEffect(() => {
+    window.location.replace(`${import.meta.env.BASE_URL}novedades/`);
+  }, []);
+  return null;
+}
 
 function App() {
   return (
@@ -14,6 +23,7 @@ function App() {
         <Route path="/esencias" element={<CatalogoEsenciasView />} />
         <Route path="/envases" element={<CatalogoEnvasesView />} />
         <Route path="/esencias/pdf" element={<CatalogoEsenciasPdf />} />
+        <Route path="/novedades" element={<IrANovedades />} />
 
         {/* Rutas antiguas: se mantienen redirigiendo para no romper enlaces ya compartidos */}
         <Route path="/catalogo/esencias/pdf" element={<Navigate to="/esencias/pdf" replace />} />

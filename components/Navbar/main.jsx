@@ -26,6 +26,11 @@ const PRODUCTOS = [
   },
 ];
 
+// "Novedades" es otra página (la landing de las últimas fragancias, en public/novedades): se abre
+// con un enlace normal, no con el router, y lleva la base del sitio (/ en Vercel, /TimaranWeb/ en
+// GitHub Pages). Acaba en "/" porque la página usa rutas relativas.
+const NOVEDADES = `${import.meta.env.BASE_URL}novedades/`;
+
 const SECCIONES = [
   { to: "nosotros", label: "Nosotros" },
   { to: "contacto", label: "Contacto" },
@@ -172,6 +177,15 @@ const Navbar = () => {
               )}
             </li>
 
+            <li>
+              <a
+                href={NOVEDADES}
+                className="text-sm transition-colors hover:text-champagne"
+              >
+                Novedades
+              </a>
+            </li>
+
             {SECCIONES.map((seccion) => (
               <li key={seccion.to}>
                 <ScrollLink
@@ -303,6 +317,14 @@ const Navbar = () => {
                   ))}
                 </div>
               )}
+
+              <a
+                href={NOVEDADES}
+                onClick={closeAll}
+                className="block py-3 text-lg text-white"
+              >
+                Novedades
+              </a>
 
               {SECCIONES.map((seccion) => (
                 <ScrollLink
