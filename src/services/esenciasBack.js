@@ -15044,6 +15044,23 @@ export const perfumes = [
         "family": "Amaderada Aromático"
     },
 
+    {
+        "id": 886,
+        "date": "2026-10-27",
+        "brand": "CAROLINA HERRERA",
+        "name": "ESC. INSP. EN LA BOMBA INTENSA",
+        "category": "Diseñador",
+        "newName": "PASSIONATE METAMORPHOSIS",
+        "gender": "Mujer",
+        "10 KG EN ADELANTE": 121,
+        "5 KG A 9,99 KG": 129,
+        "1 KG A 4,99 KG": 137,
+        "DE 500 A 999 GRS": 146,
+        "DE 250 A 499 GRS": 156,
+        "DE 120 A 249 GRS": 200,
+        "picture": "https://i.postimg.cc/rpcDRYTH/LA-BOMBA-INTENSA-CAROLINA-HERRERA.jpg",
+        "family": "Floral Frutal"
+    },
     // {
     //     "id": 805,
     //     "brand": "TOM FORD",
