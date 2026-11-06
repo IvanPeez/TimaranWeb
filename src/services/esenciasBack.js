@@ -15109,7 +15109,7 @@ export const perfumes = [
         "DE 500 A 999 GRS": 146,
         "DE 250 A 499 GRS": 156,
         "DE 120 A 249 GRS": 200,
-        "picture": "https://i.postimg.cc/mDVXdBFd/HABIK-FOR-MEN.png",
+        "picture": "https://i.postimg.cc/9M18xCqk/HABIK-FOR-WOMAN.png",
         "family": "Floral Frutal"
     },
     {
